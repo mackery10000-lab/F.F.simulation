@@ -1,10 +1,17 @@
 
 .git
+.gitignore
 node_modules
 dist
+build
+coverage
+.cache
 .venv
 venv
+__pycache__
+*.pyc
+*.log
+.DS_Store
 .env
 .env.*
-*.log
-coverage
+!.env.example
