@@ -20,3 +20,8 @@ dist/
 build/
 coverage/
 *.log
+
+# Keep required Three.js runtime modules
+!vendor/three/build/
+!vendor/three/build/three.core.js
+!vendor/three/build/three.module.js
