@@ -1,0 +1,7 @@
+import type {SimulationRun} from './contracts.ts';
+import type {AnalysisRequest,AnalysisResult} from './questions.ts';
+export interface QuestionArchive {matchId:string;requests:AnalysisRequest[];results:AnalysisResult[];run:SimulationRun;time:number;savedAt:string;}
+function open():Promise<IDBDatabase>{return new Promise((resolve,reject)=>{const request=indexedDB.open('fight-frequency-tactics',1);request.onupgradeneeded=()=>request.result.createObjectStore('matches',{keyPath:'matchId'});request.onsuccess=()=>resolve(request.result);request.onerror=()=>reject(request.error);request.onblocked=()=>reject(Error('다른 탭의 분석 DB 연결을 닫고 다시 시도하세요.'));});}
+/** Atomic request/result/source snapshot, using the existing sensing IndexedDB approach. */
+export async function saveQuestions(archive:QuestionArchive){const db=await open();try{await new Promise<void>((resolve,reject)=>{const tx=db.transaction('matches','readwrite');tx.objectStore('matches').put({...archive,run:{...archive.run,measurements:[],devices:[]}});tx.oncomplete=()=>resolve();tx.onerror=()=>reject(tx.error);tx.onabort=()=>reject(tx.error??Error('분석 저장이 취소되었습니다.'));});}finally{db.close();}}
+export async function loadQuestions(matchId:string):Promise<QuestionArchive|null>{const db=await open();try{return await new Promise((resolve,reject)=>{const request=db.transaction('matches').objectStore('matches').get(matchId);request.onsuccess=()=>resolve(request.result??null);request.onerror=()=>reject(request.error);});}finally{db.close();}}

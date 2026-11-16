@@ -1,0 +1,31 @@
+{
+  "schema": "ff_sensing_input_v1",
+  "run_id": "precision_v4_integrated",
+  "source_sha256": "71e169c159bcac11267815c135d4dceafe58ef5c2fbbf7030399acff06f20e86",
+  "source_motion_file": "output/unified/objects/a78fb5a21927a86d49911b7152371ffa0f27d1cc4332417637fad5d0b38eab17/motion.json.gz",
+  "source_motion_sha256": "1f00cf492fc0da943f14c0ee00f4f805a2053871a08b22f416a4ddbe08ebb5e8",
+  "fps": 25,
+  "frame_count": 4500,
+  "duration_seconds": 179.96,
+  "axis": "Z-up",
+  "fighters": [
+    "alex_pereira",
+    "sean_strickland"
+  ],
+  "coordinate_precision": "original_float64_json_no_quantization",
+  "units": "uncalibrated display units",
+  "metric_valid": false,
+  "sensing_feedback": false,
+  "source_coordinates_modified": false,
+  "source_time_modified": false,
+  "text_hash_normalization": "CRLF_TO_LF_ONLY",
+  "files": {
+    "assets/sensing/motion.json.gz": "91e20395f56d247c83782d8760f1e77db5cb5cedbb9800804eed242d46c680e9",
+    "data/scene.json": "540a6326299487a1eb75b588f98c87d9b93c5c2fdbe9e0bc216e528be4242402",
+    "data/octagon_approx.obj": "6fbda1b8b69d1deb01a8c7c5d65daebb35cf7057d1b8cdb14058fbba292a3fad",
+    "motion/sampling.ts": "cd36003de54a2a5cc176da651f20f40c19c0f42dd94eeda8f57290c12abfdd7d",
+    "assets/fighters/minimal_shell_v1/manifest.json": "900a6f5885b5cb8ae1518ea13fef22c205bd0f34225c8df90fd8d3d60f716ce8",
+    "assets/fighters/minimal_shell_v1/fighter_A.glb": "b86736a5ff2603077679e31fdba3beff26fd5f34e6f73772a494a9ecbcb6bc64",
+    "assets/fighters/minimal_shell_v1/fighter_B.glb": "1439e94bf9d6e6523f1e0a1f66c5a30fdf580f955558f8b9aafc70cbe5eae77b"
+  }
+}

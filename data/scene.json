@@ -1,0 +1,309 @@
+{
+  "name": "FIGHT FREQUENCY — geometry prototype",
+  "units": "meters",
+  "axis": "Z-up",
+  "octagon": {
+    "inside_across_flats_m": 9.144,
+    "outside_across_flats_m": 11.5824,
+    "canvas_z_m": 1.2192,
+    "fence_height_above_canvas_m": 1.7526,
+    "door_width_m": 0.9144,
+    "door_height_m": 1.524,
+    "inside_vertices_xy_m": [
+      [
+        4.572,
+        1.893784
+      ],
+      [
+        1.893784,
+        4.572
+      ],
+      [
+        -1.893784,
+        4.572
+      ],
+      [
+        -4.572,
+        1.893784
+      ],
+      [
+        -4.572,
+        -1.893784
+      ],
+      [
+        -1.893784,
+        -4.572
+      ],
+      [
+        1.893784,
+        -4.572
+      ],
+      [
+        4.572,
+        -1.893784
+      ]
+    ],
+    "outside_vertices_xy_m": [
+      [
+        5.7912,
+        2.398794
+      ],
+      [
+        2.398794,
+        5.7912
+      ],
+      [
+        -2.398794,
+        5.7912
+      ],
+      [
+        -5.7912,
+        2.398794
+      ],
+      [
+        -5.7912,
+        -2.398794
+      ],
+      [
+        -2.398794,
+        -5.7912
+      ],
+      [
+        2.398794,
+        -5.7912
+      ],
+      [
+        5.7912,
+        -2.398794
+      ]
+    ],
+    "fence_wire_grid_spacing_m": 0.23,
+    "model_assumptions": "Flat-to-flat width; approximate visual square grid instead of precise chain-link."
+  },
+  "cameras": [
+    {
+      "id": "camera_1",
+      "position": [
+        5.0063,
+        2.0737,
+        3.7192
+      ],
+      "look_at": [
+        0,
+        0,
+        2.2192
+      ],
+      "fov_deg": 80
+    },
+    {
+      "id": "camera_2",
+      "position": [
+        2.0737,
+        5.0063,
+        3.7192
+      ],
+      "look_at": [
+        0,
+        0,
+        2.2192
+      ],
+      "fov_deg": 80
+    },
+    {
+      "id": "camera_3",
+      "position": [
+        -2.0737,
+        5.0063,
+        3.7192
+      ],
+      "look_at": [
+        0,
+        0,
+        2.2192
+      ],
+      "fov_deg": 80
+    },
+    {
+      "id": "camera_4",
+      "position": [
+        -5.0063,
+        2.0737,
+        3.7192
+      ],
+      "look_at": [
+        0,
+        0,
+        2.2192
+      ],
+      "fov_deg": 80
+    },
+    {
+      "id": "camera_5",
+      "position": [
+        -5.0063,
+        -2.0737,
+        3.7192
+      ],
+      "look_at": [
+        0,
+        0,
+        2.2192
+      ],
+      "fov_deg": 80
+    },
+    {
+      "id": "camera_6",
+      "position": [
+        -2.0737,
+        -5.0063,
+        3.7192
+      ],
+      "look_at": [
+        0,
+        0,
+        2.2192
+      ],
+      "fov_deg": 80
+    },
+    {
+      "id": "camera_7",
+      "position": [
+        2.0737,
+        -5.0063,
+        3.7192
+      ],
+      "look_at": [
+        0,
+        0,
+        2.2192
+      ],
+      "fov_deg": 80
+    },
+    {
+      "id": "camera_8",
+      "position": [
+        5.0063,
+        -2.0737,
+        3.7192
+      ],
+      "look_at": [
+        0,
+        0,
+        2.2192
+      ],
+      "fov_deg": 80
+    }
+  ],
+  "rf_nodes": [
+    {
+      "id": "rf_1",
+      "position": [
+        6.4,
+        0.0,
+        3.0192
+      ]
+    },
+    {
+      "id": "rf_2",
+      "position": [
+        0.0,
+        6.4,
+        3.0192
+      ]
+    },
+    {
+      "id": "rf_3",
+      "position": [
+        -6.4,
+        0.0,
+        3.0192
+      ]
+    },
+    {
+      "id": "rf_4",
+      "position": [
+        -0.0,
+        -6.4,
+        3.0192
+      ]
+    }
+  ],
+  "wearable_points": [
+    "pelvis",
+    "left_wrist",
+    "right_wrist"
+  ],
+  "joint_names": [
+    "pelvis",
+    "chest",
+    "neck",
+    "head",
+    "left_shoulder",
+    "left_elbow",
+    "left_wrist",
+    "right_shoulder",
+    "right_elbow",
+    "right_wrist",
+    "left_hip",
+    "left_knee",
+    "left_ankle",
+    "right_hip",
+    "right_knee",
+    "right_ankle"
+  ],
+  "body_capsules": [
+    [
+      "pelvis",
+      "chest",
+      0.235
+    ],
+    [
+      "chest",
+      "neck",
+      0.18
+    ],
+    [
+      "left_shoulder",
+      "left_elbow",
+      0.1
+    ],
+    [
+      "left_elbow",
+      "left_wrist",
+      0.085
+    ],
+    [
+      "right_shoulder",
+      "right_elbow",
+      0.1
+    ],
+    [
+      "right_elbow",
+      "right_wrist",
+      0.085
+    ],
+    [
+      "left_hip",
+      "left_knee",
+      0.125
+    ],
+    [
+      "left_knee",
+      "left_ankle",
+      0.105
+    ],
+    [
+      "right_hip",
+      "right_knee",
+      0.125
+    ],
+    [
+      "right_knee",
+      "right_ankle",
+      0.105
+    ]
+  ],
+  "head_radius_m": 0.135,
+  "physics_note": "Kinematic capsule meshes + root/fence boundary constraints, NOT full rigid-body impact physics.",
+  "rf_note": "OBJ includes approximate mesh wires; assign calibrated materials and validate EM scattering before ISAC claims."
+}

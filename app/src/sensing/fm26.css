@@ -1,0 +1,290 @@
+/* FM26 portal / squad / match-day references. Presentation only. */
+.sensing-workspace{
+  --ff-font:Paperlogy,"Segoe UI Symbol","Malgun Gothic",sans-serif;
+  --ff-bg:#0b0e1c;--ff-panel:#1b1c30;--ff-raised:#25263c;
+  --ff-line:#3a3b53;--ff-text:#f1f0f8;--ff-muted:#b2afc8;
+  --ff-accent:#c18bff;--ff-action:#8430e8;--ff-green:#8bdcae;
+  --ff-radius:12px;--ff-space:18px;
+  --bg:var(--ff-bg);--panel:var(--ff-panel);--line:var(--ff-line);
+  --text:var(--ff-text);--muted:var(--ff-muted);--lime:var(--ff-accent);
+  color:var(--ff-text);font-family:var(--ff-font);font-size:13px;line-height:1.65;
+  font-synthesis:none;font-weight:400;isolation:isolate;position:relative;
+  max-width:1800px;padding:26px 32px 40px;
+}
+body:has(.sensing-workspace){background:#0b0e1c;color:#f1f0f8}
+.sensing-workspace::before{
+  content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;
+  background:linear-gradient(135deg,transparent 45%,#39114966 45%,#39114966 58%,transparent 58%),
+    linear-gradient(35deg,transparent 67%,#40105c55 67%,#40105c55 78%,transparent 78%),#0b0e1c;
+}
+.sensing-workspace *,.sensing-workspace *::before,.sensing-workspace *::after{
+  font-family:var(--ff-font)!important;font-synthesis:none;
+}
+.sensing-workspace :is(input,select,textarea,button,option){font-family:var(--ff-font)!important;font-weight:500}
+.sensing-workspace :is(p,small,span,td,dt,footer,code,.mono){font-weight:400}
+.sensing-workspace :is(b,strong,h2,h3,h4,h5,summary){font-weight:600}
+.sensing-workspace h1{font-weight:700}
+.sensing-workspace :is(.mono,code,dd,.lv-reading>strong,.lv-metric>strong,.lv-clock-controls>strong){font-variant-numeric:tabular-nums}
+.sensing-workspace :is(button,a,input,select,summary):focus-visible{outline:2px solid #d9baff;outline-offset:4px}
+.sensing-workspace :is(button,input,select){transition:background .15s,border-color .15s,box-shadow .15s}
+.sensing-workspace button:disabled{opacity:.48}
+.sensing-workspace .sn-live-lab{gap:var(--ff-space)}
+.sensing-workspace .lv-header{
+  background:#0c1020ed;border:1px solid #31334b;border-radius:var(--ff-radius);
+  border-top:3px solid #8653c6;padding:23px 26px;align-items:center;gap:20px;
+  box-shadow:0 8px 30px #0002;
+}
+.sensing-workspace .eyebrow{color:#c1a9e0;font-size:10px;font-weight:500;letter-spacing:1.2px}
+.sensing-workspace .lv-header h1{font-size:30px;line-height:1.4;letter-spacing:-.7px;margin:5px 0 9px}
+.sensing-workspace .lv-header h1>span{
+  color:#d7a9ff;background:#7433a829;border-color:#8150b1;border-radius:4px;font-size:11px;
+  font-weight:600;vertical-align:middle;padding:4px 7px;letter-spacing:1px;
+}
+.sensing-workspace .lv-header p{font-size:11px;gap:12px;flex-wrap:wrap}
+.sensing-workspace .lv-header p>span{color:#b3aec7;font-size:10px;border-color:#434058}
+.sensing-workspace .lv-live-badge{border:1px solid #4c4164;background:#272038;color:#d5b2ff;font-size:10px;padding:6px 10px;border-radius:5px;font-weight:500;white-space:nowrap}
+.sensing-workspace .lv-live-badge.active{border-color:#43775d;background:#173329;color:#9ce3b7}
+.sensing-workspace .lv-live-badge.active>i{background:#8bddb0;box-shadow:0 0 8px #8bddb077}
+.sensing-workspace .lv-simulation-label{color:#a6a1be;font-size:9px;letter-spacing:1.3px}
+.sensing-workspace .lv-tabs{background:#101322;border:1px solid #36354c;border-radius:9px;overflow:hidden;gap:0}
+.sensing-workspace .lv-tabs>button{background:transparent;color:#b3b0c9;border-color:#343448;padding:17px 16px;position:relative;min-width:0}
+.sensing-workspace .lv-tabs>button:hover{background:#26213b;color:#f5edff}
+.sensing-workspace .lv-tabs>button.selected{background:#352048;color:#e3bdff;box-shadow:inset 0 -3px #b571ef;border-bottom-color:#ba7aff}
+.sensing-workspace .lv-tabs>button>b,.sensing-workspace .lv-tabs>button b{font-size:12px;font-weight:600}
+.sensing-workspace .lv-tabs>button small{font-size:8px;color:#aaa2bd;letter-spacing:.7px;margin-top:4px}
+.sensing-workspace .lv-tabs>button>i{font-style:normal;font-size:22px;color:inherit}
+.sensing-workspace .lv-tabs>button>em{font-size:10px;color:#79748f}
+.sensing-workspace .lv-ledger-status{background:#141827;border:1px solid #37364d;border-left:3px solid #a16de1;border-radius:6px;padding:10px 15px;font-size:11px;color:#b4afc6;gap:10px;flex-wrap:wrap}
+.sensing-workspace .lv-ledger-status b{color:#d6b6ff;font-size:11px}
+.sensing-workspace .lv-ledger-status span{font-size:11px}
+.sensing-workspace .lv-shared-clock{background:#1c1c30;border:1px solid #414057;border-radius:9px;padding:15px 20px;gap:20px}
+.sensing-workspace .lv-clock-controls>button{background:#2c2a43;border:1px solid #4b4663;color:#e8dcff;border-radius:6px;min-width:38px;min-height:38px;font-size:16px}
+.sensing-workspace .lv-clock-controls>.lv-play{background:linear-gradient(110deg,#7220cf,#b833b1);border-color:#bf76f0;color:#fff}
+.sensing-workspace .lv-clock-controls>strong{font-size:27px;font-weight:600;letter-spacing:.2px;color:#f5f1ff}
+.sensing-workspace .lv-clock-controls>span{font-size:11px;color:#afa9c5}
+.sensing-workspace :is(select,input[type=number]){background:#101323;color:#ece8f7;border:1px solid #4d4864;border-radius:6px}
+.sensing-workspace .lv-clock-controls>select{font-size:12px;padding:8px 10px}
+.sensing-workspace .lv-source-frame{border-color:#484057}
+.sensing-workspace .lv-source-frame>span,.sensing-workspace .lv-clock-activity>small{font-size:10px;color:#b3acc5}
+.sensing-workspace .lv-source-frame>b{font-size:13px;color:#ddd1f5}
+.sensing-workspace .lv-source-frame>small{font-size:9px;color:#a49bb9}
+.sensing-workspace .lv-clock-activity>b{font-size:17px;color:#e1d4f6;font-weight:500}
+.sensing-workspace .lv-time-track{padding:0 4px;gap:8px}
+.sensing-workspace input[type=range]{accent-color:#b77bf2;cursor:pointer}
+.sensing-workspace .lv-time-track>small{color:#b6aec6;font-size:10px;line-height:1.7}
+.sensing-workspace .lv-time-track>span{font-size:10px;color:#c5bbd5}
+.sensing-workspace :is(.lv-panel,.lv-role-cards>button,.lv-imu-cards>button,.tq-request-panel,.tq-answer){
+  background:var(--ff-panel);border-color:var(--ff-line);border-radius:var(--ff-radius);
+  box-shadow:inset 0 1px 0 #ffffff05,0 5px 20px #05071320;
+}
+.sensing-workspace .lv-panel-heading{padding:18px 20px;border-bottom:1px solid #38374f;gap:14px;background:#22213766;flex-wrap:wrap}
+.sensing-workspace .lv-panel-heading h2{font-size:16px;line-height:1.6;color:#f1e7ff}
+.sensing-workspace .lv-panel-heading h3{font-size:14px;color:#d3b0ef}
+.sensing-workspace .lv-panel-heading>span,.sensing-workspace .lv-panel-heading label{font-size:10px;color:#c0b6d2}
+.sensing-workspace .lv-overview{gap:18px;grid-template-columns:minmax(0,1.45fr) minmax(380px,1fr)}
+.sensing-workspace .lv-arena-panel .sn-scene{height:510px}
+.sensing-workspace .sn-stage{background:#111525;border:0}
+.sensing-workspace .sn-stage-label{font-size:9px;color:#c5beda;left:18px;top:16px;gap:7px}
+.sensing-workspace .sn-stage-label b{font-size:8px;font-weight:500;color:#9e92b5}
+.sensing-workspace .sn-stage-bottom{background:linear-gradient(transparent,#0b0f20e6);gap:10px;padding:22px 16px 12px}
+.sensing-workspace .sn-stage-bottom>span{font-size:10px;color:#c4b9d6}
+.sensing-workspace .sn-stage-bottom button{background:#25233c;border-color:#5a496e;color:#e1cff4;font-size:10px;border-radius:5px;padding:7px 9px}
+.sensing-workspace .sn-scale{font-size:9px;color:#b8adc9}
+.sensing-workspace .lv-layer-controls{padding:14px 18px;gap:15px;background:#141a29;border-color:#37384e;flex-wrap:wrap}
+.sensing-workspace .lv-layer-controls label{font-size:11px;gap:6px}
+.sensing-workspace .lv-layer-controls>small{font-size:9px;color:#aba2be}
+.sensing-workspace input[type=checkbox]{accent-color:#ad6ee9;width:15px;height:15px}
+.sensing-workspace .lv-role-cards{gap:12px}
+.sensing-workspace .lv-role-cards>button{padding:17px;border-left-width:3px}
+.sensing-workspace .lv-role-cards>button:hover{background:#27243e;border-top-color:#76618f;border-right-color:#76618f;border-bottom-color:#76618f}
+.sensing-workspace .lv-role-cards>button b{font-size:14px}
+.sensing-workspace .lv-role-cards>button>strong{font-size:12px;color:#ded8eb;line-height:1.8;margin-top:10px;min-height:42px}
+.sensing-workspace .lv-role-cards>button>p{font-size:10px;color:#b9accd;line-height:1.8}
+.sensing-workspace .lv-role-cards>button>div:first-child>small{font-size:9px;color:#b0a6c0;line-height:1.7}
+.sensing-workspace .lv-role-cards>button>span{font-size:10px;color:#c8a9e8;border-top:1px solid #36334c;padding-top:10px}
+.sensing-workspace .lv-sensor-status{font-size:9px;color:#b4a9c5;white-space:normal;line-height:1.6}
+.sensing-workspace .lv-sensor-status.receiving{color:#95dab0}
+.sensing-workspace .lv-reading{margin:12px 0 14px;gap:6px}
+.sensing-workspace .lv-reading>span{font-size:10px;color:#b7adc8}
+.sensing-workspace .lv-reading>strong{font-size:29px;font-weight:500;color:#f0e9fb;line-height:1.5}
+.sensing-workspace .lv-reading>strong>small{font-size:9px;color:#b7acc9;margin-left:6px;display:inline-block}
+.sensing-workspace .lv-quality-track{height:4px;background:#373047;border-radius:2px}
+.sensing-workspace .lv-pipeline{border-color:#3c3751;background:#18182a;border-radius:8px}
+.sensing-workspace .lv-pipeline>div{padding:15px;border-color:#38334b;gap:10px}
+.sensing-workspace .lv-pipeline>div>i{font-size:13px;color:#ba8ce4;font-style:normal;font-weight:500}
+.sensing-workspace .lv-pipeline b{font-size:11px;color:#e1d5ee}
+.sensing-workspace .lv-pipeline small{font-size:10px;color:#a99dbd;line-height:1.7}
+.sensing-workspace .lv-punch-card>span,.sensing-workspace .lv-range-card>span{font-size:11px;letter-spacing:.4px}
+.sensing-workspace .lv-punch-card>div>strong{font-size:42px;font-weight:500}
+.sensing-workspace .lv-punch-card>div>small{font-size:11px;color:#c6bad4}
+.sensing-workspace .lv-punch-card dl>div{font-size:11px;color:#beb1ce}
+.sensing-workspace .lv-punch-card dd{color:#eee4fb;font-weight:500}
+.sensing-workspace .lv-punch-card>p,.sensing-workspace .lv-range-card>p{font-size:10px;color:#aea2c0;line-height:1.8}
+.sensing-workspace .lv-range-card>strong{font-size:34px;font-weight:500;color:#a5e4c4}
+.sensing-workspace .lv-range-card>strong small{font-size:10px;color:#b7adcb}
+.sensing-workspace .lv-trace{background:#111526;border-radius:7px;padding:12px}
+.sensing-workspace .lv-trace>div:first-child>span{font-size:11px;color:#d1c4e0}
+.sensing-workspace .lv-trace>div:first-child>b{font-size:9px;color:#a89eb9}
+.sensing-workspace .lv-trace-legend>span{font-size:10px}
+.sensing-workspace .lv-trace-legend>small{font-size:9px;color:#afa1c4}
+.sensing-workspace .lv-trace svg>path:first-child{stroke:#353148}
+.sensing-workspace .lv-position-map{background:#102a2a;border-radius:8px}
+.sensing-workspace .lv-position-map text{font-weight:500}
+.sensing-workspace .lv-role-heading{border-color:#9c67d0;padding:10px 0 10px 18px;gap:20px}
+.sensing-workspace .lv-role-heading h2{font-size:28px;font-weight:700;color:#ede4f8;line-height:1.6}
+.sensing-workspace .lv-role-heading em{font-style:normal;font-weight:600}
+.sensing-workspace .lv-role-heading p{font-size:12px;color:#b6a9c7;line-height:1.9}
+.sensing-workspace .lv-role-heading>p{font-size:11px}
+.sensing-workspace .lv-camera-tile{background:#121726;border:1px solid #3b3650;border-radius:7px;padding:12px}
+.sensing-workspace .lv-camera-tile.selected{background:#29213d;border-color:#b280d9;box-shadow:inset 0 0 0 1px #b280d933}
+.sensing-workspace .lv-camera-tile>div>b{font-size:10px}
+.sensing-workspace .lv-camera-tile>div>span,.sensing-workspace .lv-camera-tile>small{font-size:9px;color:#b5a9c7}
+.sensing-workspace .lv-inline-facts{padding:18px;gap:14px;font-size:11px}
+.sensing-workspace .lv-inline-facts>span{font-size:11px;color:#b5a9c7}
+.sensing-workspace .lv-metric>span{font-size:11px;color:#b9abc9}
+.sensing-workspace .lv-metric>strong{font-size:30px;font-weight:500}
+.sensing-workspace .lv-metric>strong>small{font-size:10px;color:#b6aac6}
+.sensing-workspace .lv-metric>p{font-size:10px;color:#b4a6c4;line-height:1.8}
+.sensing-workspace .lv-imu-cards>button{padding:20px}
+.sensing-workspace .lv-imu-cards>button.selected{border-color:#ba86e2;background:#2a203c}
+.sensing-workspace .lv-imu-cards>button>span{font-size:11px}
+.sensing-workspace .lv-imu-cards>button>strong{font-size:30px;font-weight:500}
+.sensing-workspace .lv-imu-cards>button>small{font-size:10px;color:#b9abc8;line-height:1.9}
+.sensing-workspace .lv-chart-title h3{font-size:15px;color:#d2afea}
+.sensing-workspace .lv-chart-title span{font-size:11px;color:#b7a6c6}
+.sensing-workspace .lv-doppler-map{background:#121324;border:1px solid #39324d;border-radius:8px;padding:15px}
+.sensing-workspace .lv-doppler-map small,.sensing-workspace .lv-doppler-map>div{font-size:10px;color:#b9aac8}
+.sensing-workspace .lv-tag-card>b{color:#b0e4c9;font-size:16px}
+.sensing-workspace .lv-settings>div:nth-child(2)>label{background:#141728;border-color:#3b354f;border-radius:7px}
+.sensing-workspace .lv-settings label>span{font-size:12px;color:#ded4ec}
+.sensing-workspace .lv-settings label>small,.sensing-workspace .lv-settings label>b{font-size:10px;color:#b2a6c1;line-height:1.8}
+.sensing-workspace .lv-event-log table{font-size:11px}
+.sensing-workspace .lv-event-log th{background:#242238;color:#bbaaCA;font-weight:500;font-size:10px;padding:13px}
+.sensing-workspace .lv-event-log td{border-color:#353147;padding:13px;color:#cec1df}
+.sensing-workspace .lv-event-log tbody tr:nth-child(even){background:#ffffff04}
+.sensing-workspace .lv-event-log tbody tr:hover{background:#9062bd15}
+.sensing-workspace .lv-event-log td button{color:#d8b5f6}
+.sensing-workspace .lv-event-status{background:#234236;color:#9ee1ba;border-color:#3e7257;font-size:10px}
+.sensing-workspace .lv-event-status.held{background:#3a2e31;color:#e6c39e;border-color:#665147}
+.sensing-workspace :is(.lv-empty,.lv-footnote p,.lv-footer-actions>p){font-size:11px;color:#b5a9c6;line-height:1.9}
+.sensing-workspace .lv-footnote{border-color:#3e3552;background:#151526;padding:16px 20px;border-radius:8px}
+.sensing-workspace .lv-footnote>b{font-size:10px;color:#cab1e0}
+.sensing-workspace .button{font-size:11px;font-weight:600;border-radius:6px;min-height:38px;padding:9px 14px}
+.sensing-workspace .button.primary{background:linear-gradient(110deg,#7824d9,#ad32ad);border:1px solid #b47aea;color:#fff;box-shadow:inset 0 1px 0 #ffffff22}
+.sensing-workspace .button.primary:hover{background:linear-gradient(110deg,#8b35ec,#c43cbb);border-color:#d39aff}
+.sensing-workspace .button.secondary,.sensing-workspace .button.ghost{background:#27263d;border-color:#524963;color:#e2d5f2}
+.sensing-workspace .button.secondary:hover,.sensing-workspace .button.ghost:hover{background:#38304d;border-color:#9272ac}
+.sensing-workspace :is(.tq-workspace,.tq-prematch){--tq-line:#40394f;--tq-muted:#b9abc9;color:#ede5f5}
+.sensing-workspace .tq-prematch{background:#1b1b2e;border:1px solid #665078;border-top:3px solid #b47ae8;border-radius:14px;padding:30px;box-shadow:0 30px 100px #000a}
+.sensing-workspace .tq-prematch::backdrop{background:#060815bd;backdrop-filter:blur(5px)}
+.sensing-workspace .tq-prematch h2{font-size:27px;font-weight:700;letter-spacing:-.6px;line-height:1.5;margin:10px 0}
+.sensing-workspace .tq-prematch>p{font-size:12px;color:#c0b1d1;margin-bottom:18px}
+.sensing-workspace .tq-form-grid{gap:14px}
+.sensing-workspace .tq-form-grid label{font-size:11px;font-weight:500;color:#c3b4d2;gap:7px}
+.sensing-workspace .tq-form-grid :is(select,input){background:#111423;border:1px solid #524762;color:#eae1f3;font-size:12px;min-height:43px;padding:10px;border-radius:6px}
+.sensing-workspace .tq-form-grid :is(select,input):focus-visible{outline-color:#c69aef}
+.sensing-workspace .tq-preview{background:#312141;border-color:#b77eec;border-radius:0 7px 7px 0;padding:16px 18px;margin-top:20px}
+.sensing-workspace .tq-preview>span,.sensing-workspace .tq-value>b{color:#d6a6f6;font-size:10px;font-weight:500}
+.sensing-workspace .tq-preview p{color:#eee1f7;font-size:16px;line-height:1.9;font-weight:600}
+.sensing-workspace .tq-preview small,.sensing-workspace .tq-value small{color:#bca9cb;font-size:10px}
+.sensing-workspace .tq-value{font-size:11px;color:#c1b0d0;line-height:1.9}
+.sensing-workspace .tq-registered>div{background:#232137;border:1px solid #494054;border-radius:6px;padding:13px}
+.sensing-workspace .tq-registered small{color:#d0a7ed;font-size:10px}
+.sensing-workspace .tq-registered b{font-size:12px;font-weight:500}
+.sensing-workspace .tq-registered button{background:#302a42;border-color:#695274;color:#e4d3ef;font-size:11px}
+.sensing-workspace .tq-prematch>small{font-size:10px;color:#b6a3c7;line-height:1.9}
+.sensing-workspace .tq-heading h2{font-size:26px;font-weight:700;color:#eee3f8}
+.sensing-workspace .tq-heading p{font-size:12px;color:#b9aaca}
+.sensing-workspace .tq-state{color:#d4adf4;background:#30203f;border-color:#6b458b;border-radius:5px;font-size:11px}
+.sensing-workspace .tq-request-panel>h3{font-size:17px;color:#d7b1f1;font-weight:600}
+.sensing-workspace .tq-area>header{border-color:#51405d}
+.sensing-workspace .tq-area>header>span{color:#b77fe6;font-size:25px;font-weight:400}
+.sensing-workspace .tq-area h3{font-size:19px;color:#ddbaef}
+.sensing-workspace .tq-area>header p{font-size:11px;color:#bcaacc}
+.sensing-workspace .tq-card-top{border-bottom:1px solid #42354e;padding-bottom:12px}
+.sensing-workspace .tq-card-top>span{color:#cea7ed;font-size:11px}
+.sensing-workspace .tq-card-top small{color:#bca9cc;font-size:10px}
+.sensing-workspace .tq-question{font-size:12px;color:#bca9cd;line-height:1.9}
+.sensing-workspace .tq-answer h4{font-size:24px;color:#ede2f7;font-weight:600;line-height:1.7}
+.sensing-workspace .tq-metrics>div{background:#131526;border-color:#3c334c;border-radius:6px;padding:12px}
+.sensing-workspace .tq-metrics dt{font-size:10px;color:#baa6cd}
+.sensing-workspace .tq-metrics dd{font-size:21px;color:#e5d4f5;font-weight:500}
+.sensing-workspace .tq-metrics dd small,.sensing-workspace .tq-metrics>div>small{font-size:10px;color:#b29fc4}
+.sensing-workspace .tq-findings{border-color:#43354d}
+.sensing-workspace .tq-findings h5{font-size:12px;color:#d7b4ec}
+.sensing-workspace .tq-findings p{font-size:12px;color:#c4b5d2;line-height:1.95}
+.sensing-workspace .tq-findings p small{font-size:10px;color:#a89abb}
+.sensing-workspace .tq-hypothesis{background:#19312f;border-color:#385f52}
+.sensing-workspace .tq-hypothesis h5{color:#a5dcbd}
+.sensing-workspace .tq-proof{font-size:11px;color:#bba7cc}
+.sensing-workspace .tq-proof summary{color:#d2b1e8;line-height:1.9}
+.sensing-workspace .tq-evidence button{background:#2b233e;border-color:#614c78;color:#dbc1ef;font-size:10px}
+.sensing-workspace .tq-evidence button small{font-size:10px;color:#b6a0c9}
+.sensing-workspace .tq-answer>footer,.sensing-workspace .tq-save{font-size:10px;color:#ae9dc0}
+.sensing-workspace .sn-error,.sensing-workspace .tq-error{background:#3c2636;border-color:#89516f;color:#f4c1d3}
+@media(min-width:1600px){.sensing-workspace .lv-arena-panel .sn-scene{height:550px}}
+@media(max-width:1200px){
+  .sensing-workspace{padding:22px}.sensing-workspace .lv-overview{grid-template-columns:1fr}
+  .sensing-workspace .lv-role-cards{grid-template-columns:repeat(4,minmax(0,1fr))}
+  .sensing-workspace .lv-role-cards>button{padding:14px}.sensing-workspace .lv-tabs>button{padding:15px 11px}
+}
+@media(max-width:900px){
+  .sensing-workspace .lv-role-cards{grid-template-columns:1fr 1fr}
+  .sensing-workspace .lv-header{padding:20px;flex-wrap:wrap}.sensing-workspace .lv-header h1{font-size:27px}
+  .sensing-workspace .lv-tabs>button small{font-size:7px;letter-spacing:.2px}
+  .sensing-workspace .lv-tabs>button b{font-size:11px}
+  .sensing-workspace .lv-pipeline{flex-wrap:wrap}.sensing-workspace .lv-pipeline small{font-size:9px}
+}
+@media(max-width:600px){
+  .sensing-workspace{padding:12px 10px 26px;--ff-space:14px}
+  .sensing-workspace .lv-header{padding:17px 15px;gap:14px}.sensing-workspace .lv-header h1{font-size:23px;max-width:none}
+  .sensing-workspace .lv-header .eyebrow{font-size:8px;letter-spacing:.5px}
+  .sensing-workspace .lv-header p{font-size:10px;gap:7px}.sensing-workspace .lv-header p>span{font-size:9px}
+  .sensing-workspace .lv-header>div:last-child{position:static;flex-direction:row;align-items:center;gap:9px;flex-wrap:wrap}
+  .sensing-workspace .lv-live-badge{font-size:9px;padding:5px 8px}.sensing-workspace .lv-simulation-label{font-size:8px}
+  .sensing-workspace .lv-tabs>button{padding:13px 9px;gap:8px}.sensing-workspace .lv-tabs>button>i{font-size:19px}
+  .sensing-workspace .lv-tabs>button b{font-size:11px}.sensing-workspace .lv-tabs>button small{font-size:7px}
+  .sensing-workspace .lv-ledger-status{padding:10px 12px;gap:4px;font-size:10px}.sensing-workspace .lv-ledger-status span{font-size:10px}
+  .sensing-workspace .lv-shared-clock{padding:13px;gap:12px}.sensing-workspace .lv-clock-controls{gap:7px}
+  .sensing-workspace .lv-clock-controls>strong{font-size:22px}.sensing-workspace .lv-clock-controls>span{font-size:10px}
+  .sensing-workspace .lv-clock-controls>button{min-width:34px;min-height:35px;font-size:15px}
+  .sensing-workspace .lv-source-frame>small{font-size:9px}.sensing-workspace .lv-source-frame{border:0;padding:0}
+  .sensing-workspace .lv-time-track>small{font-size:9px}.sensing-workspace .lv-time-track>span{font-size:9px}
+  .sensing-workspace .lv-panel-heading{padding:15px;gap:10px}.sensing-workspace .lv-panel-heading h2{font-size:14px}
+  .sensing-workspace .lv-panel-heading .eyebrow{font-size:8px}
+  .sensing-workspace .lv-arena-panel .sn-scene{height:360px;min-height:300px}
+  .sensing-workspace .sn-stage-label{font-size:8px;left:12px}.sensing-workspace .sn-stage-label b{display:none}
+  .sensing-workspace .sn-stage-bottom>span{font-size:8px;max-width:110px}.sensing-workspace .sn-stage-bottom{padding:20px 10px 10px}
+  .sensing-workspace .sn-stage-bottom button{font-size:9px;padding:6px}.sensing-workspace .sn-stage-bottom>div{gap:4px}
+  .sensing-workspace .lv-layer-controls{padding:12px;gap:11px}.sensing-workspace .lv-layer-controls label{font-size:10px}
+  .sensing-workspace .lv-role-cards{gap:10px}.sensing-workspace .lv-role-cards>button{padding:13px}
+  .sensing-workspace .lv-role-cards>button b{font-size:12px}.sensing-workspace .lv-role-cards>button>strong{font-size:11px;min-height:40px}
+  .sensing-workspace .lv-role-cards>button>p{font-size:10px}.sensing-workspace .lv-role-cards>button>div:first-child>small{font-size:9px}
+  .sensing-workspace .lv-reading>strong{font-size:26px}.sensing-workspace .lv-reading>strong>small{font-size:9px;margin-left:0;display:block}
+  .sensing-workspace .lv-pipeline{display:grid;grid-template-columns:repeat(3,minmax(0,1fr))}
+  .sensing-workspace .lv-pipeline>div{padding:12px}.sensing-workspace .lv-pipeline b{font-size:10px}.sensing-workspace .lv-pipeline small{display:block;font-size:9px;overflow-wrap:anywhere}
+  .sensing-workspace .lv-camera-grid{grid-template-columns:1fr 1fr;gap:9px;padding:12px}
+  .sensing-workspace .lv-camera-tile{padding:10px}.sensing-workspace .lv-camera-tile svg{height:85px}
+  .sensing-workspace .lv-camera-tile>small{font-size:8px}.sensing-workspace .lv-role-heading h2{font-size:23px}
+  .sensing-workspace .lv-role-heading p{font-size:11px}.sensing-workspace .lv-imu-cards>button{padding:15px}
+  .sensing-workspace .lv-imu-cards>button>strong{font-size:25px}
+  .sensing-workspace .lv-settings>div:nth-child(2){grid-template-columns:1fr;padding:12px}
+  .sensing-workspace .lv-settings>.lv-panel-heading{align-items:flex-start}
+  .sensing-workspace .tq-prematch{padding:22px 16px;width:calc(100vw - 24px)}
+  .sensing-workspace .tq-prematch h2{font-size:23px}.sensing-workspace .tq-prematch>p{font-size:12px}
+  .sensing-workspace .tq-form-grid{gap:12px}.sensing-workspace .tq-form-grid label{font-size:10px}
+  .sensing-workspace .tq-form-grid :is(select,input){font-size:11px;padding:9px 7px}
+  .sensing-workspace .tq-preview{padding:14px}.sensing-workspace .tq-preview p{font-size:15px}
+  .sensing-workspace .tq-heading h2{font-size:23px}.sensing-workspace .tq-answer{padding:17px}
+  .sensing-workspace .tq-area h3{font-size:17px}.sensing-workspace .tq-answer h4{font-size:22px}
+  .sensing-workspace .tq-registered>div{gap:8px}.sensing-workspace .tq-registered>div>span{flex-basis:100%}
+}
+@media(prefers-reduced-motion:reduce){.sensing-workspace *{transition:none!important;animation:none!important}}
+/* Keep dense captions readable even where legacy rules have higher specificity. */
+.sensing-workspace :is(.eyebrow,.lv-simulation-label,.lv-live-badge,.lv-sensor-status,
+  .sn-stage-label,.sn-stage-label b,.sn-stage-bottom>span,.lv-tabs>button small,
+  .lv-role-cards>button>div>small,.lv-panel-heading small,.lv-camera-actor small,
+  .lv-doppler-map>div>span,.lv-tag-card small,.lv-tag-card>div>span,
+  .lv-imu-cards>button>strong>small,.lv-imu-stream>div>span,.lv-section-title>span,
+  .lv-empty small,.lv-coach>small,.lv-event-log td){font-size:9px!important}
+.sensing-workspace .lv-position-map text{font-size:9px}

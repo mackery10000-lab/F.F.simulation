@@ -1,0 +1,12 @@
+{
+  "name": "three",
+  "version": "0.187.0",
+  "type": "module",
+  "license": "MIT",
+  "main": "./build/three.module.js",
+  "module": "./build/three.module.js",
+  "exports": {
+    ".": "./build/three.module.js",
+    "./examples/jsm/*": "./examples/jsm/*"
+  }
+}

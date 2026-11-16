@@ -1,0 +1,619 @@
+{
+  "schema": "ff_skinned_assets_v1",
+  "blender_version": "5.2.4 LTS",
+  "model_style": "minimal_rigid_shell_v1",
+  "models": [
+    {
+      "fighter": "A",
+      "file": "assets/fighters/minimal_shell_v1/fighter_A.glb",
+      "blend": "assets/fighters/minimal_shell_v1/fighter_A.blend",
+      "bones": [
+        "pelvis",
+        "chest",
+        "neck",
+        "head",
+        "left_shoulder",
+        "left_elbow",
+        "left_wrist",
+        "right_shoulder",
+        "right_elbow",
+        "right_wrist",
+        "left_hip",
+        "left_knee",
+        "left_ankle",
+        "right_hip",
+        "right_knee",
+        "right_ankle",
+        "left_heel",
+        "left_toe",
+        "right_heel",
+        "right_toe"
+      ],
+      "parents": [
+        null,
+        0,
+        1,
+        2,
+        1,
+        4,
+        5,
+        1,
+        7,
+        8,
+        0,
+        10,
+        11,
+        0,
+        13,
+        14,
+        12,
+        12,
+        15,
+        15
+      ],
+      "primary_child": {
+        "pelvis": "chest",
+        "chest": "neck",
+        "neck": "head",
+        "left_shoulder": "left_elbow",
+        "left_elbow": "left_wrist",
+        "right_shoulder": "right_elbow",
+        "right_elbow": "right_wrist",
+        "left_hip": "left_knee",
+        "left_knee": "left_ankle",
+        "right_hip": "right_knee",
+        "right_knee": "right_ankle",
+        "left_ankle": "left_toe",
+        "right_ankle": "right_toe"
+      },
+      "rest_positions_z_up": {
+        "pelvis": [
+          0.0,
+          0.0,
+          1.042199969291687
+        ],
+        "chest": [
+          0.0,
+          0.0,
+          1.4089000225067139
+        ],
+        "neck": [
+          0.0,
+          0.0,
+          1.6791000366210938
+        ],
+        "head": [
+          0.0,
+          0.0,
+          1.8856099843978882
+        ],
+        "left_shoulder": [
+          -0.23160000145435333,
+          0.0,
+          1.6211999654769897
+        ],
+        "left_elbow": [
+          -0.5276100039482117,
+          0.0,
+          1.6211999654769897
+        ],
+        "left_wrist": [
+          -0.800849974155426,
+          0.0,
+          1.6211999654769897
+        ],
+        "right_shoulder": [
+          0.23160000145435333,
+          0.0,
+          1.6211999654769897
+        ],
+        "right_elbow": [
+          0.5276100039482117,
+          0.0,
+          1.6211999654769897
+        ],
+        "right_wrist": [
+          0.800849974155426,
+          0.0,
+          1.6211999654769897
+        ],
+        "left_hip": [
+          -0.14474999904632568,
+          0.0,
+          1.042199969291687
+        ],
+        "left_knee": [
+          -0.14474999904632568,
+          0.0,
+          0.5597000122070312
+        ],
+        "left_ankle": [
+          -0.14474999904632568,
+          0.0,
+          0.06755000352859497
+        ],
+        "right_hip": [
+          0.14474999904632568,
+          0.0,
+          1.042199969291687
+        ],
+        "right_knee": [
+          0.14474999904632568,
+          0.0,
+          0.5597000122070312
+        ],
+        "right_ankle": [
+          0.14474999904632568,
+          0.0,
+          0.06755000352859497
+        ],
+        "left_heel": [
+          -0.14474999904632568,
+          0.06755000352859497,
+          0.013000000268220901
+        ],
+        "left_toe": [
+          -0.14474999904632568,
+          -0.14474999904632568,
+          0.013000000268220901
+        ],
+        "right_heel": [
+          0.14474999904632568,
+          0.06755000352859497,
+          0.013000000268220901
+        ],
+        "right_toe": [
+          0.14474999904632568,
+          -0.14474999904632568,
+          0.013000000268220901
+        ]
+      },
+      "height_profile_m": 1.93,
+      "reach_profile_m": 2.007,
+      "vertex_count": 2464,
+      "faces": 2072,
+      "model": "minimal_rigid_shell_v1",
+      "scan": false,
+      "anatomical_accuracy_validated": false,
+      "physical_muscles": false,
+      "torso_volume": false,
+      "bone_radius_m": 0.011,
+      "maximum_rest_height_m": 1.9299999475479126,
+      "world_to_gltf": "(x,y,z) -> (x,z,-y)",
+      "gltf_to_world": "(x,y,z) -> (x,-z,y)",
+      "source": "User dimensions are reference priors; pose endpoints come from video estimates.",
+      "visual_only": true,
+      "segments": [
+        {
+          "start": "pelvis",
+          "end": "chest",
+          "radius": 0.052,
+          "rest_length": 0.366700051785474
+        },
+        {
+          "start": "chest",
+          "end": "neck",
+          "radius": 0.052,
+          "rest_length": 0.27020001027787005
+        },
+        {
+          "start": "neck",
+          "end": "head",
+          "radius": 0.029,
+          "rest_length": 0.20650995049217558
+        },
+        {
+          "start": "chest",
+          "end": "left_shoulder",
+          "radius": 0.029,
+          "rest_length": 0.3141811983972626
+        },
+        {
+          "start": "left_shoulder",
+          "end": "left_elbow",
+          "radius": 0.029,
+          "rest_length": 0.2960100120964704
+        },
+        {
+          "start": "left_elbow",
+          "end": "left_wrist",
+          "radius": 0.025,
+          "rest_length": 0.27323996356879826
+        },
+        {
+          "start": "chest",
+          "end": "right_shoulder",
+          "radius": 0.029,
+          "rest_length": 0.3141811983972626
+        },
+        {
+          "start": "right_shoulder",
+          "end": "right_elbow",
+          "radius": 0.029,
+          "rest_length": 0.2960100120964704
+        },
+        {
+          "start": "right_elbow",
+          "end": "right_wrist",
+          "radius": 0.025,
+          "rest_length": 0.27323996356879826
+        },
+        {
+          "start": "pelvis",
+          "end": "left_hip",
+          "radius": 0.029,
+          "rest_length": 0.14474999782458486
+        },
+        {
+          "start": "left_hip",
+          "end": "left_knee",
+          "radius": 0.038,
+          "rest_length": 0.48249995414456953
+        },
+        {
+          "start": "left_knee",
+          "end": "left_ankle",
+          "radius": 0.032,
+          "rest_length": 0.49215000251952945
+        },
+        {
+          "start": "pelvis",
+          "end": "right_hip",
+          "radius": 0.029,
+          "rest_length": 0.14474999782458486
+        },
+        {
+          "start": "right_hip",
+          "end": "right_knee",
+          "radius": 0.038,
+          "rest_length": 0.48249995414456953
+        },
+        {
+          "start": "right_knee",
+          "end": "right_ankle",
+          "radius": 0.032,
+          "rest_length": 0.49215000251952945
+        },
+        {
+          "start": "left_ankle",
+          "end": "left_heel",
+          "radius": 0.016,
+          "rest_length": 0.08682571968353016
+        },
+        {
+          "start": "left_ankle",
+          "end": "left_toe",
+          "radius": 0.016,
+          "rest_length": 0.15468763564566243
+        },
+        {
+          "start": "right_ankle",
+          "end": "right_heel",
+          "radius": 0.016,
+          "rest_length": 0.08682571968353016
+        },
+        {
+          "start": "right_ankle",
+          "end": "right_toe",
+          "radius": 0.016,
+          "rest_length": 0.15468763564566243
+        }
+      ],
+      "shell_nodes": 20,
+      "rig_unchanged": true,
+      "motion_unchanged": true,
+      "clothing": false,
+      "original_glb_sha256": "c98f1d386c278c8638cfb78a353ef698a783111a4438b222919f4409c3c7538a",
+      "gltf_sha256": "b86736a5ff2603077679e31fdba3beff26fd5f34e6f73772a494a9ecbcb6bc64",
+      "vertex_count_with_original_rig_carrier": 3808
+    },
+    {
+      "fighter": "B",
+      "file": "assets/fighters/minimal_shell_v1/fighter_B.glb",
+      "blend": "assets/fighters/minimal_shell_v1/fighter_B.blend",
+      "bones": [
+        "pelvis",
+        "chest",
+        "neck",
+        "head",
+        "left_shoulder",
+        "left_elbow",
+        "left_wrist",
+        "right_shoulder",
+        "right_elbow",
+        "right_wrist",
+        "left_hip",
+        "left_knee",
+        "left_ankle",
+        "right_hip",
+        "right_knee",
+        "right_ankle",
+        "left_heel",
+        "left_toe",
+        "right_heel",
+        "right_toe"
+      ],
+      "parents": [
+        null,
+        0,
+        1,
+        2,
+        1,
+        4,
+        5,
+        1,
+        7,
+        8,
+        0,
+        10,
+        11,
+        0,
+        13,
+        14,
+        12,
+        12,
+        15,
+        15
+      ],
+      "primary_child": {
+        "pelvis": "chest",
+        "chest": "neck",
+        "neck": "head",
+        "left_shoulder": "left_elbow",
+        "left_elbow": "left_wrist",
+        "right_shoulder": "right_elbow",
+        "right_elbow": "right_wrist",
+        "left_hip": "left_knee",
+        "left_knee": "left_ankle",
+        "right_hip": "right_knee",
+        "right_knee": "right_ankle",
+        "left_ankle": "left_toe",
+        "right_ankle": "right_toe"
+      },
+      "rest_positions_z_up": {
+        "pelvis": [
+          0.0,
+          0.0,
+          1.0011600255966187
+        ],
+        "chest": [
+          0.0,
+          0.0,
+          1.3534200191497803
+        ],
+        "neck": [
+          0.0,
+          0.0,
+          1.6129800081253052
+        ],
+        "head": [
+          0.0,
+          0.0,
+          1.8113579750061035
+        ],
+        "left_shoulder": [
+          -0.22247999906539917,
+          0.0,
+          1.557360053062439
+        ],
+        "left_elbow": [
+          -0.5073620080947876,
+          0.0,
+          1.557360053062439
+        ],
+        "left_wrist": [
+          -0.770330011844635,
+          0.0,
+          1.557360053062439
+        ],
+        "right_shoulder": [
+          0.22247999906539917,
+          0.0,
+          1.557360053062439
+        ],
+        "right_elbow": [
+          0.5073620080947876,
+          0.0,
+          1.557360053062439
+        ],
+        "right_wrist": [
+          0.770330011844635,
+          0.0,
+          1.557360053062439
+        ],
+        "left_hip": [
+          -0.13905000686645508,
+          0.0,
+          1.0011600255966187
+        ],
+        "left_knee": [
+          -0.13905000686645508,
+          0.0,
+          0.5376600027084351
+        ],
+        "left_ankle": [
+          -0.13905000686645508,
+          0.0,
+          0.06488999724388123
+        ],
+        "right_hip": [
+          0.13905000686645508,
+          0.0,
+          1.0011600255966187
+        ],
+        "right_knee": [
+          0.13905000686645508,
+          0.0,
+          0.5376600027084351
+        ],
+        "right_ankle": [
+          0.13905000686645508,
+          0.0,
+          0.06488999724388123
+        ],
+        "left_heel": [
+          -0.13905000686645508,
+          0.06488999724388123,
+          0.013000000268220901
+        ],
+        "left_toe": [
+          -0.13905000686645508,
+          -0.13905000686645508,
+          0.013000000268220901
+        ],
+        "right_heel": [
+          0.13905000686645508,
+          0.06488999724388123,
+          0.013000000268220901
+        ],
+        "right_toe": [
+          0.13905000686645508,
+          -0.13905000686645508,
+          0.013000000268220901
+        ]
+      },
+      "height_profile_m": 1.854,
+      "reach_profile_m": 1.93,
+      "vertex_count": 2464,
+      "faces": 2072,
+      "model": "minimal_rigid_shell_v1",
+      "scan": false,
+      "anatomical_accuracy_validated": false,
+      "physical_muscles": false,
+      "torso_volume": false,
+      "bone_radius_m": 0.011,
+      "maximum_rest_height_m": 1.8539999723434448,
+      "world_to_gltf": "(x,y,z) -> (x,z,-y)",
+      "gltf_to_world": "(x,y,z) -> (x,-z,y)",
+      "source": "User dimensions are reference priors; pose endpoints come from video estimates.",
+      "visual_only": true,
+      "segments": [
+        {
+          "start": "pelvis",
+          "end": "chest",
+          "radius": 0.04995233160621762,
+          "rest_length": 0.3522599930608083
+        },
+        {
+          "start": "chest",
+          "end": "neck",
+          "radius": 0.04995233160621762,
+          "rest_length": 0.2595599945290971
+        },
+        {
+          "start": "neck",
+          "end": "head",
+          "radius": 0.027858031088082904,
+          "rest_length": 0.19837796677388272
+        },
+        {
+          "start": "chest",
+          "end": "left_shoulder",
+          "radius": 0.027858031088082904,
+          "rest_length": 0.3018093558922049
+        },
+        {
+          "start": "left_shoulder",
+          "end": "left_elbow",
+          "radius": 0.027858031088082904,
+          "rest_length": 0.2848820086140538
+        },
+        {
+          "start": "left_elbow",
+          "end": "left_wrist",
+          "radius": 0.02401554404145078,
+          "rest_length": 0.26296799982046654
+        },
+        {
+          "start": "chest",
+          "end": "right_shoulder",
+          "radius": 0.027858031088082904,
+          "rest_length": 0.3018093558922049
+        },
+        {
+          "start": "right_shoulder",
+          "end": "right_elbow",
+          "radius": 0.027858031088082904,
+          "rest_length": 0.2848820086140538
+        },
+        {
+          "start": "right_elbow",
+          "end": "right_wrist",
+          "radius": 0.02401554404145078,
+          "rest_length": 0.26296799982046654
+        },
+        {
+          "start": "pelvis",
+          "end": "left_hip",
+          "radius": 0.027858031088082904,
+          "rest_length": 0.13905000844850485
+        },
+        {
+          "start": "left_hip",
+          "end": "left_knee",
+          "radius": 0.036503626943005185,
+          "rest_length": 0.4635000281616828
+        },
+        {
+          "start": "left_knee",
+          "end": "left_ankle",
+          "radius": 0.030739896373056998,
+          "rest_length": 0.47276999941239767
+        },
+        {
+          "start": "pelvis",
+          "end": "right_hip",
+          "radius": 0.027858031088082904,
+          "rest_length": 0.13905000844850485
+        },
+        {
+          "start": "right_hip",
+          "end": "right_knee",
+          "radius": 0.036503626943005185,
+          "rest_length": 0.4635000281616828
+        },
+        {
+          "start": "right_knee",
+          "end": "right_ankle",
+          "radius": 0.030739896373056998,
+          "rest_length": 0.47276999941239767
+        },
+        {
+          "start": "left_ankle",
+          "end": "left_heel",
+          "radius": 0.015369948186528499,
+          "rest_length": 0.08308600221262834
+        },
+        {
+          "start": "left_ankle",
+          "end": "left_toe",
+          "radius": 0.015369948186528499,
+          "rest_length": 0.14841656474500947
+        },
+        {
+          "start": "right_ankle",
+          "end": "right_heel",
+          "radius": 0.015369948186528499,
+          "rest_length": 0.08308600221262834
+        },
+        {
+          "start": "right_ankle",
+          "end": "right_toe",
+          "radius": 0.015369948186528499,
+          "rest_length": 0.14841656474500947
+        }
+      ],
+      "shell_nodes": 20,
+      "rig_unchanged": true,
+      "motion_unchanged": true,
+      "clothing": false,
+      "original_glb_sha256": "1065d9d1b3258095b17566545ba1fea5e2f102ce5c178e97673bb300c9d560fc",
+      "gltf_sha256": "1439e94bf9d6e6523f1e0a1f66c5a30fdf580f955558f8b9aafc70cbe5eae77b",
+      "vertex_count_with_original_rig_carrier": 3808
+    }
+  ],
+  "license": "Original project-created bone/joint geometry; no scanned body or restricted body model.",
+  "visual_only": true,
+  "deformation_policy": "Rigid segment radial cross-sections; joint spheres follow existing bones. Longitudinal length tracks endpoints, no skin blend shear.",
+  "source_manifest_sha256": "0ccf3eeeff57aae873de53e355658c66f6254f483c82f46d52efb6d59023b429"
+}
