@@ -1,24 +1,29 @@
 
-FROM node:22-bookworm-slim
+FROM node:24-bookworm-slim
 
 WORKDIR /app
 
-# 로컬 Three.js 패키지 의존성 포함
+# npm의 로컬 파일 의존성을 먼저 준비
 COPY package.json package-lock.json ./
 COPY vendor/three ./vendor/three
 
-RUN npm ci
+# Lockfile 기준으로 깨끗하게 설치
+RUN npm ci --no-audit --no-fund
 
-# 프로젝트 소스 및 센싱 데이터 복사
+# 센싱 코드, 모션 입력, 3D 자산 복사
 COPY . .
 
-# TypeScript 검사 및 Vite 빌드
-RUN npm run build
+# 실제 프로젝트의 루트 빌드 실행
+RUN npm test && npm run build
 
 ENV NODE_ENV=production
 
+# Cloudtype의 서비스 포트
 EXPOSE 3000
 
+# 비root 계정으로 실행
+RUN chown -R node:node /app
 USER node
 
-CMD ["npm", "start"]
+# 모션 입력 API를 제공하는 Vite preview 서버
+CMD ["./node_modules/.bin/vite", "preview", "--config", "app/vite.config.ts", "--host", "0.0.0.0", "--port", "3000", "--strictPort"]
