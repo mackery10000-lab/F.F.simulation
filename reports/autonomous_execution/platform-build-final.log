@@ -1,0 +1,36 @@
+
+> fight-frequency-analysis@1.0.0 build
+> tsc --noEmit && vite build
+
+vite v8.3.2 building client environment for production...
+transforming...
+✓ 81 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                                      0.59 kB │ gzip:   0.43 kB
+dist/model-review.html                               2.09 kB │ gzip:   1.23 kB
+dist/assets/live-worker-Cxm5FyEZ.js                 42.71 kB
+dist/assets/fighter_B-CDHQFrzZ.glb                 140.30 kB
+dist/assets/fighter_A-QanYYGa4.glb                 141.02 kB
+dist/assets/fighter_B-CaGiiGg_.glb                 242.40 kB
+dist/assets/fighter_A-CaTmV-Re.glb                 244.04 kB
+dist/assets/Paperlogy-7Bold-C_MikIAt.ttf           676.71 kB
+dist/assets/Paperlogy-6SemiBold-Bgpe6yyI.ttf       677.71 kB
+dist/assets/Paperlogy-5Medium-D0pf9AtY.ttf         678.56 kB
+dist/assets/Paperlogy-4Regular-Bxwq9xuH.ttf        679.48 kB
+dist/assets/3d_capture-CzUOQLMg.mp4             16,956.29 kB
+dist/assets/main-DklO6U6e.css                       32.24 kB │ gzip:   7.61 kB
+dist/assets/SensingLab-FhWyTXt6.css                 79.29 kB │ gzip:  15.47 kB
+dist/assets/modulepreload-polyfill-P2Xu9kJm.js       0.67 kB │ gzip:   0.38 kB
+dist/assets/rig-HVWxgz4r.js                          5.13 kB │ gzip:   2.12 kB
+dist/assets/modelReview-BDl4oYP3.js                  8.21 kB │ gzip:   3.38 kB
+dist/assets/SkeletonView-no99NN4d.js                18.57 kB │ gzip:   7.43 kB
+dist/assets/OrbitControls-BuF7I6rd.js               20.07 kB │ gzip:   4.42 kB
+dist/assets/04_3d_mma_definitions-D2GeJLCQ.js       42.96 kB │ gzip:  14.10 kB
+dist/assets/sampling-DzQXRHeV.js                    64.80 kB │ gzip:  19.91 kB
+dist/assets/SensingLab-B0IJoTa8.js                 203.03 kB │ gzip:  57.58 kB
+dist/assets/main-Cn0qB28u.js                       220.78 kB │ gzip:  69.23 kB
+dist/assets/three.module-BQ7-F_fM.js               584.49 kB │ gzip: 144.90 kB
+dist/assets/App-DPbbgswL.js                      5,238.62 kB │ gzip: 415.22 kB
+
+✓ built in 581ms

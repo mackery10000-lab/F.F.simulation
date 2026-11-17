@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "base": "http://127.0.0.1:5212",
+  "input": {
+    "hash": "821cb126ced624d3bbc6d2d50226031bff1657246689ead58ae27a985d4c27dc",
+    "kind": "video_derived",
+    "joints": 23,
+    "frames": 4500,
+    "refinement": {
+      "summary_sha256": "6ea855970cb9dd4071c86fc03ba3221c5b73b87b17597f555517536d1249e2d5",
+      "validated_api_frames": 180,
+      "api_sampling_hz": 1,
+      "coordinate_updates": 8,
+      "method": "Bounded image-plane fit with independent native observation, bone and acceleration gates; depth retained",
+      "confidence_unchanged": true,
+      "identity_independently_verified": false,
+      "true_3d_accuracy_proven": false
+    }
+  },
+  "tags": [
+    {
+      "quality": "필터 추정 · 61%",
+      "position": "-0.36 / -1.12 / 1.69"
+    },
+    {
+      "quality": "필터 추정 · 54%",
+      "position": "-0.01 / -0.97 / 1.64"
+    }
+  ],
+  "video": {
+    "duration": 180,
+    "src": "http://127.0.0.1:5212/assets/3d_capture-CzUOQLMg.mp4"
+  },
+  "video_seek_s": 90,
+  "model_joint_error": 6.281902941027859e-16,
+  "uncaught_errors": [],
+  "network_hosts": [
+    "127.0.0.1:5212"
+  ],
+  "external_api_calls": 0
+}

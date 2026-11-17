@@ -1,0 +1,1 @@
+Source snapshot of this actual video/API/3D run for review. These files are not imported by the sensing runtime. Run the workflow from the full source workspace; this snapshot is not a standalone reconstruction installation. No keys, weights or original image pixels are included.

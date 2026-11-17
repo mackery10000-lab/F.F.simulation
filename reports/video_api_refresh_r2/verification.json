@@ -1,0 +1,13 @@
+{
+  "status": "APPLIED_AND_RUNTIME_VERIFIED",
+  "run_id": "video_api_refresh_r2",
+  "asset_sha256": "0bd33fdb572a45edbb59895dd65ece351bbe5fccb8f6078945a691ebb9dfb779",
+  "measurements": 184952,
+  "source_mirror_digest_matches": true,
+  "api_calls_in_sensing": 0,
+  "substantial_accuracy_improvement_proven": false,
+  "remote_push": true,
+  "implementation_commit": "f460861925c6e44ed935c5413371e881423909b8",
+  "pull_request_url": "https://github.com/mackery10000-lab/F.F.simulation/pull/1",
+  "remote_commit_verified": true
+}

@@ -1,6 +1,7 @@
 import type {Arena,DistancePoint,MatchEvent,Measurement,MotionSource,SimulationConfig,SimulationRun,WorldState} from './contracts.ts';
 import {MeasurementSampler} from './sensors.ts';
 import {distanceSeries,fusePunches} from './fusion.ts';
+import {MovementTracker} from './movement.ts';
 export interface LiveSnapshot extends SimulationRun {time:number;received_count:number;source_frame:number;processing_ms:number;}
 /** Generates only elapsed samples; fusion receives only packets that have arrived. */
 export class LiveSensingSession {
@@ -14,9 +15,11 @@ export class LiveSensingSession {
   private source:MotionSource;
   private arena:Arena;
   private fps:number;
+  private movement:MovementTracker;
   constructor(source:MotionSource,arena:Arena,config:SimulationConfig,fps=25){
     this.arena=arena;this.fps=fps;
     this.config=structuredClone(config);this.config.duration=Math.min(source.duration,config.duration);
+    this.movement=new MovementTracker(this.config,arena.canvasZ);
     // Cameras and four wrist devices read the same source pose many times per tick.
     const cache=new Map<string,WorldState>();
     this.source={...source,at(t){const key=t.toFixed(7);let state=cache.get(key);if(!state){state=source.at(t);cache.set(key,state);if(cache.size>10000){const first=cache.keys().next().value;if(first!==undefined)cache.delete(first)}}return state}};
@@ -27,12 +30,12 @@ export class LiveSensingSession {
     if(!Number.isFinite(target)||target<0)throw Error('Invalid live time');
     const time=Math.min(target,this.config.duration);
     if(this.time<0&&time>0)this.advance(0);
-    if(time+1e-8<this.time){this.sampler=new MeasurementSampler(this.source,this.arena,this.config);this.pending=[];this.received=[];this.events=[];this.distances=[];this.time=-1}
+    if(time+1e-8<this.time){this.sampler=new MeasurementSampler(this.source,this.arena,this.config);this.movement=new MovementTracker(this.config,this.arena.canvasZ);this.pending=[];this.received=[];this.events=[];this.distances=[];this.time=-1}
     if(this.time<0&&time>0)this.advance(0);
     while(this.time>=0&&time-this.time>.25)this.advance(Math.min(time,this.time+.2));
     this.pending.push(...this.sampler.advance(time));this.pending.sort((a,b)=>a.arrival_timestamp-b.arrival_timestamp||a.timestamp-b.timestamp||a.sensor_id.localeCompare(b.sensor_id));
     let n=0;while(n<this.pending.length&&this.pending[n].arrival_timestamp<=time)n++;
-    this.received.push(...this.pending.splice(0,n));
+    const arrived=this.pending.splice(0,n);this.received.push(...arrived);this.movement.ingest(arrived,time);
     const offset=Math.max(0,Math.floor((time-5)*10)/10),recent=this.received.filter(m=>m.arrival_timestamp>=offset-.5);
     const candidates=fusePunches(recent,this.config);
     for(const event of candidates){
@@ -50,6 +53,6 @@ export class LiveSensingSession {
   }
   run(full=true):SimulationRun{
     return {config:this.config,source:{mode:this.source.mode,description:this.source.description},devices:this.sampler.devices,
-      measurements:full?[...this.received]:this.received.filter(m=>m.arrival_timestamp>this.time-8),events:[...this.events],distances:[...this.distances],diagnostics:{...this.sampler.diagnostics}};
+      measurements:full?[...this.received]:this.received.filter(m=>m.arrival_timestamp>this.time-8),events:[...this.events],distances:[...this.distances],movement_events:[...this.movement.events],movement_states:structuredClone(this.movement.states),diagnostics:{...this.sampler.diagnostics}};
   }
 }

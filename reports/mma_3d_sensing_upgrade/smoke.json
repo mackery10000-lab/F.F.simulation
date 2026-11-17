@@ -1,0 +1,1425 @@
+{
+  "status": "PASS",
+  "date": "2026-11-17T04:05:33.787Z",
+  "input_asset": "C:\\AI_bsss\\FF_VSCode_Agent_Kit_3.1\\assets\\sensing\\motion.json.gz",
+  "input_asset_sha256": "f6959a2f723ae5010051d7bbabf890ca4d85346ddf1113173c0680da3d6ccce1",
+  "seed": 42,
+  "mode": "synthetic",
+  "duration_s": 18,
+  "source_frames": 4500,
+  "processed_source_frames": 451,
+  "measurements": 18472,
+  "per_sensor": {
+    "camera": 9496,
+    "imu": 7128,
+    "uwb": 709,
+    "isac": 1139
+  },
+  "events": 0,
+  "withheld": 0,
+  "distances": 181,
+  "runtime_ms": 2264.4680000000003,
+  "api_calls_in_sensing": 0,
+  "diagnostics": {
+    "generated": 13948,
+    "dropped": 193,
+    "late": 0
+  },
+  "movement_events": [
+    {
+      "event_id": "MMA-A-GUARD-600",
+      "actor_id": "A",
+      "event_type": "GUARD",
+      "state_before": "UNKNOWN",
+      "state_after": "HIGH_GUARD",
+      "start_s": 0.1,
+      "end_s": 0.6,
+      "onset_s": 0.1,
+      "available_at": 0.6,
+      "lead_foot": "UNKNOWN",
+      "lead_hand": "UNKNOWN",
+      "confidence": 0.7,
+      "calibrated": false,
+      "supporting_measurement_ids": [
+        "CAM-09:16:A",
+        "CAM-08:15:A",
+        "CAM-04:16:A",
+        "CAM-03:16:A",
+        "CAM-05:16:A",
+        "CAM-06:16:A",
+        "CAM-07:16:A",
+        "CAM-02:16:A",
+        "CAM-01:16:A"
+      ],
+      "contradictions": [],
+      "abstention_reason": null,
+      "asset_hash": "f6959a2f723ae5010051d7bbabf890ca4d85346ddf1113173c0680da3d6ccce1",
+      "seed": 42,
+      "simulation_flag": true,
+      "hit_status": "UNKNOWN",
+      "hands": {
+        "L": {
+          "state": "HEAD_PROTECT",
+          "lead_or_rear": "UNKNOWN",
+          "elbow_flexion_rad": 0.8738035352645795,
+          "forearm_pitch": 0.7901176512910126,
+          "wrist_to_chin_normalized": 0.3434302909701499,
+          "wrist_to_temple_normalized": 0.2925655433993736,
+          "forward_reach_normalized": 0.20530426129236282,
+          "hand_speed": 0.033068226486676115,
+          "duration_s": 0.5,
+          "visibility": 1,
+          "confidence": 0.75,
+          "source_provenance": "virtual_pose_sensor"
+        },
+        "R": {
+          "state": "HEAD_PROTECT",
+          "lead_or_rear": "UNKNOWN",
+          "elbow_flexion_rad": 0.9094852026266381,
+          "forearm_pitch": 0.7434831014273239,
+          "wrist_to_chin_normalized": 0.3112314760958388,
+          "wrist_to_temple_normalized": 0.28301601270056853,
+          "forward_reach_normalized": 0.23197699417515125,
+          "hand_speed": 0.1284571744818422,
+          "duration_s": 0.5,
+          "visibility": 1,
+          "confidence": 0.75,
+          "source_provenance": "virtual_pose_sensor"
+        }
+      },
+      "details": {}
+    },
+    {
+      "event_id": "MMA-A-STANCE-600",
+      "actor_id": "A",
+      "event_type": "STANCE",
+      "state_before": "UNKNOWN",
+      "state_after": "ORTHODOX",
+      "start_s": 0.1,
+      "end_s": 0.6,
+      "onset_s": 0.1,
+      "available_at": 0.6,
+      "lead_foot": "L",
+      "lead_hand": "L",
+      "confidence": 0.7,
+      "calibrated": false,
+      "supporting_measurement_ids": [
+        "CAM-09:16:A",
+        "CAM-08:15:A",
+        "CAM-04:16:A",
+        "CAM-03:16:A",
+        "CAM-05:16:A",
+        "CAM-06:16:A",
+        "CAM-07:16:A",
+        "CAM-02:16:A",
+        "CAM-01:16:A"
+      ],
+      "contradictions": [],
+      "abstention_reason": null,
+      "asset_hash": "f6959a2f723ae5010051d7bbabf890ca4d85346ddf1113173c0680da3d6ccce1",
+      "seed": 42,
+      "simulation_flag": true,
+      "hit_status": "UNKNOWN",
+      "hands": {
+        "L": {
+          "state": "HEAD_PROTECT",
+          "lead_or_rear": "UNKNOWN",
+          "elbow_flexion_rad": 0.8738035352645795,
+          "forearm_pitch": 0.7901176512910126,
+          "wrist_to_chin_normalized": 0.3434302909701499,
+          "wrist_to_temple_normalized": 0.2925655433993736,
+          "forward_reach_normalized": 0.20530426129236282,
+          "hand_speed": 0.033068226486676115,
+          "duration_s": 0.5,
+          "visibility": 1,
+          "confidence": 0.75,
+          "source_provenance": "virtual_pose_sensor"
+        },
+        "R": {
+          "state": "HEAD_PROTECT",
+          "lead_or_rear": "UNKNOWN",
+          "elbow_flexion_rad": 0.9094852026266381,
+          "forearm_pitch": 0.7434831014273239,
+          "wrist_to_chin_normalized": 0.3112314760958388,
+          "wrist_to_temple_normalized": 0.28301601270056853,
+          "forward_reach_normalized": 0.23197699417515125,
+          "hand_speed": 0.1284571744818422,
+          "duration_s": 0.5,
+          "visibility": 1,
+          "confidence": 0.75,
+          "source_provenance": "virtual_pose_sensor"
+        }
+      },
+      "details": {
+        "support_foot": "DOUBLE_SUPPORT"
+      }
+    },
+    {
+      "event_id": "MMA-A-FOOTWORK-600",
+      "actor_id": "A",
+      "event_type": "FOOTWORK",
+      "state_before": "UNKNOWN",
+      "state_after": "STATIONARY",
+      "start_s": 0.4,
+      "end_s": 0.6,
+      "onset_s": 0.4,
+      "available_at": 0.6,
+      "lead_foot": "L",
+      "lead_hand": "L",
+      "confidence": 0.7,
+      "calibrated": false,
+      "supporting_measurement_ids": [
+        "CAM-09:16:A",
+        "CAM-08:15:A",
+        "CAM-04:16:A",
+        "CAM-03:16:A",
+        "CAM-05:16:A",
+        "CAM-06:16:A",
+        "CAM-07:16:A",
+        "CAM-02:16:A",
+        "CAM-01:16:A"
+      ],
+      "contradictions": [],
+      "abstention_reason": null,
+      "asset_hash": "f6959a2f723ae5010051d7bbabf890ca4d85346ddf1113173c0680da3d6ccce1",
+      "seed": 42,
+      "simulation_flag": true,
+      "hit_status": "UNKNOWN",
+      "hands": {
+        "L": {
+          "state": "HEAD_PROTECT",
+          "lead_or_rear": "UNKNOWN",
+          "elbow_flexion_rad": 0.8738035352645795,
+          "forearm_pitch": 0.7901176512910126,
+          "wrist_to_chin_normalized": 0.3434302909701499,
+          "wrist_to_temple_normalized": 0.2925655433993736,
+          "forward_reach_normalized": 0.20530426129236282,
+          "hand_speed": 0.033068226486676115,
+          "duration_s": 0.5,
+          "visibility": 1,
+          "confidence": 0.75,
+          "source_provenance": "virtual_pose_sensor"
+        },
+        "R": {
+          "state": "HEAD_PROTECT",
+          "lead_or_rear": "UNKNOWN",
+          "elbow_flexion_rad": 0.9094852026266381,
+          "forearm_pitch": 0.7434831014273239,
+          "wrist_to_chin_normalized": 0.3112314760958388,
+          "wrist_to_temple_normalized": 0.28301601270056853,
+          "forward_reach_normalized": 0.23197699417515125,
+          "hand_speed": 0.1284571744818422,
+          "duration_s": 0.5,
+          "visibility": 1,
+          "confidence": 0.75,
+          "source_provenance": "virtual_pose_sensor"
+        }
+      },
+      "details": {
+        "support_foot": "DOUBLE_SUPPORT"
+      }
+    },
+    {
+      "event_id": "MMA-B-GUARD-600",
+      "actor_id": "B",
+      "event_type": "GUARD",
+      "state_before": "UNKNOWN",
+      "state_after": "HIGH_GUARD",
+      "start_s": 0.1,
+      "end_s": 0.6,
+      "onset_s": 0.1,
+      "available_at": 0.6,
+      "lead_foot": "UNKNOWN",
+      "lead_hand": "UNKNOWN",
+      "confidence": 0.7,
+      "calibrated": false,
+      "supporting_measurement_ids": [
+        "CAM-09:16:B",
+        "CAM-08:15:B",
+        "CAM-04:16:B",
+        "CAM-03:16:B",
+        "CAM-05:16:B",
+        "CAM-06:16:B",
+        "CAM-07:16:B",
+        "CAM-02:16:B",
+        "CAM-01:16:B"
+      ],
+      "contradictions": [],
+      "abstention_reason": null,
+      "asset_hash": "f6959a2f723ae5010051d7bbabf890ca4d85346ddf1113173c0680da3d6ccce1",
+      "seed": 42,
+      "simulation_flag": true,
+      "hit_status": "UNKNOWN",
+      "hands": {
+        "L": {
+          "state": "HEAD_PROTECT",
+          "lead_or_rear": "UNKNOWN",
+          "elbow_flexion_rad": 0.883129054707656,
+          "forearm_pitch": 0.732585546829336,
+          "wrist_to_chin_normalized": 0.3208143337645351,
+          "wrist_to_temple_normalized": 0.24005902295452958,
+          "forward_reach_normalized": 0.21332795926168194,
+          "hand_speed": 0.011931928211896207,
+          "duration_s": 0.5,
+          "visibility": 1,
+          "confidence": 0.75,
+          "source_provenance": "virtual_pose_sensor"
+        },
+        "R": {
+          "state": "HEAD_PROTECT",
+          "lead_or_rear": "UNKNOWN",
+          "elbow_flexion_rad": 0.8234068269550663,
+          "forearm_pitch": 0.6867734269544166,
+          "wrist_to_chin_normalized": 0.2914197504232974,
+          "wrist_to_temple_normalized": 0.23427955423411212,
+          "forward_reach_normalized": 0.20071612879398387,
+          "hand_speed": 0.05572939513575406,
+          "duration_s": 0.5,
+          "visibility": 1,
+          "confidence": 0.75,
+          "source_provenance": "virtual_pose_sensor"
+        }
+      },
+      "details": {}
+    },
+    {
+      "event_id": "MMA-B-STANCE-600",
+      "actor_id": "B",
+      "event_type": "STANCE",
+      "state_before": "UNKNOWN",
+      "state_after": "ORTHODOX",
+      "start_s": 0.1,
+      "end_s": 0.6,
+      "onset_s": 0.1,
+      "available_at": 0.6,
+      "lead_foot": "L",
+      "lead_hand": "L",
+      "confidence": 0.7,
+      "calibrated": false,
+      "supporting_measurement_ids": [
+        "CAM-09:16:B",
+        "CAM-08:15:B",
+        "CAM-04:16:B",
+        "CAM-03:16:B",
+        "CAM-05:16:B",
+        "CAM-06:16:B",
+        "CAM-07:16:B",
+        "CAM-02:16:B",
+        "CAM-01:16:B"
+      ],
+      "contradictions": [],
+      "abstention_reason": null,
+      "asset_hash": "f6959a2f723ae5010051d7bbabf890ca4d85346ddf1113173c0680da3d6ccce1",
+      "seed": 42,
+      "simulation_flag": true,
+      "hit_status": "UNKNOWN",
+      "hands": {
+        "L": {
+          "state": "HEAD_PROTECT",
+          "lead_or_rear": "UNKNOWN",
+          "elbow_flexion_rad": 0.883129054707656,
+          "forearm_pitch": 0.732585546829336,
+          "wrist_to_chin_normalized": 0.3208143337645351,
+          "wrist_to_temple_normalized": 0.24005902295452958,
+          "forward_reach_normalized": 0.21332795926168194,
+          "hand_speed": 0.011931928211896207,
+          "duration_s": 0.5,
+          "visibility": 1,
+          "confidence": 0.75,
+          "source_provenance": "virtual_pose_sensor"
+        },
+        "R": {
+          "state": "HEAD_PROTECT",
+          "lead_or_rear": "UNKNOWN",
+          "elbow_flexion_rad": 0.8234068269550663,
+          "forearm_pitch": 0.6867734269544166,
+          "wrist_to_chin_normalized": 0.2914197504232974,
+          "wrist_to_temple_normalized": 0.23427955423411212,
+          "forward_reach_normalized": 0.20071612879398387,
+          "hand_speed": 0.05572939513575406,
+          "duration_s": 0.5,
+          "visibility": 1,
+          "confidence": 0.75,
+          "source_provenance": "virtual_pose_sensor"
+        }
+      },
+      "details": {
+        "support_foot": "DOUBLE_SUPPORT"
+      }
+    },
+    {
+      "event_id": "MMA-B-FOOTWORK-600",
+      "actor_id": "B",
+      "event_type": "FOOTWORK",
+      "state_before": "UNKNOWN",
+      "state_after": "STATIONARY",
+      "start_s": 0.4,
+      "end_s": 0.6,
+      "onset_s": 0.4,
+      "available_at": 0.6,
+      "lead_foot": "L",
+      "lead_hand": "L",
+      "confidence": 0.7,
+      "calibrated": false,
+      "supporting_measurement_ids": [
+        "CAM-09:16:B",
+        "CAM-08:15:B",
+        "CAM-04:16:B",
+        "CAM-03:16:B",
+        "CAM-05:16:B",
+        "CAM-06:16:B",
+        "CAM-07:16:B",
+        "CAM-02:16:B",
+        "CAM-01:16:B"
+      ],
+      "contradictions": [],
+      "abstention_reason": null,
+      "asset_hash": "f6959a2f723ae5010051d7bbabf890ca4d85346ddf1113173c0680da3d6ccce1",
+      "seed": 42,
+      "simulation_flag": true,
+      "hit_status": "UNKNOWN",
+      "hands": {
+        "L": {
+          "state": "HEAD_PROTECT",
+          "lead_or_rear": "UNKNOWN",
+          "elbow_flexion_rad": 0.883129054707656,
+          "forearm_pitch": 0.732585546829336,
+          "wrist_to_chin_normalized": 0.3208143337645351,
+          "wrist_to_temple_normalized": 0.24005902295452958,
+          "forward_reach_normalized": 0.21332795926168194,
+          "hand_speed": 0.011931928211896207,
+          "duration_s": 0.5,
+          "visibility": 1,
+          "confidence": 0.75,
+          "source_provenance": "virtual_pose_sensor"
+        },
+        "R": {
+          "state": "HEAD_PROTECT",
+          "lead_or_rear": "UNKNOWN",
+          "elbow_flexion_rad": 0.8234068269550663,
+          "forearm_pitch": 0.6867734269544166,
+          "wrist_to_chin_normalized": 0.2914197504232974,
+          "wrist_to_temple_normalized": 0.23427955423411212,
+          "forward_reach_normalized": 0.20071612879398387,
+          "hand_speed": 0.05572939513575406,
+          "duration_s": 0.5,
+          "visibility": 1,
+          "confidence": 0.75,
+          "source_provenance": "virtual_pose_sensor"
+        }
+      },
+      "details": {
+        "support_foot": "DOUBLE_SUPPORT"
+      }
+    },
+    {
+      "event_id": "MMA-A-STANCE-7400",
+      "actor_id": "A",
+      "event_type": "STANCE",
+      "state_before": "ORTHODOX",
+      "state_after": "SOUTHPAW",
+      "start_s": 6.9,
+      "end_s": 7.4,
+      "onset_s": 6.9,
+      "available_at": 7.4,
+      "lead_foot": "R",
+      "lead_hand": "R",
+      "confidence": 0.7,
+      "calibrated": false,
+      "supporting_measurement_ids": [
+        "CAM-09:220:A",
+        "CAM-08:220:A",
+        "CAM-04:220:A",
+        "CAM-03:220:A",
+        "CAM-05:220:A",
+        "CAM-06:220:A",
+        "CAM-07:220:A",
+        "CAM-02:220:A",
+        "CAM-01:220:A"
+      ],
+      "contradictions": [],
+      "abstention_reason": null,
+      "asset_hash": "f6959a2f723ae5010051d7bbabf890ca4d85346ddf1113173c0680da3d6ccce1",
+      "seed": 42,
+      "simulation_flag": true,
+      "hit_status": "UNKNOWN",
+      "hands": {
+        "L": {
+          "state": "HEAD_PROTECT",
+          "lead_or_rear": "LEAD",
+          "elbow_flexion_rad": 0.8768545767600519,
+          "forearm_pitch": 0.6863927961027125,
+          "wrist_to_chin_normalized": 0.282629784266039,
+          "wrist_to_temple_normalized": 0.2504018766796597,
+          "forward_reach_normalized": 0.18981198291719303,
+          "hand_speed": 0.04953992936590023,
+          "duration_s": 7.300000000000001,
+          "visibility": 1,
+          "confidence": 0.75,
+          "source_provenance": "virtual_pose_sensor"
+        },
+        "R": {
+          "state": "HEAD_PROTECT",
+          "lead_or_rear": "REAR",
+          "elbow_flexion_rad": 0.8263021700596787,
+          "forearm_pitch": 0.7043883277151632,
+          "wrist_to_chin_normalized": 0.3324632134860205,
+          "wrist_to_temple_normalized": 0.24250834502622307,
+          "forward_reach_normalized": 0.18240418311398754,
+          "hand_speed": 0.1654381755206158,
+          "duration_s": 7.300000000000001,
+          "visibility": 1,
+          "confidence": 0.75,
+          "source_provenance": "virtual_pose_sensor"
+        }
+      },
+      "details": {
+        "support_foot": "DOUBLE_SUPPORT"
+      }
+    },
+    {
+      "event_id": "MMA-A-STANCE-7400-SWITCH",
+      "actor_id": "A",
+      "event_type": "SWITCH",
+      "state_before": "ORTHODOX",
+      "state_after": "SOUTHPAW",
+      "start_s": 6.8,
+      "end_s": 7.4,
+      "onset_s": 6.9,
+      "available_at": 7.4,
+      "lead_foot": "R",
+      "lead_hand": "R",
+      "confidence": 0.7,
+      "calibrated": false,
+      "supporting_measurement_ids": [
+        "CAM-09:220:A",
+        "CAM-08:220:A",
+        "CAM-04:220:A",
+        "CAM-03:220:A",
+        "CAM-05:220:A",
+        "CAM-06:220:A",
+        "CAM-07:220:A",
+        "CAM-02:220:A",
+        "CAM-01:220:A"
+      ],
+      "contradictions": [],
+      "abstention_reason": null,
+      "asset_hash": "f6959a2f723ae5010051d7bbabf890ca4d85346ddf1113173c0680da3d6ccce1",
+      "seed": 42,
+      "simulation_flag": true,
+      "hit_status": "UNKNOWN",
+      "hands": {
+        "L": {
+          "state": "HEAD_PROTECT",
+          "lead_or_rear": "LEAD",
+          "elbow_flexion_rad": 0.8768545767600519,
+          "forearm_pitch": 0.6863927961027125,
+          "wrist_to_chin_normalized": 0.282629784266039,
+          "wrist_to_temple_normalized": 0.2504018766796597,
+          "forward_reach_normalized": 0.18981198291719303,
+          "hand_speed": 0.04953992936590023,
+          "duration_s": 7.300000000000001,
+          "visibility": 1,
+          "confidence": 0.75,
+          "source_provenance": "virtual_pose_sensor"
+        },
+        "R": {
+          "state": "HEAD_PROTECT",
+          "lead_or_rear": "REAR",
+          "elbow_flexion_rad": 0.8263021700596787,
+          "forearm_pitch": 0.7043883277151632,
+          "wrist_to_chin_normalized": 0.3324632134860205,
+          "wrist_to_temple_normalized": 0.24250834502622307,
+          "forward_reach_normalized": 0.18240418311398754,
+          "hand_speed": 0.1654381755206158,
+          "duration_s": 7.300000000000001,
+          "visibility": 1,
+          "confidence": 0.75,
+          "source_provenance": "virtual_pose_sensor"
+        }
+      },
+      "details": {
+        "leadFootBefore": "L",
+        "leadFootAfter": "R",
+        "leadHandBefore": "L",
+        "leadHandAfter": "R",
+        "transition_start": 6.8,
+        "transition_end": 7.4,
+        "switch_mechanism": "STEP_SWITCH",
+        "temporal_confidence": 0.7,
+        "occlusion_flags": [],
+        "old_state": "ORTHODOX",
+        "new_state": "SOUTHPAW"
+      }
+    },
+    {
+      "event_id": "MMA-A-FOOTWORK-7500",
+      "actor_id": "A",
+      "event_type": "FOOTWORK",
+      "state_before": "STATIONARY",
+      "state_after": "UNKNOWN",
+      "start_s": 7.5,
+      "end_s": 7.5,
+      "onset_s": 7.5,
+      "available_at": 7.5,
+      "lead_foot": "R",
+      "lead_hand": "R",
+      "confidence": 0,
+      "calibrated": false,
+      "supporting_measurement_ids": [
+        "CAM-09:223:A",
+        "CAM-08:223:A",
+        "CAM-04:223:A",
+        "CAM-03:223:A",
+        "CAM-05:222:A",
+        "CAM-06:223:A",
+        "CAM-07:223:A",
+        "CAM-02:222:A",
+        "CAM-01:223:A"
+      ],
+      "contradictions": [
+        "NO_CONFIRMED_SUPPORT_TRANSFER"
+      ],
+      "abstention_reason": "NO_CONFIRMED_SUPPORT_TRANSFER",
+      "asset_hash": "f6959a2f723ae5010051d7bbabf890ca4d85346ddf1113173c0680da3d6ccce1",
+      "seed": 42,
+      "simulation_flag": true,
+      "hit_status": "UNKNOWN",
+      "hands": {
+        "L": {
+          "state": "HEAD_PROTECT",
+          "lead_or_rear": "REAR",
+          "elbow_flexion_rad": 0.8621619918939902,
+          "forearm_pitch": 0.6589599349725097,
+          "wrist_to_chin_normalized": 0.32350509530064453,
+          "wrist_to_temple_normalized": 0.26301701623840806,
+          "forward_reach_normalized": 0.20267398375053813,
+          "hand_speed": 0.06052374626665431,
+          "duration_s": 7.4,
+          "visibility": 1,
+          "confidence": 0.75,
+          "source_provenance": "virtual_pose_sensor"
+        },
+        "R": {
+          "state": "HEAD_PROTECT",
+          "lead_or_rear": "LEAD",
+          "elbow_flexion_rad": 0.7978148779301653,
+          "forearm_pitch": 0.6535269688055119,
+          "wrist_to_chin_normalized": 0.2811447596511456,
+          "wrist_to_temple_normalized": 0.2374391816917667,
+          "forward_reach_normalized": 0.17184562726813699,
+          "hand_speed": 0.10450837627260186,
+          "duration_s": 7.4,
+          "visibility": 1,
+          "confidence": 0.75,
+          "source_provenance": "virtual_pose_sensor"
+        }
+      },
+      "details": {
+        "support_foot": "DOUBLE_SUPPORT"
+      }
+    },
+    {
+      "event_id": "MMA-A-FOOTWORK-7800",
+      "actor_id": "A",
+      "event_type": "FOOTWORK",
+      "state_before": "UNKNOWN",
+      "state_after": "STATIONARY",
+      "start_s": 7.6,
+      "end_s": 7.8,
+      "onset_s": 7.6,
+      "available_at": 7.8,
+      "lead_foot": "R",
+      "lead_hand": "R",
+      "confidence": 0.7,
+      "calibrated": false,
+      "supporting_measurement_ids": [
+        "CAM-09:232:A",
+        "CAM-08:232:A",
+        "CAM-04:232:A",
+        "CAM-03:232:A",
+        "CAM-05:232:A",
+        "CAM-06:232:A",
+        "CAM-07:232:A",
+        "CAM-02:232:A",
+        "CAM-01:232:A"
+      ],
+      "contradictions": [],
+      "abstention_reason": null,
+      "asset_hash": "f6959a2f723ae5010051d7bbabf890ca4d85346ddf1113173c0680da3d6ccce1",
+      "seed": 42,
+      "simulation_flag": true,
+      "hit_status": "UNKNOWN",
+      "hands": {
+        "L": {
+          "state": "HEAD_PROTECT",
+          "lead_or_rear": "REAR",
+          "elbow_flexion_rad": 0.7072423330480587,
+          "forearm_pitch": 0.5899338587531355,
+          "wrist_to_chin_normalized": 0.32823704573349566,
+          "wrist_to_temple_normalized": 0.2854904684904644,
+          "forward_reach_normalized": 0.1613114525052468,
+          "hand_speed": 0.07348249300007578,
+          "duration_s": 7.7,
+          "visibility": 1,
+          "confidence": 0.75,
+          "source_provenance": "virtual_pose_sensor"
+        },
+        "R": {
+          "state": "HEAD_PROTECT",
+          "lead_or_rear": "LEAD",
+          "elbow_flexion_rad": 0.8065928539122357,
+          "forearm_pitch": 0.6623920883383476,
+          "wrist_to_chin_normalized": 0.3007656252173537,
+          "wrist_to_temple_normalized": 0.25101381494648495,
+          "forward_reach_normalized": 0.15674869801125643,
+          "hand_speed": 0.0448465775997343,
+          "duration_s": 7.7,
+          "visibility": 1,
+          "confidence": 0.75,
+          "source_provenance": "virtual_pose_sensor"
+        }
+      },
+      "details": {
+        "support_foot": "DOUBLE_SUPPORT"
+      }
+    },
+    {
+      "event_id": "MMA-A-FOOTWORK-9300",
+      "actor_id": "A",
+      "event_type": "FOOTWORK",
+      "state_before": "STATIONARY",
+      "state_after": "UNKNOWN",
+      "start_s": 9.3,
+      "end_s": 9.3,
+      "onset_s": 9.3,
+      "available_at": 9.3,
+      "lead_foot": "R",
+      "lead_hand": "R",
+      "confidence": 0,
+      "calibrated": false,
+      "supporting_measurement_ids": [
+        "CAM-09:277:A",
+        "CAM-08:277:A",
+        "CAM-04:277:A",
+        "CAM-03:277:A",
+        "CAM-05:277:A",
+        "CAM-06:277:A",
+        "CAM-07:277:A",
+        "CAM-02:277:A",
+        "CAM-01:277:A"
+      ],
+      "contradictions": [
+        "NO_CONFIRMED_SUPPORT_TRANSFER"
+      ],
+      "abstention_reason": "NO_CONFIRMED_SUPPORT_TRANSFER",
+      "asset_hash": "f6959a2f723ae5010051d7bbabf890ca4d85346ddf1113173c0680da3d6ccce1",
+      "seed": 42,
+      "simulation_flag": true,
+      "hit_status": "UNKNOWN",
+      "hands": {
+        "L": {
+          "state": "HEAD_PROTECT",
+          "lead_or_rear": "REAR",
+          "elbow_flexion_rad": 0.7886096497966001,
+          "forearm_pitch": 0.6843221647955204,
+          "wrist_to_chin_normalized": 0.26605373571318763,
+          "wrist_to_temple_normalized": 0.2286751713620127,
+          "forward_reach_normalized": 0.19388821332938302,
+          "hand_speed": 0.03578837736855941,
+          "duration_s": 9.200000000000001,
+          "visibility": 1,
+          "confidence": 0.75,
+          "source_provenance": "virtual_pose_sensor"
+        },
+        "R": {
+          "state": "HEAD_PROTECT",
+          "lead_or_rear": "LEAD",
+          "elbow_flexion_rad": 0.7776148855668397,
+          "forearm_pitch": 0.6433096291109449,
+          "wrist_to_chin_normalized": 0.29563153467026404,
+          "wrist_to_temple_normalized": 0.23940985102906784,
+          "forward_reach_normalized": 0.19793692290045362,
+          "hand_speed": 0.05534616117103313,
+          "duration_s": 9.200000000000001,
+          "visibility": 1,
+          "confidence": 0.75,
+          "source_provenance": "virtual_pose_sensor"
+        }
+      },
+      "details": {
+        "support_foot": "DOUBLE_SUPPORT"
+      }
+    },
+    {
+      "event_id": "MMA-A-FOOTWORK-9600",
+      "actor_id": "A",
+      "event_type": "FOOTWORK",
+      "state_before": "UNKNOWN",
+      "state_after": "STATIONARY",
+      "start_s": 9.4,
+      "end_s": 9.6,
+      "onset_s": 9.4,
+      "available_at": 9.6,
+      "lead_foot": "R",
+      "lead_hand": "R",
+      "confidence": 0.7,
+      "calibrated": false,
+      "supporting_measurement_ids": [
+        "CAM-09:286:A",
+        "CAM-08:286:A",
+        "CAM-04:286:A",
+        "CAM-03:286:A",
+        "CAM-05:286:A",
+        "CAM-06:286:A",
+        "CAM-07:286:A",
+        "CAM-02:286:A",
+        "CAM-01:286:A"
+      ],
+      "contradictions": [],
+      "abstention_reason": null,
+      "asset_hash": "f6959a2f723ae5010051d7bbabf890ca4d85346ddf1113173c0680da3d6ccce1",
+      "seed": 42,
+      "simulation_flag": true,
+      "hit_status": "UNKNOWN",
+      "hands": {
+        "L": {
+          "state": "HEAD_PROTECT",
+          "lead_or_rear": "REAR",
+          "elbow_flexion_rad": 0.8582357696071455,
+          "forearm_pitch": 0.6434867578587256,
+          "wrist_to_chin_normalized": 0.29090134343746266,
+          "wrist_to_temple_normalized": 0.23697034836034298,
+          "forward_reach_normalized": 0.1494109990504197,
+          "hand_speed": 0.03212294071548153,
+          "duration_s": 9.5,
+          "visibility": 1,
+          "confidence": 0.75,
+          "source_provenance": "virtual_pose_sensor"
+        },
+        "R": {
+          "state": "HEAD_PROTECT",
+          "lead_or_rear": "LEAD",
+          "elbow_flexion_rad": 0.8487870185704184,
+          "forearm_pitch": 0.6677542323372856,
+          "wrist_to_chin_normalized": 0.299669580165506,
+          "wrist_to_temple_normalized": 0.2276475535584613,
+          "forward_reach_normalized": 0.16870106620950193,
+          "hand_speed": 0.06959196151527608,
+          "duration_s": 9.5,
+          "visibility": 1,
+          "confidence": 0.75,
+          "source_provenance": "virtual_pose_sensor"
+        }
+      },
+      "details": {
+        "support_foot": "DOUBLE_SUPPORT"
+      }
+    },
+    {
+      "event_id": "MMA-A-STANCE-12400",
+      "actor_id": "A",
+      "event_type": "STANCE",
+      "state_before": "SOUTHPAW",
+      "state_after": "ORTHODOX",
+      "start_s": 11.9,
+      "end_s": 12.4,
+      "onset_s": 11.9,
+      "available_at": 12.4,
+      "lead_foot": "L",
+      "lead_hand": "L",
+      "confidence": 0.7,
+      "calibrated": false,
+      "supporting_measurement_ids": [
+        "CAM-09:369:A",
+        "CAM-08:370:A",
+        "CAM-04:370:A",
+        "CAM-03:370:A",
+        "CAM-05:370:A",
+        "CAM-06:370:A",
+        "CAM-07:370:A",
+        "CAM-02:370:A",
+        "CAM-01:370:A"
+      ],
+      "contradictions": [],
+      "abstention_reason": null,
+      "asset_hash": "f6959a2f723ae5010051d7bbabf890ca4d85346ddf1113173c0680da3d6ccce1",
+      "seed": 42,
+      "simulation_flag": true,
+      "hit_status": "UNKNOWN",
+      "hands": {
+        "L": {
+          "state": "HEAD_PROTECT",
+          "lead_or_rear": "REAR",
+          "elbow_flexion_rad": 0.8946606721531929,
+          "forearm_pitch": 0.7285593352297486,
+          "wrist_to_chin_normalized": 0.31515638293242954,
+          "wrist_to_temple_normalized": 0.25452823720226403,
+          "forward_reach_normalized": 0.2142842301837874,
+          "hand_speed": 0.03574670425993176,
+          "duration_s": 12.3,
+          "visibility": 1,
+          "confidence": 0.75,
+          "source_provenance": "virtual_pose_sensor"
+        },
+        "R": {
+          "state": "HEAD_PROTECT",
+          "lead_or_rear": "LEAD",
+          "elbow_flexion_rad": 0.8480445917541549,
+          "forearm_pitch": 0.7236477061069874,
+          "wrist_to_chin_normalized": 0.31876469302582533,
+          "wrist_to_temple_normalized": 0.2908130507765935,
+          "forward_reach_normalized": 0.2213576330020607,
+          "hand_speed": 0.04696856860870436,
+          "duration_s": 12.3,
+          "visibility": 1,
+          "confidence": 0.75,
+          "source_provenance": "virtual_pose_sensor"
+        }
+      },
+      "details": {
+        "support_foot": "DOUBLE_SUPPORT"
+      }
+    },
+    {
+      "event_id": "MMA-A-STANCE-12400-SWITCH",
+      "actor_id": "A",
+      "event_type": "SWITCH",
+      "state_before": "SOUTHPAW",
+      "state_after": "ORTHODOX",
+      "start_s": 11.8,
+      "end_s": 12.4,
+      "onset_s": 11.9,
+      "available_at": 12.4,
+      "lead_foot": "L",
+      "lead_hand": "L",
+      "confidence": 0.7,
+      "calibrated": false,
+      "supporting_measurement_ids": [
+        "CAM-09:369:A",
+        "CAM-08:370:A",
+        "CAM-04:370:A",
+        "CAM-03:370:A",
+        "CAM-05:370:A",
+        "CAM-06:370:A",
+        "CAM-07:370:A",
+        "CAM-02:370:A",
+        "CAM-01:370:A"
+      ],
+      "contradictions": [],
+      "abstention_reason": null,
+      "asset_hash": "f6959a2f723ae5010051d7bbabf890ca4d85346ddf1113173c0680da3d6ccce1",
+      "seed": 42,
+      "simulation_flag": true,
+      "hit_status": "UNKNOWN",
+      "hands": {
+        "L": {
+          "state": "HEAD_PROTECT",
+          "lead_or_rear": "REAR",
+          "elbow_flexion_rad": 0.8946606721531929,
+          "forearm_pitch": 0.7285593352297486,
+          "wrist_to_chin_normalized": 0.31515638293242954,
+          "wrist_to_temple_normalized": 0.25452823720226403,
+          "forward_reach_normalized": 0.2142842301837874,
+          "hand_speed": 0.03574670425993176,
+          "duration_s": 12.3,
+          "visibility": 1,
+          "confidence": 0.75,
+          "source_provenance": "virtual_pose_sensor"
+        },
+        "R": {
+          "state": "HEAD_PROTECT",
+          "lead_or_rear": "LEAD",
+          "elbow_flexion_rad": 0.8480445917541549,
+          "forearm_pitch": 0.7236477061069874,
+          "wrist_to_chin_normalized": 0.31876469302582533,
+          "wrist_to_temple_normalized": 0.2908130507765935,
+          "forward_reach_normalized": 0.2213576330020607,
+          "hand_speed": 0.04696856860870436,
+          "duration_s": 12.3,
+          "visibility": 1,
+          "confidence": 0.75,
+          "source_provenance": "virtual_pose_sensor"
+        }
+      },
+      "details": {
+        "leadFootBefore": "R",
+        "leadFootAfter": "L",
+        "leadHandBefore": "R",
+        "leadHandAfter": "L",
+        "transition_start": 11.8,
+        "transition_end": 12.4,
+        "switch_mechanism": "STEP_SWITCH",
+        "temporal_confidence": 0.7,
+        "occlusion_flags": [],
+        "old_state": "SOUTHPAW",
+        "new_state": "ORTHODOX"
+      }
+    },
+    {
+      "event_id": "MMA-A-GUARD-13600",
+      "actor_id": "A",
+      "event_type": "GUARD",
+      "state_before": "HIGH_GUARD",
+      "state_after": "MIXED_GUARD",
+      "start_s": 13.1,
+      "end_s": 13.6,
+      "onset_s": 13.1,
+      "available_at": 13.6,
+      "lead_foot": "L",
+      "lead_hand": "L",
+      "confidence": 0.7,
+      "calibrated": false,
+      "supporting_measurement_ids": [
+        "CAM-09:406:A",
+        "CAM-08:406:A",
+        "CAM-04:406:A",
+        "CAM-03:406:A",
+        "CAM-05:406:A",
+        "CAM-06:406:A",
+        "CAM-07:406:A",
+        "CAM-02:406:A",
+        "CAM-01:406:A"
+      ],
+      "contradictions": [],
+      "abstention_reason": null,
+      "asset_hash": "f6959a2f723ae5010051d7bbabf890ca4d85346ddf1113173c0680da3d6ccce1",
+      "seed": 42,
+      "simulation_flag": true,
+      "hit_status": "UNKNOWN",
+      "hands": {
+        "L": {
+          "state": "EXTENDED",
+          "lead_or_rear": "LEAD",
+          "elbow_flexion_rad": 2.0872116021357314,
+          "forearm_pitch": 0.6284922808911497,
+          "wrist_to_chin_normalized": 0.8840771245443861,
+          "wrist_to_temple_normalized": 0.9379867287310077,
+          "forward_reach_normalized": 0.8588533745802918,
+          "hand_speed": 0.07789038754806492,
+          "duration_s": 0.5,
+          "visibility": 1,
+          "confidence": 0.75,
+          "source_provenance": "virtual_pose_sensor"
+        },
+        "R": {
+          "state": "HEAD_PROTECT",
+          "lead_or_rear": "REAR",
+          "elbow_flexion_rad": 0.865340565790035,
+          "forearm_pitch": 0.6953091934625679,
+          "wrist_to_chin_normalized": 0.31299002496321143,
+          "wrist_to_temple_normalized": 0.22694746530434276,
+          "forward_reach_normalized": 0.1975811320456796,
+          "hand_speed": 0.06700215570263086,
+          "duration_s": 0.5,
+          "visibility": 1,
+          "confidence": 0.75,
+          "source_provenance": "virtual_pose_sensor"
+        }
+      },
+      "details": {}
+    }
+  ],
+  "warnings": [
+    "SIMULATION ONLY; metric_valid=false; no independent expert labels or physical sensors"
+  ],
+  "errors": [],
+  "measurement_digest": "c929c3376f4f27fbd6eae643254a860667ea03c5e89f3565902c0b82b59b9b4d",
+  "digest_encoding": "JSON row + newline",
+  "process_memory_bytes": {
+    "rss": 303841280,
+    "heapTotal": 237879296,
+    "heapUsed": 121882536,
+    "external": 9793215,
+    "arrayBuffers": 539341
+  },
+  "sample_measurement": {
+    "timestamp": 0.00889942279322543,
+    "sensor_timestamp": 0.02089942279322543,
+    "arrival_timestamp": 0.04667462049011906,
+    "timestamp_uncertainty": 0.021666666666666667,
+    "sensor_type": "camera",
+    "sensor_id": "CAM-09",
+    "fighter_id": "A",
+    "confidence": 0.9646,
+    "data_quality": 0.9646,
+    "source_type": "simulated_sensor",
+    "simulation_flag": true,
+    "input_mode": "synthetic",
+    "input_asset_sha256": "f6959a2f723ae5010051d7bbabf890ca4d85346ddf1113173c0680da3d6ccce1",
+    "seed": 42,
+    "metric_valid": false,
+    "measurement_id": "CAM-09:0:A",
+    "coordinate_frame": "world_Z_up",
+    "provenance": "local geometric virtual sensor",
+    "validity": "VALID",
+    "measurement_type": "synthetic_pose",
+    "measurement_value": {
+      "position": [
+        -1.3823594227030827,
+        0.0003342847972776433,
+        2.1853777978803715
+      ],
+      "joints": {
+        "pelvis": [
+          -1.3823594227030827,
+          0.0003342847972776433,
+          2.1853777978803715
+        ],
+        "chest": [
+          -1.358077750791723,
+          -0.02528115634046892,
+          2.56686161818044
+        ],
+        "head": [
+          -1.3172035973217546,
+          0.0010274403055614612,
+          2.9889528476050438
+        ],
+        "left_shoulder": [
+          -1.3844256080162818,
+          0.2140935380554381,
+          2.7136875970913787
+        ],
+        "left_elbow": [
+          -1.057038486744629,
+          0.3250768095300912,
+          2.6938306229864466
+        ],
+        "left_wrist": [
+          -1.2128965063613313,
+          0.16945581579567864,
+          2.937567616006434
+        ],
+        "right_shoulder": [
+          -1.3401315422570368,
+          -0.2382493128288845,
+          2.725012345042523
+        ],
+        "right_elbow": [
+          -1.0461434856834981,
+          -0.3088106950045033,
+          2.708702190242486
+        ],
+        "right_wrist": [
+          -1.2343489990528689,
+          -0.14304454260443358,
+          2.9523267053077538
+        ],
+        "left_ankle": [
+          -1.1122801774874436,
+          0.22224288969571837,
+          1.2658795619128713
+        ],
+        "right_ankle": [
+          -1.5618891512017625,
+          -0.2155437491488486,
+          1.3088892143145563
+        ],
+        "neck": [
+          -1.3881574888461687,
+          -0.013639159916891803,
+          2.8775557178595887
+        ],
+        "nose": [
+          -1.222869464253796,
+          0.027502281382713968,
+          3.016154243633025
+        ],
+        "left_ear": [
+          -1.3196390921701207,
+          0.09143211667534785,
+          2.97363117336605
+        ],
+        "right_ear": [
+          -1.3386534166460804,
+          -0.11723506986744978,
+          2.9783365893479323
+        ],
+        "left_hip": [
+          -1.3463862243992073,
+          0.14976189917416974,
+          2.189591746150741
+        ],
+        "right_hip": [
+          -1.3511144977045884,
+          -0.15272156388574867,
+          2.2005754049878177
+        ],
+        "left_knee": [
+          -0.9496256753396345,
+          0.16515251362448566,
+          1.8045674623871595
+        ],
+        "right_knee": [
+          -1.209665824273565,
+          -0.180153951323538,
+          1.6542734917116493
+        ],
+        "left_heel": [
+          -1.2409584854987474,
+          0.19437462119456772,
+          1.2190899953910903
+        ],
+        "left_toe": [
+          -1.005058233619006,
+          0.15835807982263966,
+          1.2276811301629962
+        ],
+        "right_heel": [
+          -1.6292603654479645,
+          -0.20770512108393308,
+          1.2434614017861116
+        ],
+        "right_toe": [
+          -1.369210272407004,
+          -0.2060786071271346,
+          1.2429798211132215
+        ]
+      },
+      "observed_joints": {
+        "pelvis": [
+          -1.3823594227030827,
+          0.0003342847972776433,
+          2.1853777978803715
+        ],
+        "chest": [
+          -1.358077750791723,
+          -0.02528115634046892,
+          2.56686161818044
+        ],
+        "head": [
+          -1.3172035973217546,
+          0.0010274403055614612,
+          2.9889528476050438
+        ],
+        "left_shoulder": [
+          -1.3844256080162818,
+          0.2140935380554381,
+          2.7136875970913787
+        ],
+        "left_elbow": [
+          -1.057038486744629,
+          0.3250768095300912,
+          2.6938306229864466
+        ],
+        "left_wrist": [
+          -1.2128965063613313,
+          0.16945581579567864,
+          2.937567616006434
+        ],
+        "right_shoulder": [
+          -1.3401315422570368,
+          -0.2382493128288845,
+          2.725012345042523
+        ],
+        "right_elbow": [
+          -1.0461434856834981,
+          -0.3088106950045033,
+          2.708702190242486
+        ],
+        "right_wrist": [
+          -1.2343489990528689,
+          -0.14304454260443358,
+          2.9523267053077538
+        ],
+        "left_ankle": [
+          -1.1122801774874436,
+          0.22224288969571837,
+          1.2658795619128713
+        ],
+        "right_ankle": [
+          -1.5618891512017625,
+          -0.2155437491488486,
+          1.3088892143145563
+        ],
+        "neck": [
+          -1.3881574888461687,
+          -0.013639159916891803,
+          2.8775557178595887
+        ],
+        "nose": [
+          -1.222869464253796,
+          0.027502281382713968,
+          3.016154243633025
+        ],
+        "left_ear": [
+          -1.3196390921701207,
+          0.09143211667534785,
+          2.97363117336605
+        ],
+        "right_ear": [
+          -1.3386534166460804,
+          -0.11723506986744978,
+          2.9783365893479323
+        ],
+        "left_hip": [
+          -1.3463862243992073,
+          0.14976189917416974,
+          2.189591746150741
+        ],
+        "right_hip": [
+          -1.3511144977045884,
+          -0.15272156388574867,
+          2.2005754049878177
+        ],
+        "left_knee": [
+          -0.9496256753396345,
+          0.16515251362448566,
+          1.8045674623871595
+        ],
+        "right_knee": [
+          -1.209665824273565,
+          -0.180153951323538,
+          1.6542734917116493
+        ],
+        "left_heel": [
+          -1.2409584854987474,
+          0.19437462119456772,
+          1.2190899953910903
+        ],
+        "left_toe": [
+          -1.005058233619006,
+          0.15835807982263966,
+          1.2276811301629962
+        ],
+        "right_heel": [
+          -1.6292603654479645,
+          -0.20770512108393308,
+          1.2434614017861116
+        ],
+        "right_toe": [
+          -1.369210272407004,
+          -0.2060786071271346,
+          1.2429798211132215
+        ]
+      },
+      "observation_flags": [
+        "VIRTUAL_POSE_SENSOR_NOT_PIXEL_INFERENCE",
+        "NO_TRIANGULATION",
+        "UNVERIFIED_SCALE"
+      ],
+      "wrists": [
+        {
+          "hand": "L",
+          "extension": 0.1663624220642616,
+          "lateral": 0.061141667363642134,
+          "vertical": 0.22388001891505516,
+          "speed": 0
+        },
+        {
+          "hand": "R",
+          "extension": 0.11455721998334364,
+          "lateral": 0.08444251340361661,
+          "vertical": 0.22731436026523077,
+          "speed": 0
+        }
+      ],
+      "screen_position": [
+        0.41196104286206364,
+        0.49997232332648595
+      ],
+      "projected_joints": {
+        "pelvis": [
+          0.41196104286206364,
+          0.49997232332648595
+        ],
+        "chest": [
+          0.4071034960193952,
+          0.5022480968788582
+        ],
+        "head": [
+          0.4018595174784482,
+          0.49990048346829496
+        ],
+        "left_shoulder": [
+          0.4025234396508548,
+          0.48040354640197414
+        ],
+        "left_elbow": [
+          0.42586864728248414,
+          0.470362575148698
+        ],
+        "left_wrist": [
+          0.4106022322357341,
+          0.48376311328826493
+        ],
+        "right_shoulder": [
+          0.40542819324755885,
+          0.521856935263198
+        ],
+        "right_elbow": [
+          0.4264149664576226,
+          0.5282379992414673
+        ],
+        "right_wrist": [
+          0.40873936746330314,
+          0.5137486530014815
+        ],
+        "left_ankle": [
+          0.4392550637213283,
+          0.484221449253474
+        ],
+        "right_ankle": [
+          0.4141282652363902,
+          0.5154056069442632
+        ],
+        "neck": [
+          0.3989526390248791,
+          0.5012906759244332
+        ],
+        "nose": [
+          0.4083610698668611,
+          0.4973207577500748
+        ],
+        "left_ear": [
+          0.4019955017485193,
+          0.49117259680801567
+        ],
+        "right_ear": [
+          0.40048470803200237,
+          0.5113298085076954
+        ],
+        "left_hip": [
+          0.41418673849469384,
+          0.48759120984765814
+        ],
+        "right_hip": [
+          0.41371398430350037,
+          0.5126792036243676
+        ],
+        "left_knee": [
+          0.4434146776966743,
+          0.48720677947961477
+        ],
+        "right_knee": [
+          0.4297058826421232,
+          0.5136094544175083
+        ],
+        "left_heel": [
+          0.43271540226492805,
+          0.4862993453409158
+        ],
+        "left_toe": [
+          0.44543376166096965,
+          0.48882322857649896
+        ],
+        "right_heel": [
+          0.4113292673516711,
+          0.5146953644411131
+        ],
+        "right_toe": [
+          0.42548775355570895,
+          0.5145792025898309
+        ]
+      },
+      "stance": "ORTHODOX",
+      "guard": "HIGH_GUARD",
+      "occluded": false,
+      "identity_confidence": 1,
+      "fov_visible": true
+    },
+    "measurement_unit": "display units / normalized image"
+  },
+  "sample_events": []
+}

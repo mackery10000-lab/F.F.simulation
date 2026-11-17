@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "run_id": "video_refresh_20261117",
+  "changes": [
+    {
+      "file": "assets/sensing/motion.json.gz",
+      "before_sha256": "f6959a2f723ae5010051d7bbabf890ca4d85346ddf1113173c0680da3d6ccce1",
+      "sha256": "aabd5085b7c76ef9fafe36dea0aeea02c661ca294be33d772cfc295d9271ca04"
+    },
+    {
+      "file": ".cache/video_3d_replacement_before/active_archive_manifest.json",
+      "before_sha256": null,
+      "sha256": "fbbbcfce5b9901ef994d90839601e6822331e9f85b2dbb97ffaf9012d23193e8"
+    },
+    {
+      "file": "output/runs/latest/3d_capture.mp4",
+      "before_sha256": "0734578a8eb9965ff79804719ee8400c1c9f4a8d2d3b6472ddfc34f240e0a8f3",
+      "sha256": "d670751743917b0899a31a0d21d39500ae661708c5915b65b5111a3926bb2208"
+    }
+  ],
+  "canonical_motion_sha256": "aabd5085b7c76ef9fafe36dea0aeea02c661ca294be33d772cfc295d9271ca04",
+  "reference_video_sha256": "d670751743917b0899a31a0d21d39500ae661708c5915b65b5111a3926bb2208",
+  "source_sha256": "71e169c159bcac11267815c135d4dceafe58ef5c2fbbf7030399acff06f20e86",
+  "previous_files_preserved_local": ".cache/video_3d_replacement_before",
+  "historical_versions_preserved": true,
+  "remote_push": false
+}

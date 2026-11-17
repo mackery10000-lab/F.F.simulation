@@ -1,0 +1,57 @@
+
+> fight-frequency-sensing@1.0.0 test
+> node --experimental-strip-types --test tests/*.test.ts sensing/tests/*.test.ts
+
+✔ motion-v2 rejects reversed axes, bad units, missing provenance, timestamps and quaternion (23.2469ms)
+✔ legacy 16 joints retain missing heel/toe rather than fabricating observations (188.57ms)
+✔ unobserved video joints cannot become camera evidence or guard features (209.9067ms)
+✔ stance and lead semantics are invariant under 90/180 degree world rotation and anatomical mirror (4.4371ms)
+✔ measured high, sustained long, mixed, shell and cross guards have real temporal evidence (4844.3429ms)
+✔ actual stance switch is confirmed after dwell; cross step, torso twist and jab do not switch (2733.0432ms)
+✔ own root motion with foot support drives in/out; opponent motion and kick do not become my step (4564.6239ms)
+✔ camera label poisoning cannot alter measurements, hash reaches every sensor, RF carries no action labels (451.6226ms)
+✔ future/late packets cannot change past; stale camera evidence becomes unknown; rewind deterministic (656.5943ms)
+✔ no camera produces abstention; sensing import closure contains no generation or network dependencies (206.6873ms)
+✔ changing only identity cannot change RF ranges, NLOS, IMU or camera visibility quality (941.4145ms)
+✔ tag filter predicts only short gaps, increases uncertainty and expires each tag independently (1.0966ms)
+✔ distance and tag positions share status, missing tags do not freeze the graph and future packets stay hidden (1.4741ms)
+✔ filter reduces seeded noisy constant-velocity error and rejects an isolated outlier (0.9098ms)
+✔ 25 FPS observations retain native uncertainty while 30/100 Hz timestamps remain correctly spaced (153.8161ms)
+✔ missing elbow landmarks remove hand classification evidence (420.3146ms)
+✔ brief missing wrists hold stable guard but prolonged gaps expire it (432.1716ms)
+✔ scaled punches preserve action types; insufficient lead-side evidence stays Uncertain (4385.8794ms)
+✖ packaged full-precision input, A/B joints and time drive actual sensing (224.8179ms)
+✔ changed runtime input fails integrity validation (6.0891ms)
+✔ Git LF/CRLF checkout is accepted, actual text changes are rejected (282.6651ms)
+ℹ tests 21
+ℹ suites 0
+ℹ pass 20
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 14209.7662
+
+✖ failing tests:
+
+test at tests\runtime.test.ts:11:1
+✖ packaged full-precision input, A/B joints and time drive actual sensing (224.8179ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'video_api_refresh_r2'
+  - 'video_refresh_20261117'
+           ^
+  
+      at TestContext.<anonymous> (file:///C:/AI_bsss/FF_VSCode_Agent_Kit_3.1/github.f.f/tests/runtime.test.ts:13:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'video_api_refresh_r2',
+    expected: 'video_refresh_20261117',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

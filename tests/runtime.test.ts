@@ -10,7 +10,12 @@ import {LiveSensingSession} from '../sensing/live.ts';
 const root=path.resolve(import.meta.dirname,'..');
 test('packaged full-precision input, A/B joints and time drive actual sensing',()=>{
   const motion=readSensingInput(root),source=videoMotionSource(motion);
-  assert.equal(motion.input_provenance.run_id,'precision_v4_integrated');
+  const manifest=JSON.parse(fs.readFileSync(path.join(root,'assets/sensing/manifest.json'),'utf8'));
+  assert.equal(motion.asset_id,manifest.run_id);
+  assert.equal(motion.input_provenance.run_id,manifest.run_id);
+  assert.equal(motion.source_kind,'video_derived');assert.equal(motion.joints.length,23);
+  assert.equal(motion.input_provenance.fresh_native_inference,true);
+  assert.equal(motion.joint_observation_confidence.length,4500);
   assert.equal(motion.frames.length,4500);assert.equal(motion.fps,25);assert.equal(source.duration,179.96);
   assert.deepEqual(source.at(12.4).actors.map(a=>a.pose.pelvis),motion.frames[310].map((p:number[])=>p.slice(0,3)));
   const scene=JSON.parse(fs.readFileSync(path.join(root,'data/scene.json'),'utf8')).octagon;
@@ -18,6 +23,7 @@ test('packaged full-precision input, A/B joints and time drive actual sensing',(
   session.advance(1);const run=session.run(true);
   assert.ok(run.measurements.length>100);assert.ok(run.distances.length>1);
   assert.deepEqual([...new Set(run.measurements.map(m=>m.sensor_type))].sort(),['camera','imu','isac','uwb']);
+  assert.ok(run.measurements.every(m=>m.input_asset_sha256===motion.input_asset_sha256));
 });
 test('changed runtime input fails integrity validation',()=>{
   const temp=fs.mkdtempSync(path.join(os.tmpdir(),'ff-sensing-integrity-'));

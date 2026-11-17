@@ -1,0 +1,68 @@
+{
+  "run_id": "video_api_refresh_r2",
+  "stages": [
+    {
+      "stage": "native-inference",
+      "status": "PASS",
+      "source_frames": 4500,
+      "cache_reused": false,
+      "execution": "separately launched real native process"
+    },
+    {
+      "stage": "build-native-candidate",
+      "command": [
+        "scripts/build_video_sensing_reference.py",
+        "--reconstruction-root",
+        "output\\unified\\video_api_refresh_r2",
+        "--output",
+        "reports\\video_api_refresh_r2/native_candidate",
+        "--report-file",
+        "reports\\video_api_refresh_r2/native-reconstruction.json"
+      ],
+      "started_at": "2026-11-17T07:00:27.066042+00:00",
+      "status": "PASS",
+      "exit_code": 0,
+      "finished_at": "2026-11-17T07:00:32.444182+00:00"
+    },
+    {
+      "stage": "api-inference",
+      "command": [
+        "scripts/refine_video_api.py",
+        "--report-root",
+        "reports\\video_api_refresh_r2",
+        "--reconstruction-root",
+        "output\\unified\\video_api_refresh_r2",
+        "--baseline-motion",
+        "reports\\video_api_refresh_r2/native_candidate/motion.json.gz",
+        "--sample-hz",
+        "2.0",
+        "--budget-usd",
+        "1.0",
+        "--execute"
+      ],
+      "started_at": "2026-11-17T07:00:32.445180+00:00",
+      "status": "PASS",
+      "exit_code": 0,
+      "finished_at": "2026-11-17T07:10:11.626699+00:00"
+    },
+    {
+      "stage": "build-refined-candidate",
+      "command": [
+        "scripts/apply_video_api_refinement.py",
+        "--report-root",
+        "reports\\video_api_refresh_r2",
+        "--reconstruction-root",
+        "output\\unified\\video_api_refresh_r2",
+        "--baseline-motion",
+        "reports\\video_api_refresh_r2/native_candidate/motion.json.gz",
+        "--active-baseline-motion",
+        "reports\\video_api_refresh_r2/before/assets/sensing/motion.json.gz"
+      ],
+      "started_at": "2026-11-17T07:10:11.628707+00:00",
+      "status": "PASS",
+      "exit_code": 0,
+      "finished_at": "2026-11-17T07:10:36.140955+00:00"
+    }
+  ],
+  "sensing_feedback": false
+}

@@ -1,0 +1,340 @@
+{
+  "status": "PASS",
+  "date": "2026-11-17T04:05:10.201Z",
+  "input_asset": "C:\\AI_bsss\\FF_VSCode_Agent_Kit_3.1\\assets\\sensing\\motion.json.gz",
+  "input_asset_sha256": "f6959a2f723ae5010051d7bbabf890ca4d85346ddf1113173c0680da3d6ccce1",
+  "seed": 42,
+  "mode": "video_derived",
+  "duration_s": 179.96,
+  "source_frames": 4500,
+  "processed_source_frames": 4500,
+  "measurements": 185042,
+  "per_sensor": {
+    "camera": 95278,
+    "imu": 71268,
+    "uwb": 7076,
+    "isac": 11420
+  },
+  "events": 73,
+  "withheld": 55,
+  "distances": 1800,
+  "runtime_ms": 28344.3388,
+  "api_calls_in_sensing": 0,
+  "diagnostics": {
+    "generated": 139297,
+    "dropped": 1871,
+    "late": 0
+  },
+  "movement_events": [],
+  "warnings": [
+    "SIMULATION ONLY; metric_valid=false; no independent expert labels or physical sensors"
+  ],
+  "errors": [],
+  "measurement_digest": "ee3afdbdfc778e6bc543785e41156feae3aa72ffcf0a321df17d3f6e76ce5a4e",
+  "digest_encoding": "JSON row + newline",
+  "process_memory_bytes": {
+    "rss": 679088128,
+    "heapTotal": 603688960,
+    "heapUsed": 474528368,
+    "external": 9793215,
+    "arrayBuffers": 539341
+  },
+  "sample_measurement": {
+    "timestamp": 0.00889942279322543,
+    "sensor_timestamp": 0.02089942279322543,
+    "arrival_timestamp": 0.04667462049011906,
+    "timestamp_uncertainty": 0.021666666666666667,
+    "sensor_type": "camera",
+    "sensor_id": "CAM-09",
+    "fighter_id": "A",
+    "confidence": 0.7706000000000001,
+    "data_quality": 0.7706000000000001,
+    "source_type": "simulated_sensor",
+    "simulation_flag": true,
+    "input_mode": "video_derived",
+    "measurement_type": "synthetic_pose",
+    "measurement_value": {
+      "position": [
+        -1.3823594227030827,
+        0.0003342847972776433,
+        2.1853777978803715
+      ],
+      "joints": {
+        "pelvis": [
+          -1.3823594227030827,
+          0.0003342847972776433,
+          2.1853777978803715
+        ],
+        "chest": [
+          -1.358077750791723,
+          -0.02528115634046892,
+          2.56686161818044
+        ],
+        "head": [
+          -1.3172035973217546,
+          0.0010274403055614612,
+          2.9889528476050438
+        ],
+        "left_shoulder": [
+          -1.3844256080162818,
+          0.2140935380554381,
+          2.7136875970913787
+        ],
+        "left_elbow": [
+          -1.057038486744629,
+          0.3250768095300912,
+          2.6938306229864466
+        ],
+        "left_wrist": [
+          -1.2128965063613313,
+          0.16945581579567864,
+          2.937567616006434
+        ],
+        "right_shoulder": [
+          -1.3401315422570368,
+          -0.2382493128288845,
+          2.725012345042523
+        ],
+        "right_elbow": [
+          -1.0461434856834981,
+          -0.3088106950045033,
+          2.708702190242486
+        ],
+        "right_wrist": [
+          -1.2343489990528689,
+          -0.14304454260443358,
+          2.9523267053077538
+        ],
+        "left_ankle": [
+          -1.1122801774874436,
+          0.22224288969571837,
+          1.2658795619128713
+        ],
+        "right_ankle": [
+          -1.5618891512017625,
+          -0.2155437491488486,
+          1.3088892143145563
+        ]
+      },
+      "wrists": [
+        {
+          "hand": "L",
+          "extension": 0.1715291016549505,
+          "lateral": 0.044637722259759455,
+          "vertical": 0.22388001891505516,
+          "speed": 0.038157488846168555
+        },
+        {
+          "hand": "R",
+          "extension": 0.10578254320416791,
+          "lateral": 0.09520477022445092,
+          "vertical": 0.22731436026523077,
+          "speed": 0.013639159916891803
+        }
+      ],
+      "screen_position": [
+        0.41196104286206364,
+        0.49997232332648595
+      ],
+      "projected_joints": {
+        "pelvis": [
+          0.41196104286206364,
+          0.49997232332648595
+        ],
+        "chest": [
+          0.4071034960193952,
+          0.5022480968788582
+        ],
+        "head": [
+          0.4018595174784482,
+          0.49990048346829496
+        ],
+        "left_shoulder": [
+          0.4025234396508548,
+          0.48040354640197414
+        ],
+        "left_elbow": [
+          0.42586864728248414,
+          0.470362575148698
+        ],
+        "left_wrist": [
+          0.4106022322357341,
+          0.48376311328826493
+        ],
+        "right_shoulder": [
+          0.40542819324755885,
+          0.521856935263198
+        ],
+        "right_elbow": [
+          0.4264149664576226,
+          0.5282379992414673
+        ],
+        "right_wrist": [
+          0.40873936746330314,
+          0.5137486530014815
+        ],
+        "left_ankle": [
+          0.4392550637213283,
+          0.484221449253474
+        ],
+        "right_ankle": [
+          0.4141282652363902,
+          0.5154056069442632
+        ]
+      },
+      "stance": "ORTHODOX",
+      "guard": "HIGH",
+      "occluded": false,
+      "identity_confidence": 0.8,
+      "fov_visible": true
+    },
+    "measurement_unit": "display units / normalized image"
+  },
+  "sample_events": [
+    {
+      "event_id": "SIM-A-L-12655",
+      "event_start": 12.655234296365366,
+      "event_end": 12.890837829630449,
+      "available_at": 13.077900773637603,
+      "fighter_id": "A",
+      "hand": "L",
+      "detected_action": "Jab",
+      "contributing_sensors": [
+        "CAM-08",
+        "CAM-03",
+        "CAM-07",
+        "CAM-09",
+        "CAM-04",
+        "CAM-02",
+        "CAM-01",
+        "CAM-06",
+        "CAM-05",
+        "A-L",
+        "ISAC-TX"
+      ],
+      "classification_confidence": 0.8247050000000002,
+      "verification_status": "SIMULATED_FUSED",
+      "reason": "카메라 팔 궤적 + 같은 손목 IMU의 시간 일치 + ISAC 움직임 보완",
+      "evidence_type": "sensor_fusion",
+      "hit_status": "UNKNOWN",
+      "relative_impact_score": 41.15186353440274,
+      "peak_acceleration": 28.27656982223711
+    },
+    {
+      "event_id": "SIM-A-L-17422",
+      "event_start": 17.422305707824584,
+      "event_end": 17.68741949406549,
+      "available_at": 17.877317656341404,
+      "fighter_id": "A",
+      "hand": "L",
+      "detected_action": "Jab",
+      "contributing_sensors": [
+        "CAM-01",
+        "CAM-08",
+        "CAM-09",
+        "CAM-07",
+        "CAM-02",
+        "CAM-05",
+        "CAM-04",
+        "CAM-06",
+        "CAM-03",
+        "A-L",
+        "ISAC-TX"
+      ],
+      "classification_confidence": 0.824705,
+      "verification_status": "SIMULATED_FUSED",
+      "reason": "카메라 팔 궤적 + 같은 손목 IMU의 시간 일치 + ISAC 움직임 보완",
+      "evidence_type": "sensor_fusion",
+      "hit_status": "UNKNOWN",
+      "relative_impact_score": 41.63278474722968,
+      "peak_acceleration": 28.868472853423576
+    },
+    {
+      "event_id": "SIM-A-R-18662",
+      "event_start": 18.662284907687997,
+      "event_end": 18.891242370706674,
+      "available_at": 19.076924391009754,
+      "fighter_id": "A",
+      "hand": "R",
+      "detected_action": "Cross",
+      "contributing_sensors": [
+        "CAM-03",
+        "CAM-05",
+        "CAM-04",
+        "CAM-06",
+        "CAM-09",
+        "CAM-01",
+        "CAM-07",
+        "CAM-08",
+        "CAM-02",
+        "A-R",
+        "ISAC-TX"
+      ],
+      "classification_confidence": 0.824705,
+      "verification_status": "SIMULATED_FUSED",
+      "reason": "카메라 팔 궤적 + 같은 손목 IMU의 시간 일치 + ISAC 움직임 보완",
+      "evidence_type": "sensor_fusion",
+      "hit_status": "UNKNOWN",
+      "relative_impact_score": 40.48459744607571,
+      "peak_acceleration": 27.885725645025573
+    },
+    {
+      "event_id": "SIM-A-R-23430",
+      "event_start": 23.429803769480444,
+      "event_end": 23.687748908427103,
+      "available_at": 23.877675266677326,
+      "fighter_id": "A",
+      "hand": "R",
+      "detected_action": "Cross",
+      "contributing_sensors": [
+        "CAM-05",
+        "CAM-06",
+        "CAM-04",
+        "CAM-08",
+        "CAM-07",
+        "CAM-01",
+        "CAM-03",
+        "CAM-09",
+        "CAM-02",
+        "A-R",
+        "ISAC-TX"
+      ],
+      "classification_confidence": 0.824705,
+      "verification_status": "SIMULATED_FUSED",
+      "reason": "카메라 팔 궤적 + 같은 손목 IMU의 시간 일치 + ISAC 움직임 보완",
+      "evidence_type": "sensor_fusion",
+      "hit_status": "UNKNOWN",
+      "relative_impact_score": 40.394542096854146,
+      "peak_acceleration": 27.77488829213044
+    },
+    {
+      "event_id": "SIM-A-L-24632",
+      "event_start": 24.63183665267821,
+      "event_end": 24.891947503581253,
+      "available_at": 25.08048532623026,
+      "fighter_id": "A",
+      "hand": "L",
+      "detected_action": "Jab",
+      "contributing_sensors": [
+        "CAM-04",
+        "CAM-08",
+        "CAM-01",
+        "CAM-05",
+        "CAM-09",
+        "CAM-03",
+        "CAM-02",
+        "CAM-07",
+        "CAM-06",
+        "A-L",
+        "ISAC-TX"
+      ],
+      "classification_confidence": 0.8247050000000002,
+      "verification_status": "SIMULATED_FUSED",
+      "reason": "카메라 팔 궤적 + 같은 손목 IMU의 시간 일치 + ISAC 움직임 보완",
+      "evidence_type": "sensor_fusion",
+      "hit_status": "UNKNOWN",
+      "relative_impact_score": 42.07132867220152,
+      "peak_acceleration": 28.893402614666805
+    }
+  ]
+}

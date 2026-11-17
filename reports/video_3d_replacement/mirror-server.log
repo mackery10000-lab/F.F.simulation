@@ -1,0 +1,7 @@
+
+> fight-frequency-sensing@1.0.0 start
+> vite preview --config app/vite.config.ts --host 0.0.0.0 --port 3000 --strictPort --port 5202
+
+  ➜  Local:   http://localhost:5202/
+  ➜  Network: http://172.25.16.1:5202/     vEthernet (WSL (Hyp…
+  ➜  Network: http://192.168.45.221:5202/  Wi-Fi

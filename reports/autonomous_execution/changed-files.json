@@ -1,0 +1,148 @@
+{
+  "scope": "Files created or edited in this autonomous run; pre-existing unrelated dirty files excluded",
+  "source": [
+    {
+      "path": "sensing/adapters.ts",
+      "sha256": "c1a4000f42a48ef48937b7c99825d637842769d890619a426961b3f71abfc900"
+    },
+    {
+      "path": "sensing/contracts.ts",
+      "sha256": "74633bdd14d50a974494f7b6d53b00b8f123a7573149520262a900dfe1bab399"
+    },
+    {
+      "path": "sensing/sensors.ts",
+      "sha256": "322767f18d0ff733546b83b7cec3b9f3cfc9ddb5dd4690425c0c7c1974a26300"
+    },
+    {
+      "path": "sensing/fusion.ts",
+      "sha256": "9bf3a8a7db50d1c0017fd9ecace1244ebc95b6ec26f7c8ca59b2a10cbebc8e28"
+    },
+    {
+      "path": "sensing/tag-tracking.ts",
+      "sha256": "7ec654ce95fc98cbd5ed743bfe7d9669ed733cd1a492265d4939d44001508f38"
+    },
+    {
+      "path": "sensing/movement.ts",
+      "sha256": "5bd855b960d04db5743e6de91f9841ed0ff9ec5a45a91abd88e85012c27b0a38"
+    },
+    {
+      "path": "sensing/tests/reliability.test.ts",
+      "sha256": "a4a3b18df7644a58e451e853ed362d835e703c1e9781bd525ad26febd2d34f2e"
+    },
+    {
+      "path": "sensing/README_KO.md",
+      "sha256": "96587337ef284a562da0199e913dd2eddf27c6366ac930370ddc37c95b66ca93"
+    },
+    {
+      "path": "analysis-platform/src/sensing-input.ts",
+      "sha256": "7d6a61de295748412bd5c712ca1c50ad6187ddb28da7ef9e3414c6dd315b406f"
+    },
+    {
+      "path": "analysis-platform/src/video-reference.ts",
+      "sha256": "293e8d876484829ffebffc770dde33c0c16c187306c7fd73ada3c9b8c9fd797b"
+    },
+    {
+      "path": "analysis-platform/src/server.ts",
+      "sha256": "a9fb78662d0a59a4ec69f21fec673a30ca8c3d277422f9dee721c3accee0e394"
+    },
+    {
+      "path": "analysis-platform/src/video-render.ts",
+      "sha256": "e4b995f623a6b3cc50f70c0be21be223be21fcca2c2503a035d6160a00e2b902"
+    },
+    {
+      "path": "analysis-platform/src/sensing/SensingLab.tsx",
+      "sha256": "61567cdaefff46be1dd81669d2f6565cb331c48055022435b1b64383d6a3ecfb"
+    },
+    {
+      "path": "scripts/refine_video_api.py",
+      "sha256": "9cdf2584b36e678303772c9d552b4d1f8ba20ac236fdc751efb6fad065978d32"
+    },
+    {
+      "path": "scripts/apply_video_api_refinement.py",
+      "sha256": "0e11b6467f3972eadfebaaf2def5d60ad9636e6ba902d7025275c432c7a93c93"
+    },
+    {
+      "path": "scripts/publish_api_refinement.py",
+      "sha256": "df29f1ce058efce96e35253f1c39cff11c34a3eda73e9b1ece97acc4b8b02d6c"
+    },
+    {
+      "path": "scripts/export_mma_rig_blender.py",
+      "sha256": "63dae30a18c6572ea74748f6f42d28058bfc55e0878667f5e73b773b45853bb6"
+    },
+    {
+      "path": "tests/test_video_api_refinement.py",
+      "sha256": "2303849b6a34d0320fc7a0e1c0ca5b07a2bc8de825015bfbb05856f2b4d24c71"
+    },
+    {
+      "path": "tools/finalize_mma_assets.py",
+      "sha256": "be8093e23694547f9aa8c406649b475ddbbb7e59f000af12b5c33003c08a73a9"
+    },
+    {
+      "path": "tools/sync_mma_sensing.py",
+      "sha256": "a0bc7114ccf45e441275628c0d557ab270b6468da49b44a07409401140d85486"
+    },
+    {
+      "path": "tools/render_reference_video.mjs",
+      "sha256": "353d879a47efe95e2cb7c843d222788b7b7d3e9de6cee8054df8759aea7ad8ac"
+    },
+    {
+      "path": "tools/benchmark_sensing_reliability.ts",
+      "sha256": "d9fc0ab5c6fa965980b44583670a0d3718363b6df21d1e180d74fdf0214e7655"
+    },
+    {
+      "path": "tools/verify_autonomous_browser.mjs",
+      "sha256": "71b8361b71affe971159bd4d3091debc0794e29a04e9fe7362457f896f5aa847"
+    },
+    {
+      "path": "tools/report_autonomous_execution.py",
+      "sha256": "f0fbfc171b5f939b4726386dd29fc963849f004c0eac3fcb3bce247b2e7851d4"
+    },
+    {
+      "path": "tools/publish_sensing_branch.py",
+      "sha256": "0777669fe6a255536b1595b61e6cc471a6eac8b4153e0a870a5629a8b3b4a160"
+    },
+    {
+      "path": "tools/create_sensing_review.py",
+      "sha256": "d878df88b7417c4985cc17d82d1bed005eeee5ffa1d42a0b41ce0392f955c736"
+    },
+    {
+      "path": "assets/sensing/motion.json.gz",
+      "sha256": "821cb126ced624d3bbc6d2d50226031bff1657246689ead58ae27a985d4c27dc"
+    },
+    {
+      "path": "assets/sensing/manifest.json",
+      "sha256": "319a964cfa350b041f29d9d4a06378d9676efa9afc966792d0fe501e9ab37e37"
+    },
+    {
+      "path": "assets/sensing/reference_video.json",
+      "sha256": "246bb97e4dc6c84fe6f0c93a908f63b691260c3dad4fc271799cbcf1fd23d320"
+    },
+    {
+      "path": "assets/sensing/motion_v2_contract.json",
+      "sha256": "b0c4609892ae4b915377f4acf813a61d3990b621c667d6e6d141a54748169a2b"
+    },
+    {
+      "path": "assets/sensing/3d_capture.mp4",
+      "sha256": "a699ae659cce1b4821b1660bce651abdd7867e824337bdfe910edb0d157871a9"
+    },
+    {
+      "path": "assets/sensing/mma_joint_rig.glb",
+      "sha256": "e285f41250bac03a102401dbd014394bc7188073e9bfdb403b8581ab08e100c2"
+    },
+    {
+      "path": "README.md",
+      "sha256": "d667cedf9149e4cb2c6fcc8a29c14bab1a31f8c0b7bacaaf62729e2f9178bf7a"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "a62e772b517356075447e757bc64d4b36fb7c9a6367685420832b85325e769f4"
+    },
+    {
+      "path": "reports/autonomous_execution_log.md",
+      "sha256": "b32b77e3ef21cc6dd643cf5182a5acf2cb62f90d09b09dbe095a415a0106fd57"
+    }
+  ],
+  "deployment_mapping": "tools/sync_mma_sensing.py + github.f.f/PACKAGE_MANIFEST.json",
+  "evidence": "reports/autonomous_execution/",
+  "other_local_output": "output/runs/latest/3d_capture.mp4"
+}

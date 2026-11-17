@@ -1,0 +1,65 @@
+{
+  "status": "PASS",
+  "seed": 42,
+  "duration_s": 179.96,
+  "module_root": ".cache/autonomous_before",
+  "input_asset_sha256": "aabd5085b7c76ef9fafe36dea0aeea02c661ca294be33d772cfc295d9271ca04",
+  "measurements": 184888,
+  "measurement_digest": "ae4e546ae7b406509e2bfde199c49a0ce0aee9d94f87df50bab48aabb9a3ca4e",
+  "distance_samples": 1800,
+  "valid_distance_samples": 657,
+  "missing_distance_samples": 1143,
+  "distance_rmse_display_units": 0.18071838584734792,
+  "distance_mae_display_units": 0.09916089204904578,
+  "distance_quality_groups": {
+    "OBSERVED": {
+      "samples": 657,
+      "distance_rmse_display_units": 0.18071838584734792,
+      "mean_uncertainty": 0.413827748521282
+    },
+    "FILTERED": {
+      "samples": 0,
+      "distance_rmse_display_units": null,
+      "mean_uncertainty": null
+    },
+    "PREDICTED": {
+      "samples": 0,
+      "distance_rmse_display_units": null,
+      "mean_uncertainty": null
+    },
+    "UNAVAILABLE": {
+      "samples": 1143,
+      "distance_rmse_display_units": null,
+      "mean_uncertainty": null
+    }
+  },
+  "raw_tag_position_rmse_display_units": 0.06975839163017261,
+  "uwb_range_samples": 28256,
+  "nlos_ranges": 7150,
+  "uwb_position_failures": 0,
+  "long_tracking_gaps": 61,
+  "maximum_gap_s": 2.700000000000001,
+  "events": 72,
+  "fused_events": 53,
+  "withheld_events": 19,
+  "uncertain_events": 55,
+  "punch_types": {
+    "Jab": 5,
+    "Cross": 8,
+    "Hook": 4,
+    "Uppercut": 0,
+    "Uncertain": 36
+  },
+  "movement_unknown_ratios": {
+    "GUARD": 0.9972222222222222,
+    "STANCE": 0.9972222222222222,
+    "FOOTWORK": 0.9997222222222222
+  },
+  "movement_events": 24,
+  "runtime_ms": 25722.4051,
+  "limitations": [
+    "Errors are relative to uncalibrated monocular simulated truth",
+    "No real-world punch labels or physical sensor accuracy evidence",
+    "Changes in event count are not accuracy improvements"
+  ]
+}

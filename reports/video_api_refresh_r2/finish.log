@@ -1,0 +1,21 @@
+{"stage": "render", "status": "PASS"}
+{"stage": "blender", "status": "PASS"}
+{"stage": "publish", "status": "PASS"}
+{"stage": "finalize", "status": "PASS"}
+{"stage": "rig-check", "status": "PASS"}
+{"stage": "sync", "status": "PASS"}
+{"stage": "source-full", "status": "PASS"}
+{"stage": "mirror-full", "status": "PASS"}
+{"stage": "sensing-tests", "status": "PASS"}
+{"stage": "platform-tests", "status": "PASS"}
+{"stage": "source-build", "status": "PASS"}
+Traceback (most recent call last):
+  File "C:\AI_bsss\FF_VSCode_Agent_Kit_3.1\tools\finish_video_sensing_refresh.py", line 81, in <module>
+    parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--run-id',required=True);args=parser.parse_args();finish(args.run_id)
+                                                                                                                               ^^^^^^^^^^^^^^^^^^^
+  File "C:\AI_bsss\FF_VSCode_Agent_Kit_3.1\tools\finish_video_sensing_refresh.py", line 63, in finish
+    command('mirror-tests',node+[str(npm_cli),'--prefix','github.f.f','test'])
+  File "C:\AI_bsss\FF_VSCode_Agent_Kit_3.1\tools\finish_video_sensing_refresh.py", line 24, in command
+    if result.returncode:raise RuntimeError(f'{name} failed; inspect {name}.log')
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: mirror-tests failed; inspect mirror-tests.log

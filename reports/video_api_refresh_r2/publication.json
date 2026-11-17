@@ -1,0 +1,38 @@
+{
+  "status": "PUBLISHED_LOCALLY_WITH_QUALITY_WARNINGS",
+  "time": "2026-11-17T07:15:40.082581+00:00",
+  "changes": [
+    {
+      "path": "assets/sensing/motion.json.gz",
+      "before_sha256": "821cb126ced624d3bbc6d2d50226031bff1657246689ead58ae27a985d4c27dc",
+      "after_sha256": "0bd33fdb572a45edbb59895dd65ece351bbe5fccb8f6078945a691ebb9dfb779"
+    },
+    {
+      "path": "assets/sensing/3d_capture.mp4",
+      "before_sha256": "a699ae659cce1b4821b1660bce651abdd7867e824337bdfe910edb0d157871a9",
+      "after_sha256": "9463b9bd2c59cb0d4994186b282f2768213f85bad56c7e85f734496a104ca6b3"
+    },
+    {
+      "path": "assets/sensing/mma_joint_rig.glb",
+      "before_sha256": "e285f41250bac03a102401dbd014394bc7188073e9bfdb403b8581ab08e100c2",
+      "after_sha256": "b51bcd429bf7fff715697af0ca3d8019a168ba12baa764d6a55de5d932adadf8"
+    },
+    {
+      "path": "assets/sensing/manifest.json",
+      "before_sha256": "319a964cfa350b041f29d9d4a06378d9676efa9afc966792d0fe501e9ab37e37",
+      "after_sha256": "fb5d20af97a8fdbcf1043a8afe08050616cab3835e602bd8c83e866b39739074"
+    },
+    {
+      "path": "assets/sensing/reference_video.json",
+      "before_sha256": "246bb97e4dc6c84fe6f0c93a908f63b691260c3dad4fc271799cbcf1fd23d320",
+      "after_sha256": "999887978296bad3b57829ab02fea25ebf494fec6fa8e09bcbc5df793db6139a"
+    },
+    {
+      "path": "assets/sensing/motion_v2_contract.json",
+      "before_sha256": "b0c4609892ae4b915377f4acf813a61d3990b621c667d6e6d141a54748169a2b",
+      "after_sha256": "292a92ff2743f4c41114f0ce09b8944df1a57549852c75f7e7c009d809847ed9"
+    }
+  ],
+  "substantial_3d_improvement_proven": false,
+  "remote_push": false
+}

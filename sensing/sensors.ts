@@ -1,5 +1,7 @@
 import type {Arena,CameraValue,Device,ImuValue,IsacValue,Measurement,MotionSource,Pose,SensorType,SimulationConfig,UwbValue,Vec3} from './contracts.ts';
 import {add,clamp,distance,dot,gaussian,horizontal,keyedRandom,mean,multilaterate,noisy,norm,scale,sub,unit} from './math.ts';
+import {bodyFrame,stanceFeature,handFeatures} from './mma-features.ts';
+import {EXTRA_JOINTS} from './contracts.ts';
 export const DEFAULT_CONFIG:SimulationConfig={seed:42,duration:60,scenario:'combination',disabledDevices:[],fusionWindow:.16,combinationWindow:1.2,minPatternSamples:3,
   sensors:{camera:{enabled:true,hz:30,latency_ms:55,jitter_ms:5,clock_offset_ms:12,clock_correction_ms:12,dropout:.02,noise:.018},
     isac:{enabled:true,hz:64,latency_ms:25,jitter_ms:2,clock_offset_ms:-8,clock_correction_ms:-8,dropout:.01,noise:.025},
@@ -33,22 +35,33 @@ export function projectCameraPoint(device:Device,point:Vec3):[number,number]{
 }
 function cameraValue(device:Device,source:MotionSource,t:number,fi:number,c:SimulationConfig,rng:()=>number):{value:CameraValue;q:number}{
   const state=source.at(t),actor=state.actors[fi],other=state.actors[1-fi],settings=c.sensors.camera;
-  const facing=unit(sub(other.pose.pelvis,actor.pose.pelvis)),side:Vec3=[-facing[1],facing[0],0];
   const forward=unit(sub(device.target,device.position)),toActor=unit(sub(actor.pose.chest,device.position));
   const inFov=dot(forward,toActor)>Math.cos((device.fov??100)/2*Math.PI/180);
   const toOther=unit(sub(other.pose.chest,device.position));
   const geometricOcclusion=dot(toActor,toOther)>.996&&distance(device.position,other.pose.chest)<distance(device.position,actor.pose.chest);
   const stress=c.scenario==='occlusion'&&t%12>1&&t%12<5&&device.id!=='CAM-09';
-  const occluded=geometricOcclusion||stress;
-  const q=clamp((inFov?(occluded?.18:.97):.05)*actor.identity-settings.noise*.3);
+  const occluded=geometricOcclusion||stress||!!source.qualityAt?.(t).occluded;
+  // Visibility and track association are separate quantities. Identity is checked
+  // by consumers that associate anatomy with a fighter, never by the RF model.
+  const q=clamp((inFov?(occluded?.18:.97):.05)-settings.noise*.3);
   const joints=Object.fromEntries(Object.entries(actor.pose).map(([key,p])=>[key,noisy(p,settings.noise*(occluded?4:1),rng)])) as Pose;
-  const prev=source.at(Math.max(0,t-.01)).actors[fi].pose;
-  const wrists=(['L','R'] as const).map(hand=>{
+  const previous=source.at(Math.max(0,t-.08)).actors[fi],prev=previous.pose;
+  const observed_joints=Object.fromEntries([...new Set([...Object.keys(joints),...EXTRA_JOINTS])].map(key=>[key,q>.5&&(actor.joint_confidence?.[key]??1)>=.6?(joints as Record<string,Vec3>)[key]??null:null]));
+  const frame=bodyFrame(observed_joints),facing=frame?.forward??[0,0,0] as Vec3,side=frame?.side??[0,0,0] as Vec3;
+  const wrists=(['L','R'] as const).flatMap(hand=>{
     const wrist=hand==='L'?'left_wrist':'right_wrist',shoulder=hand==='L'?'left_shoulder':'right_shoulder',relative=sub(joints[wrist],joints[shoulder]);
-    return {hand,extension:dot(relative,facing),lateral:Math.abs(dot(relative,side)),vertical:relative[2],speed:norm(scale(sub(actor.pose[wrist],prev[wrist]),1/Math.max(.001,Math.min(t,.01))))+Math.abs(gaussian(rng))*settings.noise};
+    const elbow=hand==='L'?'left_elbow':'right_elbow';
+    if(!observed_joints[wrist]||!observed_joints[shoulder]||!observed_joints[elbow]||!frame)return [];
+    // Both endpoints are noisy virtual observations; source stance/guard labels never cross this boundary.
+    const before=noisy(prev[wrist],settings.noise,rng);
+    const upper=sub(joints[shoulder],joints[elbow]),lower=sub(joints[wrist],joints[elbow]);
+    const body_scale=distance(joints.left_shoulder,joints.right_shoulder)/.44;
+    return [{hand,extension:dot(relative,facing),lateral:Math.abs(dot(relative,side)),vertical:relative[2],speed:t<.08||(previous.joint_confidence?.[wrist]??1)<.6?0:norm(scale(sub(joints[wrist],before),1/.08)),arm_length:norm(upper)+norm(lower),elbow_angle:Math.acos(clamp(dot(unit(upper),unit(lower)),-1,1)),body_scale}];
   });
   const projected=Object.fromEntries(Object.entries(joints).map(([name,p])=>[name,projectCameraPoint(device,p)]));
-  return {q,value:{position:joints.pelvis,joints,wrists,screen_position:projectCameraPoint(device,joints.pelvis),projected_joints:projected,stance:q>.55?actor.stance:'UNKNOWN',guard:wrists.some(w=>w.extension>.4)?'EXTENDED':'HIGH',occluded,identity_confidence:actor.identity,fov_visible:inFov}};
+  const stance=q>.55?stanceFeature(observed_joints):'UNKNOWN',hands=wrists.map(w=>handFeatures(observed_joints,w.hand,w.speed,stance));
+  const guard=hands.length===2&&hands.every(h=>h.state==='HEAD_PROTECT')?'HIGH_GUARD':hands.some(h=>h.state==='EXTENDED')?'TRANSITION':'UNKNOWN';
+  return {q,value:{position:joints.pelvis,joints,observed_joints,observation_flags:['VIRTUAL_POSE_SENSOR_NOT_PIXEL_INFERENCE','NO_TRIANGULATION','UNVERIFIED_SCALE',...(!frame?['BODY_ORIENTATION_AMBIGUOUS']:[]),...(source.qualityAt?.(t).camera_segment_id?['CAMERA_SEGMENT_CHANGE']:[])],wrists,screen_position:projectCameraPoint(device,joints.pelvis),projected_joints:projected,stance:stance==='SQUARE'?'UNKNOWN':stance,guard,occluded,identity_confidence:actor.identity,fov_visible:inFov}};
 }
 function imuValue(device:Device,source:MotionSource,t:number,noise:number,rng:()=>number):ImuValue{
   const fi=device.fighter==='A'?0:1,key=device.hand==='L'?'left_wrist':'right_wrist',h=.01;
@@ -61,11 +74,18 @@ function imuValue(device:Device,source:MotionSource,t:number,noise:number,rng:()
   const angular_velocity=noisy(rotation,noise*.08,rng),peak=norm(acceleration),impact=clamp((jerk-500)/4500);
   return {hand:device.hand!,acceleration,angular_velocity,peak_acceleration:peak,angular_speed:norm(angular_velocity),jerk,impact_signature:impact,relative_impact_score:clamp(.65*peak/80+.35*impact)*100};
 }
+/** Segment/capsule proximity. A coarse RF obstacle, not electromagnetic tracing. */
+export function torsoBlocksLink(start:Vec3,end:Vec3,pelvis:Vec3,chest:Vec3,radius=.22){
+  const u=sub(end,start),v=sub(chest,pelvis),w=sub(start,pelvis),a=dot(u,u),b=dot(u,v),c=dot(v,v),d=dot(u,w),e=dot(v,w),den=a*c-b*b;
+  let s=den>1e-10?clamp((b*e-c*d)/den):0,t=c>1e-10?clamp((b*s+e)/c):0;
+  s=a>1e-10?clamp((b*t-d)/a):0;t=c>1e-10?clamp((b*s+e)/c):0;
+  return distance(add(start,scale(u,s)),add(pelvis,scale(v,t)))<radius;
+}
 function uwbValue(device:Device,devices:Device[],source:MotionSource,t:number,c:SimulationConfig,rng:()=>number):{value:UwbValue;q:number}{
-  const actor=source.at(t).actors[device.fighter==='A'?0:1],p=actor.pose.pelvis,noise=c.sensors.uwb.noise;
+  const fi=device.fighter==='A'?0:1,state=source.at(t),actor=state.actors[fi],other=state.actors[1-fi],p=actor.pose.pelvis,noise=c.sensors.uwb.noise;
   const anchors=devices.filter(d=>d.id.startsWith('ANCHOR')&&activeDevice(d,c));
-  const ranges=anchors.map((a,i)=>{const nlos=(c.scenario==='nlos'&&i<2)||(actor.identity<.5&&i%2===0),bias=nlos?.35+Math.abs(gaussian(rng))*.2:0;
-    const range=Math.max(.01,distance(a.position,p)+gaussian(rng)*noise+bias);return {anchor_id:a.id,range_m:range,tof_ns:range/299792458*1e9,nlos};});
+  const ranges=anchors.map((a,i)=>{const obstacle=c.scenario==='nlos'&&i<2,body=torsoBlocksLink(p,a.position,other.pose.pelvis,other.pose.chest),nlos=obstacle||body,bias=nlos?.35+Math.abs(gaussian(rng))*.2:0;
+    const range=Math.max(.01,distance(a.position,p)+gaussian(rng)*noise+bias);return {anchor_id:a.id,range_m:range,tof_ns:range/299792458*1e9,nlos,nlos_reason:obstacle?'SCENARIO_OBSTACLE' as const:body?'OPPONENT_TORSO_PROXY' as const:null};});
   const fit=anchors.length>=3?multilaterate(anchors.map(a=>a.position),ranges.map(r=>r.range_m),ranges.map(r=>r.nlos?.15:1),p[2]):null;
   const error=fit?Math.max(noise,fit.residual)*(1+fit.geometry)+ranges.filter(r=>r.nlos).length*.12:Infinity;
   return {q:fit?clamp(.98-error*.8):0,value:{position:fit?.position??null,ranges,residual_m:fit?.residual??0,error_radius_m:Number.isFinite(error)?error:0,method:'DS-TWR'}};
@@ -73,8 +93,9 @@ function uwbValue(device:Device,devices:Device[],source:MotionSource,t:number,c:
 function isacValue(devices:Device[],source:MotionSource,t:number,noise:number,rng:()=>number):IsacValue{
   const tx=devices.find(d=>d.id==='ISAC-TX')!,rx=devices.find(d=>d.id==='ISAC-RX')!,state=source.at(t),wavelength=299792458/5.8e9;
   const real:number[]=[],imag:number[]=[],links=Array.from({length:4},()=>({real:[] as number[],imag:[] as number[]}));let doppler=0,motion=0;
-  const paths=state.actors.flatMap(actor=>[actor.pose.pelvis,actor.pose.left_wrist,actor.pose.right_wrist]);
-  const prev=source.at(Math.max(0,t-.002)).actors.flatMap(actor=>[actor.pose.pelvis,actor.pose.left_wrist,actor.pose.right_wrist]);
+  const proxies=(actor:typeof state.actors[number])=>[actor.pose.pelvis,actor.pose.left_wrist,actor.pose.right_wrist,actor.pose.left_elbow,actor.pose.right_elbow,...[actor.pose.left_knee,actor.pose.right_knee].filter((v):v is Vec3=>!!v)];
+  const paths=state.actors.flatMap(proxies);
+  const prev=source.at(Math.max(0,t-.002)).actors.flatMap(proxies);
   paths.forEach((p,i)=>{const rate=((distance(tx.position,p)+distance(rx.position,p))-(distance(tx.position,prev[i])+distance(rx.position,prev[i])))/.002;motion+=Math.abs(rate);doppler+=rate/wavelength});
   for(let k=0;k<16;k++){
     for(let link=0;link<4;link++){
@@ -111,9 +132,10 @@ export class MeasurementSampler {
         if(rng()<settings.dropout){this.diagnostics.dropped++;continue}
         const sensorTime=t+settings.clock_offset_ms/1000+gaussian(rng)*settings.jitter_ms/1000,commonTime=sensorTime-settings.clock_correction_ms/1000;
         const arrival=t+Math.max(0,settings.latency_ms+gaussian(rng)*settings.jitter_ms)/1000;
-        const base={timestamp:commonTime,sensor_timestamp:sensorTime,arrival_timestamp:arrival,timestamp_uncertainty:settings.jitter_ms/1000+.5/settings.hz,sensor_type:device.type,sensor_id:device.id,fighter_id:device.fighter??null,confidence:.95,data_quality:.95,source_type:'simulated_sensor' as const,simulation_flag:true as const,input_mode:source.mode};
-        const video=source.mode==='video_derived';
-        if(device.type==='camera')for(const fi of [0,1]){const {value,q}=cameraValue(device,source,t,fi,c,rng);measurements.push({...base,fighter_id:fi?'B':'A',measurement_type:'synthetic_pose',measurement_value:value,measurement_unit:video?'display units / normalized image':'m / normalized image',confidence:q,data_quality:q})}
+        const sourceFps=source.at(t).actors[0].motion_provenance?.source_fps;
+        const base={timestamp:commonTime,sensor_timestamp:sensorTime,arrival_timestamp:arrival,timestamp_uncertainty:settings.jitter_ms/1000+Math.max(.5/settings.hz,sourceFps ? .5/sourceFps : 0),sensor_type:device.type,sensor_id:device.id,fighter_id:device.fighter??null,confidence:.95,data_quality:.95,source_type:'simulated_sensor' as const,simulation_flag:true as const,input_mode:source.mode,input_asset_sha256:source.asset_sha256,seed:c.seed,metric_valid:source.metric_valid??source.mode==='synthetic',measurement_id:`${device.id}:${stream.index}`,coordinate_frame:'world_Z_up' as const,provenance:device.type==='imu'?'synthetic position differences; world-frame linear acceleration, forearm-axis gyro approximation; no recovered high-frequency observation':'local geometric virtual sensor',validity:'VALID' as const};
+        const video=source.metric_valid===false||source.mode==='video_derived';
+        if(device.type==='camera')for(const fi of [0,1]){const {value,q}=cameraValue(device,source,t,fi,c,rng);measurements.push({...base,measurement_id:`${device.id}:${stream.index}:${fi?'B':'A'}`,fighter_id:fi?'B':'A',measurement_type:'synthetic_pose',measurement_value:value,measurement_unit:video?'display units / normalized image':'m / normalized image',confidence:q,data_quality:q,validity:q>.5?'VALID':'DEGRADED'})}
         else if(device.type==='imu')measurements.push({...base,measurement_type:'wrist_kinematics',measurement_value:imuValue(device,source,t,settings.noise,rng),measurement_unit:video?'display units/s²; rad/s (model)':'m/s²; rad/s',confidence:clamp(.98-settings.noise*.03),data_quality:clamp(.98-settings.noise*.03)});
         else if(device.type==='uwb'){const {value,q}=uwbValue(device,devices,source,t,c,rng);measurements.push({...base,measurement_type:'tag_position',measurement_value:value,measurement_unit:video?'display units; model ToF ns (assumed scale)':'m; ns',confidence:q,data_quality:q})}
         else measurements.push({...base,measurement_type:'complex_csi',measurement_value:isacValue(devices,source,t,settings.noise,rng),measurement_unit:video?'complex a.u.; model Doppler Hz (assumed scale)':'complex a.u.; Hz',confidence:clamp(.94-settings.noise),data_quality:clamp(.94-settings.noise)});

@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "tested_joint_positions": 368,
+  "maximum_joint_position_error_m": 0.000022068348407834744,
+  "scope": "12.5 Hz joint rig at exact decimated sample times; not visual mesh skinning accuracy"
+}

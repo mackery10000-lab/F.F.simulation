@@ -1,0 +1,552 @@
+{
+  "enable_luna_generation": true,
+  "provider": "pleumrouter",
+  "generation_calls": 7,
+  "successful_calls": 7,
+  "cache_hits": 7,
+  "calls": [
+    {
+      "request_sha256": "14c63d8254d1e8a74e67d8c5f03f319f9cb4db4a387e5d1045fa45a0586f3257",
+      "response_sha256": "6f835cbc99bc98647f3395a5df48afa33779d8d94c309c9814f46cd316693ec3",
+      "response_file": "reports/mma_3d_sensing_upgrade/generation_cache/14c63d8254d1e8a74e67d8c5f03f319f9cb4db4a387e5d1045fa45a0586f3257.json",
+      "scenes": [
+        "orthodox_high"
+      ],
+      "model": "gpt-6-luna",
+      "attempts": 1,
+      "elapsed_seconds": 4.45249049999984,
+      "usage": {
+        "prompt_tokens": 544,
+        "completion_tokens": 169,
+        "total_tokens": 713
+      },
+      "evidence": "Original successful generation tool output; persisted during local bake repair. No additional API request."
+    },
+    {
+      "request_sha256": "229d803dd94af1ced441022a30ee17b4f99f5abec539156d6fa8e0d5f9fe7001",
+      "response_sha256": "26a126db93eca75c08547ca46127b270391d23c7ea2441756db158e6b7e98b8c",
+      "response_file": "reports/mma_3d_sensing_upgrade/generation_cache/229d803dd94af1ced441022a30ee17b4f99f5abec539156d6fa8e0d5f9fe7001.json",
+      "scenes": [
+        "step_switch",
+        "hop_switch",
+        "cross_step_negative",
+        "torso_twist_negative",
+        "opponent_only_approach"
+      ],
+      "model": "gpt-6-luna",
+      "attempts": 1,
+      "elapsed_seconds": 8.979785299990908,
+      "usage": {
+        "prompt_tokens": 567,
+        "completion_tokens": 819,
+        "total_tokens": 1386
+      },
+      "evidence": "Original successful generation tool output; persisted during local bake repair. No additional API request."
+    },
+    {
+      "request_sha256": "2c2c35ffa2dc2915f973e31d716bb87a5e8a8357b8a0f98b2edab276bf6974d4",
+      "response_sha256": "15870ec494c84f59ac743373148f2355d735046692bba05633c05c0083cc75fd",
+      "response_file": "reports/mma_3d_sensing_upgrade/generation_cache/2c2c35ffa2dc2915f973e31d716bb87a5e8a8357b8a0f98b2edab276bf6974d4.json",
+      "scenes": [
+        "southpaw_high",
+        "lead_long_rear_high",
+        "rear_long_lead_high",
+        "both_extended",
+        "mixed_head_movement"
+      ],
+      "model": "gpt-6-luna",
+      "attempts": 1,
+      "elapsed_seconds": 6.30969159999222,
+      "usage": {
+        "prompt_tokens": 568,
+        "completion_tokens": 551,
+        "total_tokens": 1119
+      },
+      "evidence": "Original successful generation tool output; persisted during local bake repair. No additional API request."
+    },
+    {
+      "request_sha256": "784c8603b1a7c3e041c4ddae85c57e300e50e138905fc65ea5f4058a4c86fc6c",
+      "response_sha256": "6eede7778904a7243f2c4d82e11eb62c8cf68d54a93c81530127b5b61ace4177",
+      "response_file": "reports/mma_3d_sensing_upgrade/generation_cache/784c8603b1a7c3e041c4ddae85c57e300e50e138905fc65ea5f4058a4c86fc6c.json",
+      "scenes": [
+        "step_in",
+        "step_out",
+        "lateral_shuffle",
+        "pivot",
+        "circling"
+      ],
+      "model": "gpt-6-luna",
+      "attempts": 1,
+      "elapsed_seconds": 5.585897099997965,
+      "usage": {
+        "prompt_tokens": 559,
+        "completion_tokens": 497,
+        "total_tokens": 1056
+      },
+      "evidence": "Original successful generation tool output; persisted during local bake repair. No additional API request."
+    },
+    {
+      "request_sha256": "d58b27967312d22f343962289d934c7a93770847d71dd01e4c18cb008539110c",
+      "response_sha256": "3a8d19cd29f324e0f355cebc3386c0635bfa15a0a27f5ba3dc383c1250146873",
+      "response_file": "reports/mma_3d_sensing_upgrade/generation_cache/d58b27967312d22f343962289d934c7a93770847d71dd01e4c18cb008539110c.json",
+      "scenes": [
+        "low_to_high",
+        "shell",
+        "cross_guard",
+        "jab_recoil",
+        "sustained_long"
+      ],
+      "model": "gpt-6-luna",
+      "attempts": 1,
+      "elapsed_seconds": 7.747991199998069,
+      "usage": {
+        "prompt_tokens": 562,
+        "completion_tokens": 769,
+        "total_tokens": 1331
+      },
+      "evidence": "Original successful generation tool output; persisted during local bake repair. No additional API request."
+    },
+    {
+      "request_sha256": "dad91329715a3c45b27cac368cbdf81a4bd5e5272747e25ced2efb8f14813f85",
+      "response_sha256": "3fde24ad6b7f9f34ae4ad815309b390fa736f72cb26781b99048304b28cbe62f",
+      "response_file": "reports/mma_3d_sensing_upgrade/generation_cache/dad91329715a3c45b27cac368cbdf81a4bd5e5272747e25ced2efb8f14813f85.json",
+      "scenes": [
+        "id_crossing",
+        "camera_cut",
+        "level_change",
+        "fast_combo"
+      ],
+      "model": "gpt-6-luna",
+      "attempts": 1,
+      "elapsed_seconds": 5.377780599999824,
+      "usage": {
+        "prompt_tokens": 556,
+        "completion_tokens": 469,
+        "total_tokens": 1025
+      },
+      "evidence": "Original successful generation tool output; persisted during local bake repair. No additional API request."
+    },
+    {
+      "request_sha256": "f0d9a30a88d3ed0ccf79791dac1f10028b63d8151e212af2e0bd7a7d35498c11",
+      "response_sha256": "48ca1f3c9e8cf67ef65535fd411ab87e31d16bf07413b05d20f2aac1c9797de7",
+      "response_file": "reports/mma_3d_sensing_upgrade/generation_cache/f0d9a30a88d3ed0ccf79791dac1f10028b63d8151e212af2e0bd7a7d35498c11.json",
+      "scenes": [
+        "step_in_jab",
+        "angle_out_cross",
+        "kick_check_negative",
+        "clinch_ambiguous",
+        "heavy_occlusion"
+      ],
+      "model": "gpt-6-luna",
+      "attempts": 1,
+      "elapsed_seconds": 7.5793568000080995,
+      "usage": {
+        "prompt_tokens": 567,
+        "completion_tokens": 718,
+        "total_tokens": 1285
+      },
+      "evidence": "Original successful generation tool output; persisted during local bake repair. No additional API request."
+    }
+  ],
+  "errors": [],
+  "source_kind": "synthetic",
+  "video_uploaded": false,
+  "sensing_feedback": false,
+  "cost_estimate": null,
+  "cost_note": "Configured provider exposes no verified price; token usage recorded, no invented price.",
+  "model": "gpt-6-luna",
+  "base_url": "https://apirouter.pleum.ai/v1",
+  "capabilities": {
+    "id": "gpt-6-luna",
+    "operations": [
+      "chat.generate"
+    ],
+    "supported_parameters": [
+      "temperature",
+      "max_tokens",
+      "top_p",
+      "stop",
+      "seed",
+      "frequency_penalty",
+      "presence_penalty",
+      "tools",
+      "tool_choice",
+      "response_format",
+      "parallel_tool_calls",
+      "logit_bias",
+      "stream",
+      "reasoning_effort",
+      "service_tier"
+    ],
+    "revision": null,
+    "created": 0
+  },
+  "status": "PASS",
+  "output_scenes": 30,
+  "capability_probe": "First scene production request also used as small structured-output probe; no redundant inference.",
+  "plans": {
+    "orthodox_high": {
+      "scene": "orthodox_high",
+      "high_forward_m": 0.13,
+      "high_height_m": 0.7048,
+      "long_reach_m": 0.54,
+      "step_distance_m": 0.38,
+      "pivot_angle_rad": 0.6,
+      "switch_start_s": 1.5,
+      "switch_duration_s": 0.68,
+      "step_start_s": 1.4,
+      "step_duration_s": 0.82
+    },
+    "southpaw_high": {
+      "scene": "southpaw_high",
+      "high_forward_m": 0.11,
+      "high_height_m": 0.69,
+      "long_reach_m": 0.52,
+      "step_distance_m": 0.34,
+      "pivot_angle_rad": 0.48,
+      "switch_start_s": 1.25,
+      "switch_duration_s": 0.72,
+      "step_start_s": 1.15,
+      "step_duration_s": 0.82
+    },
+    "lead_long_rear_high": {
+      "scene": "lead_long_rear_high",
+      "high_forward_m": 0.13,
+      "high_height_m": 0.71,
+      "long_reach_m": 0.55,
+      "step_distance_m": 0.39,
+      "pivot_angle_rad": 0.57,
+      "switch_start_s": 1.42,
+      "switch_duration_s": 0.63,
+      "step_start_s": 1.32,
+      "step_duration_s": 0.91
+    },
+    "rear_long_lead_high": {
+      "scene": "rear_long_lead_high",
+      "high_forward_m": 0.09,
+      "high_height_m": 0.67,
+      "long_reach_m": 0.53,
+      "step_distance_m": 0.36,
+      "pivot_angle_rad": 0.66,
+      "switch_start_s": 1.68,
+      "switch_duration_s": 0.77,
+      "step_start_s": 1.55,
+      "step_duration_s": 0.74
+    },
+    "both_extended": {
+      "scene": "both_extended",
+      "high_forward_m": 0.16,
+      "high_height_m": 0.73,
+      "long_reach_m": 0.57,
+      "step_distance_m": 0.45,
+      "pivot_angle_rad": 0.72,
+      "switch_start_s": 1.54,
+      "switch_duration_s": 0.68,
+      "step_start_s": 1.62,
+      "step_duration_s": 0.98
+    },
+    "mixed_head_movement": {
+      "scene": "mixed_head_movement",
+      "high_forward_m": 0.12,
+      "high_height_m": 0.7,
+      "long_reach_m": 0.51,
+      "step_distance_m": 0.42,
+      "pivot_angle_rad": 0.53,
+      "switch_start_s": 1.33,
+      "switch_duration_s": 0.59,
+      "step_start_s": 1.43,
+      "step_duration_s": 0.87
+    },
+    "low_to_high": {
+      "scene": "low_to_high",
+      "high_forward_m": 0.12,
+      "high_height_m": 0.7,
+      "long_reach_m": 0.53,
+      "step_distance_m": 0.36,
+      "pivot_angle_rad": 0.5,
+      "switch_start_s": 1.4,
+      "switch_duration_s": 0.65,
+      "step_start_s": 1.3,
+      "step_duration_s": 0.8
+    },
+    "shell": {
+      "scene": "shell",
+      "high_forward_m": 0.09,
+      "high_height_m": 0.67,
+      "long_reach_m": 0.5,
+      "step_distance_m": 0.3,
+      "pivot_angle_rad": 0.45,
+      "switch_start_s": 1.5,
+      "switch_duration_s": 0.7,
+      "step_start_s": 1.5,
+      "step_duration_s": 0.7
+    },
+    "cross_guard": {
+      "scene": "cross_guard",
+      "high_forward_m": 0.14,
+      "high_height_m": 0.73,
+      "long_reach_m": 0.52,
+      "step_distance_m": 0.34,
+      "pivot_angle_rad": 0.6,
+      "switch_start_s": 1.3,
+      "switch_duration_s": 0.75,
+      "step_start_s": 1.2,
+      "step_duration_s": 0.85
+    },
+    "jab_recoil": {
+      "scene": "jab_recoil",
+      "high_forward_m": 0.11,
+      "high_height_m": 0.69,
+      "long_reach_m": 0.56,
+      "step_distance_m": 0.4,
+      "pivot_angle_rad": 0.55,
+      "switch_start_s": 1.6,
+      "switch_duration_s": 0.6,
+      "step_start_s": 1.4,
+      "step_duration_s": 0.75
+    },
+    "sustained_long": {
+      "scene": "sustained_long",
+      "high_forward_m": 0.16,
+      "high_height_m": 0.72,
+      "long_reach_m": 0.55,
+      "step_distance_m": 0.46,
+      "pivot_angle_rad": 0.722,
+      "switch_start_s": 1.2,
+      "switch_duration_s": 0.8,
+      "step_start_s": 1.1,
+      "step_duration_s": 0.95
+    },
+    "step_switch": {
+      "scene": "step_switch",
+      "high_forward_m": 0.12,
+      "high_height_m": 0.7,
+      "long_reach_m": 0.53,
+      "step_distance_m": 0.38,
+      "pivot_angle_rad": 0.58,
+      "switch_start_s": 1.35,
+      "switch_duration_s": 0.68,
+      "step_start_s": 1.2,
+      "step_duration_s": 0.82
+    },
+    "hop_switch": {
+      "scene": "hop_switch",
+      "high_forward_m": 0.16,
+      "high_height_m": 0.72,
+      "long_reach_m": 0.56,
+      "step_distance_m": 0.32,
+      "pivot_angle_rad": 0.48,
+      "switch_start_s": 1.6,
+      "switch_duration_s": 0.58,
+      "step_start_s": 1.45,
+      "step_duration_s": 0.68
+    },
+    "cross_step_negative": {
+      "scene": "cross_step_negative",
+      "high_forward_m": 0.1,
+      "high_height_m": 0.68,
+      "long_reach_m": 0.51,
+      "step_distance_m": 0.44,
+      "pivot_angle_rad": 0.7,
+      "switch_start_s": 1.75,
+      "switch_duration_s": 0.78,
+      "step_start_s": 1.15,
+      "step_duration_s": 0.95
+    },
+    "torso_twist_negative": {
+      "scene": "torso_twist_negative",
+      "high_forward_m": 0.14,
+      "high_height_m": 0.73,
+      "long_reach_m": 0.54,
+      "step_distance_m": 0.3,
+      "pivot_angle_rad": 0.45,
+      "switch_start_s": 1.25,
+      "switch_duration_s": 0.75,
+      "step_start_s": 1.65,
+      "step_duration_s": 0.7
+    },
+    "opponent_only_approach": {
+      "scene": "opponent_only_approach",
+      "high_forward_m": 0.08,
+      "high_height_m": 0.66,
+      "long_reach_m": 0.5,
+      "step_distance_m": 0.47,
+      "pivot_angle_rad": 0.62,
+      "switch_start_s": 1.5,
+      "switch_duration_s": 0.65,
+      "step_start_s": 1.3,
+      "step_duration_s": 0.9
+    },
+    "step_in": {
+      "scene": "step_in",
+      "high_forward_m": 0.12,
+      "high_height_m": 0.7,
+      "long_reach_m": 0.53,
+      "step_distance_m": 0.38,
+      "pivot_angle_rad": 0.52,
+      "switch_start_s": 1.4,
+      "switch_duration_s": 0.65,
+      "step_start_s": 1.3,
+      "step_duration_s": 0.82
+    },
+    "step_out": {
+      "scene": "step_out",
+      "high_forward_m": 0.1,
+      "high_height_m": 0.68,
+      "long_reach_m": 0.51,
+      "step_distance_m": 0.34,
+      "pivot_angle_rad": 0.48,
+      "switch_start_s": 1.6,
+      "switch_duration_s": 0.72,
+      "step_start_s": 1.5,
+      "step_duration_s": 0.9
+    },
+    "lateral_shuffle": {
+      "scene": "lateral_shuffle",
+      "high_forward_m": 0.15,
+      "high_height_m": 0.72,
+      "long_reach_m": 0.56,
+      "step_distance_m": 0.31,
+      "pivot_angle_rad": 0.58,
+      "switch_start_s": 1.2,
+      "switch_duration_s": 0.78,
+      "step_start_s": 1.1,
+      "step_duration_s": 0.68
+    },
+    "pivot": {
+      "scene": "pivot",
+      "high_forward_m": 0.09,
+      "high_height_m": 0.66,
+      "long_reach_m": 0.5,
+      "step_distance_m": 0.3,
+      "pivot_angle_rad": 0.7,
+      "switch_start_s": 1.7,
+      "switch_duration_s": 0.6,
+      "step_start_s": 1.6,
+      "step_duration_s": 0.75
+    },
+    "circling": {
+      "scene": "circling",
+      "high_forward_m": 0.17,
+      "high_height_m": 0.74,
+      "long_reach_m": 0.54,
+      "step_distance_m": 0.46,
+      "pivot_angle_rad": 0.63,
+      "switch_start_s": 1.3,
+      "switch_duration_s": 0.68,
+      "step_start_s": 1.4,
+      "step_duration_s": 0.96
+    },
+    "step_in_jab": {
+      "scene": "step_in_jab",
+      "high_forward_m": 0.12,
+      "high_height_m": 0.72,
+      "long_reach_m": 0.53,
+      "step_distance_m": 0.38,
+      "pivot_angle_rad": 0.5,
+      "switch_start_s": 1.4,
+      "switch_duration_s": 0.68,
+      "step_start_s": 1.25,
+      "step_duration_s": 0.82
+    },
+    "angle_out_cross": {
+      "scene": "angle_out_cross",
+      "high_forward_m": 0.15,
+      "high_height_m": 0.69,
+      "long_reach_m": 0.56,
+      "step_distance_m": 0.34,
+      "pivot_angle_rad": 0.68,
+      "switch_start_s": 1.65,
+      "switch_duration_s": 0.74,
+      "step_start_s": 1.45,
+      "step_duration_s": 0.76
+    },
+    "kick_check_negative": {
+      "scene": "kick_check_negative",
+      "high_forward_m": 0.09,
+      "high_height_m": 0.73,
+      "long_reach_m": 0.51,
+      "step_distance_m": 0.31,
+      "pivot_angle_rad": 0.46,
+      "switch_start_s": 1.3,
+      "switch_duration_s": 0.78,
+      "step_start_s": 1.6,
+      "step_duration_s": 0.92
+    },
+    "clinch_ambiguous": {
+      "scene": "clinch_ambiguous",
+      "high_forward_m": 0.17,
+      "high_height_m": 0.67,
+      "long_reach_m": 0.57,
+      "step_distance_m": 0.3,
+      "pivot_angle_rad": 0.55,
+      "switch_start_s": 1.75,
+      "switch_duration_s": 0.8,
+      "step_start_s": 1.15,
+      "step_duration_s": 0.95
+    },
+    "heavy_occlusion": {
+      "scene": "heavy_occlusion",
+      "high_forward_m": 0.11,
+      "high_height_m": 0.71,
+      "long_reach_m": 0.54,
+      "step_distance_m": 0.42,
+      "pivot_angle_rad": 0.73,
+      "switch_start_s": 1.52,
+      "switch_duration_s": 0.62,
+      "step_start_s": 1.35,
+      "step_duration_s": 0.7
+    },
+    "id_crossing": {
+      "scene": "id_crossing",
+      "high_forward_m": 0.11,
+      "high_height_m": 0.68,
+      "long_reach_m": 0.52,
+      "step_distance_m": 0.34,
+      "pivot_angle_rad": 0.48,
+      "switch_start_s": 1.3,
+      "switch_duration_s": 0.62,
+      "step_start_s": 1.2,
+      "step_duration_s": 0.72
+    },
+    "camera_cut": {
+      "scene": "camera_cut",
+      "high_forward_m": 0.15,
+      "high_height_m": 0.72,
+      "long_reach_m": 0.55,
+      "step_distance_m": 0.42,
+      "pivot_angle_rad": 0.66,
+      "switch_start_s": 1.7,
+      "switch_duration_s": 0.78,
+      "step_start_s": 1.6,
+      "step_duration_s": 0.94
+    },
+    "level_change": {
+      "scene": "level_change",
+      "high_forward_m": 0.09,
+      "high_height_m": 0.66,
+      "long_reach_m": 0.5,
+      "step_distance_m": 0.31,
+      "pivot_angle_rad": 0.53,
+      "switch_start_s": 1.5,
+      "switch_duration_s": 0.7,
+      "step_start_s": 1.1,
+      "step_duration_s": 0.82
+    },
+    "fast_combo": {
+      "scene": "fast_combo",
+      "high_forward_m": 0.17,
+      "high_height_m": 0.74,
+      "long_reach_m": 0.57,
+      "step_distance_m": 0.47,
+      "pivot_angle_rad": 0.73,
+      "switch_start_s": 1.2,
+      "switch_duration_s": 0.56,
+      "step_start_s": 1.4,
+      "step_duration_s": 0.68
+    }
+  },
+  "cache_hits_on_local_repair": 7,
+  "production_generation_runs": 1,
+  "total_tokens": 7915
+}

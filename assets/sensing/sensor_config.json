@@ -1,0 +1,395 @@
+{
+  "default_config": {
+    "seed": 42,
+    "duration": 60,
+    "scenario": "combination",
+    "disabledDevices": [],
+    "fusionWindow": 0.16,
+    "combinationWindow": 1.2,
+    "minPatternSamples": 3,
+    "sensors": {
+      "camera": {
+        "enabled": true,
+        "hz": 30,
+        "latency_ms": 55,
+        "jitter_ms": 5,
+        "clock_offset_ms": 12,
+        "clock_correction_ms": 12,
+        "dropout": 0.02,
+        "noise": 0.018
+      },
+      "isac": {
+        "enabled": true,
+        "hz": 64,
+        "latency_ms": 25,
+        "jitter_ms": 2,
+        "clock_offset_ms": -8,
+        "clock_correction_ms": -8,
+        "dropout": 0.01,
+        "noise": 0.025
+      },
+      "uwb": {
+        "enabled": true,
+        "hz": 20,
+        "latency_ms": 35,
+        "jitter_ms": 3,
+        "clock_offset_ms": 20,
+        "clock_correction_ms": 20,
+        "dropout": 0.02,
+        "noise": 0.04
+      },
+      "imu": {
+        "enabled": true,
+        "hz": 100,
+        "latency_ms": 18,
+        "jitter_ms": 2,
+        "clock_offset_ms": -15,
+        "clock_correction_ms": -15,
+        "dropout": 0.01,
+        "noise": 0.25
+      }
+    }
+  },
+  "devices": [
+    {
+      "id": "CAM-01",
+      "type": "camera",
+      "position": [
+        4.572,
+        1.893784,
+        3.2218
+      ],
+      "target": [
+        0,
+        0,
+        2.2192
+      ],
+      "fov": 100,
+      "role": "옥타곤 꼭짓점 · 안쪽/아래 관측"
+    },
+    {
+      "id": "CAM-02",
+      "type": "camera",
+      "position": [
+        1.893784,
+        4.572,
+        3.2218
+      ],
+      "target": [
+        0,
+        0,
+        2.2192
+      ],
+      "fov": 100,
+      "role": "옥타곤 꼭짓점 · 안쪽/아래 관측"
+    },
+    {
+      "id": "CAM-03",
+      "type": "camera",
+      "position": [
+        -1.893784,
+        4.572,
+        3.2218
+      ],
+      "target": [
+        0,
+        0,
+        2.2192
+      ],
+      "fov": 100,
+      "role": "옥타곤 꼭짓점 · 안쪽/아래 관측"
+    },
+    {
+      "id": "CAM-04",
+      "type": "camera",
+      "position": [
+        -4.572,
+        1.893784,
+        3.2218
+      ],
+      "target": [
+        0,
+        0,
+        2.2192
+      ],
+      "fov": 100,
+      "role": "옥타곤 꼭짓점 · 안쪽/아래 관측"
+    },
+    {
+      "id": "CAM-05",
+      "type": "camera",
+      "position": [
+        -4.572,
+        -1.893784,
+        3.2218
+      ],
+      "target": [
+        0,
+        0,
+        2.2192
+      ],
+      "fov": 100,
+      "role": "옥타곤 꼭짓점 · 안쪽/아래 관측"
+    },
+    {
+      "id": "CAM-06",
+      "type": "camera",
+      "position": [
+        -1.893784,
+        -4.572,
+        3.2218
+      ],
+      "target": [
+        0,
+        0,
+        2.2192
+      ],
+      "fov": 100,
+      "role": "옥타곤 꼭짓점 · 안쪽/아래 관측"
+    },
+    {
+      "id": "CAM-07",
+      "type": "camera",
+      "position": [
+        1.893784,
+        -4.572,
+        3.2218
+      ],
+      "target": [
+        0,
+        0,
+        2.2192
+      ],
+      "fov": 100,
+      "role": "옥타곤 꼭짓점 · 안쪽/아래 관측"
+    },
+    {
+      "id": "CAM-08",
+      "type": "camera",
+      "position": [
+        4.572,
+        -1.893784,
+        3.2218
+      ],
+      "target": [
+        0,
+        0,
+        2.2192
+      ],
+      "fov": 100,
+      "role": "옥타곤 꼭짓점 · 안쪽/아래 관측"
+    },
+    {
+      "id": "CAM-09",
+      "type": "camera",
+      "position": [
+        0,
+        0,
+        7.7192
+      ],
+      "target": [
+        0,
+        0,
+        1.2192
+      ],
+      "fov": 95,
+      "role": "천장 중앙 수직 관측"
+    },
+    {
+      "id": "ISAC-TX",
+      "type": "isac",
+      "position": [
+        -5.2,
+        0,
+        2.7192
+      ],
+      "target": [
+        0,
+        0,
+        2.2192
+      ],
+      "role": "2×2 MIMO-OFDM 송수신기 · 5.8 GHz 개념 모델"
+    },
+    {
+      "id": "ISAC-RX",
+      "type": "isac",
+      "position": [
+        0,
+        5.2,
+        2.7192
+      ],
+      "target": [
+        0,
+        0,
+        2.2192
+      ],
+      "role": "보조 수신 노드 · 비공선 링크"
+    },
+    {
+      "id": "ANCHOR-1",
+      "type": "uwb",
+      "position": [
+        -5,
+        -5,
+        2.6192
+      ],
+      "target": [
+        0,
+        0,
+        2.2192
+      ],
+      "role": "좌표가 알려진 고정 앵커 · DS-TWR"
+    },
+    {
+      "id": "ANCHOR-2",
+      "type": "uwb",
+      "position": [
+        5,
+        -5,
+        2.6192
+      ],
+      "target": [
+        0,
+        0,
+        2.2192
+      ],
+      "role": "좌표가 알려진 고정 앵커 · DS-TWR"
+    },
+    {
+      "id": "ANCHOR-3",
+      "type": "uwb",
+      "position": [
+        5,
+        5,
+        2.6192
+      ],
+      "target": [
+        0,
+        0,
+        2.2192
+      ],
+      "role": "좌표가 알려진 고정 앵커 · DS-TWR"
+    },
+    {
+      "id": "ANCHOR-4",
+      "type": "uwb",
+      "position": [
+        -5,
+        5,
+        2.6192
+      ],
+      "target": [
+        0,
+        0,
+        2.2192
+      ],
+      "role": "좌표가 알려진 고정 앵커 · DS-TWR"
+    },
+    {
+      "id": "TAG-A",
+      "type": "uwb",
+      "position": [
+        0,
+        0,
+        2.2192
+      ],
+      "target": [
+        0,
+        0,
+        2.2192
+      ],
+      "role": "허리 이동형 태그",
+      "fighter": "A"
+    },
+    {
+      "id": "A-L",
+      "type": "imu",
+      "position": [
+        0,
+        0,
+        2.7192
+      ],
+      "target": [
+        0,
+        0,
+        2.2192
+      ],
+      "role": "손목 3축 가속도 + 3축 자이로",
+      "fighter": "A",
+      "hand": "L"
+    },
+    {
+      "id": "A-R",
+      "type": "imu",
+      "position": [
+        0,
+        0,
+        2.7192
+      ],
+      "target": [
+        0,
+        0,
+        2.2192
+      ],
+      "role": "손목 3축 가속도 + 3축 자이로",
+      "fighter": "A",
+      "hand": "R"
+    },
+    {
+      "id": "TAG-B",
+      "type": "uwb",
+      "position": [
+        0,
+        0,
+        2.2192
+      ],
+      "target": [
+        0,
+        0,
+        2.2192
+      ],
+      "role": "허리 이동형 태그",
+      "fighter": "B"
+    },
+    {
+      "id": "B-L",
+      "type": "imu",
+      "position": [
+        0,
+        0,
+        2.7192
+      ],
+      "target": [
+        0,
+        0,
+        2.2192
+      ],
+      "role": "손목 3축 가속도 + 3축 자이로",
+      "fighter": "B",
+      "hand": "L"
+    },
+    {
+      "id": "B-R",
+      "type": "imu",
+      "position": [
+        0,
+        0,
+        2.7192
+      ],
+      "target": [
+        0,
+        0,
+        2.2192
+      ],
+      "role": "손목 3축 가속도 + 3축 자이로",
+      "fighter": "B",
+      "hand": "R"
+    }
+  ],
+  "rf": {
+    "carrier_hz": 5800000000,
+    "subcarriers": 16,
+    "mimo_links": 4
+  },
+  "metric_valid": false
+}

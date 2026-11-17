@@ -1,0 +1,21 @@
+{
+  "request_sha256": "2c2c35ffa2dc2915f973e31d716bb87a5e8a8357b8a0f98b2edab276bf6974d4",
+  "response_sha256": "15870ec494c84f59ac743373148f2355d735046692bba05633c05c0083cc75fd",
+  "response_file": "reports/mma_3d_sensing_upgrade/generation_cache/2c2c35ffa2dc2915f973e31d716bb87a5e8a8357b8a0f98b2edab276bf6974d4.json",
+  "scenes": [
+    "southpaw_high",
+    "lead_long_rear_high",
+    "rear_long_lead_high",
+    "both_extended",
+    "mixed_head_movement"
+  ],
+  "model": "gpt-6-luna",
+  "attempts": 1,
+  "elapsed_seconds": 6.30969159999222,
+  "usage": {
+    "prompt_tokens": 568,
+    "completion_tokens": 551,
+    "total_tokens": 1119
+  },
+  "evidence": "Original successful generation tool output; persisted during local bake repair. No additional API request."
+}

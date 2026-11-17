@@ -1,0 +1,54 @@
+{
+  "scene": "opponent_only_approach",
+  "source_kind": "synthetic",
+  "evaluation_scope": "generator-derived consistency only",
+  "coverage_s": [
+    0,
+    6
+  ],
+  "actors": [
+    "A",
+    "B"
+  ],
+  "quality": {
+    "status": "PASS",
+    "structural_gate": "finite coordinates, constant chain lengths, nonpenetrating foot soles",
+    "bone_length_span_m": {
+      "pelvis-chest": 0.0,
+      "chest-neck": 0.0,
+      "neck-head": 4.163336342344337e-16,
+      "left_shoulder-left_elbow": 4.440892098500626e-16,
+      "left_elbow-left_wrist": 4.996003610813204e-16,
+      "left_hip-left_knee": 3.3306690738754696e-16,
+      "left_knee-left_ankle": 2.220446049250313e-16,
+      "left_heel-left_toe": 1.1102230246251565e-16,
+      "right_shoulder-right_elbow": 4.440892098500626e-16,
+      "right_elbow-right_wrist": 3.885780586188048e-16,
+      "right_hip-right_knee": 3.3306690738754696e-16,
+      "right_knee-right_ankle": 3.3306690738754696e-16,
+      "right_heel-right_toe": 1.1102230246251565e-16
+    },
+    "minimum_foot_height_above_floor_m": 0.0,
+    "maximum_joint_frame_step_m": 0.15357218249091842,
+    "contact_slip_max_m_s": 0.0,
+    "contact_slip_mean_m_s": 0.0,
+    "contact_quality": "PASS",
+    "motion_speed_quality": "PASS",
+    "contact_model_limitation": "Alternating foot planting uses a procedural support plan; rapid negatives and episode boundaries require visual review. Not a physics solver.",
+    "independent_3d_error": null
+  },
+  "motion_sha256": "a37d8af8be861b4612b176f2ba7b066dc63fda79bc87f08f4f371f4fcbf95f43",
+  "plan": {
+    "scene": "opponent_only_approach",
+    "high_forward_m": 0.08,
+    "high_height_m": 0.66,
+    "long_reach_m": 0.5,
+    "step_distance_m": 0.47,
+    "pivot_angle_rad": 0.62,
+    "switch_start_s": 1.5,
+    "switch_duration_s": 0.65,
+    "step_start_s": 1.3,
+    "step_duration_s": 0.9
+  },
+  "generation_status": "PASS"
+}

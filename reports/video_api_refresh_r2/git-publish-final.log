@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "C:\AI_bsss\FF_VSCode_Agent_Kit_3.1\tools\publish_video_refresh.py", line 58, in <module>
+    p=argparse.ArgumentParser(description=__doc__);p.add_argument('--run-id',required=True);a=p.parse_args();publish(a.run_id)
+                                                                                                             ^^^^^^^^^^^^^^^^^
+  File "C:\AI_bsss\FF_VSCode_Agent_Kit_3.1\tools\publish_video_refresh.py", line 28, in publish
+    if git('diff','--cached','--quiet',check=False).returncode:raise ValueError('Existing staged changes must be preserved')
+                                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Existing staged changes must be preserved

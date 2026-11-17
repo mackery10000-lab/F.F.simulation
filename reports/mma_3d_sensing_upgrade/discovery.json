@@ -1,0 +1,40 @@
+{
+  "root": "C:\\AI_bsss\\FF_VSCode_Agent_Kit_3.1",
+  "head": "7f3370ff05aeeae9ca1ae96831a126a85547e9a5",
+  "branch": "main",
+  "dirty_before": " M .gitignore\n M .vscode/settings.json\n M README.md\n M analysis-platform/README_KO.md\n M analysis-platform/package.json\n M analysis-platform/src/App.tsx\n M analysis-platform/src/SkeletonView.tsx\n M analysis-platform/src/data/01_strickland_script.json\n M analysis-platform/src/data/02_pereira_script.json\n M analysis-platform/src/data/03_interactions_script.json\n M analysis-platform/src/data/dataset_manifest.json\n M analysis-platform/src/domain/04_3d_mma_definitions.ts\n M analysis-platform/src/server.ts\n M analysis-platform/tests/api.test.ts\n M analysis-platform/tests/fused-motion.test.ts\n M analysis-platform/tools/export_script_analysis.ts\n M analysis-platform/tools/export_v10_inputs.ts\n M analysis-platform/vite.config.ts\n M docs/OLLAMA_SCRIPT_ANALYSIS_KO.md\n M index.html\n M scripts/audit_reliability.py\n M scripts/build_skinned_fighters.py\n M scripts/build_unified_registry.py\n M scripts/ff_ollama_analysis.py\n M scripts/ff_semantic_pose_experiment.py\n M scripts/ff_source_audit.py\n M scripts/ff_unified.py\n M scripts/run_unified_reconstruction.py\n M tests/test_ollama_analysis.py\n M tests/test_script_fusion.py\n M tests/test_semantic_pose_experiment.py\n?? .gitattributes\n?? FIGHT_FREQUENCY_3D_SENSING_ARCHITECTURE_KO.docx\n?? RUN_FIGHT_FREQUENCY_AI_WINDOWS.bat\n?? RUN_GPT_PRECISION_V4_WINDOWS.bat\n?? RUN_SENSING_WINDOWS.bat\n?? analysis-platform/model-review.html\n?? analysis-platform/src/coaching/\n?? analysis-platform/src/model-review.ts\n?? analysis-platform/src/sensing-input.ts\n?? analysis-platform/src/sensing/\n?? analysis-platform/src/source-integrity.ts\n?? analysis-platform/tests/coaching-ledger.test.ts\n?? analysis-platform/tests/gpt-precision-v4.test.ts\n?? analysis-platform/tests/model-pipeline.test.ts\n?? analysis-platform/tests/source-integrity.test.ts\n?? analysis-platform/tools/audit_model_motion.ts\n?? analysis-platform/tools/audit_model_overlap.py\n?? analysis-platform/tools/benchmark_model_pipeline.ts\n?? analysis-platform/tools/export_simulation_motion.ts\n?? analysis-platform/tools/gpt_precision_v4.ts\n?? assets/fighters/minimal_shell_v1/\n?? assets/fonts/\n?? assets/sensing/\n?? coaching/\n?? docs/GPT_PRECISION_V4_KO.md\n?? docs/MODEL_PIPELINE_KO.md\n?? docs/SENSING_STANDALONE_README.md\n?? experiments/gpt_precision_v4/\n?? github.f.f/\n?? motion/\n?? reports/coaching/\n?? reports/final_integration/\n?? reports/gpt_precision_v4/\n?? reports/mma_3d_sensing_upgrade/\n?? reports/model_pipeline/\n?? reports/ollama-removal/\n?? reports/provider-migration/\n?? reports/sensing/\n?? reports/tactical_questions/\n?? scripts/ff_ai_provider.py\n?? scripts/ff_baseline_inputs.py\n?? scripts/ff_gpt_precision.py\n?? scripts/ff_precision_handoff.py\n?? scripts/run_gpt_precision_v4.py\n?? sensing/\n?? tests/test_gpt_precision_v4.py\n?? tools/\n",
+  "before_hashes": {
+    "assets/sensing/motion.json.gz": "91e20395f56d247c83782d8760f1e77db5cb5cedbb9800804eed242d46c680e9",
+    "assets/sensing/manifest.json": "b04c40524c84bca0f436cf1ecb8e17f88e8b7214fca14eca8a48eafe913c0e91",
+    "sensing/contracts.ts": "cb8e200008fb6bf2ee887dda625826f398f924e2bb2ea7f0fad7110d18f83bb0",
+    "sensing/adapters.ts": "d5da527a98a9e8dbb76799d24efa6459dbb434fc9db5980f7af5dc59b765fcb7",
+    "sensing/sensors.ts": "d866533fdb307aace048f842a234cbe3dbd04dc686965d027fe3d4f60989b8ed",
+    "sensing/live.ts": "1ae7c59bdf0906db298edf4d9191e431b029a9915134587464e1bfa78317b186",
+    "sensing/fusion.ts": "9477ab6867a2a29c7cfa2199d7d50fbc08158af3d8481996631fde6c96db512e",
+    "analysis-platform/src/sensing-input.ts": "64820f706835b8f50a6fe093833f22428fb73c85f3d996ace5620bdb7861cbda",
+    "analysis-platform/src/sensing/SensingLab.tsx": "b987c2556f3b3df0eb4be1e78aff5ba19a91b92ffaac8c70ad98c94817141b4d",
+    "sensing/README_KO.md": "f262ec42a51e4635a5e0b6bc4c6aaacd1404290789ae946b6bef4cf4d930c538",
+    "github.f.f/README.md": "e1af5c0df97fc6eeee31e3af7ea89248bb25d1f86e85406f1ed7940361890bfb",
+    "github.f.f/package.json": "18ea9b78451c3c097d3f181d81ae2808ec044d5ca96297845d1d9662cd55b789",
+    "github.f.f/app/vite.config.ts": "e03a1baecfe8f72c23e02c413c200b9b0377d7cba2667111f3c1d55bd8d26ca4"
+  },
+  "api": {
+    "OPENAI_BASE_URL": "https://apirouter.pleum.ai/v1",
+    "OPENAI_MODEL": "gpt-6-luna",
+    "OPENAI_REASONING_EFFORT": "low",
+    "key_env": "OPENAI_API_KEY",
+    "key_present": true,
+    "env_names": [
+      "OPENAI_API_KEY",
+      "OPENAI_BASE_URL",
+      "OPENAI_EMBEDDING_MODEL",
+      "OPENAI_MODEL",
+      "OPENAI_REASONING_EFFORT"
+    ]
+  },
+  "mirror": "github.f.f",
+  "versions": {
+    "python": "3.14.6 | packaged by Anaconda, Inc. | (main, Jul  9 2026, 14:29:05) [MSC v.1942 64 bit (AMD64)]",
+    "node": "v24.21.0"
+  }
+}

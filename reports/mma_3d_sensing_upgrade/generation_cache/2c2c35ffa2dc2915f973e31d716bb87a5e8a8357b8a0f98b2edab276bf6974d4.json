@@ -1,0 +1,64 @@
+{
+  "plans": [
+    {
+      "scene": "southpaw_high",
+      "high_forward_m": 0.11,
+      "high_height_m": 0.69,
+      "long_reach_m": 0.52,
+      "step_distance_m": 0.34,
+      "pivot_angle_rad": 0.48,
+      "switch_start_s": 1.25,
+      "switch_duration_s": 0.72,
+      "step_start_s": 1.15,
+      "step_duration_s": 0.82
+    },
+    {
+      "scene": "lead_long_rear_high",
+      "high_forward_m": 0.13,
+      "high_height_m": 0.71,
+      "long_reach_m": 0.55,
+      "step_distance_m": 0.39,
+      "pivot_angle_rad": 0.57,
+      "switch_start_s": 1.42,
+      "switch_duration_s": 0.63,
+      "step_start_s": 1.32,
+      "step_duration_s": 0.91
+    },
+    {
+      "scene": "rear_long_lead_high",
+      "high_forward_m": 0.09,
+      "high_height_m": 0.67,
+      "long_reach_m": 0.53,
+      "step_distance_m": 0.36,
+      "pivot_angle_rad": 0.66,
+      "switch_start_s": 1.68,
+      "switch_duration_s": 0.77,
+      "step_start_s": 1.55,
+      "step_duration_s": 0.74
+    },
+    {
+      "scene": "both_extended",
+      "high_forward_m": 0.16,
+      "high_height_m": 0.73,
+      "long_reach_m": 0.57,
+      "step_distance_m": 0.45,
+      "pivot_angle_rad": 0.72,
+      "switch_start_s": 1.54,
+      "switch_duration_s": 0.68,
+      "step_start_s": 1.62,
+      "step_duration_s": 0.98
+    },
+    {
+      "scene": "mixed_head_movement",
+      "high_forward_m": 0.12,
+      "high_height_m": 0.7,
+      "long_reach_m": 0.51,
+      "step_distance_m": 0.42,
+      "pivot_angle_rad": 0.53,
+      "switch_start_s": 1.33,
+      "switch_duration_s": 0.59,
+      "step_start_s": 1.43,
+      "step_duration_s": 0.87
+    }
+  ]
+}

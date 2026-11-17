@@ -1,0 +1,63 @@
+
+> fight-frequency-analysis@1.0.0 test
+> node --experimental-strip-types --test tests/*.test.ts
+
+✔ local review JSON persists idempotently; invalid origin/data cannot replace it; native last frame decodes (4239.6969ms)
+✔ incremental ledger sends only newly received events and keeps retry IDs stable (15.6707ms)
+✔ rewind and collection changes create independent sessions without deleting old events (1.1605ms)
+✔ late create response cannot attach the previous session to a rewound stream (6.9161ms)
+✔ future packet is excluded until its actual arrival (0.9038ms)
+✔ all actual source schemas and used technique codes parse at 4500 frames (2.1015ms)
+✔ half-open endpoints, integer bounds and malformed source times are rejected (15.7407ms)
+✔ coarse state coverage cannot be promoted into verified technical statistics (2.9422ms)
+✔ exact duplicate ranges are deduplicated; simultaneous different techniques survive (25.1871ms)
+✔ both fighters share the same frame; observed simultaneous movement is not a reaction time (1.112ms)
+✔ unresolved low kicks and unknown stance never become calf kicks or invented lead sides (1.6413ms)
+✔ phase retiming and authoring adapter retain illustrative identity (0.8284ms)
+✔ scene gaps suppress illustrative motion and cannot create interpolated travel (1.12ms)
+✔ review overlays preserve source data, update statistics, and require matching dataset (118.7425ms)
+✔ browser seeking alone cannot certify exact onset or reaction frames (0.6624ms)
+✔ review phase edits remain integer-only and prototype property names are not techniques (0.5779ms)
+✔ confirmed user response computes frames only with both onset confirmations (0.6828ms)
+✔ patterns cite their denominator and never call one occurrence a repeated habit (2.0754ms)
+✔ response patterns require independently reviewed causal pairs, not original simultaneous descriptions (2.6412ms)
+✔ reviewed source phases do not retain old precision, and rejected or downgraded sources cannot drive animation (1.0739ms)
+✔ reviewed stance and guard affect only the annotated fighter and interval (1.158ms)
+✔ actual full-source fused motion preserves fixed A/B identities, axis mapping and deterministic seeking (125.6492ms)
+✔ mismatched source, actor ordering and incomplete frames fail instead of borrowing another actor (76.3114ms)
+✔ coarse scripts are usable hidden-joint priors while source evidence and unknown contact remain unchanged (2.3758ms)
+✔ all four active inputs are exactly the supplied V4 bytes and original 41 templates remain (28.38ms)
+✔ six source-bound events cover requested times and frames are unique inside original bounds (0.4142ms)
+✔ request requires every planned image and rejects duplicate or outside labels (1.7775ms)
+✔ valid uncertainty remains a proposal with zero authorized pose edits (0.9426ms)
+✔ invented frames, actor switches, coordinates, target contact and taxonomy mismatch fail closed (0.5717ms)
+✔ one screenshot cue cannot become supported multi-frame evidence (0.2699ms)
+✔ identity records reject stale hashes, unconfirmed decisions and arbitrary fields (2.0383ms)
+✔ identity API appends history, launches a bounded rebuild and persists failures without touching V9 (556.3218ms)
+✔ every original A/B keyframe is exact; source arrays and pelvis interpolation remain unchanged (25.5623ms)
+✔ feasible intermediate limb bones retain lengths; incompatible source intervals are reported (402.4421ms)
+✔ no wrist or ankle speed/acceleration is amplified to pass a sensor threshold (785.9391ms)
+✔ render and sensor coordinates match at the same fractional source time and axes invert exactly (25.4715ms)
+✔ same source-time seek is deterministic, malformed timeline and actor swaps fail (10.7082ms)
+✔ hinge interpolation approaches source keys and intermediate times continuously (18.929ms)
+✔ minimal visual version preserves both original 20-bone hierarchies, rest positions and proportions (0.8407ms)
+✔ both real GLBs keep joints and rigid tube endpoints aligned; radial thickness cannot shear (125.8321ms)
+✔ eleven representative authored postures run on existing rig without geometry distortion (144.1271ms)
+✔ visual-only shell loading and retargeting leave sensor inputs, packets and events exactly unchanged (1835.5858ms)
+✔ isolated preview requires source-bound withheld candidates and rejects invalid intervals (2.179ms)
+✔ text candidates render only within their source interval through authored templates (2.2831ms)
+✔ two-bone authoring IK preserves lengths and exposes unreachable targets (2.0792ms)
+✔ both stance assumptions produce finite Y-up authoring poses with explicit ground constraints (56.8973ms)
+✔ seeking to a cut or unknown interval resets the model instead of carrying prior root travel (1.7296ms)
+✔ source hash accepts the same LF text after a CRLF checkout and rejects content changes (2.4155ms)
+✔ four-file dictionary retains all 41 original templates and deterministic samples (11.5794ms)
+✔ source-aware bridge rejects another interval, template-only quote and incompatible channels (1.7258ms)
+✔ V3.1 semantic helpers reject inherited property names and incomplete model envelopes (0.7496ms)
+ℹ tests 51
+ℹ suites 0
+ℹ pass 51
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 4840.2592

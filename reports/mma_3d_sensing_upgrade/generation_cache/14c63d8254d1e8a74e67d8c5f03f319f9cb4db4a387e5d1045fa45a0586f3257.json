@@ -1,0 +1,16 @@
+{
+  "plans": [
+    {
+      "scene": "orthodox_high",
+      "high_forward_m": 0.13,
+      "high_height_m": 0.7048,
+      "long_reach_m": 0.54,
+      "step_distance_m": 0.38,
+      "pivot_angle_rad": 0.6,
+      "switch_start_s": 1.5,
+      "switch_duration_s": 0.68,
+      "step_start_s": 1.4,
+      "step_duration_s": 0.82
+    }
+  ]
+}
