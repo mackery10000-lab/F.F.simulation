@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import {gunzipSync} from 'node:zlib';
 import assert from 'node:assert/strict';
+import path from 'node:path';
 import {AnimationMixer,Vector3} from '../vendor/three/build/three.module.js';
 import {GLTFLoader} from '../vendor/three/examples/jsm/loaders/GLTFLoader.js';
 const raw=fs.readFileSync(new URL('../assets/sensing/mma_joint_rig.glb',import.meta.url));
@@ -21,4 +22,5 @@ for(const time of [0,.8,12.4,30,72,100,149.44,179.84]){
 }
 assert.ok(maxError<.0001,`Joint rig must match numeric input; maximum error ${maxError}`);
 const report={status:'PASS',tested_joint_positions:count,maximum_joint_position_error_m:maxError,scope:'12.5 Hz joint rig at exact decimated sample times; not visual mesh skinning accuracy'};
-fs.writeFileSync(new URL(`../reports/${motion.source_kind==='video_derived'?'video_3d_replacement':'mma_3d_sensing_upgrade'}/rig_numeric_parity.json`,import.meta.url),JSON.stringify(report,null,2)+'\n');console.log(report);
+const reportRoot=process.argv.includes('--report-root')?path.resolve(import.meta.dirname,'..',process.argv[process.argv.indexOf('--report-root')+1]):new URL(`../reports/${motion.source_kind==='video_derived'?'video_3d_replacement':'mma_3d_sensing_upgrade'}/`,import.meta.url);
+fs.writeFileSync(typeof reportRoot==='string'?path.join(reportRoot,'rig_numeric_parity.json'):new URL('rig_numeric_parity.json',reportRoot),JSON.stringify(report,null,2)+'\n');console.log(report);

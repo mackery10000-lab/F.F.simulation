@@ -192,8 +192,8 @@
   "per_frame_observation_confidence": "joint_observation_confidence [frame][actor][joint]; missing and estimated-only samples are not observations",
   "api_refinement": {
     "model": "gpt-6-luna",
-    "source_images": 180,
-    "coordinate_updates": 8,
+    "source_images": 360,
+    "coordinate_updates": 12,
     "confidence_unchanged": true,
     "depth_measured": false
   }

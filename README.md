@@ -83,6 +83,6 @@ RUN_WINDOWS.bat      설치 확인 → 빌드 → 로컬 실행
 
 [이번 교체 실행 보고서](reports/video_3d_replacement/REPORT_KO.md), [이전 합성 생성 보고서](reports/mma_3d_sensing_upgrade/REPORT_KO.md), [MMA 분류·제한](docs/MMA_MOVEMENT_TAXONOMY_KO.md). 로컬 동기화와 외부 GitHub push는 별개이며 최신 원격 반영 상태는 자율 실행 보고서에서 확인할 수 있습니다.
 
-## 영상 API 검토 및 센싱 신뢰성 보완
+## 영상 API 추론 및 현재 센싱 기준 모델
 
-현재 모션은 외부 API의 180개 영상 프레임 검토 후 제한적 관절 보정을 적용한 버전입니다. 전체 3D 정확도 향상은 입증되지 않았습니다. 관측/필터/예측/만료를 구분하고 ID 신뢰도와 UWB 차폐를 분리했습니다. [최신 실행 보고서](reports/autonomous_execution/REPORT_KO.md)에 오차 증가를 포함한 비교와 검증 결과가 있습니다.
+현재 입력 run_id는 `video_api_refresh_r2`입니다. 원본 영상 재추론과 외부 API 좌표 추론을 실행하고 품질 조건을 통과한 모션을 반영했습니다. 전체 3D 정확도 향상은 입증되지 않았습니다. 관측/필터/예측/만료를 구분하고 ID 신뢰도와 UWB 차폐를 분리했습니다. [현재 기준 모델 실행 보고서](reports/video_api_refresh_r2/REPORT_KO.md)에서 실제 API 실행과 자산 교체를 확인할 수 있습니다.

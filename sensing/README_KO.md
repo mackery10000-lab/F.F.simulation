@@ -1,6 +1,6 @@
 # FIGHT FREQUENCY · 실시간 센서 관제
 
-> **현재 입력:** 원본 영상의 MediaPipe Heavy 25 FPS·4,500프레임·23관절 모션에 외부 이미지 추론으로 검토한 제한적 보정을 적용했습니다. API는 1 Hz·180프레임을 분석했고, 품질 조건을 통과한 관절 보정은 8개/56프레임입니다. 전체 3D 정확도 향상은 입증되지 않았으며 `metric_valid=false`, 관측 신뢰도와 누락 관절 비율을 보존합니다. [최신 실행 보고서](../reports/autonomous_execution/REPORT_KO.md), [분류·제한](../docs/MMA_MOVEMENT_TAXONOMY_KO.md)을 참조하세요. 센싱 런타임의 외부 API 호출은 0회입니다.
+> **현재 입력:** `video_api_refresh_r2`. 원본 영상 전체를 MediaPipe Heavy로 새로 추론하고, API 60회·2 Hz·360프레임의 실제 좌표 추론을 결합한 25 FPS·4,500프레임·23관절 모션입니다. 이전 활성 모션 대비 84프레임의 336개 좌표 값이 바뀌었습니다. [현재 모델 실행 보고서](../reports/video_api_refresh_r2/REPORT_KO.md)를 참조하세요. `metric_valid=false`와 관측 신뢰도를 보존하며 전체 정확도 향상을 주장하지 않습니다. 센싱은 API를 호출하지 않고 완성된 숫자 모션을 읽습니다.
 
 > `/api/sensing-motion`은 공통 모션·렌더링 자산의 해시와 시간축을 검사합니다. LUNA 합성 장면은 회귀 검증용이며 기본 입력이 아닙니다. 선수 ID는 RF 차폐와 독립이고, 거리·태그 카드는 관측/필터/예측/만료 상태를 공유합니다.
 

@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "C:\AI_bsss\FF_VSCode_Agent_Kit_3.1\tools\publish_video_refresh.py", line 58, in <module>
+    p=argparse.ArgumentParser(description=__doc__);p.add_argument('--run-id',required=True);a=p.parse_args();publish(a.run_id)
+                                                                                                             ^^^^^^^^^^^^^^^^^
+  File "C:\AI_bsss\FF_VSCode_Agent_Kit_3.1\tools\publish_video_refresh.py", line 39, in publish
+    before=git('rev-parse','HEAD').stdout.strip();git('add','--pathspec-from-file='+str(spec),timeout=60)
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\AI_bsss\FF_VSCode_Agent_Kit_3.1\tools\publish_video_refresh.py", line 14, in git
+    def git(*args,timeout=30,check=True):return subprocess.run(['git','-C',str(DEST),*args],text=True,capture_output=True,encoding='utf-8',env=ENV,timeout=timeout,check=check)
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\김명준\AppData\Local\Python\pythoncore-3.11-64\Lib\subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['git', '-C', 'C:\\AI_bsss\\FF_VSCode_Agent_Kit_3.1\\github.f.f', 'add', '--pathspec-from-file=C:\\AI_bsss\\FF_VSCode_Agent_Kit_3.1\\.cache\\video_api_refresh_r2-pathspec.txt']' returned non-zero exit status 1.

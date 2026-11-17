@@ -1,0 +1,9 @@
+{
+  "scripts/run_video_sensing_refresh.py": "380f34912541acc7719942f3a3d83e9d15ca8ed85086770cb65aa6d84b5fd2fa",
+  "scripts/refine_video_api.py": "1f75e35e38ba477c6169f6b1aad1ce6f7ef690cf014b711cef2b67689d84b2db",
+  "scripts/build_video_sensing_reference.py": "c19fcc5921c66b4681740512c21fd8acabdeeae867e8c589bf62eb988e8179d1",
+  "scripts/apply_video_api_refinement.py": "db4b22b5bb3e47bc729bccffd2bbcb0e86ee78acbc3c912096b98cee2eb5c3f3",
+  "scripts/publish_api_refinement.py": "9468d7e088c384075d2321c706c943258a61ca9a7b5b998d6de61b0df85ad76b",
+  "tools/finish_video_sensing_refresh.py": "0d81193ff91973dfd91c3f4a1eb5ec6f2cb9874371bc8023cb21233cee2054c8",
+  "tools/verify_video_refresh.py": "616b818757064aef5fb4ba3529c2961b8ad2ceb1fa4ad7f82dc9caa49d23fb8f"
+}

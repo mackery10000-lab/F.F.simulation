@@ -58,7 +58,10 @@
     "branch_url": "https://github.com/mackery10000-lab/F.F.simulation/tree/codex/video-sensing-reliability-20261117",
     "pull_request_status": "DRAFT_CREATED",
     "pull_request_url": "https://github.com/mackery10000-lab/F.F.simulation/pull/1",
-    "pull_request_output": "https://github.com/mackery10000-lab/F.F.simulation/pull/1\n"
+    "pull_request_output": "https://github.com/mackery10000-lab/F.F.simulation/pull/1\n",
+    "evidence_commit": "2c7e043836fa1d63c382e3c40bb6147ac45f0e23",
+    "verified_remote_evidence_commit": "2c7e043836fa1d63c382e3c40bb6147ac45f0e23",
+    "remote_evidence_commit_matches": true
   },
   "limitations": [
     "3D correction is very small; no recovered missing joints",

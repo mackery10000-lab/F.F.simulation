@@ -95,7 +95,7 @@
     },
     {
       "path": "tools/report_autonomous_execution.py",
-      "sha256": "28089cbd4cfc51c12c69c83c80c463ccbed64dfbbdb51f3df586a3860520543c"
+      "sha256": "f0fbfc171b5f939b4726386dd29fc963849f004c0eac3fcb3bce247b2e7851d4"
     },
     {
       "path": "tools/publish_sensing_branch.py",
@@ -139,7 +139,7 @@
     },
     {
       "path": "reports/autonomous_execution_log.md",
-      "sha256": "cece3bfc7f4ff4ef85dc8aca02f8340113136f94f49eced5a816f34ee26134e6"
+      "sha256": "b32b77e3ef21cc6dd643cf5182a5acf2cb62f90d09b09dbe095a415a0106fd57"
     }
   ],
   "deployment_mapping": "tools/sync_mma_sensing.py + github.f.f/PACKAGE_MANIFEST.json",

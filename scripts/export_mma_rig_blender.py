@@ -12,6 +12,10 @@ from mathutils import Vector, Matrix
 
 ROOT=Path(__file__).resolve().parents[1]
 folder=ROOT/('reports/autonomous_execution/candidate' if '--api-candidate' in sys.argv else 'assets/sensing')
+if '--run-root' in sys.argv:
+    run_root=(ROOT/sys.argv[sys.argv.index('--run-root')+1]).resolve()
+    if run_root.parent!=ROOT/'reports':raise ValueError('Run must be directly under reports')
+    folder=run_root/'candidate'
 raw=(folder/'motion.json.gz').read_bytes();motion=json.loads(gzip.decompress(raw));names=motion['joints']
 bpy.ops.object.select_all(action='SELECT');bpy.ops.object.delete(use_global=False)
 scene=bpy.context.scene;scene.render.fps=25;scene.frame_start=0;scene.frame_end=4499
@@ -36,5 +40,5 @@ target=folder/'mma_joint_rig.glb'
 bpy.ops.wm.save_as_mainfile(filepath=str(ROOT/'.cache/mma_joint_rig.blend'))
 bpy.ops.export_scene.gltf(filepath=str(target),export_format='GLB',use_selection=True,export_animations=True,export_frame_range=True,export_force_sampling=False,export_skins=True)
 report={'status':'PASS','source_asset_sha256':hashlib.sha256(raw).hexdigest(),'glb_sha256':hashlib.sha256(target.read_bytes()).hexdigest(),'path':target.relative_to(ROOT).as_posix(),'blender_version':bpy.app.version_string,'rig_type':'independent joint translation armatures (not anatomical rotation/skinning reconstruction)','actors':['A','B'],'joint_count':len(names),'native_motion_fps':25,'visual_bake_fps':12.5,'visual_bake_decimation':True,'blend_local_only':'.cache/mma_joint_rig.blend','metric_valid':False}
-(folder if '--api-candidate' in sys.argv else ROOT/('reports/video_3d_replacement' if motion.get('source_kind')=='video_derived' else 'reports/mma_3d_sensing_upgrade')).joinpath('blender_export.json').write_text(json.dumps(report,indent=2)+'\n',encoding='utf-8')
+(folder if '--api-candidate' in sys.argv or '--run-root' in sys.argv else ROOT/('reports/video_3d_replacement' if motion.get('source_kind')=='video_derived' else 'reports/mma_3d_sensing_upgrade')).joinpath('blender_export.json').write_text(json.dumps(report,indent=2)+'\n',encoding='utf-8')
 print(json.dumps(report),flush=True)

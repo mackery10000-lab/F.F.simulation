@@ -1,0 +1,212 @@
+{
+  "status": "PASS_BOUNDED_REFINEMENT",
+  "before": {
+    "observed_reprojection_rms_px": 7.41076347269501,
+    "bone_deviation_rms_display_units": 0.030282906871419737,
+    "joint_speed_p99_display_units_s": 18.534361096130706,
+    "acceleration_sse": 16866.362656032106,
+    "observed_joint_ratio": 0.452280193236715
+  },
+  "after": {
+    "observed_reprojection_rms_px": 7.410761454337821,
+    "bone_deviation_rms_display_units": 0.030282899324931566,
+    "joint_speed_p99_display_units_s": 18.534361096130706,
+    "acceleration_sse": 16866.362290008386,
+    "observed_joint_ratio": 0.452280193236715
+  },
+  "attempted_proposals": 6480,
+  "accepted_updates": 12,
+  "changed_frames": 56,
+  "rejected": {
+    "ANCHOR_PRESERVED": 2160,
+    "INSUFFICIENT_INDEPENDENT_EVIDENCE": 3970,
+    "EXTERNAL_NATIVE_DISAGREEMENT": 299,
+    "GAP_IN_LOCAL_SUPPORT": 38,
+    "REPROJECTION_BONE_OR_ACCELERATION_GATE": 1
+  },
+  "accepted": [
+    {
+      "frame": 900,
+      "fighter": "B",
+      "joint": "right_wrist",
+      "support_frames": [
+        897,
+        903
+      ],
+      "direction": "constrained_native_fit_with_external_2d_term",
+      "maximum_delta_display_units": 0.0015563391043374704,
+      "reprojection_sse_before": 0.0013051645865485972,
+      "reprojection_sse_after": 0.0003222354385324852,
+      "receipt": "reports/video_api_refresh_r2/api_refinement/batch-12.json"
+    },
+    {
+      "frame": 900,
+      "fighter": "B",
+      "joint": "left_ankle",
+      "support_frames": [
+        897,
+        903
+      ],
+      "direction": "external",
+      "maximum_delta_display_units": 0.00015787362094944385,
+      "reprojection_sse_before": 0.014277262945632875,
+      "reprojection_sse_after": 0.0032758239936268394,
+      "receipt": "reports/video_api_refresh_r2/api_refinement/batch-12.json"
+    },
+    {
+      "frame": 1050,
+      "fighter": "A",
+      "joint": "left_ankle",
+      "support_frames": [
+        1047,
+        1053
+      ],
+      "direction": "constrained_native_fit_with_external_2d_term",
+      "maximum_delta_display_units": 0.0013674665765388944,
+      "reprojection_sse_before": 0.9357196605309978,
+      "reprojection_sse_after": 0.29945476907538865,
+      "receipt": "reports/video_api_refresh_r2/api_refinement/batch-14.json"
+    },
+    {
+      "frame": 1450,
+      "fighter": "A",
+      "joint": "right_ankle",
+      "support_frames": [
+        1447,
+        1453
+      ],
+      "direction": "constrained_native_fit_with_external_2d_term",
+      "maximum_delta_display_units": 0.002200464224595314,
+      "reprojection_sse_before": 0.9674883556464218,
+      "reprojection_sse_after": 0.10675291108873285,
+      "receipt": "reports/video_api_refresh_r2/api_refinement/batch-19.json"
+    },
+    {
+      "frame": 1825,
+      "fighter": "A",
+      "joint": "left_ankle",
+      "support_frames": [
+        1822,
+        1828
+      ],
+      "direction": "constrained_native_fit_with_external_2d_term",
+      "maximum_delta_display_units": 0.0006349699210496318,
+      "reprojection_sse_before": 0.10290426998843731,
+      "reprojection_sse_after": 0.029718201342531517,
+      "receipt": "reports/video_api_refresh_r2/api_refinement/batch-24.json"
+    },
+    {
+      "frame": 1825,
+      "fighter": "A",
+      "joint": "right_ankle",
+      "support_frames": [
+        1822,
+        1828
+      ],
+      "direction": "constrained_native_fit_with_external_2d_term",
+      "maximum_delta_display_units": 0.0005327641170189091,
+      "reprojection_sse_before": 0.07498657266265156,
+      "reprojection_sse_after": 0.011897835856140668,
+      "receipt": "reports/video_api_refresh_r2/api_refinement/batch-24.json"
+    },
+    {
+      "frame": 1838,
+      "fighter": "A",
+      "joint": "left_ankle",
+      "support_frames": [
+        1835,
+        1841
+      ],
+      "direction": "constrained_native_fit_with_external_2d_term",
+      "maximum_delta_display_units": 0.002236169757662037,
+      "reprojection_sse_before": 0.08196287435337178,
+      "reprojection_sse_after": 0.01614191087779833,
+      "receipt": "reports/video_api_refresh_r2/api_refinement/batch-24.json"
+    },
+    {
+      "frame": 1838,
+      "fighter": "A",
+      "joint": "right_ankle",
+      "support_frames": [
+        1835,
+        1841
+      ],
+      "direction": "constrained_native_fit_with_external_2d_term",
+      "maximum_delta_display_units": 0.0005316234528441831,
+      "reprojection_sse_before": 0.1043913430815123,
+      "reprojection_sse_after": 0.026684309195745243,
+      "receipt": "reports/video_api_refresh_r2/api_refinement/batch-24.json"
+    },
+    {
+      "frame": 1875,
+      "fighter": "A",
+      "joint": "left_ankle",
+      "support_frames": [
+        1872,
+        1878
+      ],
+      "direction": "constrained_native_fit_with_external_2d_term",
+      "maximum_delta_display_units": 0.0001731765706767186,
+      "reprojection_sse_before": 0.0600149510550034,
+      "reprojection_sse_after": 0.05186259915664824,
+      "receipt": "reports/video_api_refresh_r2/api_refinement/batch-25.json"
+    },
+    {
+      "frame": 1875,
+      "fighter": "A",
+      "joint": "right_ankle",
+      "support_frames": [
+        1872,
+        1878
+      ],
+      "direction": "constrained_native_fit_with_external_2d_term",
+      "maximum_delta_display_units": 0.0003282777595266412,
+      "reprojection_sse_before": 0.06029375484043804,
+      "reprojection_sse_after": 0.03750654964930962,
+      "receipt": "reports/video_api_refresh_r2/api_refinement/batch-25.json"
+    },
+    {
+      "frame": 1900,
+      "fighter": "A",
+      "joint": "right_ankle",
+      "support_frames": [
+        1897,
+        1903
+      ],
+      "direction": "constrained_native_fit_with_external_2d_term",
+      "maximum_delta_display_units": 0.001032561655954241,
+      "reprojection_sse_before": 0.32121506023622903,
+      "reprojection_sse_after": 0.1990399081458219,
+      "receipt": "reports/video_api_refresh_r2/api_refinement/batch-25.json"
+    },
+    {
+      "frame": 2600,
+      "fighter": "A",
+      "joint": "right_ankle",
+      "support_frames": [
+        2597,
+        2603
+      ],
+      "direction": "constrained_native_fit_with_external_2d_term",
+      "maximum_delta_display_units": 0.0005101288936953806,
+      "reprojection_sse_before": 0.039236249357474634,
+      "reprojection_sse_after": 0.03809085227695079,
+      "receipt": "reports/video_api_refresh_r2/api_refinement/batch-34.json"
+    }
+  ],
+  "baseline_sha256": "bbe46cdf55e9fd82764bf33b79b79c16629e53d0b937dde7463f058da334386c",
+  "candidate_sha256": "0bd33fdb572a45edbb59895dd65ece351bbe5fccb8f6078945a691ebb9dfb779",
+  "source_sha256": "71e169c159bcac11267815c135d4dceafe58ef5c2fbbf7030399acff06f20e86",
+  "native_frames": 4500,
+  "fps": 25,
+  "metric_valid": false,
+  "confidence_unchanged": true,
+  "true_3d_accuracy_improvement_proven": false,
+  "sensing_feedback": false,
+  "active_baseline_sha256": "821cb126ced624d3bbc6d2d50226031bff1657246689ead58ae27a985d4c27dc",
+  "difference_from_active": {
+    "changed_frames": 84,
+    "changed_coordinate_values": 336,
+    "maximum_delta_display_units": 0.0019041855054566792
+  }
+}

@@ -1,0 +1,4 @@
+{"stage": "build-native-candidate", "status": "PASS"}
+{"stage": "api-inference", "status": "PASS"}
+{"stage": "build-refined-candidate", "status": "PASS"}
+{"status": "CANDIDATE_READY_FOR_RENDERING", "run_id": "video_api_refresh_r2", "api_calls": 60, "changed_frames": 84}

@@ -10,7 +10,9 @@ import {LiveSensingSession} from '../sensing/live.ts';
 const root=path.resolve(import.meta.dirname,'..');
 test('packaged full-precision input, A/B joints and time drive actual sensing',()=>{
   const motion=readSensingInput(root),source=videoMotionSource(motion);
-  assert.equal(motion.input_provenance.run_id,'video_refresh_20261117');
+  const manifest=JSON.parse(fs.readFileSync(path.join(root,'assets/sensing/manifest.json'),'utf8'));
+  assert.equal(motion.asset_id,manifest.run_id);
+  assert.equal(motion.input_provenance.run_id,manifest.run_id);
   assert.equal(motion.source_kind,'video_derived');assert.equal(motion.joints.length,23);
   assert.equal(motion.input_provenance.fresh_native_inference,true);
   assert.equal(motion.joint_observation_confidence.length,4500);

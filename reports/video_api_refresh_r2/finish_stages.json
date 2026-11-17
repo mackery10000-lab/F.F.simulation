@@ -1,0 +1,246 @@
+{
+  "run_id": "video_api_refresh_r2",
+  "stages": [
+    {
+      "stage": "render",
+      "command": [
+        "node",
+        "tools/render_reference_video.mjs",
+        "http://127.0.0.1:5213",
+        "--run-root",
+        "reports\\video_api_refresh_r2"
+      ],
+      "status": "PASS",
+      "started_at": "2026-11-17T07:10:37.274089+00:00",
+      "exit_code": 0,
+      "finished_at": "2026-11-17T07:14:02.257952+00:00"
+    },
+    {
+      "stage": "blender",
+      "command": [
+        "C:\\AI_bsss\\FF_VSCode_Agent_Kit_3.1\\tools\\blender\\blender-5.2.4-windows-x64\\blender.exe",
+        "--background",
+        "--python",
+        "scripts/export_mma_rig_blender.py",
+        "--",
+        "--run-root",
+        "reports\\video_api_refresh_r2"
+      ],
+      "status": "PASS",
+      "started_at": "2026-11-17T07:14:02.257952+00:00",
+      "exit_code": 0,
+      "finished_at": "2026-11-17T07:15:39.848574+00:00"
+    },
+    {
+      "stage": "publish",
+      "command": [
+        "C:\\AI_bsss\\FF_VSCode_Agent_Kit_3.1\\.venv\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "scripts/publish_api_refinement.py",
+        "--report-root",
+        "reports\\video_api_refresh_r2"
+      ],
+      "status": "PASS",
+      "started_at": "2026-11-17T07:15:39.848574+00:00",
+      "exit_code": 0,
+      "finished_at": "2026-11-17T07:15:40.088584+00:00"
+    },
+    {
+      "stage": "finalize",
+      "command": [
+        "C:\\AI_bsss\\FF_VSCode_Agent_Kit_3.1\\.venv\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "tools/finalize_mma_assets.py"
+      ],
+      "status": "PASS",
+      "started_at": "2026-11-17T07:15:40.088584+00:00",
+      "exit_code": 0,
+      "finished_at": "2026-11-17T07:15:40.279012+00:00"
+    },
+    {
+      "stage": "rig-check",
+      "command": [
+        "node",
+        "tools/verify_mma_rig.mjs",
+        "--report-root",
+        "reports\\video_api_refresh_r2"
+      ],
+      "status": "PASS",
+      "started_at": "2026-11-17T07:15:40.279012+00:00",
+      "exit_code": 0,
+      "finished_at": "2026-11-17T07:15:40.485082+00:00"
+    },
+    {
+      "stage": "sync",
+      "command": [
+        "C:\\AI_bsss\\FF_VSCode_Agent_Kit_3.1\\.venv\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "tools/sync_mma_sensing.py"
+      ],
+      "status": "PASS",
+      "started_at": "2026-11-17T07:15:40.485082+00:00",
+      "exit_code": 0,
+      "finished_at": "2026-11-17T07:15:42.440562+00:00"
+    },
+    {
+      "stage": "source-full",
+      "command": [
+        "node",
+        "--experimental-strip-types",
+        "tools/mma_replay.ts",
+        "--out",
+        "C:\\AI_bsss\\FF_VSCode_Agent_Kit_3.1\\reports\\video_api_refresh_r2\\source-full.json"
+      ],
+      "status": "PASS",
+      "started_at": "2026-11-17T07:15:42.441384+00:00",
+      "exit_code": 0,
+      "finished_at": "2026-11-17T07:16:18.856337+00:00"
+    },
+    {
+      "stage": "mirror-full",
+      "command": [
+        "node",
+        "--experimental-strip-types",
+        "github.f.f/tools/mma_replay.ts",
+        "--out",
+        "C:\\AI_bsss\\FF_VSCode_Agent_Kit_3.1\\reports\\video_api_refresh_r2\\mirror-full.json"
+      ],
+      "status": "PASS",
+      "started_at": "2026-11-17T07:16:18.857440+00:00",
+      "exit_code": 0,
+      "finished_at": "2026-11-17T07:16:53.280010+00:00"
+    },
+    {
+      "stage": "sensing-tests",
+      "command": [
+        "node",
+        "--experimental-strip-types",
+        "--test",
+        "sensing/tests/*.test.ts"
+      ],
+      "status": "PASS",
+      "started_at": "2026-11-17T07:16:53.280010+00:00",
+      "exit_code": 0,
+      "finished_at": "2026-11-17T07:17:14.353432+00:00"
+    },
+    {
+      "stage": "platform-tests",
+      "command": [
+        "node",
+        "--experimental-strip-types",
+        "--test",
+        "analysis-platform/tests/*.test.ts"
+      ],
+      "status": "PASS",
+      "started_at": "2026-11-17T07:17:14.353432+00:00",
+      "exit_code": 0,
+      "finished_at": "2026-11-17T07:17:16.842792+00:00"
+    },
+    {
+      "stage": "source-build",
+      "command": [
+        "node",
+        "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js",
+        "--prefix",
+        "analysis-platform",
+        "run",
+        "build"
+      ],
+      "status": "PASS",
+      "started_at": "2026-11-17T07:17:16.909212+00:00",
+      "exit_code": 0,
+      "finished_at": "2026-11-17T07:17:25.174121+00:00"
+    },
+    {
+      "stage": "mirror-tests",
+      "command": [
+        "node",
+        "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js",
+        "--prefix",
+        "github.f.f",
+        "test"
+      ],
+      "status": "FAILED",
+      "started_at": "2026-11-17T07:17:25.174121+00:00",
+      "exit_code": 1,
+      "finished_at": "2026-11-17T07:17:39.649593+00:00"
+    },
+    {
+      "stage": "mirror-tests",
+      "command": [
+        "node",
+        "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js",
+        "--prefix",
+        "github.f.f",
+        "test"
+      ],
+      "status": "PASS",
+      "started_at": "2026-11-17T07:19:57.533566+00:00",
+      "exit_code": 0,
+      "finished_at": "2026-11-17T07:20:11.029640+00:00"
+    },
+    {
+      "stage": "mirror-build",
+      "command": [
+        "node",
+        "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js",
+        "--prefix",
+        "github.f.f",
+        "run",
+        "build"
+      ],
+      "status": "PASS",
+      "started_at": "2026-11-17T07:20:11.030640+00:00",
+      "exit_code": 0,
+      "finished_at": "2026-11-17T07:20:14.906556+00:00"
+    },
+    {
+      "stage": "package-check",
+      "command": [
+        "C:\\AI_bsss\\FF_VSCode_Agent_Kit_3.1\\.venv\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "tools/verify_sensing_package.py",
+        "--mma-upgrade",
+        "--check-only"
+      ],
+      "status": "PASS",
+      "started_at": "2026-11-17T07:20:14.908395+00:00",
+      "exit_code": 0,
+      "finished_at": "2026-11-17T07:20:15.555286+00:00"
+    },
+    {
+      "stage": "browser-source",
+      "command": [
+        "node",
+        "tools/verify_autonomous_browser.mjs",
+        "http://127.0.0.1:5213",
+        "source",
+        "--report-root",
+        "reports\\video_api_refresh_r2"
+      ],
+      "status": "PASS",
+      "started_at": "2026-11-17T07:20:15.555286+00:00",
+      "exit_code": 0,
+      "finished_at": "2026-11-17T07:20:27.279916+00:00"
+    },
+    {
+      "stage": "browser-mirror",
+      "command": [
+        "node",
+        "tools/verify_autonomous_browser.mjs",
+        "http://127.0.0.1:5214",
+        "mirror",
+        "--report-root",
+        "reports\\video_api_refresh_r2"
+      ],
+      "status": "PASS",
+      "started_at": "2026-11-17T07:20:27.812768+00:00",
+      "exit_code": 0,
+      "finished_at": "2026-11-17T07:20:35.546073+00:00"
+    }
+  ]
+}

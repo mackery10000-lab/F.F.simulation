@@ -1,0 +1,6 @@
+{"stage": "mirror-tests", "status": "PASS"}
+{"stage": "mirror-build", "status": "PASS"}
+{"stage": "package-check", "status": "PASS"}
+{"stage": "browser-source", "status": "PASS"}
+{"stage": "browser-mirror", "status": "PASS"}
+{"status": "APPLIED_AND_RUNTIME_VERIFIED", "run_id": "video_api_refresh_r2", "asset_sha256": "0bd33fdb572a45edbb59895dd65ece351bbe5fccb8f6078945a691ebb9dfb779", "measurements": 184952, "source_mirror_digest_matches": true, "api_calls_in_sensing": 0, "substantial_accuracy_improvement_proven": false, "remote_push": false}

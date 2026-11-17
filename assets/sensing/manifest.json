@@ -1,9 +1,9 @@
 {
   "schema": "ff_sensing_input_v1",
-  "run_id": "video_api_refined_20261117",
+  "run_id": "video_api_refresh_r2",
   "source_sha256": "71e169c159bcac11267815c135d4dceafe58ef5c2fbbf7030399acff06f20e86",
   "source_motion_file": "assets/sensing/motion.json.gz",
-  "source_motion_sha256": "821cb126ced624d3bbc6d2d50226031bff1657246689ead58ae27a985d4c27dc",
+  "source_motion_sha256": "0bd33fdb572a45edbb59895dd65ece351bbe5fccb8f6078945a691ebb9dfb779",
   "fps": 25,
   "frame_count": 4500,
   "duration_seconds": 179.96,
@@ -20,15 +20,15 @@
   "source_time_modified": false,
   "text_hash_normalization": "CRLF_TO_LF_ONLY",
   "files": {
-    "assets/sensing/motion.json.gz": "821cb126ced624d3bbc6d2d50226031bff1657246689ead58ae27a985d4c27dc",
+    "assets/sensing/motion.json.gz": "0bd33fdb572a45edbb59895dd65ece351bbe5fccb8f6078945a691ebb9dfb779",
     "data/scene.json": "540a6326299487a1eb75b588f98c87d9b93c5c2fdbe9e0bc216e528be4242402",
     "data/octagon_approx.obj": "6fbda1b8b69d1deb01a8c7c5d65daebb35cf7057d1b8cdb14058fbba292a3fad",
     "motion/sampling.ts": "cd36003de54a2a5cc176da651f20f40c19c0f42dd94eeda8f57290c12abfdd7d",
     "assets/fighters/minimal_shell_v1/manifest.json": "900a6f5885b5cb8ae1518ea13fef22c205bd0f34225c8df90fd8d3d60f716ce8",
     "assets/fighters/minimal_shell_v1/fighter_A.glb": "b86736a5ff2603077679e31fdba3beff26fd5f34e6f73772a494a9ecbcb6bc64",
     "assets/fighters/minimal_shell_v1/fighter_B.glb": "1439e94bf9d6e6523f1e0a1f66c5a30fdf580f955558f8b9aafc70cbe5eae77b",
-    "assets/sensing/motion_v2_contract.json": "b0c4609892ae4b915377f4acf813a61d3990b621c667d6e6d141a54748169a2b",
-    "assets/sensing/mma_joint_rig.glb": "e285f41250bac03a102401dbd014394bc7188073e9bfdb403b8581ab08e100c2",
+    "assets/sensing/motion_v2_contract.json": "292a92ff2743f4c41114f0ce09b8944df1a57549852c75f7e7c009d809847ed9",
+    "assets/sensing/mma_joint_rig.glb": "b51bcd429bf7fff715697af0ca3d8019a168ba12baa764d6a55de5d932adadf8",
     "sensing/movement.ts": "5bd855b960d04db5743e6de91f9841ed0ff9ec5a45a91abd88e85012c27b0a38",
     "sensing/contracts.ts": "74633bdd14d50a974494f7b6d53b00b8f123a7573149520262a900dfe1bab399",
     "sensing/live.ts": "b76ce9b61abc7d56d99628372dbbbdfdc6f73d1b4b818bbcb90dddfe3feeb6ba",
@@ -37,8 +37,8 @@
     "assets/sensing/sensor_config.json": "5393af29e3c98010ab4316d111bfcf10be9f13e7372b28ea6e6ddc1fef8d6ef9",
     "sensing/sensors.ts": "4a15ccd1c509867104ea6d6abb708399d44eeacadc5613b4edcf88ad2dbd4001",
     "sensing/adapters.ts": "c1a4000f42a48ef48937b7c99825d637842769d890619a426961b3f71abfc900",
-    "assets/sensing/reference_video.json": "246bb97e4dc6c84fe6f0c93a908f63b691260c3dad4fc271799cbcf1fd23d320",
-    "assets/sensing/3d_capture.mp4": "a699ae659cce1b4821b1660bce651abdd7867e824337bdfe910edb0d157871a9",
+    "assets/sensing/reference_video.json": "999887978296bad3b57829ab02fea25ebf494fec6fa8e09bcbc5df793db6139a",
+    "assets/sensing/3d_capture.mp4": "9463b9bd2c59cb0d4994186b282f2768213f85bad56c7e85f734496a104ca6b3",
     "sensing/tag-tracking.ts": "7ec654ce95fc98cbd5ed743bfe7d9669ed733cd1a492265d4939d44001508f38"
   },
   "source_kind": "video_derived",
@@ -49,11 +49,8 @@
   "reference_video": "assets/sensing/3d_capture.mp4",
   "quality_status": "WARN",
   "quality_notes": [
-    "Monocular depth/scale and identity unverified",
-    "Partial observations: missing joints cannot drive camera classifications",
-    "Reconstruction proxy head overlap increased; independent accuracy improvement not proven",
-    "External 1Hz image proposals; only 8 bounded joint updates over 56 native frames passed independent gates",
-    "Global reprojection improvement is negligible; missing-joint coverage unchanged; substantial 3D improvement unproven"
+    "External 2.0Hz image inference; 12 bounded updates over 56 native frames passed independent gates",
+    "Monocular depth/scale and identity unverified; substantial 3D improvement unproven"
   ],
   "geometry_acceptance": {
     "observational_projection_pass": false,
