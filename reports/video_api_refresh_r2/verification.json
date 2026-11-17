@@ -6,5 +6,8 @@
   "source_mirror_digest_matches": true,
   "api_calls_in_sensing": 0,
   "substantial_accuracy_improvement_proven": false,
-  "remote_push": false
+  "remote_push": true,
+  "implementation_commit": "f460861925c6e44ed935c5413371e881423909b8",
+  "pull_request_url": "https://github.com/mackery10000-lab/F.F.simulation/pull/1",
+  "remote_commit_verified": true
 }

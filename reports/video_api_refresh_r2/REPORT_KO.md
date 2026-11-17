@@ -33,7 +33,7 @@ source/mirror 모두 179.96초·4,500프레임을 실행했다. 수신 184,952�
 
 ## GitHub 반영
 
-실제 배포 checkout은 `github.f.f`, 원격은 `mackery10000-lab/F.F.simulation.git`이다. 원본 workspace의 기존 미커밋 변경은 보존한다. 새 자산·연동 파일·매니페스트·실행 증거를 기존 PR #1 브랜치에 반영한다. 최종 원격 상태: `{"status": "LOCAL_APPLIED_REMOTE_PENDING"}`. main 병합과 운영 호스팅 배포는 수행하지 않는다.
+실제 배포 checkout은 `github.f.f`, 원격은 `mackery10000-lab/F.F.simulation.git`이다. 원본 workspace의 기존 미커밋 변경은 보존한다. 새 자산·연동 파일·매니페스트·실행 증거를 기존 PR #1 브랜치에 반영했다. 최종 원격 상태: `{"status": "PUSHED", "branch": "codex/video-sensing-reliability-20261117", "implementation_commit": "f460861925c6e44ed935c5413371e881423909b8", "remote_push": true, "remote_commit_matches": true, "pull_request_url": "https://github.com/mackery10000-lab/F.F.simulation/pull/1", "hosting_deployment": "NOT_EXECUTED"}`. 상세 원격 확인은 `git-publication.json`을 참조한다. main 병합과 운영 호스팅 배포는 수행하지 않는다.
 
 ## 정확도에 대한 범위
 

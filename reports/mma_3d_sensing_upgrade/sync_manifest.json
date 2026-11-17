@@ -1,7 +1,7 @@
 {
   "target": "github.f.f",
   "target_kind": "existing nested Git checkout",
-  "target_git_head": "2c7e043836fa1d63c382e3c40bb6147ac45f0e23",
+  "target_git_head": "f460861925c6e44ed935c5413371e881423909b8",
   "remote_push": true,
   "remote_publication": {
     "status": "PUSHED",
@@ -2500,11 +2500,41 @@
       "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
     },
     {
+      "source": "reports/video_api_refresh_r2/git-publication.json",
+      "target": "github.f.f/reports/video_api_refresh_r2/git-publication.json",
+      "sha256": "fc65eb94737ccfb434b1f166d0a0aee92c2c2a8d9d1a70f4fa20821ac7d09940",
+      "before_sha256": null,
+      "immediate_before_sha256": "fc65eb94737ccfb434b1f166d0a0aee92c2c2a8d9d1a70f4fa20821ac7d09940",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/video_api_refresh_r2/git-publish-final.log",
+      "target": "github.f.f/reports/video_api_refresh_r2/git-publish-final.log",
+      "sha256": "63f92ff564a0691a27b337f23174b357987b552d0e8e14d720370c0ae2f2b665",
+      "before_sha256": null,
+      "immediate_before_sha256": "63f92ff564a0691a27b337f23174b357987b552d0e8e14d720370c0ae2f2b665",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/video_api_refresh_r2/git-publish-final2.log",
+      "target": "github.f.f/reports/video_api_refresh_r2/git-publish-final2.log",
+      "sha256": "d2743f795f5daea8399865aad07c0325561821823173a5db73a22a009ae9b228",
+      "before_sha256": null,
+      "immediate_before_sha256": "d2743f795f5daea8399865aad07c0325561821823173a5db73a22a009ae9b228",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
       "source": "reports/video_api_refresh_r2/git-publish.log",
       "target": "github.f.f/reports/video_api_refresh_r2/git-publish.log",
       "sha256": "4c80f8d0759c7c49ffc640c4990af3e9268d1fe58ba9d7b53984c03b6579b02d",
       "before_sha256": null,
-      "immediate_before_sha256": null,
+      "immediate_before_sha256": "4c80f8d0759c7c49ffc640c4990af3e9268d1fe58ba9d7b53984c03b6579b02d",
       "change": "NEW",
       "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
       "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
@@ -2602,9 +2632,9 @@
     {
       "source": "reports/video_api_refresh_r2/package-final.log",
       "target": "github.f.f/reports/video_api_refresh_r2/package-final.log",
-      "sha256": "f3d69304822ba80b5f82bdefda4ebf40fe4d03992d8efb91abd327836993da8c",
+      "sha256": "156b50ab2c611d4a6fdf035d8546e7924d1a1c934db42a9409236af51ad905d6",
       "before_sha256": null,
-      "immediate_before_sha256": null,
+      "immediate_before_sha256": "f3d69304822ba80b5f82bdefda4ebf40fe4d03992d8efb91abd327836993da8c",
       "change": "NEW",
       "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
       "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
@@ -2645,6 +2675,26 @@
       "sha256": "0e6a70864c80d6a2bd130407ac4b08abd5de95f06b914c0ff7ae046222aa91da",
       "before_sha256": null,
       "immediate_before_sha256": "0e6a70864c80d6a2bd130407ac4b08abd5de95f06b914c0ff7ae046222aa91da",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/video_api_refresh_r2/pr-update-final.log",
+      "target": "github.f.f/reports/video_api_refresh_r2/pr-update-final.log",
+      "sha256": "a452f07296ddeea839648c0fbbc626e1fc5f5bc377b9a4e1bb1100a6442d1646",
+      "before_sha256": null,
+      "immediate_before_sha256": "a452f07296ddeea839648c0fbbc626e1fc5f5bc377b9a4e1bb1100a6442d1646",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/video_api_refresh_r2/pr-update.log",
+      "target": "github.f.f/reports/video_api_refresh_r2/pr-update.log",
+      "sha256": "817c103736786e27f092f53a047e1dae0366d2b9f9510342ea3371c079080bac",
+      "before_sha256": null,
+      "immediate_before_sha256": "817c103736786e27f092f53a047e1dae0366d2b9f9510342ea3371c079080bac",
       "change": "NEW",
       "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
       "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
@@ -2702,9 +2752,9 @@
     {
       "source": "reports/video_api_refresh_r2/REPORT_KO.md",
       "target": "github.f.f/reports/video_api_refresh_r2/REPORT_KO.md",
-      "sha256": "e84d8b8546e93443f84d9fbf46ec7a224654abfc487f168954a929aa70266e62",
+      "sha256": "90f6fab9a4baddf9ac63956781482276f9e5243b7f5b685dcad3b7dac21982f2",
       "before_sha256": null,
-      "immediate_before_sha256": "e84d8b8546e93443f84d9fbf46ec7a224654abfc487f168954a929aa70266e62",
+      "immediate_before_sha256": "90f6fab9a4baddf9ac63956781482276f9e5243b7f5b685dcad3b7dac21982f2",
       "change": "NEW",
       "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
       "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
@@ -2800,9 +2850,9 @@
       "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
     },
     {
-      "source": "reports/video_api_refresh_r2/sync-final.log",
-      "target": "github.f.f/reports/video_api_refresh_r2/sync-final.log",
-      "sha256": "3ea0a8dd3cfd0c4e5095330a2c2e55dc83a2334cb3fa3a4b6b6c66a9de62cac3",
+      "source": "reports/video_api_refresh_r2/sync-evidence.log",
+      "target": "github.f.f/reports/video_api_refresh_r2/sync-evidence.log",
+      "sha256": "668f73ec6c2aa0903831b04d87c8d73cdc63c4b4169cc7624fe36fe0c30caa93",
       "before_sha256": null,
       "immediate_before_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "change": "NEW",
@@ -2810,8 +2860,28 @@
       "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
     },
     {
+      "source": "reports/video_api_refresh_r2/sync-final.log",
+      "target": "github.f.f/reports/video_api_refresh_r2/sync-final.log",
+      "sha256": "3ea0a8dd3cfd0c4e5095330a2c2e55dc83a2334cb3fa3a4b6b6c66a9de62cac3",
+      "before_sha256": null,
+      "immediate_before_sha256": "3ea0a8dd3cfd0c4e5095330a2c2e55dc83a2334cb3fa3a4b6b6c66a9de62cac3",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
       "source": "reports/video_api_refresh_r2/sync-gitignore.log",
       "target": "github.f.f/reports/video_api_refresh_r2/sync-gitignore.log",
+      "sha256": "29b730595ce407e7c338fa0344b0dfb86b9820cdce81fd4e9e30b7a34e116e84",
+      "before_sha256": null,
+      "immediate_before_sha256": "29b730595ce407e7c338fa0344b0dfb86b9820cdce81fd4e9e30b7a34e116e84",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/video_api_refresh_r2/sync-last.log",
+      "target": "github.f.f/reports/video_api_refresh_r2/sync-last.log",
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "before_sha256": null,
       "immediate_before_sha256": null,
@@ -2852,9 +2922,9 @@
     {
       "source": "reports/video_api_refresh_r2/verification.json",
       "target": "github.f.f/reports/video_api_refresh_r2/verification.json",
-      "sha256": "9f7b65a8742cc71155d449a1ccbae4022c45d05e093e0e981f68478a4fbe4292",
+      "sha256": "d7fd692bac2fbf44c6d299e5b7141530fd2aa7854ce46893fc50adc22c3ab78b",
       "before_sha256": null,
-      "immediate_before_sha256": "9f7b65a8742cc71155d449a1ccbae4022c45d05e093e0e981f68478a4fbe4292",
+      "immediate_before_sha256": "d7fd692bac2fbf44c6d299e5b7141530fd2aa7854ce46893fc50adc22c3ab78b",
       "change": "NEW",
       "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
       "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
