@@ -1,8 +1,30 @@
 {
   "target": "github.f.f",
   "target_kind": "existing nested Git checkout",
-  "target_git_head": "55f265a578be5a8f1cb0f2e9c433443e929caf8d",
-  "remote_push": false,
+  "target_git_head": "645329d0f19203188fd55ec52ecaa3910c955f17",
+  "remote_push": true,
+  "remote_publication": {
+    "status": "PUSHED",
+    "remote_push": true,
+    "repository": "https://github.com/mackery10000-lab/F.F.simulation.git",
+    "branch": "codex/video-sensing-reliability-20261117",
+    "previous_head": "55f265a578be5a8f1cb0f2e9c433443e929caf8d",
+    "implementation_commit": "645329d0f19203188fd55ec52ecaa3910c955f17",
+    "files_committed": 306,
+    "secret_matches": 0,
+    "staged_diff_check_exit": 2,
+    "staged_diff_check_output": "reports/mma_3d_sensing_upgrade/source-build.log:36: trailing whitespace.\n+[plugin builtin:vite-reporter] \nreports/video_3d_replacement/source-build.log:37: trailing whitespace.\n+[plugin builtin:vite-reporter] \nreports/video_3d_replacement/typecheck.log:4: new blank line at EOF.\n",
+    "hosting_deployment": "NOT_EXECUTED",
+    "push_exit_code": 0,
+    "push_output": "branch 'codex/video-sensing-reliability-20261117' set up to track 'origin/codex/video-sensing-reliability-20261117'.\nremote: \nremote: Create a pull request for 'codex/video-sensing-reliability-20261117' on GitHub by visiting:        \nremote:      https://github.com/mackery10000-lab/F.F.simulation/pull/new/codex/video-sensing-reliability-20261117        \nremote: \nTo https://github.com/mackery10000-lab/F.F.simulation.git\n * [new branch]      codex/video-sensing-reliability-20261117 -> codex/video-sensing-reliability-20261117\n",
+    "verified_remote_implementation_commit": "645329d0f19203188fd55ec52ecaa3910c955f17",
+    "remote_commit_matches": true,
+    "branch_url": "https://github.com/mackery10000-lab/F.F.simulation/tree/codex/video-sensing-reliability-20261117",
+    "pull_request_status": "DRAFT_CREATED",
+    "pull_request_url": "https://github.com/mackery10000-lab/F.F.simulation/pull/1",
+    "pull_request_output": "https://github.com/mackery10000-lab/F.F.simulation/pull/1\n"
+  },
+  "sync_operation_push": false,
   "files": [
     {
       "source": "sensing/adapters.ts",
@@ -1457,9 +1479,9 @@
     {
       "source": "reports/autonomous_execution/REPORT_KO.md",
       "target": "github.f.f/reports/autonomous_execution/REPORT_KO.md",
-      "sha256": "1fe137a99d051eca063e85b508e399e3893beba70b81287ad2525e1061aa3af0",
+      "sha256": "b2f241a7af70f8c25f405eb928a2ca372f35cfc53b124dd015cadf594bd84a42",
       "before_sha256": null,
-      "immediate_before_sha256": "1fe137a99d051eca063e85b508e399e3893beba70b81287ad2525e1061aa3af0",
+      "immediate_before_sha256": "b2f241a7af70f8c25f405eb928a2ca372f35cfc53b124dd015cadf594bd84a42",
       "change": "NEW",
       "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
       "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
@@ -1467,9 +1489,9 @@
     {
       "source": "reports/autonomous_execution/verification.json",
       "target": "github.f.f/reports/autonomous_execution/verification.json",
-      "sha256": "7d39d2c302762540376b644572e32b91d4f2d6522c83f72b27ab48fc5b0388dc",
+      "sha256": "4a451ac81aad194f94b0c98d324202ec904148f08ee5a54e08fadb62a7daf1fe",
       "before_sha256": null,
-      "immediate_before_sha256": "7d39d2c302762540376b644572e32b91d4f2d6522c83f72b27ab48fc5b0388dc",
+      "immediate_before_sha256": "4a451ac81aad194f94b0c98d324202ec904148f08ee5a54e08fadb62a7daf1fe",
       "change": "NEW",
       "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
       "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
@@ -1477,9 +1499,19 @@
     {
       "source": "reports/autonomous_execution/changed-files.json",
       "target": "github.f.f/reports/autonomous_execution/changed-files.json",
-      "sha256": "81ba1846b763500159704f594bd38191fabda4a152845b69896fb5a90e00ddbc",
+      "sha256": "a8423731b8912ba261eca3d31f7c90c3c0b80435145d89e8d8961b74de879060",
       "before_sha256": null,
-      "immediate_before_sha256": "81ba1846b763500159704f594bd38191fabda4a152845b69896fb5a90e00ddbc",
+      "immediate_before_sha256": "66e19404963b72bd0c384eaacb201830dff4ef74e1efe9e49c4ce6eabf0197a1",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/git-publication.json",
+      "target": "github.f.f/reports/autonomous_execution/git-publication.json",
+      "sha256": "0662974591f0db4a80ac8229895bd15bda44e94fd33d4ef0db99944a40ada26a",
+      "before_sha256": null,
+      "immediate_before_sha256": "0662974591f0db4a80ac8229895bd15bda44e94fd33d4ef0db99944a40ada26a",
       "change": "NEW",
       "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
       "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
@@ -1500,6 +1532,16 @@
       "sha256": "6c13cd92316e27d5665497e211aa7434a018719262618263f66e6b45a8f4a1ad",
       "before_sha256": null,
       "immediate_before_sha256": "6c13cd92316e27d5665497e211aa7434a018719262618263f66e6b45a8f4a1ad",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/mirror-full-replay.json",
+      "target": "github.f.f/reports/autonomous_execution/mirror-full-replay.json",
+      "sha256": "7513e55cf1b6f303cfdbb538ca2eaf1afcf1ed6fcdcb85b3b945347ba3f09926",
+      "before_sha256": null,
+      "immediate_before_sha256": "7513e55cf1b6f303cfdbb538ca2eaf1afcf1ed6fcdcb85b3b945347ba3f09926",
       "change": "NEW",
       "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
       "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
@@ -1579,7 +1621,7 @@
       "target": "github.f.f/reports/autonomous_execution/platform-build-final.log",
       "sha256": "62dc754f302c3f4ccc9290a5846b3eef326d2f24f21357e8af8d5d8eaf4e46ce",
       "before_sha256": null,
-      "immediate_before_sha256": "01c6a7cf64470bf6858e8e6a80ec4cabfa186beb6557ed2add3d23a89a6e16e9",
+      "immediate_before_sha256": "62dc754f302c3f4ccc9290a5846b3eef326d2f24f21357e8af8d5d8eaf4e46ce",
       "change": "NEW",
       "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
       "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
@@ -1599,7 +1641,7 @@
       "target": "github.f.f/reports/autonomous_execution/mirror-tests.log",
       "sha256": "c080d5f503f07e2782bf92269930f9b2f6c325fbafc03a752b6deb20b0dc7bbb",
       "before_sha256": null,
-      "immediate_before_sha256": "b32177daf59ee3bc0e31a59e9beacfca9be69f6c55772141565e60267bfd61a0",
+      "immediate_before_sha256": "c080d5f503f07e2782bf92269930f9b2f6c325fbafc03a752b6deb20b0dc7bbb",
       "change": "NEW",
       "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
       "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
@@ -1609,7 +1651,7 @@
       "target": "github.f.f/reports/autonomous_execution/mirror-build.log",
       "sha256": "f42189917ba68e3bb1752216a40d55cef2af996e90c8461df2c3696fbe8d802f",
       "before_sha256": null,
-      "immediate_before_sha256": "17bc0d30914daadcce36da72948ad3c779a27b92133fd9e41cfcc3e2a05c3bb6",
+      "immediate_before_sha256": "f42189917ba68e3bb1752216a40d55cef2af996e90c8461df2c3696fbe8d802f",
       "change": "NEW",
       "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
       "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
@@ -3086,7 +3128,7 @@
     {
       "source": "tools/sync_mma_sensing.py (generated metadata)",
       "target": "github.f.f/README.md",
-      "sha256": "e10b57a28117689cd1e5f4db1684cfec7be94cf0a98d0655fd9a9a20147837ec",
+      "sha256": "2e269fd21a1e473c21b5c17b53c386702abc1b4474d3b351e5431ddefc3f09c4",
       "before_sha256": "e1af5c0df97fc6eeee31e3af7ea89248bb25d1f86e85406f1ed7940361890bfb",
       "change": "MODIFIED",
       "reason": "Reproduction commands and current input documentation; existing dependencies/hosting preserved",

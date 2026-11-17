@@ -79,7 +79,7 @@
     },
     {
       "path": "tools/sync_mma_sensing.py",
-      "sha256": "a6af606ca9abfab5bd9fcf17d528b1dd0bf9931f58638c12aaaee5658ed1ba39"
+      "sha256": "a0bc7114ccf45e441275628c0d557ab270b6468da49b44a07409401140d85486"
     },
     {
       "path": "tools/render_reference_video.mjs",
@@ -95,7 +95,15 @@
     },
     {
       "path": "tools/report_autonomous_execution.py",
-      "sha256": "e889cbe97d2334c8abc9ac7c3f4ef5a094aaeb9ca6883f5d6fec0b9f1f05cdd3"
+      "sha256": "28089cbd4cfc51c12c69c83c80c463ccbed64dfbbdb51f3df586a3860520543c"
+    },
+    {
+      "path": "tools/publish_sensing_branch.py",
+      "sha256": "0777669fe6a255536b1595b61e6cc471a6eac8b4153e0a870a5629a8b3b4a160"
+    },
+    {
+      "path": "tools/create_sensing_review.py",
+      "sha256": "d878df88b7417c4985cc17d82d1bed005eeee5ffa1d42a0b41ce0392f955c736"
     },
     {
       "path": "assets/sensing/motion.json.gz",
@@ -131,7 +139,7 @@
     },
     {
       "path": "reports/autonomous_execution_log.md",
-      "sha256": "e789b9a315fd6de2ca20ea9c3ddb6ba47c0f2d05d233a1a068e610f2383e7d55"
+      "sha256": "cece3bfc7f4ff4ef85dc8aca02f8340113136f94f49eced5a816f34ee26134e6"
     }
   ],
   "deployment_mapping": "tools/sync_mma_sensing.py + github.f.f/PACKAGE_MANIFEST.json",

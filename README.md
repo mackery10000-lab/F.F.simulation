@@ -81,7 +81,7 @@ RUN_WINDOWS.bat      설치 확인 → 빌드 → 로컬 실행
 
 `npm run build`, `npm test`, `npm run replay`, `npm run replay:scenes`로 독립 검증할 수 있습니다. 시뮬레이션에는 Python/키/외부 API가 필요 없습니다. 파생 3D 영상만 포함하며 원본 경기 영상·환경변수·키·모델 가중치·Blender 실행파일·node_modules는 배포하지 않습니다.
 
-[이번 교체 실행 보고서](reports/video_3d_replacement/REPORT_KO.md), [이전 합성 생성 보고서](reports/mma_3d_sensing_upgrade/REPORT_KO.md), [MMA 분류·제한](docs/MMA_MOVEMENT_TAXONOMY_KO.md). 로컬 동기화와 외부 GitHub push는 별개이며 이 작업에서 push하지 않았습니다.
+[이번 교체 실행 보고서](reports/video_3d_replacement/REPORT_KO.md), [이전 합성 생성 보고서](reports/mma_3d_sensing_upgrade/REPORT_KO.md), [MMA 분류·제한](docs/MMA_MOVEMENT_TAXONOMY_KO.md). 로컬 동기화와 외부 GitHub push는 별개이며 최신 원격 반영 상태는 자율 실행 보고서에서 확인할 수 있습니다.
 
 ## 영상 API 검토 및 센싱 신뢰성 보완
 
