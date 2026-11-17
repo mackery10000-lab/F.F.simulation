@@ -1,0 +1,25 @@
+
+> fight-frequency-sensing@1.0.0 test
+> node --experimental-strip-types --test tests/*.test.ts sensing/tests/mma-upgrade.test.ts
+
+✔ motion-v2 rejects reversed axes, bad units, missing provenance, timestamps and quaternion (42.525ms)
+✔ legacy 16 joints retain missing heel/toe rather than fabricating observations (300.0591ms)
+✔ unobserved video joints cannot become camera evidence or guard features (259.1045ms)
+✔ stance and lead semantics are invariant under 90/180 degree world rotation and anatomical mirror (7.0212ms)
+✔ measured high, sustained long, mixed, shell and cross guards have real temporal evidence (4626.7011ms)
+✔ actual stance switch is confirmed after dwell; cross step, torso twist and jab do not switch (3146.4376ms)
+✔ own root motion with foot support drives in/out; opponent motion and kick do not become my step (5072.2317ms)
+✔ camera label poisoning cannot alter measurements, hash reaches every sensor, RF carries no action labels (357.0517ms)
+✔ future/late packets cannot change past; stale camera evidence becomes unknown; rewind deterministic (335.6707ms)
+✔ no camera produces abstention; sensing import closure contains no generation or network dependencies (141.3665ms)
+✔ packaged full-precision input, A/B joints and time drive actual sensing (587.3728ms)
+✔ changed runtime input fails integrity validation (11.9103ms)
+✔ Git LF/CRLF checkout is accepted, actual text changes are rejected (427.7739ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 13
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 14640.232

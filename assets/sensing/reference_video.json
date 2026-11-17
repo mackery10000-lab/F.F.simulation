@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "ready": true,
+  "asset_sha256": "821cb126ced624d3bbc6d2d50226031bff1657246689ead58ae27a985d4c27dc",
+  "source_kind": "video_derived",
+  "source_sha256": "71e169c159bcac11267815c135d4dceafe58ef5c2fbbf7030399acff06f20e86",
+  "fps": 25,
+  "frames": 4500,
+  "duration": 179.96,
+  "encoded_frames": 4500,
+  "video_duration_s": 180,
+  "video_sha256": "a699ae659cce1b4821b1660bce651abdd7867e824337bdfe910edb0d157871a9",
+  "video_bytes": 16956292,
+  "video_file": "assets/sensing/3d_capture.mp4",
+  "maximum_visual_joint_error_m": 1.9484335006297032e-15,
+  "wall_s": 174.3097391,
+  "source_video_pixels_included": false,
+  "external_api_calls": 0,
+  "errors": [],
+  "schema": "ff_reference_video_v1",
+  "native_timestamps": [
+    0,
+    179.96
+  ],
+  "frame_alignment": "video frame k = refined numeric motion frame k at k/25 seconds",
+  "metric_valid": false,
+  "external_api_calls_in_generation": 30,
+  "sensing_feedback": false
+}

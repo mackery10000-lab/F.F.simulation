@@ -1,0 +1,64 @@
+{
+  "plans": [
+    {
+      "scene": "step_in_jab",
+      "high_forward_m": 0.12,
+      "high_height_m": 0.72,
+      "long_reach_m": 0.53,
+      "step_distance_m": 0.38,
+      "pivot_angle_rad": 0.5,
+      "switch_start_s": 1.4,
+      "switch_duration_s": 0.68,
+      "step_start_s": 1.25,
+      "step_duration_s": 0.82
+    },
+    {
+      "scene": "angle_out_cross",
+      "high_forward_m": 0.15,
+      "high_height_m": 0.69,
+      "long_reach_m": 0.56,
+      "step_distance_m": 0.34,
+      "pivot_angle_rad": 0.68,
+      "switch_start_s": 1.65,
+      "switch_duration_s": 0.74,
+      "step_start_s": 1.45,
+      "step_duration_s": 0.76
+    },
+    {
+      "scene": "kick_check_negative",
+      "high_forward_m": 0.09,
+      "high_height_m": 0.73,
+      "long_reach_m": 0.51,
+      "step_distance_m": 0.31,
+      "pivot_angle_rad": 0.46,
+      "switch_start_s": 1.3,
+      "switch_duration_s": 0.78,
+      "step_start_s": 1.6,
+      "step_duration_s": 0.92
+    },
+    {
+      "scene": "clinch_ambiguous",
+      "high_forward_m": 0.17,
+      "high_height_m": 0.67,
+      "long_reach_m": 0.57,
+      "step_distance_m": 0.3,
+      "pivot_angle_rad": 0.55,
+      "switch_start_s": 1.75,
+      "switch_duration_s": 0.8,
+      "step_start_s": 1.15,
+      "step_duration_s": 0.95
+    },
+    {
+      "scene": "heavy_occlusion",
+      "high_forward_m": 0.11,
+      "high_height_m": 0.71,
+      "long_reach_m": 0.54,
+      "step_distance_m": 0.42,
+      "pivot_angle_rad": 0.73,
+      "switch_start_s": 1.52,
+      "switch_duration_s": 0.62,
+      "step_start_s": 1.35,
+      "step_duration_s": 0.7
+    }
+  ]
+}

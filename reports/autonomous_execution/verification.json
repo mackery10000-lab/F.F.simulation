@@ -1,0 +1,53 @@
+{
+  "status": "VERIFIED_EXECUTION_WITH_UNRESOLVED_ACCURACY_LIMITS",
+  "task_fully_complete": false,
+  "tests": {
+    "sensing": {
+      "passed": 70,
+      "failed": 0
+    },
+    "platform": {
+      "passed": 51,
+      "failed": 0
+    },
+    "mirror": {
+      "passed": 21,
+      "failed": 0
+    },
+    "python": {
+      "passed": 365,
+      "subtests_passed": 43
+    }
+  },
+  "builds": {
+    "platform": true,
+    "mirror": true
+  },
+  "source_mirror_full_replay_match": true,
+  "browser": {
+    "source": "PASS",
+    "mirror": "PASS"
+  },
+  "api_requests": 30,
+  "api_frame_samples": 180,
+  "source_native_frames": 4500,
+  "api_usage": {
+    "prompt_tokens": 83240,
+    "completion_tokens": 105522,
+    "total_tokens": 188762
+  },
+  "token_cost_estimate_usd": 0.061084999999999993,
+  "input_sha256": "821cb126ced624d3bbc6d2d50226031bff1657246689ead58ae27a985d4c27dc",
+  "sensing_api_calls": 0,
+  "git": {
+    "status": "PENDING",
+    "remote_push": false
+  },
+  "limitations": [
+    "3D correction is very small; no recovered missing joints",
+    "Distance coverage improved, but overall distance RMSE increased",
+    "Predictions and punch classifications are uncalibrated",
+    "Footwork remains almost entirely UNKNOWN; no independent real-world labels",
+    "Remote branch publication does not prove hosting deployment"
+  ]
+}

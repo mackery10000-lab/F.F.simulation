@@ -1,0 +1,26 @@
+{
+  "status": "WARN",
+  "input_asset_sha256": "f6959a2f723ae5010051d7bbabf890ca4d85346ddf1113173c0680da3d6ccce1",
+  "proxy_model": "spherical head/glove and horizontal torso circle; no triangle mesh/capsule contact solver",
+  "head_radius_m": 0.1,
+  "glove_radius_m": 0.065,
+  "torso_radius_m": 0.18,
+  "own_head_glove_penetration_frames": 0,
+  "minimum_own_head_glove_gap_m": 0.014999999999999764,
+  "torso_proxy_overlap_frames": 2,
+  "examples": [
+    {
+      "frame": 3959,
+      "gap_m": -0.002674158150934469
+    },
+    {
+      "frame": 4020,
+      "gap_m": -0.0002265781017060653
+    }
+  ],
+  "max_abs_coordinate_m": 3.006576433305894,
+  "max_quaternion_norm_error": 1.1102230246251565e-16,
+  "metric_valid": false,
+  "hit_status": "UNKNOWN",
+  "scope": "synthetic internal plausibility only; proxy overlap may be an ambiguous clinch and cannot prove contact/hit"
+}

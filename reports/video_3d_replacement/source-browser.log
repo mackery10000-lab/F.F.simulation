@@ -1,0 +1,24 @@
+{
+  status: 'PASS',
+  base: 'http://127.0.0.1:5201',
+  input: {
+    hash: 'aabd5085b7c76ef9fafe36dea0aeea02c661ca294be33d772cfc295d9271ca04',
+    source_kind: 'video_derived',
+    source_sha256: '71e169c159bcac11267815c135d4dceafe58ef5c2fbbf7030399acff06f20e86',
+    frames: 4500,
+    fps: 25,
+    joints: 23,
+    observation_frames: 4500
+  },
+  video: {
+    duration: 180,
+    width: 960,
+    height: 540,
+    src: 'http://127.0.0.1:5201/@fs/C:/AI_bsss/FF_VSCode_Agent_Kit_3.1/assets/sensing/3d_capture.mp4',
+    error: null
+  },
+  maximum_visual_joint_error: 9.305364597889227e-16,
+  errors: [],
+  network_hosts: [ '127.0.0.1:5201' ],
+  external_api_calls: 0
+}

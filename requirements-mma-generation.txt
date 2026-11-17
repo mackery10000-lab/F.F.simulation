@@ -1,0 +1,2 @@
+# Optional production-generation tooling. Sensing runtime is Node-only.
+jsonschema>=4.23,<5

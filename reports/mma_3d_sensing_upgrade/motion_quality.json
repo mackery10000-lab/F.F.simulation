@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "structural_gate": "finite coordinates, constant chain lengths, nonpenetrating foot soles",
+  "bone_length_span_m": {
+    "pelvis-chest": 2.220446049250313e-16,
+    "chest-neck": 6.661338147750939e-16,
+    "neck-head": 9.71445146547012e-16,
+    "left_shoulder-left_elbow": 4.996003610813204e-16,
+    "left_elbow-left_wrist": 6.106226635438361e-16,
+    "left_hip-left_knee": 4.440892098500626e-16,
+    "left_knee-left_ankle": 4.440892098500626e-16,
+    "left_heel-left_toe": 3.0531133177191805e-16,
+    "right_shoulder-right_elbow": 6.106226635438361e-16,
+    "right_elbow-right_wrist": 5.551115123125783e-16,
+    "right_hip-right_knee": 4.440892098500626e-16,
+    "right_knee-right_ankle": 4.440892098500626e-16,
+    "right_heel-right_toe": 3.608224830031759e-16
+  },
+  "minimum_foot_height_above_floor_m": 0.0,
+  "maximum_joint_frame_step_m": 0.3502756252514813,
+  "contact_slip_max_m_s": 0.2765168206542083,
+  "contact_slip_mean_m_s": 0.00047920619179190504,
+  "contact_quality": "WARN",
+  "motion_speed_quality": "WARN",
+  "contact_model_limitation": "Alternating foot planting uses a procedural support plan; rapid negatives and episode boundaries require visual review. Not a physics solver.",
+  "independent_3d_error": null
+}

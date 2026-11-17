@@ -25,3 +25,11 @@ coverage/
 !vendor/three/build/
 !vendor/three/build/three.core.js
 !vendor/three/build/three.module.js
+
+# Non-sensitive MMA upgrade execution evidence
+!reports/mma_3d_sensing_upgrade/*.log
+
+# Rendered 3D reference only; no raw match footage
+!assets/sensing/3d_capture.mp4
+!reports/video_3d_replacement/*.log
+!reports/autonomous_execution/*.log

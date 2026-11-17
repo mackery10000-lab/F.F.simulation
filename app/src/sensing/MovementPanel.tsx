@@ -1,0 +1,4 @@
+import type {SimulationRun} from '../../../sensing/contracts.ts';
+export function MovementPanel({run}:{run:SimulationRun}){
+  return <section className="lv-panel lv-padded" aria-label="MMA 자세와 풋워크"><div className="lv-panel-heading"><h3>가드 · 스탠스 · 풋워크</h3><span>관측 기반 · 실험적 분류</span></div><div className="lv-two-columns">{run.movement_states?.map(s=><div key={s.actor_id}><b>선수 {s.actor_id} · {s.guard}</b><p>{s.stance} · {s.footwork}</p><p>왼손 {s.hands.L.state} ({s.hands.L.lead_or_rear}) · 오른손 {s.hands.R.state} ({s.hands.R.lead_or_rear})</p><small>{s.abstention_reason??'관측 근거 있음 · 신뢰도 미보정'}</small></div>)}</div><details><summary>최근 전환 기록 ({run.movement_events?.length??0})</summary>{run.movement_events?.slice(-12).map(e=><p key={e.event_id}>{e.available_at.toFixed(2)}s · {e.actor_id} · {e.event_type} · {e.state_before} → {e.state_after}{e.abstention_reason?' · '+e.abstention_reason:''}</p>)}</details></section>;
+}

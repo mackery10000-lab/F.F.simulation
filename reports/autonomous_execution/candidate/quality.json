@@ -1,0 +1,149 @@
+{
+  "status": "PASS_BOUNDED_REFINEMENT",
+  "before": {
+    "observed_reprojection_rms_px": 7.41076347269501,
+    "bone_deviation_rms_display_units": 0.030282906871419737,
+    "joint_speed_p99_display_units_s": 18.534361096130706,
+    "acceleration_sse": 16866.362656032106,
+    "observed_joint_ratio": 0.452280193236715
+  },
+  "after": {
+    "observed_reprojection_rms_px": 7.410762304011871,
+    "bone_deviation_rms_display_units": 0.030282906056415995,
+    "joint_speed_p99_display_units_s": 18.534361096130706,
+    "acceleration_sse": 16866.362497105943,
+    "observed_joint_ratio": 0.452280193236715
+  },
+  "attempted_proposals": 3222,
+  "accepted_updates": 8,
+  "changed_frames": 56,
+  "rejected": {
+    "ANCHOR_PRESERVED": 1074,
+    "INSUFFICIENT_INDEPENDENT_EVIDENCE": 2025,
+    "EXTERNAL_NATIVE_DISAGREEMENT": 109,
+    "GAP_IN_LOCAL_SUPPORT": 6
+  },
+  "accepted": [
+    {
+      "frame": 200,
+      "fighter": "B",
+      "joint": "left_wrist",
+      "support_frames": [
+        197,
+        203
+      ],
+      "direction": "constrained_native_fit_with_external_2d_term",
+      "maximum_delta_display_units": 0.00024811073673616807,
+      "reprojection_sse_before": 0.03626055115371588,
+      "reprojection_sse_after": 0.0043823793965647485,
+      "receipt": "reports/autonomous_execution/api_refinement/batch-01.json"
+    },
+    {
+      "frame": 600,
+      "fighter": "B",
+      "joint": "left_ankle",
+      "support_frames": [
+        597,
+        603
+      ],
+      "direction": "constrained_native_fit_with_external_2d_term",
+      "maximum_delta_display_units": 1.0974780300649883e-05,
+      "reprojection_sse_before": 0.0017983691737895628,
+      "reprojection_sse_after": 0.001787451922588367,
+      "receipt": "reports/autonomous_execution/api_refinement/batch-04.json"
+    },
+    {
+      "frame": 1450,
+      "fighter": "A",
+      "joint": "right_ankle",
+      "support_frames": [
+        1447,
+        1453
+      ],
+      "direction": "constrained_native_fit_with_external_2d_term",
+      "maximum_delta_display_units": 0.002198426001169659,
+      "reprojection_sse_before": 0.9674883556464218,
+      "reprojection_sse_after": 0.10675724547011195,
+      "receipt": "reports/autonomous_execution/api_refinement/batch-09.json"
+    },
+    {
+      "frame": 1675,
+      "fighter": "B",
+      "joint": "right_ankle",
+      "support_frames": [
+        1672,
+        1678
+      ],
+      "direction": "constrained_native_fit_with_external_2d_term",
+      "maximum_delta_display_units": 0.00027044579565530934,
+      "reprojection_sse_before": 0.08626519150255588,
+      "reprojection_sse_after": 0.06565871922843367,
+      "receipt": "reports/autonomous_execution/api_refinement/batch-11.json"
+    },
+    {
+      "frame": 1750,
+      "fighter": "B",
+      "joint": "right_ankle",
+      "support_frames": [
+        1747,
+        1753
+      ],
+      "direction": "constrained_native_fit_with_external_2d_term",
+      "maximum_delta_display_units": 9.51570777163318e-05,
+      "reprojection_sse_before": 0.005220654485096293,
+      "reprojection_sse_after": 0.001416713956303935,
+      "receipt": "reports/autonomous_execution/api_refinement/batch-11.json"
+    },
+    {
+      "frame": 1825,
+      "fighter": "A",
+      "joint": "right_ankle",
+      "support_frames": [
+        1822,
+        1828
+      ],
+      "direction": "constrained_native_fit_with_external_2d_term",
+      "maximum_delta_display_units": 0.0005194292146578662,
+      "reprojection_sse_before": 0.07498657266265156,
+      "reprojection_sse_after": 0.011897209655944832,
+      "receipt": "reports/autonomous_execution/api_refinement/batch-12.json"
+    },
+    {
+      "frame": 1875,
+      "fighter": "A",
+      "joint": "right_ankle",
+      "support_frames": [
+        1872,
+        1878
+      ],
+      "direction": "constrained_native_fit_with_external_2d_term",
+      "maximum_delta_display_units": 0.0003261692820668543,
+      "reprojection_sse_before": 0.06029375484043804,
+      "reprojection_sse_after": 0.03751370349145968,
+      "receipt": "reports/autonomous_execution/api_refinement/batch-12.json"
+    },
+    {
+      "frame": 1900,
+      "fighter": "A",
+      "joint": "right_ankle",
+      "support_frames": [
+        1897,
+        1903
+      ],
+      "direction": "constrained_native_fit_with_external_2d_term",
+      "maximum_delta_display_units": 0.0010235116501829736,
+      "reprojection_sse_before": 0.32121506023622903,
+      "reprojection_sse_after": 0.19903815418114096,
+      "receipt": "reports/autonomous_execution/api_refinement/batch-12.json"
+    }
+  ],
+  "baseline_sha256": "aabd5085b7c76ef9fafe36dea0aeea02c661ca294be33d772cfc295d9271ca04",
+  "candidate_sha256": "821cb126ced624d3bbc6d2d50226031bff1657246689ead58ae27a985d4c27dc",
+  "source_sha256": "71e169c159bcac11267815c135d4dceafe58ef5c2fbbf7030399acff06f20e86",
+  "native_frames": 4500,
+  "fps": 25,
+  "metric_valid": false,
+  "confidence_unchanged": true,
+  "true_3d_accuracy_improvement_proven": false,
+  "sensing_feedback": false
+}

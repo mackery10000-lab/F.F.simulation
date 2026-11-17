@@ -19,9 +19,18 @@ export function readSensingInput(projectRoot:string){
     if(createHash('sha256').update(content).digest('hex')!==sha)
       throw Error('Sensing asset integrity mismatch: '+name);
   }
-  const motion=JSON.parse(gunzipSync(fs.readFileSync(path.join(folder,'motion.json.gz'))).toString('utf8'));
+  const packed=fs.readFileSync(path.join(folder,'motion.json.gz'));
+  const motion=JSON.parse(gunzipSync(packed).toString('utf8'));
   validateMotion(motion);videoMotionSource(motion);
   if(motion.source_sha256!==manifest.source_sha256||motion.frames.length!==manifest.frame_count||motion.fps!==manifest.fps)
     throw Error('Sensing source/time binding mismatch');
+  // Hash is computed from the bytes actually opened, never trusted from asset metadata.
+  motion.input_asset_sha256=createHash('sha256').update(packed).digest('hex');
+  if(manifest.source_motion_sha256!==motion.input_asset_sha256)throw Error('Active sensing motion hash binding mismatch');
+  if(manifest.reference_video){
+    const reference=JSON.parse(fs.readFileSync(path.join(folder,'reference_video.json'),'utf8'));
+    if(reference.asset_sha256!==motion.input_asset_sha256||reference.source_sha256!==motion.source_sha256||reference.frames!==motion.frames.length||reference.fps!==motion.fps)
+      throw Error('Sensing motion and rendered video refer to different inputs');
+  }
   return motion;
 }

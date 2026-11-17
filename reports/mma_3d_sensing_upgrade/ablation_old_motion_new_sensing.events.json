@@ -1,0 +1,595 @@
+{
+  "input_asset_sha256": "91e20395f56d247c83782d8760f1e77db5cb5cedbb9800804eed242d46c680e9",
+  "events": [
+    {
+      "event_id": "SIM-WITHHELD-B-R-37568",
+      "event_start": 37.56831949943936,
+      "event_end": 41.88700406522918,
+      "available_at": 42.1289026138978,
+      "fighter_id": "B",
+      "hand": "R",
+      "detected_action": "Uncertain",
+      "contributing_sensors": [
+        "B-R"
+      ],
+      "classification_confidence": 0.25,
+      "verification_status": "WITHHELD",
+      "reason": "손목 급가속만 관측 · 킥/레벨 변화/일반 움직임과 구분 불충분",
+      "evidence_type": "sensor_fusion",
+      "hit_status": "UNKNOWN",
+      "relative_impact_score": null,
+      "peak_acceleration": 1052.8085744309997
+    },
+    {
+      "event_id": "SIM-WITHHELD-B-R-42532",
+      "event_start": 42.53169272928206,
+      "event_end": 43.09026149023468,
+      "available_at": 43.33268912113362,
+      "fighter_id": "B",
+      "hand": "R",
+      "detected_action": "Uncertain",
+      "contributing_sensors": [
+        "B-R"
+      ],
+      "classification_confidence": 0.25,
+      "verification_status": "WITHHELD",
+      "reason": "손목 급가속만 관측 · 킥/레벨 변화/일반 움직임과 구분 불충분",
+      "evidence_type": "sensor_fusion",
+      "hit_status": "UNKNOWN",
+      "relative_impact_score": null,
+      "peak_acceleration": 232.7442849062838
+    },
+    {
+      "event_id": "SIM-WITHHELD-B-L-42569",
+      "event_start": 42.56943414806618,
+      "event_end": 42.96956011506812,
+      "available_at": 43.20977303509778,
+      "fighter_id": "B",
+      "hand": "L",
+      "detected_action": "Uncertain",
+      "contributing_sensors": [
+        "B-L"
+      ],
+      "classification_confidence": 0.25,
+      "verification_status": "WITHHELD",
+      "reason": "손목 급가속만 관측 · 킥/레벨 변화/일반 움직임과 구분 불충분",
+      "evidence_type": "sensor_fusion",
+      "hit_status": "UNKNOWN",
+      "relative_impact_score": null,
+      "peak_acceleration": 1540.9354002417958
+    },
+    {
+      "event_id": "SIM-WITHHELD-B-L-43332",
+      "event_start": 43.33157057715622,
+      "event_end": 43.36877352505497,
+      "available_at": 43.60761960880485,
+      "fighter_id": "B",
+      "hand": "L",
+      "detected_action": "Uncertain",
+      "contributing_sensors": [
+        "B-L"
+      ],
+      "classification_confidence": 0.25,
+      "verification_status": "WITHHELD",
+      "reason": "손목 급가속만 관측 · 킥/레벨 변화/일반 움직임과 구분 불충분",
+      "evidence_type": "sensor_fusion",
+      "hit_status": "UNKNOWN",
+      "relative_impact_score": null,
+      "peak_acceleration": 14.867202333232276
+    },
+    {
+      "event_id": "SIM-WITHHELD-B-L-43848",
+      "event_start": 43.848403686758225,
+      "event_end": 44.09017894082931,
+      "available_at": 44.32896728213718,
+      "fighter_id": "B",
+      "hand": "L",
+      "detected_action": "Uncertain",
+      "contributing_sensors": [
+        "B-L"
+      ],
+      "classification_confidence": 0.25,
+      "verification_status": "WITHHELD",
+      "reason": "손목 급가속만 관측 · 킥/레벨 변화/일반 움직임과 구분 불충분",
+      "evidence_type": "sensor_fusion",
+      "hit_status": "UNKNOWN",
+      "relative_impact_score": null,
+      "peak_acceleration": 53.628875948009075
+    },
+    {
+      "event_id": "SIM-WITHHELD-B-R-43892",
+      "event_start": 43.89209310922204,
+      "event_end": 44.08792725386241,
+      "available_at": 44.330271914597915,
+      "fighter_id": "B",
+      "hand": "R",
+      "detected_action": "Uncertain",
+      "contributing_sensors": [
+        "B-R"
+      ],
+      "classification_confidence": 0.25,
+      "verification_status": "WITHHELD",
+      "reason": "손목 급가속만 관측 · 킥/레벨 변화/일반 움직임과 구분 불충분",
+      "evidence_type": "sensor_fusion",
+      "hit_status": "UNKNOWN",
+      "relative_impact_score": null,
+      "peak_acceleration": 200.27809211230715
+    },
+    {
+      "event_id": "SIM-WITHHELD-B-L-44729",
+      "event_start": 44.729459404260105,
+      "event_end": 46.52793016226924,
+      "available_at": 46.76702058288831,
+      "fighter_id": "B",
+      "hand": "L",
+      "detected_action": "Uncertain",
+      "contributing_sensors": [
+        "B-L"
+      ],
+      "classification_confidence": 0.25,
+      "verification_status": "WITHHELD",
+      "reason": "손목 급가속만 관측 · 킥/레벨 변화/일반 움직임과 구분 불충분",
+      "evidence_type": "sensor_fusion",
+      "hit_status": "UNKNOWN",
+      "relative_impact_score": null,
+      "peak_acceleration": 744.8159372492742
+    },
+    {
+      "event_id": "SIM-WITHHELD-B-R-44773",
+      "event_start": 44.772952486222756,
+      "event_end": 46.53128133295409,
+      "available_at": 46.76575336644179,
+      "fighter_id": "B",
+      "hand": "R",
+      "detected_action": "Uncertain",
+      "contributing_sensors": [
+        "B-R"
+      ],
+      "classification_confidence": 0.25,
+      "verification_status": "WITHHELD",
+      "reason": "손목 급가속만 관측 · 킥/레벨 변화/일반 움직임과 구분 불충분",
+      "evidence_type": "sensor_fusion",
+      "hit_status": "UNKNOWN",
+      "relative_impact_score": null,
+      "peak_acceleration": 450.2943733870711
+    },
+    {
+      "event_id": "SIM-WITHHELD-B-L-82410",
+      "event_start": 82.40982240188026,
+      "event_end": 82.40982240188026,
+      "available_at": 82.65197596710077,
+      "fighter_id": "B",
+      "hand": "L",
+      "detected_action": "Uncertain",
+      "contributing_sensors": [
+        "B-L"
+      ],
+      "classification_confidence": 0.25,
+      "verification_status": "WITHHELD",
+      "reason": "손목 급가속만 관측 · 킥/레벨 변화/일반 움직임과 구분 불충분",
+      "evidence_type": "sensor_fusion",
+      "hit_status": "UNKNOWN",
+      "relative_impact_score": null,
+      "peak_acceleration": 20.06743891100454
+    },
+    {
+      "event_id": "SIM-WITHHELD-B-R-82413",
+      "event_start": 82.41276442590333,
+      "event_end": 82.41276442590333,
+      "available_at": 82.6494744965586,
+      "fighter_id": "B",
+      "hand": "R",
+      "detected_action": "Uncertain",
+      "contributing_sensors": [
+        "B-R"
+      ],
+      "classification_confidence": 0.25,
+      "verification_status": "WITHHELD",
+      "reason": "손목 급가속만 관측 · 킥/레벨 변화/일반 움직임과 구분 불충분",
+      "evidence_type": "sensor_fusion",
+      "hit_status": "UNKNOWN",
+      "relative_impact_score": null,
+      "peak_acceleration": 17.037987786292916
+    },
+    {
+      "event_id": "SIM-WITHHELD-B-R-92409",
+      "event_start": 92.40934870971763,
+      "event_end": 94.93311977320752,
+      "available_at": 95.16574073990826,
+      "fighter_id": "B",
+      "hand": "R",
+      "detected_action": "Uncertain",
+      "contributing_sensors": [
+        "B-R"
+      ],
+      "classification_confidence": 0.25,
+      "verification_status": "WITHHELD",
+      "reason": "손목 급가속만 관측 · 킥/레벨 변화/일반 움직임과 구분 불충분",
+      "evidence_type": "sensor_fusion",
+      "hit_status": "UNKNOWN",
+      "relative_impact_score": null,
+      "peak_acceleration": 613.4334644381479
+    },
+    {
+      "event_id": "SIM-WITHHELD-B-L-95448",
+      "event_start": 95.44816238418326,
+      "event_end": 96.21099317721514,
+      "available_at": 96.44830629499131,
+      "fighter_id": "B",
+      "hand": "L",
+      "detected_action": "Uncertain",
+      "contributing_sensors": [
+        "B-L"
+      ],
+      "classification_confidence": 0.25,
+      "verification_status": "WITHHELD",
+      "reason": "손목 급가속만 관측 · 킥/레벨 변화/일반 움직임과 구분 불충분",
+      "evidence_type": "sensor_fusion",
+      "hit_status": "UNKNOWN",
+      "relative_impact_score": null,
+      "peak_acceleration": 608.0763584058993
+    },
+    {
+      "event_id": "SIM-WITHHELD-B-R-95491",
+      "event_start": 95.49117967598455,
+      "event_end": 95.89117576192257,
+      "available_at": 96.12716921891678,
+      "fighter_id": "B",
+      "hand": "R",
+      "detected_action": "Uncertain",
+      "contributing_sensors": [
+        "B-R"
+      ],
+      "classification_confidence": 0.25,
+      "verification_status": "WITHHELD",
+      "reason": "손목 급가속만 관측 · 킥/레벨 변화/일반 움직임과 구분 불충분",
+      "evidence_type": "sensor_fusion",
+      "hit_status": "UNKNOWN",
+      "relative_impact_score": null,
+      "peak_acceleration": 245.33980616742434
+    },
+    {
+      "event_id": "SIM-WITHHELD-B-R-96491",
+      "event_start": 96.49111073097508,
+      "event_end": 96.60928953162717,
+      "available_at": 96.84571893474784,
+      "fighter_id": "B",
+      "hand": "R",
+      "detected_action": "Uncertain",
+      "contributing_sensors": [
+        "B-R"
+      ],
+      "classification_confidence": 0.25,
+      "verification_status": "WITHHELD",
+      "reason": "손목 급가속만 관측 · 킥/레벨 변화/일반 움직임과 구분 불충분",
+      "evidence_type": "sensor_fusion",
+      "hit_status": "UNKNOWN",
+      "relative_impact_score": null,
+      "peak_acceleration": 305.8602488795181
+    },
+    {
+      "event_id": "SIM-WITHHELD-B-R-96932",
+      "event_start": 96.93224378080043,
+      "event_end": 99.56977348357674,
+      "available_at": 99.80752570732315,
+      "fighter_id": "B",
+      "hand": "R",
+      "detected_action": "Uncertain",
+      "contributing_sensors": [
+        "B-R"
+      ],
+      "classification_confidence": 0.25,
+      "verification_status": "WITHHELD",
+      "reason": "손목 급가속만 관측 · 킥/레벨 변화/일반 움직임과 구분 불충분",
+      "evidence_type": "sensor_fusion",
+      "hit_status": "UNKNOWN",
+      "relative_impact_score": null,
+      "peak_acceleration": 1796.119390844727
+    },
+    {
+      "event_id": "SIM-WITHHELD-B-R-103972",
+      "event_start": 103.97162029553158,
+      "event_end": 104.0919595054961,
+      "available_at": 104.32835863276019,
+      "fighter_id": "B",
+      "hand": "R",
+      "detected_action": "Uncertain",
+      "contributing_sensors": [
+        "B-R"
+      ],
+      "classification_confidence": 0.25,
+      "verification_status": "WITHHELD",
+      "reason": "손목 급가속만 관측 · 킥/레벨 변화/일반 움직임과 구분 불충분",
+      "evidence_type": "sensor_fusion",
+      "hit_status": "UNKNOWN",
+      "relative_impact_score": null,
+      "peak_acceleration": 205.8805232866622
+    },
+    {
+      "event_id": "SIM-WITHHELD-B-L-104529",
+      "event_start": 104.5290256329552,
+      "event_end": 107.2080445087279,
+      "available_at": 107.44645045169585,
+      "fighter_id": "B",
+      "hand": "L",
+      "detected_action": "Uncertain",
+      "contributing_sensors": [
+        "B-L"
+      ],
+      "classification_confidence": 0.25,
+      "verification_status": "WITHHELD",
+      "reason": "손목 급가속만 관측 · 킥/레벨 변화/일반 움직임과 구분 불충분",
+      "evidence_type": "sensor_fusion",
+      "hit_status": "UNKNOWN",
+      "relative_impact_score": null,
+      "peak_acceleration": 2225.5348271103817
+    },
+    {
+      "event_id": "SIM-WITHHELD-B-R-104534",
+      "event_start": 104.53352541886255,
+      "event_end": 107.05119415607848,
+      "available_at": 107.28679983942898,
+      "fighter_id": "B",
+      "hand": "R",
+      "detected_action": "Uncertain",
+      "contributing_sensors": [
+        "B-R"
+      ],
+      "classification_confidence": 0.25,
+      "verification_status": "WITHHELD",
+      "reason": "손목 급가속만 관측 · 킥/레벨 변화/일반 움직임과 구분 불충분",
+      "evidence_type": "sensor_fusion",
+      "hit_status": "UNKNOWN",
+      "relative_impact_score": null,
+      "peak_acceleration": 2405.403417606533
+    },
+    {
+      "event_id": "SIM-WITHHELD-B-R-107494",
+      "event_start": 107.49382613502901,
+      "event_end": 111.1265903632044,
+      "available_at": 111.36791422911656,
+      "fighter_id": "B",
+      "hand": "R",
+      "detected_action": "Uncertain",
+      "contributing_sensors": [
+        "B-R"
+      ],
+      "classification_confidence": 0.25,
+      "verification_status": "WITHHELD",
+      "reason": "손목 급가속만 관측 · 킥/레벨 변화/일반 움직임과 구분 불충분",
+      "evidence_type": "sensor_fusion",
+      "hit_status": "UNKNOWN",
+      "relative_impact_score": null,
+      "peak_acceleration": 4536.807421655639
+    },
+    {
+      "event_id": "SIM-WITHHELD-B-R-111650",
+      "event_start": 111.64982876879259,
+      "event_end": 112.64966465497601,
+      "available_at": 112.88720827152243,
+      "fighter_id": "B",
+      "hand": "R",
+      "detected_action": "Uncertain",
+      "contributing_sensors": [
+        "B-R"
+      ],
+      "classification_confidence": 0.25,
+      "verification_status": "WITHHELD",
+      "reason": "손목 급가속만 관측 · 킥/레벨 변화/일반 움직임과 구분 불충분",
+      "evidence_type": "sensor_fusion",
+      "hit_status": "UNKNOWN",
+      "relative_impact_score": null,
+      "peak_acceleration": 378.3266809006482
+    },
+    {
+      "event_id": "SIM-WITHHELD-B-L-111894",
+      "event_start": 111.89426583827914,
+      "event_end": 112.65099547450109,
+      "available_at": 112.89039955659881,
+      "fighter_id": "B",
+      "hand": "L",
+      "detected_action": "Uncertain",
+      "contributing_sensors": [
+        "B-L"
+      ],
+      "classification_confidence": 0.25,
+      "verification_status": "WITHHELD",
+      "reason": "손목 급가속만 관측 · 킥/레벨 변화/일반 움직임과 구분 불충분",
+      "evidence_type": "sensor_fusion",
+      "hit_status": "UNKNOWN",
+      "relative_impact_score": null,
+      "peak_acceleration": 237.55088333945858
+    },
+    {
+      "event_id": "SIM-WITHHELD-A-R-120529",
+      "event_start": 120.52867720924823,
+      "event_end": 123.08829381219454,
+      "available_at": 123.33190558441065,
+      "fighter_id": "A",
+      "hand": "R",
+      "detected_action": "Uncertain",
+      "contributing_sensors": [
+        "A-R"
+      ],
+      "classification_confidence": 0.25,
+      "verification_status": "WITHHELD",
+      "reason": "손목 급가속만 관측 · 킥/레벨 변화/일반 움직임과 구분 불충분",
+      "evidence_type": "sensor_fusion",
+      "hit_status": "UNKNOWN",
+      "relative_impact_score": null,
+      "peak_acceleration": 1055.2025477974155
+    },
+    {
+      "event_id": "SIM-WITHHELD-A-L-120529",
+      "event_start": 120.52899081513152,
+      "event_end": 123.09074984964765,
+      "available_at": 123.32947573999614,
+      "fighter_id": "A",
+      "hand": "L",
+      "detected_action": "Uncertain",
+      "contributing_sensors": [
+        "A-L"
+      ],
+      "classification_confidence": 0.25,
+      "verification_status": "WITHHELD",
+      "reason": "손목 급가속만 관측 · 킥/레벨 변화/일반 움직임과 구분 불충분",
+      "evidence_type": "sensor_fusion",
+      "hit_status": "UNKNOWN",
+      "relative_impact_score": null,
+      "peak_acceleration": 2142.1391557094694
+    },
+    {
+      "event_id": "SIM-WITHHELD-B-R-120770",
+      "event_start": 120.76970440541199,
+      "event_end": 122.01043870496235,
+      "available_at": 122.24526814470688,
+      "fighter_id": "B",
+      "hand": "R",
+      "detected_action": "Uncertain",
+      "contributing_sensors": [
+        "B-R"
+      ],
+      "classification_confidence": 0.25,
+      "verification_status": "WITHHELD",
+      "reason": "손목 급가속만 관측 · 킥/레벨 변화/일반 움직임과 구분 불충분",
+      "evidence_type": "sensor_fusion",
+      "hit_status": "UNKNOWN",
+      "relative_impact_score": null,
+      "peak_acceleration": 993.9564693789529
+    },
+    {
+      "event_id": "SIM-WITHHELD-B-L-120772",
+      "event_start": 120.77200969029563,
+      "event_end": 122.01092648552081,
+      "available_at": 122.2461950940648,
+      "fighter_id": "B",
+      "hand": "L",
+      "detected_action": "Uncertain",
+      "contributing_sensors": [
+        "B-L"
+      ],
+      "classification_confidence": 0.25,
+      "verification_status": "WITHHELD",
+      "reason": "손목 급가속만 관측 · 킥/레벨 변화/일반 움직임과 구분 불충분",
+      "evidence_type": "sensor_fusion",
+      "hit_status": "UNKNOWN",
+      "relative_impact_score": null,
+      "peak_acceleration": 1071.8013297678199
+    },
+    {
+      "event_id": "SIM-WITHHELD-B-L-122368",
+      "event_start": 122.36827723451485,
+      "event_end": 123.05022854662401,
+      "available_at": 123.28955639917147,
+      "fighter_id": "B",
+      "hand": "L",
+      "detected_action": "Uncertain",
+      "contributing_sensors": [
+        "B-L"
+      ],
+      "classification_confidence": 0.25,
+      "verification_status": "WITHHELD",
+      "reason": "손목 급가속만 관측 · 킥/레벨 변화/일반 움직임과 구분 불충분",
+      "evidence_type": "sensor_fusion",
+      "hit_status": "UNKNOWN",
+      "relative_impact_score": null,
+      "peak_acceleration": 1065.809458106611
+    },
+    {
+      "event_id": "SIM-WITHHELD-B-R-122370",
+      "event_start": 122.37014923450268,
+      "event_end": 123.04984407424776,
+      "available_at": 123.28787636375638,
+      "fighter_id": "B",
+      "hand": "R",
+      "detected_action": "Uncertain",
+      "contributing_sensors": [
+        "B-R"
+      ],
+      "classification_confidence": 0.25,
+      "verification_status": "WITHHELD",
+      "reason": "손목 급가속만 관측 · 킥/레벨 변화/일반 움직임과 구분 불충분",
+      "evidence_type": "sensor_fusion",
+      "hit_status": "UNKNOWN",
+      "relative_impact_score": null,
+      "peak_acceleration": 968.3482425092528
+    },
+    {
+      "event_id": "SIM-WITHHELD-A-R-123849",
+      "event_start": 123.84850988449854,
+      "event_end": 128.25018309806703,
+      "available_at": 128.48718326344405,
+      "fighter_id": "A",
+      "hand": "R",
+      "detected_action": "Uncertain",
+      "contributing_sensors": [
+        "A-R"
+      ],
+      "classification_confidence": 0.25,
+      "verification_status": "WITHHELD",
+      "reason": "손목 급가속만 관측 · 킥/레벨 변화/일반 움직임과 구분 불충분",
+      "evidence_type": "sensor_fusion",
+      "hit_status": "UNKNOWN",
+      "relative_impact_score": null,
+      "peak_acceleration": 2026.8917581141445
+    },
+    {
+      "event_id": "SIM-WITHHELD-A-L-123850",
+      "event_start": 123.85002670240563,
+      "event_end": 128.20831465186538,
+      "available_at": 128.4474395711791,
+      "fighter_id": "A",
+      "hand": "L",
+      "detected_action": "Uncertain",
+      "contributing_sensors": [
+        "A-L"
+      ],
+      "classification_confidence": 0.25,
+      "verification_status": "WITHHELD",
+      "reason": "손목 급가속만 관측 · 킥/레벨 변화/일반 움직임과 구분 불충분",
+      "evidence_type": "sensor_fusion",
+      "hit_status": "UNKNOWN",
+      "relative_impact_score": null,
+      "peak_acceleration": 1834.4533194636529
+    },
+    {
+      "event_id": "SIM-WITHHELD-B-L-124130",
+      "event_start": 124.1303163397391,
+      "event_end": 124.1303163397391,
+      "available_at": 124.36686231893806,
+      "fighter_id": "B",
+      "hand": "L",
+      "detected_action": "Uncertain",
+      "contributing_sensors": [
+        "B-L"
+      ],
+      "classification_confidence": 0.25,
+      "verification_status": "WITHHELD",
+      "reason": "손목 급가속만 관측 · 킥/레벨 변화/일반 움직임과 구분 불충분",
+      "evidence_type": "sensor_fusion",
+      "hit_status": "UNKNOWN",
+      "relative_impact_score": null,
+      "peak_acceleration": 12.082471329228795
+    },
+    {
+      "event_id": "SIM-WITHHELD-B-R-124134",
+      "event_start": 124.13435360929672,
+      "event_end": 124.13435360929672,
+      "available_at": 124.36687933210234,
+      "fighter_id": "B",
+      "hand": "R",
+      "detected_action": "Uncertain",
+      "contributing_sensors": [
+        "B-R"
+      ],
+      "classification_confidence": 0.25,
+      "verification_status": "WITHHELD",
+      "reason": "손목 급가속만 관측 · 킥/레벨 변화/일반 움직임과 구분 불충분",
+      "evidence_type": "sensor_fusion",
+      "hit_status": "UNKNOWN",
+      "relative_impact_score": null,
+      "peak_acceleration": 12.520489064882872
+    }
+  ],
+  "movement_events": []
+}

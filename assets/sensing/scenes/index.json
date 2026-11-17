@@ -1,0 +1,336 @@
+{
+  "scenes": [
+    {
+      "name": "orthodox_high",
+      "file": "assets/sensing/scenes/orthodox_high.json.gz",
+      "sha256": "2fbb27c18bd4aa8ee67e1b13b75557f924712b7803096ab88640c6b981874674",
+      "source_kind": "synthetic"
+    },
+    {
+      "name": "southpaw_high",
+      "file": "assets/sensing/scenes/southpaw_high.json.gz",
+      "sha256": "c9b9696cf06f90ca05adf616670f595f9ea220e455beaf74bd724998bb3a8380",
+      "source_kind": "synthetic"
+    },
+    {
+      "name": "lead_long_rear_high",
+      "file": "assets/sensing/scenes/lead_long_rear_high.json.gz",
+      "sha256": "3a4bfc7535db9c53c37b7daf2421f99fe4b3d5c4a8ec26546d37d042a0238f8e",
+      "source_kind": "synthetic"
+    },
+    {
+      "name": "rear_long_lead_high",
+      "file": "assets/sensing/scenes/rear_long_lead_high.json.gz",
+      "sha256": "21ae87de0a480b3d10c01aee53485f89cab58806b0fdef61f19e80876b68acef",
+      "source_kind": "synthetic"
+    },
+    {
+      "name": "both_extended",
+      "file": "assets/sensing/scenes/both_extended.json.gz",
+      "sha256": "8e74cd9448d0389bb5e93da6d4ec3604bc404a71ebbfa8e4a74c1a9d4e838fcf",
+      "source_kind": "synthetic"
+    },
+    {
+      "name": "mixed_head_movement",
+      "file": "assets/sensing/scenes/mixed_head_movement.json.gz",
+      "sha256": "cd377e59f732ffe0b2bd8adaf29fbfafe2cfd9c612de6e7a9a316f6530e123aa",
+      "source_kind": "synthetic"
+    },
+    {
+      "name": "low_to_high",
+      "file": "assets/sensing/scenes/low_to_high.json.gz",
+      "sha256": "fb05c7d1fe32df6eab920d1b19c446f671dae7cc93c63a7650740e457e36d63e",
+      "source_kind": "synthetic"
+    },
+    {
+      "name": "shell",
+      "file": "assets/sensing/scenes/shell.json.gz",
+      "sha256": "d46ba24d960fd40096ba731f4b6e4d075f76bbcecb5c9e0de57e51796a19e164",
+      "source_kind": "synthetic"
+    },
+    {
+      "name": "cross_guard",
+      "file": "assets/sensing/scenes/cross_guard.json.gz",
+      "sha256": "a081abf73f5972efac2fc5179f9321345c49bd3a60e35abf32d2834fbe2ac656",
+      "source_kind": "synthetic"
+    },
+    {
+      "name": "jab_recoil",
+      "file": "assets/sensing/scenes/jab_recoil.json.gz",
+      "sha256": "d15ac8f590a012fa8f8452833fa08b7b02e2e947a4b4cad88404f6479a6efcbb",
+      "source_kind": "synthetic"
+    },
+    {
+      "name": "sustained_long",
+      "file": "assets/sensing/scenes/sustained_long.json.gz",
+      "sha256": "d005d6f1d79a83ac9784b163abc70723aa2194da86014c0092be4550237c826e",
+      "source_kind": "synthetic"
+    },
+    {
+      "name": "step_switch",
+      "file": "assets/sensing/scenes/step_switch.json.gz",
+      "sha256": "2199d7e5c6d199966b3f61c58c859b88f4d6628f4e11299c862016c16033168d",
+      "source_kind": "synthetic"
+    },
+    {
+      "name": "hop_switch",
+      "file": "assets/sensing/scenes/hop_switch.json.gz",
+      "sha256": "f0bb4c88c40114287b356a00c82ebd843cf77453c25c4efd3788bf6a6d7955b8",
+      "source_kind": "synthetic"
+    },
+    {
+      "name": "cross_step_negative",
+      "file": "assets/sensing/scenes/cross_step_negative.json.gz",
+      "sha256": "96a4c42c7bef84860ddb34c0ecd8fea9fce5b75bf6d62e14bf65ea13f38eb198",
+      "source_kind": "synthetic"
+    },
+    {
+      "name": "torso_twist_negative",
+      "file": "assets/sensing/scenes/torso_twist_negative.json.gz",
+      "sha256": "a2a1b83ade689509bd3d1439f7457533b0c941ea337f75c866f7fdaf48533ed9",
+      "source_kind": "synthetic"
+    },
+    {
+      "name": "opponent_only_approach",
+      "file": "assets/sensing/scenes/opponent_only_approach.json.gz",
+      "sha256": "a37d8af8be861b4612b176f2ba7b066dc63fda79bc87f08f4f371f4fcbf95f43",
+      "source_kind": "synthetic"
+    },
+    {
+      "name": "step_in",
+      "file": "assets/sensing/scenes/step_in.json.gz",
+      "sha256": "c9c606d41085b94dfabcbb53ae59cde2b2a590b8bca56a939f9768a16e60cf1a",
+      "source_kind": "synthetic"
+    },
+    {
+      "name": "step_out",
+      "file": "assets/sensing/scenes/step_out.json.gz",
+      "sha256": "078faa85fb087d2b4dd17cc2656c1ad9e9b51315d5325da6b6cfd2aced05ef37",
+      "source_kind": "synthetic"
+    },
+    {
+      "name": "lateral_shuffle",
+      "file": "assets/sensing/scenes/lateral_shuffle.json.gz",
+      "sha256": "a974e506bdb5611789725c90ece15aef9d36831a82c2b6b2e9bc2666078db11f",
+      "source_kind": "synthetic"
+    },
+    {
+      "name": "pivot",
+      "file": "assets/sensing/scenes/pivot.json.gz",
+      "sha256": "696d1f8b9eb68af1506252cbadb2a3e97efd1cb6e584b5a4fa2a2e1b742a6052",
+      "source_kind": "synthetic"
+    },
+    {
+      "name": "circling",
+      "file": "assets/sensing/scenes/circling.json.gz",
+      "sha256": "c25d861dd40a4947ca1b5d3f9df2030f31a5f575ece4ec097d66de1c5bbf3d54",
+      "source_kind": "synthetic"
+    },
+    {
+      "name": "step_in_jab",
+      "file": "assets/sensing/scenes/step_in_jab.json.gz",
+      "sha256": "a12c6bf050c9ad32f7667410130ba3c2911124a0a572224ad41e0e6984b33b2e",
+      "source_kind": "synthetic"
+    },
+    {
+      "name": "angle_out_cross",
+      "file": "assets/sensing/scenes/angle_out_cross.json.gz",
+      "sha256": "71dd90d1b9bd71c35fc80e37d9be2cbbbf80967016c3b7b66845c39f781bc8ba",
+      "source_kind": "synthetic"
+    },
+    {
+      "name": "kick_check_negative",
+      "file": "assets/sensing/scenes/kick_check_negative.json.gz",
+      "sha256": "cbed33c5928e032019220f5e1c3b91e2ba24b81d311e065f6e3962c58166f030",
+      "source_kind": "synthetic"
+    },
+    {
+      "name": "clinch_ambiguous",
+      "file": "assets/sensing/scenes/clinch_ambiguous.json.gz",
+      "sha256": "b19b1805031839b5c1829322c07e59211f4f9b720d2824930896631932b09986",
+      "source_kind": "synthetic"
+    },
+    {
+      "name": "heavy_occlusion",
+      "file": "assets/sensing/scenes/heavy_occlusion.json.gz",
+      "sha256": "021f7de762aa4cc24aca034873509bd4f0f24c3e1fece020f6da6c76a57e6cf0",
+      "source_kind": "synthetic"
+    },
+    {
+      "name": "id_crossing",
+      "file": "assets/sensing/scenes/id_crossing.json.gz",
+      "sha256": "851c3299e7de2908c84ca73769e92b4faa0b19237496a98a5998a99c1a91b130",
+      "source_kind": "synthetic"
+    },
+    {
+      "name": "camera_cut",
+      "file": "assets/sensing/scenes/camera_cut.json.gz",
+      "sha256": "90f3684a86a684115a9a3a7cf02e4461e5f972509ca0f6912a353cce44ec98e9",
+      "source_kind": "synthetic"
+    },
+    {
+      "name": "level_change",
+      "file": "assets/sensing/scenes/level_change.json.gz",
+      "sha256": "b0cd1e5a7a576ea1e6536d1e50ee6df1528d414180e557c5714246a340753ad4",
+      "source_kind": "synthetic"
+    },
+    {
+      "name": "fast_combo",
+      "file": "assets/sensing/scenes/fast_combo.json.gz",
+      "sha256": "7d8fded14e7d4c14d0eacb03ce896b5b218f2b727d0f12dcfe0febfa6251adc7",
+      "source_kind": "synthetic"
+    }
+  ],
+  "schedule": [
+    {
+      "start_s": 0,
+      "end_s": 6,
+      "scene": "orthodox_high"
+    },
+    {
+      "start_s": 6,
+      "end_s": 12,
+      "scene": "southpaw_high"
+    },
+    {
+      "start_s": 12,
+      "end_s": 18,
+      "scene": "lead_long_rear_high"
+    },
+    {
+      "start_s": 18,
+      "end_s": 24,
+      "scene": "rear_long_lead_high"
+    },
+    {
+      "start_s": 24,
+      "end_s": 30,
+      "scene": "both_extended"
+    },
+    {
+      "start_s": 30,
+      "end_s": 36,
+      "scene": "mixed_head_movement"
+    },
+    {
+      "start_s": 36,
+      "end_s": 42,
+      "scene": "low_to_high"
+    },
+    {
+      "start_s": 42,
+      "end_s": 48,
+      "scene": "shell"
+    },
+    {
+      "start_s": 48,
+      "end_s": 54,
+      "scene": "cross_guard"
+    },
+    {
+      "start_s": 54,
+      "end_s": 60,
+      "scene": "jab_recoil"
+    },
+    {
+      "start_s": 60,
+      "end_s": 66,
+      "scene": "sustained_long"
+    },
+    {
+      "start_s": 66,
+      "end_s": 72,
+      "scene": "step_switch"
+    },
+    {
+      "start_s": 72,
+      "end_s": 78,
+      "scene": "hop_switch"
+    },
+    {
+      "start_s": 78,
+      "end_s": 84,
+      "scene": "cross_step_negative"
+    },
+    {
+      "start_s": 84,
+      "end_s": 90,
+      "scene": "torso_twist_negative"
+    },
+    {
+      "start_s": 90,
+      "end_s": 96,
+      "scene": "opponent_only_approach"
+    },
+    {
+      "start_s": 96,
+      "end_s": 102,
+      "scene": "step_in"
+    },
+    {
+      "start_s": 102,
+      "end_s": 108,
+      "scene": "step_out"
+    },
+    {
+      "start_s": 108,
+      "end_s": 114,
+      "scene": "lateral_shuffle"
+    },
+    {
+      "start_s": 114,
+      "end_s": 120,
+      "scene": "pivot"
+    },
+    {
+      "start_s": 120,
+      "end_s": 126,
+      "scene": "circling"
+    },
+    {
+      "start_s": 126,
+      "end_s": 132,
+      "scene": "step_in_jab"
+    },
+    {
+      "start_s": 132,
+      "end_s": 138,
+      "scene": "angle_out_cross"
+    },
+    {
+      "start_s": 138,
+      "end_s": 144,
+      "scene": "kick_check_negative"
+    },
+    {
+      "start_s": 144,
+      "end_s": 150,
+      "scene": "clinch_ambiguous"
+    },
+    {
+      "start_s": 150,
+      "end_s": 156,
+      "scene": "heavy_occlusion"
+    },
+    {
+      "start_s": 156,
+      "end_s": 162,
+      "scene": "id_crossing"
+    },
+    {
+      "start_s": 162,
+      "end_s": 168,
+      "scene": "camera_cut"
+    },
+    {
+      "start_s": 168,
+      "end_s": 174,
+      "scene": "level_change"
+    },
+    {
+      "start_s": 174,
+      "end_s": 180,
+      "scene": "fast_combo"
+    }
+  ]
+}

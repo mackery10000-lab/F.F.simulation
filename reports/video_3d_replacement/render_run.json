@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "ready": true,
+  "asset_sha256": "aabd5085b7c76ef9fafe36dea0aeea02c661ca294be33d772cfc295d9271ca04",
+  "source_kind": "video_derived",
+  "source_sha256": "71e169c159bcac11267815c135d4dceafe58ef5c2fbbf7030399acff06f20e86",
+  "fps": 25,
+  "frames": 4500,
+  "duration": 179.96,
+  "encoded_frames": 4500,
+  "video_duration_s": 180,
+  "video_sha256": "d670751743917b0899a31a0d21d39500ae661708c5915b65b5111a3926bb2208",
+  "video_bytes": 16952613,
+  "video_file": "assets/sensing/3d_capture.mp4",
+  "maximum_visual_joint_error_m": 1.9484335006297032e-15,
+  "wall_s": 226.5560362,
+  "source_video_pixels_included": false,
+  "external_api_calls": 0,
+  "errors": []
+}

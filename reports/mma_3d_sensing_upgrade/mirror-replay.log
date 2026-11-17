@@ -1,0 +1,5 @@
+
+> fight-frequency-sensing@1.0.0 replay
+> node --experimental-strip-types tools/mma_replay.ts
+
+{"status":"PASS","date":"2026-11-17T04:09:40.284Z","input_asset":"C:\\AI_bsss\\FF_VSCode_Agent_Kit_3.1\\github.f.f\\assets\\sensing\\motion.json.gz","input_asset_sha256":"f6959a2f723ae5010051d7bbabf890ca4d85346ddf1113173c0680da3d6ccce1","seed":42,"mode":"synthetic","duration_s":179.96,"source_frames":4500,"processed_source_frames":4500,"measurements":184842,"per_sensor":{"camera":95078,"imu":71268,"uwb":7076,"isac":11420},"events":61,"withheld":55,"distances":1800,"runtime_ms":36198.6298,"api_calls_in_sensing":0,"diagnostics":{"generated":139297,"dropped":1972,"late":0},"movement_events":145,"warnings":["SIMULATION ONLY; metric_valid=false; no independent expert labels or physical sensors"],"errors":[],"measurement_digest":"231cb110c6dec16ec3367a5882e60e1817207510de42069c0fa2d1aba4335010","digest_encoding":"JSON row + newline","process_memory_bytes":{"rss":1061167104,"heapTotal":975048704,"heapUsed":903084456,"external":9793215,"arrayBuffers":539341}}

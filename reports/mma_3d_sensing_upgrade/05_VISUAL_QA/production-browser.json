@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "base": "http://127.0.0.1:5200",
+  "input": {
+    "hash": "f6959a2f723ae5010051d7bbabf890ca4d85346ddf1113173c0680da3d6ccce1",
+    "kind": "synthetic",
+    "joints": 23,
+    "frames": 4500
+  },
+  "model_joint_error": 6.4796043696850615e-16,
+  "panel": "가드 · 스탠스 · 풋워크\n관측 기반 · 실험적 분류\n선수 A · MIXED_GUARD\n\nORTHODOX · STATIONARY\n\n왼손 EXTENDED (LEAD) · 오른손 HEAD_PROTECT (REAR)\n\n관측 근거 있음 · 신뢰도 미보정\n선수 B · HIGH_GUARD\n\nORTHODOX · STATIONARY\n\n왼손 HEAD_PROTECT (LEAD) · 오른손 HEAD_PROTECT (REAR)\n\n관측 근거 있음 · 신뢰도 미보정\n최근 전환 기록 (15)",
+  "uncaught_errors": [],
+  "network_hosts": [
+    "127.0.0.1:5200"
+  ],
+  "external_api_calls": 0
+}

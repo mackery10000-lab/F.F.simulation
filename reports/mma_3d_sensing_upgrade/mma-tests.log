@@ -1,0 +1,17 @@
+✔ motion-v2 rejects reversed axes, bad units, missing provenance, timestamps and quaternion (10.8581ms)
+✔ legacy 16 joints retain missing heel/toe rather than fabricating observations (112.1614ms)
+✔ stance and lead semantics are invariant under 90/180 degree world rotation and anatomical mirror (3.4999ms)
+✔ measured high, sustained long, mixed, shell and cross guards have real temporal evidence (2375.6403ms)
+✔ actual stance switch is confirmed after dwell; cross step, torso twist and jab do not switch (2757.3933ms)
+✔ own root motion with foot support drives in/out; opponent motion and kick do not become my step (4890.5939ms)
+✔ camera label poisoning cannot alter measurements, hash reaches every sensor, RF carries no action labels (431.6941ms)
+✔ future/late packets cannot change past; stale camera evidence becomes unknown; rewind deterministic (486.876ms)
+✔ no camera produces abstention; sensing import closure contains no generation or network dependencies (192.2031ms)
+ℹ tests 9
+ℹ suites 0
+ℹ pass 9
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 11453.5987

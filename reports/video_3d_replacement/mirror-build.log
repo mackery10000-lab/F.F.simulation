@@ -1,0 +1,24 @@
+
+> fight-frequency-sensing@1.0.0 build
+> tsc -p app/tsconfig.json --noEmit && vite build --config app/vite.config.ts
+
+vite v8.3.2 building client environment for production...
+transforming...
+✓ 57 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                                    0.60 kB │ gzip:   0.40 kB
+dist/assets/live-worker-dEd2r0Fb.js               38.29 kB
+dist/assets/fighter_B-CaGiiGg_.glb               242.40 kB
+dist/assets/fighter_A-CaTmV-Re.glb               244.04 kB
+dist/assets/Paperlogy-7Bold-C_MikIAt.ttf         676.71 kB
+dist/assets/Paperlogy-6SemiBold-Bgpe6yyI.ttf     677.71 kB
+dist/assets/Paperlogy-5Medium-D0pf9AtY.ttf       678.56 kB
+dist/assets/Paperlogy-4Regular-Bxwq9xuH.ttf      679.48 kB
+dist/assets/3d_capture-Cs5vHVM4.mp4           16,952.61 kB
+dist/assets/index-BsB_aPCz.css                    80.03 kB │ gzip:  15.68 kB
+dist/assets/index-p0FFe2bt.js                    213.44 kB │ gzip:  60.52 kB
+dist/assets/react-fOFNTW5X.js                    218.77 kB │ gzip:  68.25 kB
+dist/assets/three-DzU-WkME.js                    656.73 kB │ gzip: 163.60 kB
+
+✓ built in 637ms

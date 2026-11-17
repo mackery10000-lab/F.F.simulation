@@ -1,0 +1,10 @@
+Info: Saved as "mma_joint_rig.blend"
+INFO Draco is available, use library at C:\AI_bsss\FF_VSCode_Agent_Kit_3.1\tools\blender\blender-5.2.4-windows-x64\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_draco_bridge.dll
+INFO MeshOptimizer is available, use library at C:\AI_bsss\FF_VSCode_Agent_Kit_3.1\tools\blender\blender-5.2.4-windows-x64\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_meshopt_bridge.dll
+13:05:07 | INFO: Starting glTF 2.0 export
+13:05:14 | INFO: Finished glTF 2.0 export in 6.8754050731658936 s
+
+{"status": "PASS", "source_asset_sha256": "f6959a2f723ae5010051d7bbabf890ca4d85346ddf1113173c0680da3d6ccce1", "glb_sha256": "acf031c71fbd6d62bf47e934112ca3e446b74834ee54a23c188016085856ce62", "path": "assets/sensing/mma_joint_rig.glb", "blender_version": "5.2.4 LTS", "rig_type": "independent joint translation armatures (not anatomical rotation/skinning reconstruction)", "actors": ["A", "B"], "joint_count": 23, "native_motion_fps": 25, "visual_bake_fps": 12.5, "visual_bake_decimation": true, "blend_local_only": ".cache/mma_joint_rig.blend", "metric_valid": false}
+Blender 5.2.4 LTS (hash cd5dc428cce1 built 2026-11-10 01:34:34)
+
+Blender quit

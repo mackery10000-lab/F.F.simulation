@@ -1,0 +1,200 @@
+{
+  "schema_version": "2.0",
+  "layout": "legacy-compatible flat frames with extended joints; root_rotations xyzw and joint_quality metadata",
+  "required_joints": [
+    "pelvis",
+    "chest",
+    "neck",
+    "head",
+    "left_shoulder",
+    "left_elbow",
+    "left_wrist",
+    "right_shoulder",
+    "right_elbow",
+    "right_wrist",
+    "left_hip",
+    "left_knee",
+    "left_ankle",
+    "right_hip",
+    "right_knee",
+    "right_ankle",
+    "left_heel",
+    "left_toe",
+    "right_heel",
+    "right_toe",
+    "nose",
+    "left_ear",
+    "right_ear"
+  ],
+  "coordinate": {
+    "world_up": "Z",
+    "handedness": "right",
+    "length_unit": "m",
+    "time_unit": "s",
+    "quaternion_order": "xyzw",
+    "mat_surface_z_m": 1.2192
+  },
+  "provenance": {
+    "pelvis": {
+      "confidence": 0.5875744444444444,
+      "visible": null,
+      "occluded": null,
+      "provenance_kind": "estimated_3d"
+    },
+    "chest": {
+      "confidence": 0.587316888888889,
+      "visible": null,
+      "occluded": null,
+      "provenance_kind": "estimated_3d"
+    },
+    "neck": {
+      "confidence": 0.5874945555555555,
+      "visible": null,
+      "occluded": null,
+      "provenance_kind": "estimated_3d"
+    },
+    "head": {
+      "confidence": 0.5828450895555555,
+      "visible": null,
+      "occluded": null,
+      "provenance_kind": "estimated_3d"
+    },
+    "left_shoulder": {
+      "confidence": 0.5877853333333334,
+      "visible": null,
+      "occluded": null,
+      "provenance_kind": "estimated_3d"
+    },
+    "left_elbow": {
+      "confidence": 0.2913042222222222,
+      "visible": null,
+      "occluded": null,
+      "provenance_kind": "estimated_3d"
+    },
+    "left_wrist": {
+      "confidence": 0.25304400000000005,
+      "visible": null,
+      "occluded": null,
+      "provenance_kind": "estimated_3d"
+    },
+    "right_shoulder": {
+      "confidence": 0.5875116666666668,
+      "visible": null,
+      "occluded": null,
+      "provenance_kind": "estimated_3d"
+    },
+    "right_elbow": {
+      "confidence": 0.214387,
+      "visible": null,
+      "occluded": null,
+      "provenance_kind": "estimated_3d"
+    },
+    "right_wrist": {
+      "confidence": 0.20454366666666668,
+      "visible": null,
+      "occluded": null,
+      "provenance_kind": "estimated_3d"
+    },
+    "left_hip": {
+      "confidence": 0.5876532222222223,
+      "visible": null,
+      "occluded": null,
+      "provenance_kind": "estimated_3d"
+    },
+    "left_knee": {
+      "confidence": 0.33533700000000005,
+      "visible": null,
+      "occluded": null,
+      "provenance_kind": "estimated_3d"
+    },
+    "left_ankle": {
+      "confidence": 0.3630146666666666,
+      "visible": null,
+      "occluded": null,
+      "provenance_kind": "estimated_3d"
+    },
+    "right_hip": {
+      "confidence": 0.587607,
+      "visible": null,
+      "occluded": null,
+      "provenance_kind": "estimated_3d"
+    },
+    "right_knee": {
+      "confidence": 0.3396561111111111,
+      "visible": null,
+      "occluded": null,
+      "provenance_kind": "estimated_3d"
+    },
+    "right_ankle": {
+      "confidence": 0.3557372222222222,
+      "visible": null,
+      "occluded": null,
+      "provenance_kind": "estimated_3d"
+    },
+    "left_heel": {
+      "confidence": 0.3383569196666667,
+      "visible": null,
+      "occluded": null,
+      "provenance_kind": "estimated_3d"
+    },
+    "left_toe": {
+      "confidence": 0.3235681215555556,
+      "visible": null,
+      "occluded": null,
+      "provenance_kind": "estimated_3d"
+    },
+    "right_heel": {
+      "confidence": 0.30257571133333333,
+      "visible": null,
+      "occluded": null,
+      "provenance_kind": "estimated_3d"
+    },
+    "right_toe": {
+      "confidence": 0.2971414442222222,
+      "visible": null,
+      "occluded": null,
+      "provenance_kind": "estimated_3d"
+    },
+    "nose": {
+      "confidence": 0.5835181101111112,
+      "visible": null,
+      "occluded": null,
+      "provenance_kind": "estimated_3d"
+    },
+    "left_ear": {
+      "confidence": 0.5845934868888889,
+      "visible": null,
+      "occluded": null,
+      "provenance_kind": "estimated_3d"
+    },
+    "right_ear": {
+      "confidence": 0.5829666251111112,
+      "visible": null,
+      "occluded": null,
+      "provenance_kind": "estimated_3d"
+    }
+  },
+  "canonical_sha256": "f6959a2f723ae5010051d7bbabf890ca4d85346ddf1113173c0680da3d6ccce1",
+  "visual_rig": "assets/fighters/minimal_shell_v1/manifest.json",
+  "collision_proxy": "head/glove spheres and horizontal torso circles; QA approximation, not a contact solver",
+  "rf_proxy_joints": [
+    "pelvis",
+    "left_wrist",
+    "right_wrist",
+    "left_elbow",
+    "right_elbow",
+    "left_knee",
+    "right_knee"
+  ],
+  "joint_rig": "assets/sensing/mma_joint_rig.glb",
+  "joint_rig_visual_fps": 12.5,
+  "source_kind": "video_derived",
+  "per_frame_observation_confidence": "joint_observation_confidence [frame][actor][joint]; missing and estimated-only samples are not observations",
+  "api_refinement": {
+    "model": "gpt-6-luna",
+    "source_images": 180,
+    "coordinate_updates": 8,
+    "confidence_unchanged": true,
+    "depth_measured": false
+  }
+}

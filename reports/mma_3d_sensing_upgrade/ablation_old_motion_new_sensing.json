@@ -1,0 +1,373 @@
+{
+  "status": "PASS",
+  "date": "2026-11-17T03:47:52.634Z",
+  "input_asset": "C:\\AI_bsss\\FF_VSCode_Agent_Kit_3.1\\reports\\mma_3d_sensing_upgrade\\before\\assets\\sensing\\motion.json.gz",
+  "input_asset_sha256": "91e20395f56d247c83782d8760f1e77db5cb5cedbb9800804eed242d46c680e9",
+  "seed": 42,
+  "mode": "video_derived",
+  "duration_s": 179.96,
+  "source_frames": 4500,
+  "processed_source_frames": 4500,
+  "measurements": 184915,
+  "per_sensor": {
+    "camera": 95174,
+    "imu": 71268,
+    "uwb": 7053,
+    "isac": 11420
+  },
+  "events": 31,
+  "withheld": 31,
+  "distances": 1800,
+  "runtime_ms": 32972.327900000004,
+  "api_calls_in_sensing": 0,
+  "diagnostics": {
+    "generated": 139297,
+    "dropped": 1945,
+    "late": 0
+  },
+  "movement_events": [],
+  "warnings": [
+    "SIMULATION ONLY; metric_valid=false; no independent expert labels or physical sensors"
+  ],
+  "errors": [],
+  "measurement_digest": "0f0c323950dccc437132426fd7e9a0c1d98a64fcc8ceb6b3b13a48ac1f570787",
+  "digest_encoding": "JSON row + newline",
+  "process_memory_bytes": {
+    "rss": 864468992,
+    "heapTotal": 784834560,
+    "heapUsed": 707354664,
+    "external": 13191641,
+    "arrayBuffers": 3937767
+  },
+  "sample_measurement": {
+    "timestamp": 0.00889942279322543,
+    "sensor_timestamp": 0.02089942279322543,
+    "arrival_timestamp": 0.04667462049011906,
+    "timestamp_uncertainty": 0.021666666666666667,
+    "sensor_type": "camera",
+    "sensor_id": "CAM-09",
+    "fighter_id": "A",
+    "confidence": 0.33409999999999995,
+    "data_quality": 0.33409999999999995,
+    "source_type": "simulated_sensor",
+    "simulation_flag": true,
+    "input_mode": "video_derived",
+    "input_asset_sha256": "91e20395f56d247c83782d8760f1e77db5cb5cedbb9800804eed242d46c680e9",
+    "seed": 42,
+    "metric_valid": false,
+    "measurement_id": "CAM-09:0:A",
+    "coordinate_frame": "world_Z_up",
+    "provenance": "local geometric virtual sensor",
+    "validity": "DEGRADED",
+    "measurement_type": "synthetic_pose",
+    "measurement_value": {
+      "position": [
+        0.8600284707283983,
+        -1.6380124809657701,
+        2.188977797880372
+      ],
+      "joints": {
+        "pelvis": [
+          0.8600284707283983,
+          -1.6380124809657701,
+          2.188977797880372
+        ],
+        "chest": [
+          0.8884588820946298,
+          -1.911491818771714,
+          2.553471338373864
+        ],
+        "head": [
+          0.7735012819594554,
+          -1.9195393348008558,
+          2.891203911353291
+        ],
+        "left_shoulder": [
+          0.7712275651616465,
+          -1.7353840352289176,
+          2.714566148006828
+        ],
+        "left_elbow": [
+          0.6515909791148646,
+          -1.5994050161883404,
+          2.437536676331983
+        ],
+        "left_wrist": [
+          0.5473819762750911,
+          -1.8596013286156843,
+          2.527487038191022
+        ],
+        "right_shoulder": [
+          0.9790346224970405,
+          -1.9390534799758525,
+          2.7988012551509995
+        ],
+        "right_elbow": [
+          0.8300884852977422,
+          -1.8134050719692794,
+          2.525676152651711
+        ],
+        "right_wrist": [
+          0.7522324501591239,
+          -1.5296481141567657,
+          2.483411830023029
+        ],
+        "left_ankle": [
+          0.818278766869199,
+          -1.0414760229194902,
+          1.3181669839053802
+        ],
+        "right_ankle": [
+          0.9200297565201481,
+          -1.270117720058433,
+          1.4333646960884445
+        ],
+        "neck": [
+          0.8421195939836356,
+          -1.8933673838665936,
+          2.79100089025299
+        ],
+        "left_hip": [
+          0.786241633162089,
+          -1.505683531977767,
+          2.205211865098101
+        ],
+        "right_hip": [
+          0.9870550492045376,
+          -1.7344432360230875,
+          2.2348418044427887
+        ],
+        "left_knee": [
+          0.669893648988013,
+          -1.3420211841883984,
+          1.7226103905907555
+        ],
+        "right_knee": [
+          0.9330017490829406,
+          -1.5046611775933059,
+          1.8065165093180287
+        ]
+      },
+      "observed_joints": {
+        "pelvis": null,
+        "chest": null,
+        "head": null,
+        "left_shoulder": null,
+        "left_elbow": null,
+        "left_wrist": null,
+        "right_shoulder": null,
+        "right_elbow": null,
+        "right_wrist": null,
+        "left_ankle": null,
+        "right_ankle": null,
+        "neck": null,
+        "left_hip": null,
+        "right_hip": null,
+        "left_knee": null,
+        "right_knee": null,
+        "nose": null,
+        "left_ear": null,
+        "right_ear": null,
+        "left_heel": null,
+        "left_toe": null,
+        "right_heel": null,
+        "right_toe": null
+      },
+      "observation_flags": [
+        "VIRTUAL_POSE_SENSOR_NOT_PIXEL_INFERENCE",
+        "NO_TRIANGULATION",
+        "UNVERIFIED_SCALE",
+        "BODY_ORIENTATION_AMBIGUOUS"
+      ],
+      "wrists": [
+        {
+          "hand": "L",
+          "extension": 0,
+          "lateral": 0,
+          "vertical": -0.187079109815806,
+          "speed": 0
+        },
+        {
+          "hand": "R",
+          "extension": 0,
+          "lateral": 0,
+          "vertical": -0.31538942512797075,
+          "speed": 0
+        }
+      ],
+      "screen_position": [
+        0.5548086822852261,
+        0.6357053880369641
+      ],
+      "projected_joints": {
+        "pelvis": [
+          0.5548086822852261,
+          0.6357053880369641
+        ],
+        "chest": [
+          0.5606156625882103,
+          0.6695365414207031
+        ],
+        "head": [
+          0.5564642081460472,
+          0.6821598132988258
+        ],
+        "left_shoulder": [
+          0.5543111937025289,
+          0.6588714117156734
+        ],
+        "left_elbow": [
+          0.5434793920517644,
+          0.6387427204651315
+        ],
+        "left_wrist": [
+          0.5371585649791869,
+          0.6641087133658707
+        ],
+        "right_shoulder": [
+          0.5701256444038264,
+          0.6805560122184133
+        ],
+        "right_elbow": [
+          0.5563302103682299,
+          0.6599761209737374
+        ],
+        "right_wrist": [
+          0.5506348013540334,
+          0.6338541788527869
+        ],
+        "left_ankle": [
+          0.5450536860603031,
+          0.5745455416643883
+        ],
+        "right_ankle": [
+          0.5515843532544976,
+          0.5925770725202771
+        ],
+        "neck": [
+          0.5602233125852206,
+          0.6760228756051454
+        ],
+        "left_hip": [
+          0.5502538481815918,
+          0.6251095146381227
+        ],
+        "right_hip": [
+          0.5634299948919425,
+          0.6448961163786767
+        ],
+        "left_knee": [
+          0.5393713808005919,
+          0.6025362687263132
+        ],
+        "right_knee": [
+          0.5556130789686021,
+          0.6165940934886306
+        ]
+      },
+      "stance": "UNKNOWN",
+      "guard": "UNKNOWN",
+      "occluded": false,
+      "identity_confidence": 0.35,
+      "fov_visible": true
+    },
+    "measurement_unit": "display units / normalized image"
+  },
+  "sample_events": [
+    {
+      "event_id": "SIM-WITHHELD-B-R-37568",
+      "event_start": 37.56831949943936,
+      "event_end": 41.88700406522918,
+      "available_at": 42.1289026138978,
+      "fighter_id": "B",
+      "hand": "R",
+      "detected_action": "Uncertain",
+      "contributing_sensors": [
+        "B-R"
+      ],
+      "classification_confidence": 0.25,
+      "verification_status": "WITHHELD",
+      "reason": "손목 급가속만 관측 · 킥/레벨 변화/일반 움직임과 구분 불충분",
+      "evidence_type": "sensor_fusion",
+      "hit_status": "UNKNOWN",
+      "relative_impact_score": null,
+      "peak_acceleration": 1052.8085744309997
+    },
+    {
+      "event_id": "SIM-WITHHELD-B-R-42532",
+      "event_start": 42.53169272928206,
+      "event_end": 43.09026149023468,
+      "available_at": 43.33268912113362,
+      "fighter_id": "B",
+      "hand": "R",
+      "detected_action": "Uncertain",
+      "contributing_sensors": [
+        "B-R"
+      ],
+      "classification_confidence": 0.25,
+      "verification_status": "WITHHELD",
+      "reason": "손목 급가속만 관측 · 킥/레벨 변화/일반 움직임과 구분 불충분",
+      "evidence_type": "sensor_fusion",
+      "hit_status": "UNKNOWN",
+      "relative_impact_score": null,
+      "peak_acceleration": 232.7442849062838
+    },
+    {
+      "event_id": "SIM-WITHHELD-B-L-42569",
+      "event_start": 42.56943414806618,
+      "event_end": 42.96956011506812,
+      "available_at": 43.20977303509778,
+      "fighter_id": "B",
+      "hand": "L",
+      "detected_action": "Uncertain",
+      "contributing_sensors": [
+        "B-L"
+      ],
+      "classification_confidence": 0.25,
+      "verification_status": "WITHHELD",
+      "reason": "손목 급가속만 관측 · 킥/레벨 변화/일반 움직임과 구분 불충분",
+      "evidence_type": "sensor_fusion",
+      "hit_status": "UNKNOWN",
+      "relative_impact_score": null,
+      "peak_acceleration": 1540.9354002417958
+    },
+    {
+      "event_id": "SIM-WITHHELD-B-L-43332",
+      "event_start": 43.33157057715622,
+      "event_end": 43.36877352505497,
+      "available_at": 43.60761960880485,
+      "fighter_id": "B",
+      "hand": "L",
+      "detected_action": "Uncertain",
+      "contributing_sensors": [
+        "B-L"
+      ],
+      "classification_confidence": 0.25,
+      "verification_status": "WITHHELD",
+      "reason": "손목 급가속만 관측 · 킥/레벨 변화/일반 움직임과 구분 불충분",
+      "evidence_type": "sensor_fusion",
+      "hit_status": "UNKNOWN",
+      "relative_impact_score": null,
+      "peak_acceleration": 14.867202333232276
+    },
+    {
+      "event_id": "SIM-WITHHELD-B-L-43848",
+      "event_start": 43.848403686758225,
+      "event_end": 44.09017894082931,
+      "available_at": 44.32896728213718,
+      "fighter_id": "B",
+      "hand": "L",
+      "detected_action": "Uncertain",
+      "contributing_sensors": [
+        "B-L"
+      ],
+      "classification_confidence": 0.25,
+      "verification_status": "WITHHELD",
+      "reason": "손목 급가속만 관측 · 킥/레벨 변화/일반 움직임과 구분 불충분",
+      "evidence_type": "sensor_fusion",
+      "hit_status": "UNKNOWN",
+      "relative_impact_score": null,
+      "peak_acceleration": 53.628875948009075
+    }
+  ]
+}

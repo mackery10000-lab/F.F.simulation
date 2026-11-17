@@ -26,7 +26,7 @@ export function prepareFighter(scene:THREE.Group,spec:FighterSpec,parent:THREE.G
     for(const side of ['left','right'])for(const point of ['heel','toe']){
       const name=side+'_'+point,ankle=side+'_ankle';if(!targets.has(ankle))throw Error('발목 관절 누락');
       // Original rig-only foot offsets are unobserved visual geometry.
-      targets.set(name,targets.get(ankle)!.clone().add(binds.get(name)!.position.clone().sub(binds.get(ankle)!.position)));
+      if(!targets.has(name))targets.set(name,targets.get(ankle)!.clone().add(binds.get(name)!.position.clone().sub(binds.get(ankle)!.position)));
     }
     wrapper.updateMatrixWorld(true);
     for(const name of spec.bones){
@@ -37,7 +37,11 @@ export function prepareFighter(scene:THREE.Group,spec:FighterSpec,parent:THREE.G
       bone.scale.set(1,1,1);bone.updateMatrix();bone.updateMatrixWorld(true);
     }
     let jointError=0,shellEndpointError=0;const world=new THREE.Matrix4();
-    for(const name of spec.bones)jointError=Math.max(jointError,bones.get(name)!.getWorldPosition(new THREE.Vector3()).distanceTo(targets.get(name)!));
+    for(const name of spec.bones){
+      const sourceIndex=joints.indexOf(name);
+      const expected=sourceIndex>=0?new THREE.Vector3().fromArray(flat,sourceIndex*3):targets.get(name)!;
+      jointError=Math.max(jointError,bones.get(name)!.getWorldPosition(new THREE.Vector3()).distanceTo(expected));
+    }
     for(const shell of shells){
       const a=bones.get(shell.start)!.getWorldPosition(new THREE.Vector3()),q=new THREE.Quaternion(),scale=new THREE.Vector3(1,1,1);
       const b=shell.end?bones.get(shell.end)!.getWorldPosition(new THREE.Vector3()):undefined;

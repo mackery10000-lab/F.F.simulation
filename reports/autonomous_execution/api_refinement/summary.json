@@ -1,0 +1,18 @@
+{
+  "status": "INFERENCE_COMPLETED",
+  "requests_dispatched_total": 30,
+  "successful": 30,
+  "validated_frames": 180,
+  "usage": {
+    "prompt_tokens": 83240,
+    "completion_tokens": 105522,
+    "total_tokens": 188762
+  },
+  "computed_token_cost_usd": 0.061084999999999993,
+  "source_sha256": "71e169c159bcac11267815c135d4dceafe58ef5c2fbbf7030399acff06f20e86",
+  "baseline_motion_sha256": "aabd5085b7c76ef9fafe36dea0aeea02c661ca294be33d772cfc295d9271ca04",
+  "model": "gpt-6-luna",
+  "sparse_api_not_native_frame_inference": true,
+  "true_3d_accuracy_proven": false,
+  "sensing_feedback": false
+}

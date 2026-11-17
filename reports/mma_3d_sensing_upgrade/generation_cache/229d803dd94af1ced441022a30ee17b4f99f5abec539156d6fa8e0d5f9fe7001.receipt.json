@@ -1,0 +1,21 @@
+{
+  "request_sha256": "229d803dd94af1ced441022a30ee17b4f99f5abec539156d6fa8e0d5f9fe7001",
+  "response_sha256": "26a126db93eca75c08547ca46127b270391d23c7ea2441756db158e6b7e98b8c",
+  "response_file": "reports/mma_3d_sensing_upgrade/generation_cache/229d803dd94af1ced441022a30ee17b4f99f5abec539156d6fa8e0d5f9fe7001.json",
+  "scenes": [
+    "step_switch",
+    "hop_switch",
+    "cross_step_negative",
+    "torso_twist_negative",
+    "opponent_only_approach"
+  ],
+  "model": "gpt-6-luna",
+  "attempts": 1,
+  "elapsed_seconds": 8.979785299990908,
+  "usage": {
+    "prompt_tokens": 567,
+    "completion_tokens": 819,
+    "total_tokens": 1386
+  },
+  "evidence": "Original successful generation tool output; persisted during local bake repair. No additional API request."
+}

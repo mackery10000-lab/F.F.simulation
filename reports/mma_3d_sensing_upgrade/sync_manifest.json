@@ -1,0 +1,3124 @@
+{
+  "target": "github.f.f",
+  "target_kind": "existing nested Git checkout",
+  "target_git_head": "55f265a578be5a8f1cb0f2e9c433443e929caf8d",
+  "remote_push": false,
+  "files": [
+    {
+      "source": "sensing/adapters.ts",
+      "target": "github.f.f/sensing/adapters.ts",
+      "sha256": "c1a4000f42a48ef48937b7c99825d637842769d890619a426961b3f71abfc900",
+      "before_sha256": "d5da527a98a9e8dbb76799d24efa6459dbb434fc9db5980f7af5dc59b765fcb7",
+      "immediate_before_sha256": "c1a4000f42a48ef48937b7c99825d637842769d890619a426961b3f71abfc900",
+      "change": "MODIFIED",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "sensing/contracts.ts",
+      "target": "github.f.f/sensing/contracts.ts",
+      "sha256": "74633bdd14d50a974494f7b6d53b00b8f123a7573149520262a900dfe1bab399",
+      "before_sha256": "cb8e200008fb6bf2ee887dda625826f398f924e2bb2ea7f0fad7110d18f83bb0",
+      "immediate_before_sha256": "74633bdd14d50a974494f7b6d53b00b8f123a7573149520262a900dfe1bab399",
+      "change": "MODIFIED",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "sensing/engine.ts",
+      "target": "github.f.f/sensing/engine.ts",
+      "sha256": "e12ef506ae7f1ead4717c4bc512039fdc092c9d252a48297dd7aea9d76fc38c8",
+      "before_sha256": "e12ef506ae7f1ead4717c4bc512039fdc092c9d252a48297dd7aea9d76fc38c8",
+      "immediate_before_sha256": "e12ef506ae7f1ead4717c4bc512039fdc092c9d252a48297dd7aea9d76fc38c8",
+      "change": "IDENTICAL",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "sensing/fusion.ts",
+      "target": "github.f.f/sensing/fusion.ts",
+      "sha256": "9bf3a8a7db50d1c0017fd9ecace1244ebc95b6ec26f7c8ca59b2a10cbebc8e28",
+      "before_sha256": "9477ab6867a2a29c7cfa2199d7d50fbc08158af3d8481996631fde6c96db512e",
+      "immediate_before_sha256": "9bf3a8a7db50d1c0017fd9ecace1244ebc95b6ec26f7c8ca59b2a10cbebc8e28",
+      "change": "MODIFIED",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "sensing/history.ts",
+      "target": "github.f.f/sensing/history.ts",
+      "sha256": "365946d54738a0537bd75a12ef05e3550e7969b4aef8430d98e3b5894adb3246",
+      "before_sha256": null,
+      "immediate_before_sha256": "365946d54738a0537bd75a12ef05e3550e7969b4aef8430d98e3b5894adb3246",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "sensing/live-worker.ts",
+      "target": "github.f.f/sensing/live-worker.ts",
+      "sha256": "ace8264e166c6c66fd6113e0255a8f7b15fc2a6bc192ca12c11aca4a2cc38cfe",
+      "before_sha256": "ace8264e166c6c66fd6113e0255a8f7b15fc2a6bc192ca12c11aca4a2cc38cfe",
+      "immediate_before_sha256": "ace8264e166c6c66fd6113e0255a8f7b15fc2a6bc192ca12c11aca4a2cc38cfe",
+      "change": "IDENTICAL",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "sensing/live.ts",
+      "target": "github.f.f/sensing/live.ts",
+      "sha256": "b76ce9b61abc7d56d99628372dbbbdfdc6f73d1b4b818bbcb90dddfe3feeb6ba",
+      "before_sha256": "1ae7c59bdf0906db298edf4d9191e431b029a9915134587464e1bfa78317b186",
+      "immediate_before_sha256": "b76ce9b61abc7d56d99628372dbbbdfdc6f73d1b4b818bbcb90dddfe3feeb6ba",
+      "change": "MODIFIED",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "sensing/math.ts",
+      "target": "github.f.f/sensing/math.ts",
+      "sha256": "3fd79256e1995856a0ad2ec871753e5857cef76415ac079374a1740d548801eb",
+      "before_sha256": "3fd79256e1995856a0ad2ec871753e5857cef76415ac079374a1740d548801eb",
+      "immediate_before_sha256": "3fd79256e1995856a0ad2ec871753e5857cef76415ac079374a1740d548801eb",
+      "change": "IDENTICAL",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "sensing/mma-features.ts",
+      "target": "github.f.f/sensing/mma-features.ts",
+      "sha256": "e5fd070cb660240cfaecba68ac4b60d9377feee780f528ac315ae402e6c96be2",
+      "before_sha256": null,
+      "immediate_before_sha256": "e5fd070cb660240cfaecba68ac4b60d9377feee780f528ac315ae402e6c96be2",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "sensing/movement.ts",
+      "target": "github.f.f/sensing/movement.ts",
+      "sha256": "5bd855b960d04db5743e6de91f9841ed0ff9ec5a45a91abd88e85012c27b0a38",
+      "before_sha256": null,
+      "immediate_before_sha256": "5bd855b960d04db5743e6de91f9841ed0ff9ec5a45a91abd88e85012c27b0a38",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "sensing/package.json",
+      "target": "github.f.f/sensing/package.json",
+      "sha256": "a90fc33418afa2b9cbf4768524b021135b965ecdf993457505bfae3ac44a8428",
+      "before_sha256": null,
+      "immediate_before_sha256": "a90fc33418afa2b9cbf4768524b021135b965ecdf993457505bfae3ac44a8428",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "sensing/persistence.ts",
+      "target": "github.f.f/sensing/persistence.ts",
+      "sha256": "e4d6f6de8c8fab96bb6f1189fe419781f497ca79a99394c34682710d571d2c0a",
+      "before_sha256": "e4d6f6de8c8fab96bb6f1189fe419781f497ca79a99394c34682710d571d2c0a",
+      "immediate_before_sha256": "e4d6f6de8c8fab96bb6f1189fe419781f497ca79a99394c34682710d571d2c0a",
+      "change": "IDENTICAL",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "sensing/question-store.ts",
+      "target": "github.f.f/sensing/question-store.ts",
+      "sha256": "3ec965f12c0ea72bdae4706af9dc1a461e856eeb95d8e7f0cec60e6599bb7a37",
+      "before_sha256": "3ec965f12c0ea72bdae4706af9dc1a461e856eeb95d8e7f0cec60e6599bb7a37",
+      "immediate_before_sha256": "3ec965f12c0ea72bdae4706af9dc1a461e856eeb95d8e7f0cec60e6599bb7a37",
+      "change": "IDENTICAL",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "sensing/questions.ts",
+      "target": "github.f.f/sensing/questions.ts",
+      "sha256": "dfa9e93681cec9ecd851111bbb9221c636721361bf78808d531752323ec084ee",
+      "before_sha256": "dfa9e93681cec9ecd851111bbb9221c636721361bf78808d531752323ec084ee",
+      "immediate_before_sha256": "dfa9e93681cec9ecd851111bbb9221c636721361bf78808d531752323ec084ee",
+      "change": "IDENTICAL",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "sensing/README_KO.md",
+      "target": "github.f.f/sensing/README_KO.md",
+      "sha256": "96587337ef284a562da0199e913dd2eddf27c6366ac930370ddc37c95b66ca93",
+      "before_sha256": null,
+      "immediate_before_sha256": "96587337ef284a562da0199e913dd2eddf27c6366ac930370ddc37c95b66ca93",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "sensing/scenario.ts",
+      "target": "github.f.f/sensing/scenario.ts",
+      "sha256": "34e0ffb4984e39eb649b0bb3ea181049d7aeba9d6b27317eb54ea93e5756022e",
+      "before_sha256": "9225ccedfddd1e3c24c4d9906aebc635b8152a64e3bc7ecba3f8b59fbf071f19",
+      "immediate_before_sha256": "34e0ffb4984e39eb649b0bb3ea181049d7aeba9d6b27317eb54ea93e5756022e",
+      "change": "MODIFIED",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "sensing/sensors.ts",
+      "target": "github.f.f/sensing/sensors.ts",
+      "sha256": "322767f18d0ff733546b83b7cec3b9f3cfc9ddb5dd4690425c0c7c1974a26300",
+      "before_sha256": "d866533fdb307aace048f842a234cbe3dbd04dc686965d027fe3d4f60989b8ed",
+      "immediate_before_sha256": "322767f18d0ff733546b83b7cec3b9f3cfc9ddb5dd4690425c0c7c1974a26300",
+      "change": "MODIFIED",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "sensing/tactics.ts",
+      "target": "github.f.f/sensing/tactics.ts",
+      "sha256": "366dac71c46defcf863a64f689b7b025c8271859444d8129f27afaa5f0aabf71",
+      "before_sha256": "366dac71c46defcf863a64f689b7b025c8271859444d8129f27afaa5f0aabf71",
+      "immediate_before_sha256": "366dac71c46defcf863a64f689b7b025c8271859444d8129f27afaa5f0aabf71",
+      "change": "IDENTICAL",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "sensing/tag-tracking.ts",
+      "target": "github.f.f/sensing/tag-tracking.ts",
+      "sha256": "7ec654ce95fc98cbd5ed743bfe7d9669ed733cd1a492265d4939d44001508f38",
+      "before_sha256": null,
+      "immediate_before_sha256": "7ec654ce95fc98cbd5ed743bfe7d9669ed733cd1a492265d4939d44001508f38",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "sensing/worker.ts",
+      "target": "github.f.f/sensing/worker.ts",
+      "sha256": "8b14d5d2d7c0210b2c9f26c5f222512b4282253ceb99a17eccac7e8c4d7b4a95",
+      "before_sha256": null,
+      "immediate_before_sha256": "8b14d5d2d7c0210b2c9f26c5f222512b4282253ceb99a17eccac7e8c4d7b4a95",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "motion/package.json",
+      "target": "github.f.f/motion/package.json",
+      "sha256": "a90fc33418afa2b9cbf4768524b021135b965ecdf993457505bfae3ac44a8428",
+      "before_sha256": null,
+      "immediate_before_sha256": "a90fc33418afa2b9cbf4768524b021135b965ecdf993457505bfae3ac44a8428",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "motion/sampling.ts",
+      "target": "github.f.f/motion/sampling.ts",
+      "sha256": "cd36003de54a2a5cc176da651f20f40c19c0f42dd94eeda8f57290c12abfdd7d",
+      "before_sha256": "cd36003de54a2a5cc176da651f20f40c19c0f42dd94eeda8f57290c12abfdd7d",
+      "immediate_before_sha256": "cd36003de54a2a5cc176da651f20f40c19c0f42dd94eeda8f57290c12abfdd7d",
+      "change": "IDENTICAL",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "sensing/tests/mma-upgrade.test.ts",
+      "target": "github.f.f/sensing/tests/mma-upgrade.test.ts",
+      "sha256": "4c7f618be333e2ac8cdddf12725dba2fbfe72a6349d231b423cf1bd93b2f0d69",
+      "before_sha256": null,
+      "immediate_before_sha256": "4c7f618be333e2ac8cdddf12725dba2fbfe72a6349d231b423cf1bd93b2f0d69",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "sensing/tests/reliability.test.ts",
+      "target": "github.f.f/sensing/tests/reliability.test.ts",
+      "sha256": "a4a3b18df7644a58e451e853ed362d835e703c1e9781bd525ad26febd2d34f2e",
+      "before_sha256": null,
+      "immediate_before_sha256": "a4a3b18df7644a58e451e853ed362d835e703c1e9781bd525ad26febd2d34f2e",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "tools/mma_replay.ts",
+      "target": "github.f.f/tools/mma_replay.ts",
+      "sha256": "1e138abbf5db99e98c1514ef5764d2ab52ee981af9a637ae1663c29b50f1316e",
+      "before_sha256": null,
+      "immediate_before_sha256": "1e138abbf5db99e98c1514ef5764d2ab52ee981af9a637ae1663c29b50f1316e",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "tools/mma_scene_report.ts",
+      "target": "github.f.f/tools/mma_scene_report.ts",
+      "sha256": "a099f6dc6fd43b15e17e992bc15a4e30237ac44aa4543445ee261b0c739f29e7",
+      "before_sha256": null,
+      "immediate_before_sha256": "a099f6dc6fd43b15e17e992bc15a4e30237ac44aa4543445ee261b0c739f29e7",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "tools/mma_geometry_qa.py",
+      "target": "github.f.f/tools/mma_geometry_qa.py",
+      "sha256": "3e3f324250c665ce40469bc453029b62ab07e061b103faec44ed96775a037cc6",
+      "before_sha256": null,
+      "immediate_before_sha256": "3e3f324250c665ce40469bc453029b62ab07e061b103faec44ed96775a037cc6",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "tools/verify_mma_rig.mjs",
+      "target": "github.f.f/tools/verify_mma_rig.mjs",
+      "sha256": "a5a3ae3e0dca7dbdfaafef7d48b4e1ece6aef39163a14197f3fd9403666f6da5",
+      "before_sha256": null,
+      "immediate_before_sha256": "a5a3ae3e0dca7dbdfaafef7d48b4e1ece6aef39163a14197f3fd9403666f6da5",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "tools/finalize_mma_assets.py",
+      "target": "github.f.f/tools/finalize_mma_assets.py",
+      "sha256": "be8093e23694547f9aa8c406649b475ddbbb7e59f000af12b5c33003c08a73a9",
+      "before_sha256": null,
+      "immediate_before_sha256": "be8093e23694547f9aa8c406649b475ddbbb7e59f000af12b5c33003c08a73a9",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "scripts/mma_motion_upgrade.py",
+      "target": "github.f.f/scripts/mma_motion_upgrade.py",
+      "sha256": "2c5c85fed3225a5dc2d622b611dacecc79759fde015e1288a32d239aa312f27c",
+      "before_sha256": null,
+      "immediate_before_sha256": "2c5c85fed3225a5dc2d622b611dacecc79759fde015e1288a32d239aa312f27c",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "scripts/ff_ai_provider.py",
+      "target": "github.f.f/scripts/ff_ai_provider.py",
+      "sha256": "319275f7bb2f7f84d22b41d270204b24219dff1d34b0de88e0ff82bc4e76c261",
+      "before_sha256": null,
+      "immediate_before_sha256": "319275f7bb2f7f84d22b41d270204b24219dff1d34b0de88e0ff82bc4e76c261",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "scripts/export_mma_rig_blender.py",
+      "target": "github.f.f/scripts/export_mma_rig_blender.py",
+      "sha256": "63dae30a18c6572ea74748f6f42d28058bfc55e0878667f5e73b773b45853bb6",
+      "before_sha256": null,
+      "immediate_before_sha256": "63dae30a18c6572ea74748f6f42d28058bfc55e0878667f5e73b773b45853bb6",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "requirements-mma-generation.txt",
+      "target": "github.f.f/requirements-mma-generation.txt",
+      "sha256": "095f7cbcb96e793759b5dc83fbf5dbcec1100fd34d007954cce718d17cca839d",
+      "before_sha256": null,
+      "immediate_before_sha256": "095f7cbcb96e793759b5dc83fbf5dbcec1100fd34d007954cce718d17cca839d",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "docs/MMA_MOVEMENT_TAXONOMY_KO.md",
+      "target": "github.f.f/docs/MMA_MOVEMENT_TAXONOMY_KO.md",
+      "sha256": "1f77a538ae1f1361182956615695c4226b817fc23b60d05c9bae48d334096520",
+      "before_sha256": null,
+      "immediate_before_sha256": "1f77a538ae1f1361182956615695c4226b817fc23b60d05c9bae48d334096520",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "docs/MMA_MOTION_V2_KO.md",
+      "target": "github.f.f/docs/MMA_MOTION_V2_KO.md",
+      "sha256": "64fca09935fd69c7c4df10e480180c396561c7c5f2da0eaade64071ee74eda62",
+      "before_sha256": null,
+      "immediate_before_sha256": "64fca09935fd69c7c4df10e480180c396561c7c5f2da0eaade64071ee74eda62",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "tools/sensing_portable.test.ts",
+      "target": "github.f.f/tests/runtime.test.ts",
+      "sha256": "607f9714f183c4ef2fb8c049033cd16efcc08c90f43fcfef4d8f6af3a55f2542",
+      "before_sha256": "a0e2d932bd43475c3012a0151a2a95d58e97e9afc3cfaf68bed48d7b455e660e",
+      "immediate_before_sha256": "607f9714f183c4ef2fb8c049033cd16efcc08c90f43fcfef4d8f6af3a55f2542",
+      "change": "MODIFIED",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "analysis-platform/src/sensing-input.ts",
+      "target": "github.f.f/app/src/sensing-input.ts",
+      "sha256": "7d6a61de295748412bd5c712ca1c50ad6187ddb28da7ef9e3414c6dd315b406f",
+      "before_sha256": "64820f706835b8f50a6fe093833f22428fb73c85f3d996ace5620bdb7861cbda",
+      "immediate_before_sha256": "7d6a61de295748412bd5c712ca1c50ad6187ddb28da7ef9e3414c6dd315b406f",
+      "change": "MODIFIED",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "analysis-platform/src/sensing/SensingLab.tsx",
+      "target": "github.f.f/app/src/sensing/SensingLab.tsx",
+      "sha256": "61567cdaefff46be1dd81669d2f6565cb331c48055022435b1b64383d6a3ecfb",
+      "before_sha256": "b987c2556f3b3df0eb4be1e78aff5ba19a91b92ffaac8c70ad98c94817141b4d",
+      "immediate_before_sha256": "61567cdaefff46be1dd81669d2f6565cb331c48055022435b1b64383d6a3ecfb",
+      "change": "MODIFIED",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "analysis-platform/src/sensing/MovementPanel.tsx",
+      "target": "github.f.f/app/src/sensing/MovementPanel.tsx",
+      "sha256": "9baad3dc113cca51ebf94691ca6c9379ea72207c8b10c667eb9bdfe03129be73",
+      "before_sha256": null,
+      "immediate_before_sha256": "9baad3dc113cca51ebf94691ca6c9379ea72207c8b10c667eb9bdfe03129be73",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "analysis-platform/src/sensing/FighterRig.ts",
+      "target": "github.f.f/app/src/sensing/FighterRig.ts",
+      "sha256": "bb997fee55ed76176d9e3f18678071e3feb4f0cecbae5b40cb0e8fa37d529df5",
+      "before_sha256": "3056ef101c08ab782c8572e8ef6de29198c948bceb517871c1349eb8563715ff",
+      "immediate_before_sha256": "bb997fee55ed76176d9e3f18678071e3feb4f0cecbae5b40cb0e8fa37d529df5",
+      "change": "MODIFIED",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "analysis-platform/src/sensing/ModelingVideo.tsx",
+      "target": "github.f.f/app/src/sensing/ModelingVideo.tsx",
+      "sha256": "0a9783bd28ffbbc6dc9463c9784a358590e65b6c3bb441ca57e7312bb31cae6c",
+      "before_sha256": null,
+      "immediate_before_sha256": "0a9783bd28ffbbc6dc9463c9784a358590e65b6c3bb441ca57e7312bb31cae6c",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "assets/sensing/3d_capture.mp4",
+      "target": "github.f.f/assets/sensing/3d_capture.mp4",
+      "sha256": "a699ae659cce1b4821b1660bce651abdd7867e824337bdfe910edb0d157871a9",
+      "before_sha256": null,
+      "immediate_before_sha256": "a699ae659cce1b4821b1660bce651abdd7867e824337bdfe910edb0d157871a9",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "assets/sensing/manifest.json",
+      "target": "github.f.f/assets/sensing/manifest.json",
+      "sha256": "319a964cfa350b041f29d9d4a06378d9676efa9afc966792d0fe501e9ab37e37",
+      "before_sha256": "b04c40524c84bca0f436cf1ecb8e17f88e8b7214fca14eca8a48eafe913c0e91",
+      "immediate_before_sha256": "319a964cfa350b041f29d9d4a06378d9676efa9afc966792d0fe501e9ab37e37",
+      "change": "MODIFIED",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "assets/sensing/mma_joint_rig.glb",
+      "target": "github.f.f/assets/sensing/mma_joint_rig.glb",
+      "sha256": "e285f41250bac03a102401dbd014394bc7188073e9bfdb403b8581ab08e100c2",
+      "before_sha256": null,
+      "immediate_before_sha256": "e285f41250bac03a102401dbd014394bc7188073e9bfdb403b8581ab08e100c2",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "assets/sensing/motion.json.gz",
+      "target": "github.f.f/assets/sensing/motion.json.gz",
+      "sha256": "821cb126ced624d3bbc6d2d50226031bff1657246689ead58ae27a985d4c27dc",
+      "before_sha256": "91e20395f56d247c83782d8760f1e77db5cb5cedbb9800804eed242d46c680e9",
+      "immediate_before_sha256": "821cb126ced624d3bbc6d2d50226031bff1657246689ead58ae27a985d4c27dc",
+      "change": "MODIFIED",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "assets/sensing/motion_v2_contract.json",
+      "target": "github.f.f/assets/sensing/motion_v2_contract.json",
+      "sha256": "b0c4609892ae4b915377f4acf813a61d3990b621c667d6e6d141a54748169a2b",
+      "before_sha256": null,
+      "immediate_before_sha256": "b0c4609892ae4b915377f4acf813a61d3990b621c667d6e6d141a54748169a2b",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "assets/sensing/README.md",
+      "target": "github.f.f/assets/sensing/README.md",
+      "sha256": "6f981f5285f534652580a7e7e8923606e0e8d19e4e3fce388c973c6c1693d363",
+      "before_sha256": null,
+      "immediate_before_sha256": "6f981f5285f534652580a7e7e8923606e0e8d19e4e3fce388c973c6c1693d363",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "assets/sensing/reference_video.json",
+      "target": "github.f.f/assets/sensing/reference_video.json",
+      "sha256": "246bb97e4dc6c84fe6f0c93a908f63b691260c3dad4fc271799cbcf1fd23d320",
+      "before_sha256": null,
+      "immediate_before_sha256": "246bb97e4dc6c84fe6f0c93a908f63b691260c3dad4fc271799cbcf1fd23d320",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "assets/sensing/scenes/angle_out_cross.json.gz",
+      "target": "github.f.f/assets/sensing/scenes/angle_out_cross.json.gz",
+      "sha256": "71dd90d1b9bd71c35fc80e37d9be2cbbbf80967016c3b7b66845c39f781bc8ba",
+      "before_sha256": null,
+      "immediate_before_sha256": "71dd90d1b9bd71c35fc80e37d9be2cbbbf80967016c3b7b66845c39f781bc8ba",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "assets/sensing/scenes/angle_out_cross.quality.json",
+      "target": "github.f.f/assets/sensing/scenes/angle_out_cross.quality.json",
+      "sha256": "e0d9334d1574a586ebcb454037368d88638c62dd08f7b6df14c7fdbf03011cf6",
+      "before_sha256": null,
+      "immediate_before_sha256": "e0d9334d1574a586ebcb454037368d88638c62dd08f7b6df14c7fdbf03011cf6",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "assets/sensing/scenes/both_extended.json.gz",
+      "target": "github.f.f/assets/sensing/scenes/both_extended.json.gz",
+      "sha256": "8e74cd9448d0389bb5e93da6d4ec3604bc404a71ebbfa8e4a74c1a9d4e838fcf",
+      "before_sha256": null,
+      "immediate_before_sha256": "8e74cd9448d0389bb5e93da6d4ec3604bc404a71ebbfa8e4a74c1a9d4e838fcf",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "assets/sensing/scenes/both_extended.quality.json",
+      "target": "github.f.f/assets/sensing/scenes/both_extended.quality.json",
+      "sha256": "b0f929d24011ba71821737d8e6f54409a1392785107d70784bdcab4c2f2cb521",
+      "before_sha256": null,
+      "immediate_before_sha256": "b0f929d24011ba71821737d8e6f54409a1392785107d70784bdcab4c2f2cb521",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "assets/sensing/scenes/camera_cut.json.gz",
+      "target": "github.f.f/assets/sensing/scenes/camera_cut.json.gz",
+      "sha256": "90f3684a86a684115a9a3a7cf02e4461e5f972509ca0f6912a353cce44ec98e9",
+      "before_sha256": null,
+      "immediate_before_sha256": "90f3684a86a684115a9a3a7cf02e4461e5f972509ca0f6912a353cce44ec98e9",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "assets/sensing/scenes/camera_cut.quality.json",
+      "target": "github.f.f/assets/sensing/scenes/camera_cut.quality.json",
+      "sha256": "151c42d68c3edb9ed292fc2196faa4f70a728e6c7eb1f8bc3a572245cc220980",
+      "before_sha256": null,
+      "immediate_before_sha256": "151c42d68c3edb9ed292fc2196faa4f70a728e6c7eb1f8bc3a572245cc220980",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "assets/sensing/scenes/circling.json.gz",
+      "target": "github.f.f/assets/sensing/scenes/circling.json.gz",
+      "sha256": "c25d861dd40a4947ca1b5d3f9df2030f31a5f575ece4ec097d66de1c5bbf3d54",
+      "before_sha256": null,
+      "immediate_before_sha256": "c25d861dd40a4947ca1b5d3f9df2030f31a5f575ece4ec097d66de1c5bbf3d54",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "assets/sensing/scenes/circling.quality.json",
+      "target": "github.f.f/assets/sensing/scenes/circling.quality.json",
+      "sha256": "aaa393a68ff26d9dc8b789a82c71f7c1e9b2ef2c740dc64e6f06334c602c5635",
+      "before_sha256": null,
+      "immediate_before_sha256": "aaa393a68ff26d9dc8b789a82c71f7c1e9b2ef2c740dc64e6f06334c602c5635",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "assets/sensing/scenes/clinch_ambiguous.json.gz",
+      "target": "github.f.f/assets/sensing/scenes/clinch_ambiguous.json.gz",
+      "sha256": "b19b1805031839b5c1829322c07e59211f4f9b720d2824930896631932b09986",
+      "before_sha256": null,
+      "immediate_before_sha256": "b19b1805031839b5c1829322c07e59211f4f9b720d2824930896631932b09986",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "assets/sensing/scenes/clinch_ambiguous.quality.json",
+      "target": "github.f.f/assets/sensing/scenes/clinch_ambiguous.quality.json",
+      "sha256": "2c7f45ddfec12f150135a494c6e5100ccc2d486da9604ee55236454f439c84bd",
+      "before_sha256": null,
+      "immediate_before_sha256": "2c7f45ddfec12f150135a494c6e5100ccc2d486da9604ee55236454f439c84bd",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "assets/sensing/scenes/cross_guard.json.gz",
+      "target": "github.f.f/assets/sensing/scenes/cross_guard.json.gz",
+      "sha256": "a081abf73f5972efac2fc5179f9321345c49bd3a60e35abf32d2834fbe2ac656",
+      "before_sha256": null,
+      "immediate_before_sha256": "a081abf73f5972efac2fc5179f9321345c49bd3a60e35abf32d2834fbe2ac656",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "assets/sensing/scenes/cross_guard.quality.json",
+      "target": "github.f.f/assets/sensing/scenes/cross_guard.quality.json",
+      "sha256": "2eb7bece7e7a505286f0d67d074889dd9feed7e6e40bb02078c934ff79101625",
+      "before_sha256": null,
+      "immediate_before_sha256": "2eb7bece7e7a505286f0d67d074889dd9feed7e6e40bb02078c934ff79101625",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "assets/sensing/scenes/cross_step_negative.json.gz",
+      "target": "github.f.f/assets/sensing/scenes/cross_step_negative.json.gz",
+      "sha256": "96a4c42c7bef84860ddb34c0ecd8fea9fce5b75bf6d62e14bf65ea13f38eb198",
+      "before_sha256": null,
+      "immediate_before_sha256": "96a4c42c7bef84860ddb34c0ecd8fea9fce5b75bf6d62e14bf65ea13f38eb198",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "assets/sensing/scenes/cross_step_negative.quality.json",
+      "target": "github.f.f/assets/sensing/scenes/cross_step_negative.quality.json",
+      "sha256": "ed41e6de85179c09325dc7d86eab94b032f41dba6228e69bac758d05be05dc0e",
+      "before_sha256": null,
+      "immediate_before_sha256": "ed41e6de85179c09325dc7d86eab94b032f41dba6228e69bac758d05be05dc0e",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "assets/sensing/scenes/fast_combo.json.gz",
+      "target": "github.f.f/assets/sensing/scenes/fast_combo.json.gz",
+      "sha256": "7d8fded14e7d4c14d0eacb03ce896b5b218f2b727d0f12dcfe0febfa6251adc7",
+      "before_sha256": null,
+      "immediate_before_sha256": "7d8fded14e7d4c14d0eacb03ce896b5b218f2b727d0f12dcfe0febfa6251adc7",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "assets/sensing/scenes/fast_combo.quality.json",
+      "target": "github.f.f/assets/sensing/scenes/fast_combo.quality.json",
+      "sha256": "666ecb4f3f1f0f2415606cdf4c348a7ec6d817682de523cef299ac43a9d488fb",
+      "before_sha256": null,
+      "immediate_before_sha256": "666ecb4f3f1f0f2415606cdf4c348a7ec6d817682de523cef299ac43a9d488fb",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "assets/sensing/scenes/heavy_occlusion.json.gz",
+      "target": "github.f.f/assets/sensing/scenes/heavy_occlusion.json.gz",
+      "sha256": "021f7de762aa4cc24aca034873509bd4f0f24c3e1fece020f6da6c76a57e6cf0",
+      "before_sha256": null,
+      "immediate_before_sha256": "021f7de762aa4cc24aca034873509bd4f0f24c3e1fece020f6da6c76a57e6cf0",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "assets/sensing/scenes/heavy_occlusion.quality.json",
+      "target": "github.f.f/assets/sensing/scenes/heavy_occlusion.quality.json",
+      "sha256": "b4925764d24de1f79485dd8b15f271ed83c5dff99765c3d9e0c451310eca4d8f",
+      "before_sha256": null,
+      "immediate_before_sha256": "b4925764d24de1f79485dd8b15f271ed83c5dff99765c3d9e0c451310eca4d8f",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "assets/sensing/scenes/hop_switch.json.gz",
+      "target": "github.f.f/assets/sensing/scenes/hop_switch.json.gz",
+      "sha256": "f0bb4c88c40114287b356a00c82ebd843cf77453c25c4efd3788bf6a6d7955b8",
+      "before_sha256": null,
+      "immediate_before_sha256": "f0bb4c88c40114287b356a00c82ebd843cf77453c25c4efd3788bf6a6d7955b8",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "assets/sensing/scenes/hop_switch.quality.json",
+      "target": "github.f.f/assets/sensing/scenes/hop_switch.quality.json",
+      "sha256": "faa929fd4b880aa1da2ea80eb8d48f5f7995656a7c0aed632a712693d5c4def2",
+      "before_sha256": null,
+      "immediate_before_sha256": "faa929fd4b880aa1da2ea80eb8d48f5f7995656a7c0aed632a712693d5c4def2",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "assets/sensing/scenes/id_crossing.json.gz",
+      "target": "github.f.f/assets/sensing/scenes/id_crossing.json.gz",
+      "sha256": "851c3299e7de2908c84ca73769e92b4faa0b19237496a98a5998a99c1a91b130",
+      "before_sha256": null,
+      "immediate_before_sha256": "851c3299e7de2908c84ca73769e92b4faa0b19237496a98a5998a99c1a91b130",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "assets/sensing/scenes/id_crossing.quality.json",
+      "target": "github.f.f/assets/sensing/scenes/id_crossing.quality.json",
+      "sha256": "3707abc1cf2bbd26bb9732750013d01729ad64b1864921aec5e3755cfdd51b83",
+      "before_sha256": null,
+      "immediate_before_sha256": "3707abc1cf2bbd26bb9732750013d01729ad64b1864921aec5e3755cfdd51b83",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "assets/sensing/scenes/index.json",
+      "target": "github.f.f/assets/sensing/scenes/index.json",
+      "sha256": "e5da8e0e3437f551c5a1767c36bb070135e92dea07e42b1228e8c36d4d859ea6",
+      "before_sha256": null,
+      "immediate_before_sha256": "e5da8e0e3437f551c5a1767c36bb070135e92dea07e42b1228e8c36d4d859ea6",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "assets/sensing/scenes/jab_recoil.json.gz",
+      "target": "github.f.f/assets/sensing/scenes/jab_recoil.json.gz",
+      "sha256": "d15ac8f590a012fa8f8452833fa08b7b02e2e947a4b4cad88404f6479a6efcbb",
+      "before_sha256": null,
+      "immediate_before_sha256": "d15ac8f590a012fa8f8452833fa08b7b02e2e947a4b4cad88404f6479a6efcbb",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "assets/sensing/scenes/jab_recoil.quality.json",
+      "target": "github.f.f/assets/sensing/scenes/jab_recoil.quality.json",
+      "sha256": "9091c38c2042b1edf756d03c3164fc2feb4b6ce3dd04efbe2dfd84ac26a76c81",
+      "before_sha256": null,
+      "immediate_before_sha256": "9091c38c2042b1edf756d03c3164fc2feb4b6ce3dd04efbe2dfd84ac26a76c81",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "assets/sensing/scenes/kick_check_negative.json.gz",
+      "target": "github.f.f/assets/sensing/scenes/kick_check_negative.json.gz",
+      "sha256": "cbed33c5928e032019220f5e1c3b91e2ba24b81d311e065f6e3962c58166f030",
+      "before_sha256": null,
+      "immediate_before_sha256": "cbed33c5928e032019220f5e1c3b91e2ba24b81d311e065f6e3962c58166f030",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "assets/sensing/scenes/kick_check_negative.quality.json",
+      "target": "github.f.f/assets/sensing/scenes/kick_check_negative.quality.json",
+      "sha256": "79c7c372e2e75fd3931f79eaa67994eb9d6fc4d0bfb67c35f2067f45e365d649",
+      "before_sha256": null,
+      "immediate_before_sha256": "79c7c372e2e75fd3931f79eaa67994eb9d6fc4d0bfb67c35f2067f45e365d649",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "assets/sensing/scenes/lateral_shuffle.json.gz",
+      "target": "github.f.f/assets/sensing/scenes/lateral_shuffle.json.gz",
+      "sha256": "a974e506bdb5611789725c90ece15aef9d36831a82c2b6b2e9bc2666078db11f",
+      "before_sha256": null,
+      "immediate_before_sha256": "a974e506bdb5611789725c90ece15aef9d36831a82c2b6b2e9bc2666078db11f",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "assets/sensing/scenes/lateral_shuffle.quality.json",
+      "target": "github.f.f/assets/sensing/scenes/lateral_shuffle.quality.json",
+      "sha256": "1f6f082897ae52f2bf29f8b3490f2c55d8b9bf7d6ced9879f9d120b1909b6473",
+      "before_sha256": null,
+      "immediate_before_sha256": "1f6f082897ae52f2bf29f8b3490f2c55d8b9bf7d6ced9879f9d120b1909b6473",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "assets/sensing/scenes/lead_long_rear_high.json.gz",
+      "target": "github.f.f/assets/sensing/scenes/lead_long_rear_high.json.gz",
+      "sha256": "3a4bfc7535db9c53c37b7daf2421f99fe4b3d5c4a8ec26546d37d042a0238f8e",
+      "before_sha256": null,
+      "immediate_before_sha256": "3a4bfc7535db9c53c37b7daf2421f99fe4b3d5c4a8ec26546d37d042a0238f8e",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "assets/sensing/scenes/lead_long_rear_high.quality.json",
+      "target": "github.f.f/assets/sensing/scenes/lead_long_rear_high.quality.json",
+      "sha256": "46b822f8729467b6cd3ca9707ab243aa64238de9cd6ebd6a8471b8e46c2dd880",
+      "before_sha256": null,
+      "immediate_before_sha256": "46b822f8729467b6cd3ca9707ab243aa64238de9cd6ebd6a8471b8e46c2dd880",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "assets/sensing/scenes/level_change.json.gz",
+      "target": "github.f.f/assets/sensing/scenes/level_change.json.gz",
+      "sha256": "b0cd1e5a7a576ea1e6536d1e50ee6df1528d414180e557c5714246a340753ad4",
+      "before_sha256": null,
+      "immediate_before_sha256": "b0cd1e5a7a576ea1e6536d1e50ee6df1528d414180e557c5714246a340753ad4",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "assets/sensing/scenes/level_change.quality.json",
+      "target": "github.f.f/assets/sensing/scenes/level_change.quality.json",
+      "sha256": "e32f4726a59a69ecad55a39a74c8984560a7be26c6b96ec74a0ea80cc58e2c65",
+      "before_sha256": null,
+      "immediate_before_sha256": "e32f4726a59a69ecad55a39a74c8984560a7be26c6b96ec74a0ea80cc58e2c65",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "assets/sensing/scenes/low_to_high.json.gz",
+      "target": "github.f.f/assets/sensing/scenes/low_to_high.json.gz",
+      "sha256": "fb05c7d1fe32df6eab920d1b19c446f671dae7cc93c63a7650740e457e36d63e",
+      "before_sha256": null,
+      "immediate_before_sha256": "fb05c7d1fe32df6eab920d1b19c446f671dae7cc93c63a7650740e457e36d63e",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "assets/sensing/scenes/low_to_high.quality.json",
+      "target": "github.f.f/assets/sensing/scenes/low_to_high.quality.json",
+      "sha256": "d7deb57034628a7ec3655671fa6e25a423cf39ecaceae73391816671353b761f",
+      "before_sha256": null,
+      "immediate_before_sha256": "d7deb57034628a7ec3655671fa6e25a423cf39ecaceae73391816671353b761f",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "assets/sensing/scenes/mixed_head_movement.json.gz",
+      "target": "github.f.f/assets/sensing/scenes/mixed_head_movement.json.gz",
+      "sha256": "cd377e59f732ffe0b2bd8adaf29fbfafe2cfd9c612de6e7a9a316f6530e123aa",
+      "before_sha256": null,
+      "immediate_before_sha256": "cd377e59f732ffe0b2bd8adaf29fbfafe2cfd9c612de6e7a9a316f6530e123aa",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "assets/sensing/scenes/mixed_head_movement.quality.json",
+      "target": "github.f.f/assets/sensing/scenes/mixed_head_movement.quality.json",
+      "sha256": "729dc1dfdddcb199a6e95d2848068f43ae77b41b055f47df0acdf289fbbeea69",
+      "before_sha256": null,
+      "immediate_before_sha256": "729dc1dfdddcb199a6e95d2848068f43ae77b41b055f47df0acdf289fbbeea69",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "assets/sensing/scenes/opponent_only_approach.json.gz",
+      "target": "github.f.f/assets/sensing/scenes/opponent_only_approach.json.gz",
+      "sha256": "a37d8af8be861b4612b176f2ba7b066dc63fda79bc87f08f4f371f4fcbf95f43",
+      "before_sha256": null,
+      "immediate_before_sha256": "a37d8af8be861b4612b176f2ba7b066dc63fda79bc87f08f4f371f4fcbf95f43",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "assets/sensing/scenes/opponent_only_approach.quality.json",
+      "target": "github.f.f/assets/sensing/scenes/opponent_only_approach.quality.json",
+      "sha256": "ba2cd437f628dfc06434360a361a60850be747c9259703e46c22619d8c8ccdb0",
+      "before_sha256": null,
+      "immediate_before_sha256": "ba2cd437f628dfc06434360a361a60850be747c9259703e46c22619d8c8ccdb0",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "assets/sensing/scenes/orthodox_high.json.gz",
+      "target": "github.f.f/assets/sensing/scenes/orthodox_high.json.gz",
+      "sha256": "2fbb27c18bd4aa8ee67e1b13b75557f924712b7803096ab88640c6b981874674",
+      "before_sha256": null,
+      "immediate_before_sha256": "2fbb27c18bd4aa8ee67e1b13b75557f924712b7803096ab88640c6b981874674",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "assets/sensing/scenes/orthodox_high.quality.json",
+      "target": "github.f.f/assets/sensing/scenes/orthodox_high.quality.json",
+      "sha256": "d02f2972b3e16e0f75a10ee77be6de64faec4a53726e274291576d090ea06083",
+      "before_sha256": null,
+      "immediate_before_sha256": "d02f2972b3e16e0f75a10ee77be6de64faec4a53726e274291576d090ea06083",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "assets/sensing/scenes/pivot.json.gz",
+      "target": "github.f.f/assets/sensing/scenes/pivot.json.gz",
+      "sha256": "696d1f8b9eb68af1506252cbadb2a3e97efd1cb6e584b5a4fa2a2e1b742a6052",
+      "before_sha256": null,
+      "immediate_before_sha256": "696d1f8b9eb68af1506252cbadb2a3e97efd1cb6e584b5a4fa2a2e1b742a6052",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "assets/sensing/scenes/pivot.quality.json",
+      "target": "github.f.f/assets/sensing/scenes/pivot.quality.json",
+      "sha256": "7338f09bdc08663d3060fdc862c99267221135438340d91280eb29c63ac13fe8",
+      "before_sha256": null,
+      "immediate_before_sha256": "7338f09bdc08663d3060fdc862c99267221135438340d91280eb29c63ac13fe8",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "assets/sensing/scenes/rear_long_lead_high.json.gz",
+      "target": "github.f.f/assets/sensing/scenes/rear_long_lead_high.json.gz",
+      "sha256": "21ae87de0a480b3d10c01aee53485f89cab58806b0fdef61f19e80876b68acef",
+      "before_sha256": null,
+      "immediate_before_sha256": "21ae87de0a480b3d10c01aee53485f89cab58806b0fdef61f19e80876b68acef",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "assets/sensing/scenes/rear_long_lead_high.quality.json",
+      "target": "github.f.f/assets/sensing/scenes/rear_long_lead_high.quality.json",
+      "sha256": "9ec95d5de85573b97e900e338bbda392b86aa319b95257783e62a91b11f577fa",
+      "before_sha256": null,
+      "immediate_before_sha256": "9ec95d5de85573b97e900e338bbda392b86aa319b95257783e62a91b11f577fa",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "assets/sensing/scenes/shell.json.gz",
+      "target": "github.f.f/assets/sensing/scenes/shell.json.gz",
+      "sha256": "d46ba24d960fd40096ba731f4b6e4d075f76bbcecb5c9e0de57e51796a19e164",
+      "before_sha256": null,
+      "immediate_before_sha256": "d46ba24d960fd40096ba731f4b6e4d075f76bbcecb5c9e0de57e51796a19e164",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "assets/sensing/scenes/shell.quality.json",
+      "target": "github.f.f/assets/sensing/scenes/shell.quality.json",
+      "sha256": "47c5b445d41ab54cb5b1c35c5b72538ccf802aa01dcaf6dde745525e96601161",
+      "before_sha256": null,
+      "immediate_before_sha256": "47c5b445d41ab54cb5b1c35c5b72538ccf802aa01dcaf6dde745525e96601161",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "assets/sensing/scenes/southpaw_high.json.gz",
+      "target": "github.f.f/assets/sensing/scenes/southpaw_high.json.gz",
+      "sha256": "c9b9696cf06f90ca05adf616670f595f9ea220e455beaf74bd724998bb3a8380",
+      "before_sha256": null,
+      "immediate_before_sha256": "c9b9696cf06f90ca05adf616670f595f9ea220e455beaf74bd724998bb3a8380",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "assets/sensing/scenes/southpaw_high.quality.json",
+      "target": "github.f.f/assets/sensing/scenes/southpaw_high.quality.json",
+      "sha256": "756d891ee00e7eb2221c90c6aa3f9e2a928a40b8df9c5867f5529823e2309335",
+      "before_sha256": null,
+      "immediate_before_sha256": "756d891ee00e7eb2221c90c6aa3f9e2a928a40b8df9c5867f5529823e2309335",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "assets/sensing/scenes/step_in.json.gz",
+      "target": "github.f.f/assets/sensing/scenes/step_in.json.gz",
+      "sha256": "c9c606d41085b94dfabcbb53ae59cde2b2a590b8bca56a939f9768a16e60cf1a",
+      "before_sha256": null,
+      "immediate_before_sha256": "c9c606d41085b94dfabcbb53ae59cde2b2a590b8bca56a939f9768a16e60cf1a",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "assets/sensing/scenes/step_in.quality.json",
+      "target": "github.f.f/assets/sensing/scenes/step_in.quality.json",
+      "sha256": "82415014c0d177b70989d3d0bc4fdd755ae454377599851fb3ee7242c5b2c7b6",
+      "before_sha256": null,
+      "immediate_before_sha256": "82415014c0d177b70989d3d0bc4fdd755ae454377599851fb3ee7242c5b2c7b6",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "assets/sensing/scenes/step_in_jab.json.gz",
+      "target": "github.f.f/assets/sensing/scenes/step_in_jab.json.gz",
+      "sha256": "a12c6bf050c9ad32f7667410130ba3c2911124a0a572224ad41e0e6984b33b2e",
+      "before_sha256": null,
+      "immediate_before_sha256": "a12c6bf050c9ad32f7667410130ba3c2911124a0a572224ad41e0e6984b33b2e",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "assets/sensing/scenes/step_in_jab.quality.json",
+      "target": "github.f.f/assets/sensing/scenes/step_in_jab.quality.json",
+      "sha256": "4acae6ad0e77d9dd0c89537d4838c6b0913f103921d493a654d0e391563900b3",
+      "before_sha256": null,
+      "immediate_before_sha256": "4acae6ad0e77d9dd0c89537d4838c6b0913f103921d493a654d0e391563900b3",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "assets/sensing/scenes/step_out.json.gz",
+      "target": "github.f.f/assets/sensing/scenes/step_out.json.gz",
+      "sha256": "078faa85fb087d2b4dd17cc2656c1ad9e9b51315d5325da6b6cfd2aced05ef37",
+      "before_sha256": null,
+      "immediate_before_sha256": "078faa85fb087d2b4dd17cc2656c1ad9e9b51315d5325da6b6cfd2aced05ef37",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "assets/sensing/scenes/step_out.quality.json",
+      "target": "github.f.f/assets/sensing/scenes/step_out.quality.json",
+      "sha256": "c471e02e6bbf99539e7014d046b4bcb0f75128b7b19d85494ea90a37bd3255fb",
+      "before_sha256": null,
+      "immediate_before_sha256": "c471e02e6bbf99539e7014d046b4bcb0f75128b7b19d85494ea90a37bd3255fb",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "assets/sensing/scenes/step_switch.json.gz",
+      "target": "github.f.f/assets/sensing/scenes/step_switch.json.gz",
+      "sha256": "2199d7e5c6d199966b3f61c58c859b88f4d6628f4e11299c862016c16033168d",
+      "before_sha256": null,
+      "immediate_before_sha256": "2199d7e5c6d199966b3f61c58c859b88f4d6628f4e11299c862016c16033168d",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "assets/sensing/scenes/step_switch.quality.json",
+      "target": "github.f.f/assets/sensing/scenes/step_switch.quality.json",
+      "sha256": "207f611d55930bdd7fb2af2bb2420941b945e15e524bd764c44815bff370f352",
+      "before_sha256": null,
+      "immediate_before_sha256": "207f611d55930bdd7fb2af2bb2420941b945e15e524bd764c44815bff370f352",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "assets/sensing/scenes/sustained_long.json.gz",
+      "target": "github.f.f/assets/sensing/scenes/sustained_long.json.gz",
+      "sha256": "d005d6f1d79a83ac9784b163abc70723aa2194da86014c0092be4550237c826e",
+      "before_sha256": null,
+      "immediate_before_sha256": "d005d6f1d79a83ac9784b163abc70723aa2194da86014c0092be4550237c826e",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "assets/sensing/scenes/sustained_long.quality.json",
+      "target": "github.f.f/assets/sensing/scenes/sustained_long.quality.json",
+      "sha256": "9a8d8e0ef715d93ed801328d88fd8850caf5978cff6d20a8e4b2d5118a8e6287",
+      "before_sha256": null,
+      "immediate_before_sha256": "9a8d8e0ef715d93ed801328d88fd8850caf5978cff6d20a8e4b2d5118a8e6287",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "assets/sensing/scenes/torso_twist_negative.json.gz",
+      "target": "github.f.f/assets/sensing/scenes/torso_twist_negative.json.gz",
+      "sha256": "a2a1b83ade689509bd3d1439f7457533b0c941ea337f75c866f7fdaf48533ed9",
+      "before_sha256": null,
+      "immediate_before_sha256": "a2a1b83ade689509bd3d1439f7457533b0c941ea337f75c866f7fdaf48533ed9",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "assets/sensing/scenes/torso_twist_negative.quality.json",
+      "target": "github.f.f/assets/sensing/scenes/torso_twist_negative.quality.json",
+      "sha256": "450399862833eeef71a6e8c39a6fe287fadc0be6904479f880545f1393270b1f",
+      "before_sha256": null,
+      "immediate_before_sha256": "450399862833eeef71a6e8c39a6fe287fadc0be6904479f880545f1393270b1f",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "assets/sensing/sensor_config.json",
+      "target": "github.f.f/assets/sensing/sensor_config.json",
+      "sha256": "2b553e387d97632cdcb8ab924fe6d9fb1e1cddba97c46176f6f59d60f59c7fe6",
+      "before_sha256": null,
+      "immediate_before_sha256": "2b553e387d97632cdcb8ab924fe6d9fb1e1cddba97c46176f6f59d60f59c7fe6",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/video_3d_replacement/blender.log",
+      "target": "github.f.f/reports/video_3d_replacement/blender.log",
+      "sha256": "2c139276e7fe5c315a4003cfb853cf3ebaff9c595a236749622a76bbeba05e11",
+      "before_sha256": null,
+      "immediate_before_sha256": "2c139276e7fe5c315a4003cfb853cf3ebaff9c595a236749622a76bbeba05e11",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/video_3d_replacement/blender_export.json",
+      "target": "github.f.f/reports/video_3d_replacement/blender_export.json",
+      "sha256": "c8e48864462a012b1c3463d28bc5a4b6915b9b29593aaaa5e1b521b60f45766e",
+      "before_sha256": null,
+      "immediate_before_sha256": "c8e48864462a012b1c3463d28bc5a4b6915b9b29593aaaa5e1b521b60f45766e",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/video_3d_replacement/candidate-build.log",
+      "target": "github.f.f/reports/video_3d_replacement/candidate-build.log",
+      "sha256": "269524b7994a82a93193e69bb43b839c3fbf65de551d9e8081bf13399f6c26e7",
+      "before_sha256": null,
+      "immediate_before_sha256": "269524b7994a82a93193e69bb43b839c3fbf65de551d9e8081bf13399f6c26e7",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/video_3d_replacement/mirror-browser.json",
+      "target": "github.f.f/reports/video_3d_replacement/mirror-browser.json",
+      "sha256": "01c2454f6ca08e9c95281bf0eae4c127312d4bffe141238c37e5e388adbcfde0",
+      "before_sha256": null,
+      "immediate_before_sha256": "01c2454f6ca08e9c95281bf0eae4c127312d4bffe141238c37e5e388adbcfde0",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/video_3d_replacement/mirror-browser.log",
+      "target": "github.f.f/reports/video_3d_replacement/mirror-browser.log",
+      "sha256": "e21f2e3351e06d3ed2bd59f59f57acb74e1e7ff67e8517002b2df83d524dccb0",
+      "before_sha256": null,
+      "immediate_before_sha256": "e21f2e3351e06d3ed2bd59f59f57acb74e1e7ff67e8517002b2df83d524dccb0",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/video_3d_replacement/mirror-browser.png",
+      "target": "github.f.f/reports/video_3d_replacement/mirror-browser.png",
+      "sha256": "22642373cd9a7c55254eea7cc2807e15dae33a063828b6f5ffa380f9df1cdcdf",
+      "before_sha256": null,
+      "immediate_before_sha256": "22642373cd9a7c55254eea7cc2807e15dae33a063828b6f5ffa380f9df1cdcdf",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/video_3d_replacement/mirror-build.log",
+      "target": "github.f.f/reports/video_3d_replacement/mirror-build.log",
+      "sha256": "ccd66f62f8d23fbdbe72049ee76a9fd868755efa365abd18f3924344714d4f68",
+      "before_sha256": null,
+      "immediate_before_sha256": "ccd66f62f8d23fbdbe72049ee76a9fd868755efa365abd18f3924344714d4f68",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/video_3d_replacement/mirror-replay.events.json",
+      "target": "github.f.f/reports/video_3d_replacement/mirror-replay.events.json",
+      "sha256": "bf5f817ac8bfbb28966295aa0c2f7a3081dd127f0e5539b6a055e8728ea2dddf",
+      "before_sha256": null,
+      "immediate_before_sha256": "bf5f817ac8bfbb28966295aa0c2f7a3081dd127f0e5539b6a055e8728ea2dddf",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/video_3d_replacement/mirror-replay.json",
+      "target": "github.f.f/reports/video_3d_replacement/mirror-replay.json",
+      "sha256": "c5eac3336d2edc1863cf2eab1039428303361942d6d2a5e5a04b966ea61b74ed",
+      "before_sha256": null,
+      "immediate_before_sha256": "c5eac3336d2edc1863cf2eab1039428303361942d6d2a5e5a04b966ea61b74ed",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/video_3d_replacement/mirror-replay.log",
+      "target": "github.f.f/reports/video_3d_replacement/mirror-replay.log",
+      "sha256": "d64806ea41907f1601529768b450abe41ca53c31eb8f85c7bf1267b8ee77a5b5",
+      "before_sha256": null,
+      "immediate_before_sha256": "d64806ea41907f1601529768b450abe41ca53c31eb8f85c7bf1267b8ee77a5b5",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/video_3d_replacement/mirror-server.log",
+      "target": "github.f.f/reports/video_3d_replacement/mirror-server.log",
+      "sha256": "7b96ecbeda6f2867a35c0d5eda14775631f94a13b7e2b1360fc244be4f6ada26",
+      "before_sha256": null,
+      "immediate_before_sha256": "7b96ecbeda6f2867a35c0d5eda14775631f94a13b7e2b1360fc244be4f6ada26",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/video_3d_replacement/mirror-tests.log",
+      "target": "github.f.f/reports/video_3d_replacement/mirror-tests.log",
+      "sha256": "92480cbba7fd8ab705a4363af33bfeb2bde7efa4300b510c5c81a1134199d72e",
+      "before_sha256": null,
+      "immediate_before_sha256": "92480cbba7fd8ab705a4363af33bfeb2bde7efa4300b510c5c81a1134199d72e",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/video_3d_replacement/package-audit.json",
+      "target": "github.f.f/reports/video_3d_replacement/package-audit.json",
+      "sha256": "94f9b1f9e65589b096e5f33f1838b3493e90a913cbaa4d0b3839209d75ce994d",
+      "before_sha256": null,
+      "immediate_before_sha256": "94f9b1f9e65589b096e5f33f1838b3493e90a913cbaa4d0b3839209d75ce994d",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/video_3d_replacement/package-check.log",
+      "target": "github.f.f/reports/video_3d_replacement/package-check.log",
+      "sha256": "5061338eb93a95d761755ad58f089679b6b69b844dd7b62ca528d7e27befddca",
+      "before_sha256": null,
+      "immediate_before_sha256": "5061338eb93a95d761755ad58f089679b6b69b844dd7b62ca528d7e27befddca",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/video_3d_replacement/platform-tests.log",
+      "target": "github.f.f/reports/video_3d_replacement/platform-tests.log",
+      "sha256": "806ca5644168ee8d506485594b6492433ab9e20f5aa53920441dd1b851dc1474",
+      "before_sha256": null,
+      "immediate_before_sha256": "806ca5644168ee8d506485594b6492433ab9e20f5aa53920441dd1b851dc1474",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/video_3d_replacement/publication.json",
+      "target": "github.f.f/reports/video_3d_replacement/publication.json",
+      "sha256": "464cfecf960b9092da2f69d74470d636198193a9228d8b88b2ca32d2b4dda17b",
+      "before_sha256": null,
+      "immediate_before_sha256": "464cfecf960b9092da2f69d74470d636198193a9228d8b88b2ca32d2b4dda17b",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/video_3d_replacement/reconstruction_run.json",
+      "target": "github.f.f/reports/video_3d_replacement/reconstruction_run.json",
+      "sha256": "c5c8a81d389d10bf4e8dfde5d36b29192460fbf38eb2486c14ebda8a17985a40",
+      "before_sha256": null,
+      "immediate_before_sha256": "c5c8a81d389d10bf4e8dfde5d36b29192460fbf38eb2486c14ebda8a17985a40",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/video_3d_replacement/render-frame-0.png",
+      "target": "github.f.f/reports/video_3d_replacement/render-frame-0.png",
+      "sha256": "229d0d5cfec74fc90b8835670275bc4b1cb312c5c082fda3ee44fc41b473093e",
+      "before_sha256": null,
+      "immediate_before_sha256": "229d0d5cfec74fc90b8835670275bc4b1cb312c5c082fda3ee44fc41b473093e",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/video_3d_replacement/render-frame-2250.png",
+      "target": "github.f.f/reports/video_3d_replacement/render-frame-2250.png",
+      "sha256": "887f220262b1e362245a1022da9c01f9fffd6c956695e86b2ef6381c59946505",
+      "before_sha256": null,
+      "immediate_before_sha256": "887f220262b1e362245a1022da9c01f9fffd6c956695e86b2ef6381c59946505",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/video_3d_replacement/render-frame-4499.png",
+      "target": "github.f.f/reports/video_3d_replacement/render-frame-4499.png",
+      "sha256": "86e457b2cf24dc9b7aa72143446d1d5e9ec8b47f044253af2750d437e6356443",
+      "before_sha256": null,
+      "immediate_before_sha256": "86e457b2cf24dc9b7aa72143446d1d5e9ec8b47f044253af2750d437e6356443",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/video_3d_replacement/render.log",
+      "target": "github.f.f/reports/video_3d_replacement/render.log",
+      "sha256": "69f2a3ba04be119b5bf5525318e88ae63bf698eaaf85271e87cbed91f2a85fce",
+      "before_sha256": null,
+      "immediate_before_sha256": "69f2a3ba04be119b5bf5525318e88ae63bf698eaaf85271e87cbed91f2a85fce",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/video_3d_replacement/render_run.json",
+      "target": "github.f.f/reports/video_3d_replacement/render_run.json",
+      "sha256": "9bdec8d2a5658cec4f93bf7baaba7e239faec6c753aac34f55500f80d59eba7c",
+      "before_sha256": null,
+      "immediate_before_sha256": "9bdec8d2a5658cec4f93bf7baaba7e239faec6c753aac34f55500f80d59eba7c",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/video_3d_replacement/REPORT_KO.md",
+      "target": "github.f.f/reports/video_3d_replacement/REPORT_KO.md",
+      "sha256": "57a2e8546cf7682e565946d4b2ca96356f7d5cbdce552c099e2d415917f619af",
+      "before_sha256": null,
+      "immediate_before_sha256": "57a2e8546cf7682e565946d4b2ca96356f7d5cbdce552c099e2d415917f619af",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/video_3d_replacement/rig_numeric_parity.json",
+      "target": "github.f.f/reports/video_3d_replacement/rig_numeric_parity.json",
+      "sha256": "08d2bfc30437866e8c161a46dad67a2dcf4ad2a4fb575979172a6e9f7a1b9cf6",
+      "before_sha256": null,
+      "immediate_before_sha256": "08d2bfc30437866e8c161a46dad67a2dcf4ad2a4fb575979172a6e9f7a1b9cf6",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/video_3d_replacement/sensing-tests.log",
+      "target": "github.f.f/reports/video_3d_replacement/sensing-tests.log",
+      "sha256": "b0ae7e6eab2e5b4ace8735503133f603c3957472c5cd42c36122b2f9216bb706",
+      "before_sha256": null,
+      "immediate_before_sha256": "b0ae7e6eab2e5b4ace8735503133f603c3957472c5cd42c36122b2f9216bb706",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/video_3d_replacement/source-browser.json",
+      "target": "github.f.f/reports/video_3d_replacement/source-browser.json",
+      "sha256": "b0581215a83beac1d6b0af0782099c1477b3bbc68d18081ebf9cb2cda2b60923",
+      "before_sha256": null,
+      "immediate_before_sha256": "b0581215a83beac1d6b0af0782099c1477b3bbc68d18081ebf9cb2cda2b60923",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/video_3d_replacement/source-browser.log",
+      "target": "github.f.f/reports/video_3d_replacement/source-browser.log",
+      "sha256": "e5516b3fcb7593b32bf5aa5d1002b6d645fa3dc2d14ba19609fb632d03e7529e",
+      "before_sha256": null,
+      "immediate_before_sha256": "e5516b3fcb7593b32bf5aa5d1002b6d645fa3dc2d14ba19609fb632d03e7529e",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/video_3d_replacement/source-browser.png",
+      "target": "github.f.f/reports/video_3d_replacement/source-browser.png",
+      "sha256": "38f8cea35b3aa3cadc6728c3f9fc28fad3a5032442bbc8e3a0cd4f5718dd3dac",
+      "before_sha256": null,
+      "immediate_before_sha256": "38f8cea35b3aa3cadc6728c3f9fc28fad3a5032442bbc8e3a0cd4f5718dd3dac",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/video_3d_replacement/source-build.log",
+      "target": "github.f.f/reports/video_3d_replacement/source-build.log",
+      "sha256": "346c249c43b7331c95da9501a2f06d75d9882e05358cfd781f88cf2f1460f4b9",
+      "before_sha256": null,
+      "immediate_before_sha256": "346c249c43b7331c95da9501a2f06d75d9882e05358cfd781f88cf2f1460f4b9",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/video_3d_replacement/source-replay.events.json",
+      "target": "github.f.f/reports/video_3d_replacement/source-replay.events.json",
+      "sha256": "bf5f817ac8bfbb28966295aa0c2f7a3081dd127f0e5539b6a055e8728ea2dddf",
+      "before_sha256": null,
+      "immediate_before_sha256": "bf5f817ac8bfbb28966295aa0c2f7a3081dd127f0e5539b6a055e8728ea2dddf",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/video_3d_replacement/source-replay.json",
+      "target": "github.f.f/reports/video_3d_replacement/source-replay.json",
+      "sha256": "518754efb61f0f75ea0210533edfc5f4d589d5333955b99a08cef99cf8bedd48",
+      "before_sha256": null,
+      "immediate_before_sha256": "518754efb61f0f75ea0210533edfc5f4d589d5333955b99a08cef99cf8bedd48",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/video_3d_replacement/source-replay.log",
+      "target": "github.f.f/reports/video_3d_replacement/source-replay.log",
+      "sha256": "44bb535b0ad49367839ba35b894700eaee044017c377194de02f5ba8dbec7e91",
+      "before_sha256": null,
+      "immediate_before_sha256": "44bb535b0ad49367839ba35b894700eaee044017c377194de02f5ba8dbec7e91",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/video_3d_replacement/typecheck.log",
+      "target": "github.f.f/reports/video_3d_replacement/typecheck.log",
+      "sha256": "1c422da33ef7207ff218c8b9f74eec9b01ff37c639f60f0f71a87af6f1306556",
+      "before_sha256": null,
+      "immediate_before_sha256": "1c422da33ef7207ff218c8b9f74eec9b01ff37c639f60f0f71a87af6f1306556",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/video_3d_replacement/video-integrity.log",
+      "target": "github.f.f/reports/video_3d_replacement/video-integrity.log",
+      "sha256": "4aeecaa91bb94bd8d9e83f4d98abe983ba01a4769ea52878953e23f2427a322c",
+      "before_sha256": null,
+      "immediate_before_sha256": "4aeecaa91bb94bd8d9e83f4d98abe983ba01a4769ea52878953e23f2427a322c",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/video_3d_replacement/video_integrity.json",
+      "target": "github.f.f/reports/video_3d_replacement/video_integrity.json",
+      "sha256": "08cf8c6af924000285fdf709fa3d75d09059219f5caf91e7f8b5a1af70d4ec0e",
+      "before_sha256": null,
+      "immediate_before_sha256": "08cf8c6af924000285fdf709fa3d75d09059219f5caf91e7f8b5a1af70d4ec0e",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/REPORT_KO.md",
+      "target": "github.f.f/reports/autonomous_execution/REPORT_KO.md",
+      "sha256": "1fe137a99d051eca063e85b508e399e3893beba70b81287ad2525e1061aa3af0",
+      "before_sha256": null,
+      "immediate_before_sha256": "1fe137a99d051eca063e85b508e399e3893beba70b81287ad2525e1061aa3af0",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/verification.json",
+      "target": "github.f.f/reports/autonomous_execution/verification.json",
+      "sha256": "7d39d2c302762540376b644572e32b91d4f2d6522c83f72b27ab48fc5b0388dc",
+      "before_sha256": null,
+      "immediate_before_sha256": "7d39d2c302762540376b644572e32b91d4f2d6522c83f72b27ab48fc5b0388dc",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/changed-files.json",
+      "target": "github.f.f/reports/autonomous_execution/changed-files.json",
+      "sha256": "81ba1846b763500159704f594bd38191fabda4a152845b69896fb5a90e00ddbc",
+      "before_sha256": null,
+      "immediate_before_sha256": "81ba1846b763500159704f594bd38191fabda4a152845b69896fb5a90e00ddbc",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/source-full-replay.json",
+      "target": "github.f.f/reports/autonomous_execution/source-full-replay.json",
+      "sha256": "92e3241ae1d954861bf3603fe2850941ee4f57748f3b3edefca2fab165518e37",
+      "before_sha256": null,
+      "immediate_before_sha256": "92e3241ae1d954861bf3603fe2850941ee4f57748f3b3edefca2fab165518e37",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/source-full-replay.events.json",
+      "target": "github.f.f/reports/autonomous_execution/source-full-replay.events.json",
+      "sha256": "6c13cd92316e27d5665497e211aa7434a018719262618263f66e6b45a8f4a1ad",
+      "before_sha256": null,
+      "immediate_before_sha256": "6c13cd92316e27d5665497e211aa7434a018719262618263f66e6b45a8f4a1ad",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/final-metrics-20s.json",
+      "target": "github.f.f/reports/autonomous_execution/final-metrics-20s.json",
+      "sha256": "3cb512cb6ee2f96e8a773b407f98c4276d032971fbaa1e082a05130a55fa473f",
+      "before_sha256": null,
+      "immediate_before_sha256": "3cb512cb6ee2f96e8a773b407f98c4276d032971fbaa1e082a05130a55fa473f",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/baseline-metrics-20s.json",
+      "target": "github.f.f/reports/autonomous_execution/baseline-metrics-20s.json",
+      "sha256": "ad4088c29fc09412a582f6bea5b975b5ba3c20c48a4b95525200bf37e9ebef38",
+      "before_sha256": null,
+      "immediate_before_sha256": "ad4088c29fc09412a582f6bea5b975b5ba3c20c48a4b95525200bf37e9ebef38",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/final-metrics-full.json",
+      "target": "github.f.f/reports/autonomous_execution/final-metrics-full.json",
+      "sha256": "8c94d37d60b9c40a7d0bd99c372dd57a901b3014d04723da01b4d3890aff19f8",
+      "before_sha256": null,
+      "immediate_before_sha256": "8c94d37d60b9c40a7d0bd99c372dd57a901b3014d04723da01b4d3890aff19f8",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/baseline-metrics-full.json",
+      "target": "github.f.f/reports/autonomous_execution/baseline-metrics-full.json",
+      "sha256": "18698533cd7258500d20b3cbe37bb9a4b95ceeee5f076aacf05ccca2804b0dff",
+      "before_sha256": null,
+      "immediate_before_sha256": "18698533cd7258500d20b3cbe37bb9a4b95ceeee5f076aacf05ccca2804b0dff",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/publication.json",
+      "target": "github.f.f/reports/autonomous_execution/publication.json",
+      "sha256": "45c7ddf9feebad9ce106f6dd73a474d7c1e780299dd511c6572f33b6eaa546be",
+      "before_sha256": null,
+      "immediate_before_sha256": "45c7ddf9feebad9ce106f6dd73a474d7c1e780299dd511c6572f33b6eaa546be",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/all-sensing-tests-final.log",
+      "target": "github.f.f/reports/autonomous_execution/all-sensing-tests-final.log",
+      "sha256": "02ec0e45ccd03be1f7994545930fe4ffba1729bfad3815d5ff28371b2abb7dd8",
+      "before_sha256": null,
+      "immediate_before_sha256": "02ec0e45ccd03be1f7994545930fe4ffba1729bfad3815d5ff28371b2abb7dd8",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/platform-tests-final.log",
+      "target": "github.f.f/reports/autonomous_execution/platform-tests-final.log",
+      "sha256": "793e1825ec668b1733f36698fd607eeb29a821331c55f6b75cc7e570157cf63f",
+      "before_sha256": null,
+      "immediate_before_sha256": "793e1825ec668b1733f36698fd607eeb29a821331c55f6b75cc7e570157cf63f",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/platform-build-final.log",
+      "target": "github.f.f/reports/autonomous_execution/platform-build-final.log",
+      "sha256": "62dc754f302c3f4ccc9290a5846b3eef326d2f24f21357e8af8d5d8eaf4e46ce",
+      "before_sha256": null,
+      "immediate_before_sha256": "01c6a7cf64470bf6858e8e6a80ec4cabfa186beb6557ed2add3d23a89a6e16e9",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/python-regression.log",
+      "target": "github.f.f/reports/autonomous_execution/python-regression.log",
+      "sha256": "01c2c828e9628b2b57382dc638ff28fbb6297f26669e29a29d959d0194729e7c",
+      "before_sha256": null,
+      "immediate_before_sha256": "01c2c828e9628b2b57382dc638ff28fbb6297f26669e29a29d959d0194729e7c",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/mirror-tests.log",
+      "target": "github.f.f/reports/autonomous_execution/mirror-tests.log",
+      "sha256": "c080d5f503f07e2782bf92269930f9b2f6c325fbafc03a752b6deb20b0dc7bbb",
+      "before_sha256": null,
+      "immediate_before_sha256": "b32177daf59ee3bc0e31a59e9beacfca9be69f6c55772141565e60267bfd61a0",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/mirror-build.log",
+      "target": "github.f.f/reports/autonomous_execution/mirror-build.log",
+      "sha256": "f42189917ba68e3bb1752216a40d55cef2af996e90c8461df2c3696fbe8d802f",
+      "before_sha256": null,
+      "immediate_before_sha256": "17bc0d30914daadcce36da72948ad3c779a27b92133fd9e41cfcc3e2a05c3bb6",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/browser-source.json",
+      "target": "github.f.f/reports/autonomous_execution/browser-source.json",
+      "sha256": "3870c358700fd21743a2ba83c674e85606e64ad5fb410f854310ecea18c0c1c5",
+      "before_sha256": null,
+      "immediate_before_sha256": "3870c358700fd21743a2ba83c674e85606e64ad5fb410f854310ecea18c0c1c5",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/browser-mirror.json",
+      "target": "github.f.f/reports/autonomous_execution/browser-mirror.json",
+      "sha256": "b1eca655c5b8cbe704ba8af98a408d211e6db8bc75a3f9cc11f9524061caccd7",
+      "before_sha256": null,
+      "immediate_before_sha256": "b1eca655c5b8cbe704ba8af98a408d211e6db8bc75a3f9cc11f9524061caccd7",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/api_refinement/batch-00.json",
+      "target": "github.f.f/reports/autonomous_execution/api_refinement/batch-00.json",
+      "sha256": "de4b889eb8d3b6b79b135930ec67cf27d61e7c63643ae506d615239c454fb5ca",
+      "before_sha256": null,
+      "immediate_before_sha256": "de4b889eb8d3b6b79b135930ec67cf27d61e7c63643ae506d615239c454fb5ca",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/api_refinement/batch-01.json",
+      "target": "github.f.f/reports/autonomous_execution/api_refinement/batch-01.json",
+      "sha256": "f415883e1fb2b74e8a1074d060cc0d3e6165d12fa5133b6a767e86e1e41e52c8",
+      "before_sha256": null,
+      "immediate_before_sha256": "f415883e1fb2b74e8a1074d060cc0d3e6165d12fa5133b6a767e86e1e41e52c8",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/api_refinement/batch-02.json",
+      "target": "github.f.f/reports/autonomous_execution/api_refinement/batch-02.json",
+      "sha256": "537336e153feb130690a1cb30713e849428dcb2d33eafc396f5e70557a827fc8",
+      "before_sha256": null,
+      "immediate_before_sha256": "537336e153feb130690a1cb30713e849428dcb2d33eafc396f5e70557a827fc8",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/api_refinement/batch-03.json",
+      "target": "github.f.f/reports/autonomous_execution/api_refinement/batch-03.json",
+      "sha256": "e081f9b8087577c19f11c943ea78206cb09e67440e36c4fac78518b9e81311da",
+      "before_sha256": null,
+      "immediate_before_sha256": "e081f9b8087577c19f11c943ea78206cb09e67440e36c4fac78518b9e81311da",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/api_refinement/batch-04.json",
+      "target": "github.f.f/reports/autonomous_execution/api_refinement/batch-04.json",
+      "sha256": "eb78754c6e4b8db0ac4bc388a62b279c55274c05e39258aa5f4a0057bf9e8088",
+      "before_sha256": null,
+      "immediate_before_sha256": "eb78754c6e4b8db0ac4bc388a62b279c55274c05e39258aa5f4a0057bf9e8088",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/api_refinement/batch-05.json",
+      "target": "github.f.f/reports/autonomous_execution/api_refinement/batch-05.json",
+      "sha256": "0ef41fa20f933814fdce5295fa799789e03805d93282fedc1f2f45d2988c676e",
+      "before_sha256": null,
+      "immediate_before_sha256": "0ef41fa20f933814fdce5295fa799789e03805d93282fedc1f2f45d2988c676e",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/api_refinement/batch-06.json",
+      "target": "github.f.f/reports/autonomous_execution/api_refinement/batch-06.json",
+      "sha256": "41510276a71cb2c779441ec6067b2e95997bb1f4eef3d98a8f47cb249af6bfeb",
+      "before_sha256": null,
+      "immediate_before_sha256": "41510276a71cb2c779441ec6067b2e95997bb1f4eef3d98a8f47cb249af6bfeb",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/api_refinement/batch-07.json",
+      "target": "github.f.f/reports/autonomous_execution/api_refinement/batch-07.json",
+      "sha256": "7533064f080dbc0febad0449bf8c3d08945d9e0a742fe958eea534383e3e3480",
+      "before_sha256": null,
+      "immediate_before_sha256": "7533064f080dbc0febad0449bf8c3d08945d9e0a742fe958eea534383e3e3480",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/api_refinement/batch-08.json",
+      "target": "github.f.f/reports/autonomous_execution/api_refinement/batch-08.json",
+      "sha256": "5d523bebf0991162fc1e4621bedcb9f4aac26bb08bdc65d6729088211d1f1384",
+      "before_sha256": null,
+      "immediate_before_sha256": "5d523bebf0991162fc1e4621bedcb9f4aac26bb08bdc65d6729088211d1f1384",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/api_refinement/batch-09.json",
+      "target": "github.f.f/reports/autonomous_execution/api_refinement/batch-09.json",
+      "sha256": "3d02489f0c9a1a6f734378558356f4332ec3b6b08628af56174e905883411651",
+      "before_sha256": null,
+      "immediate_before_sha256": "3d02489f0c9a1a6f734378558356f4332ec3b6b08628af56174e905883411651",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/api_refinement/batch-10.json",
+      "target": "github.f.f/reports/autonomous_execution/api_refinement/batch-10.json",
+      "sha256": "439b3db33c20992c15d324738681ad3fc45b7d0449765ff22686fd92d39e25ac",
+      "before_sha256": null,
+      "immediate_before_sha256": "439b3db33c20992c15d324738681ad3fc45b7d0449765ff22686fd92d39e25ac",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/api_refinement/batch-11.json",
+      "target": "github.f.f/reports/autonomous_execution/api_refinement/batch-11.json",
+      "sha256": "0b2e6b1da074e441a7bf926f40631779ee53fbc9bfd60ed07628b95b8fdf023d",
+      "before_sha256": null,
+      "immediate_before_sha256": "0b2e6b1da074e441a7bf926f40631779ee53fbc9bfd60ed07628b95b8fdf023d",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/api_refinement/batch-12.json",
+      "target": "github.f.f/reports/autonomous_execution/api_refinement/batch-12.json",
+      "sha256": "b03f9c7e06f6b363ead7ebcb74f130fd5c35f56564ce44591a64a3c8faf1ecfb",
+      "before_sha256": null,
+      "immediate_before_sha256": "b03f9c7e06f6b363ead7ebcb74f130fd5c35f56564ce44591a64a3c8faf1ecfb",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/api_refinement/batch-13.json",
+      "target": "github.f.f/reports/autonomous_execution/api_refinement/batch-13.json",
+      "sha256": "b71bc80046e0a0da7a9bef0a0bc4f7e281c2ac9cbee5e5a222f473d85630cd97",
+      "before_sha256": null,
+      "immediate_before_sha256": "b71bc80046e0a0da7a9bef0a0bc4f7e281c2ac9cbee5e5a222f473d85630cd97",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/api_refinement/batch-14.json",
+      "target": "github.f.f/reports/autonomous_execution/api_refinement/batch-14.json",
+      "sha256": "70758cad6b4a1d40131b5c725e22c3de7052070dcbadc873a3af54cdf18f3820",
+      "before_sha256": null,
+      "immediate_before_sha256": "70758cad6b4a1d40131b5c725e22c3de7052070dcbadc873a3af54cdf18f3820",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/api_refinement/batch-15.json",
+      "target": "github.f.f/reports/autonomous_execution/api_refinement/batch-15.json",
+      "sha256": "fd4309dbf9e2e19d48b78b76ffe186237ff517c577bfdd532f8277bba6476c02",
+      "before_sha256": null,
+      "immediate_before_sha256": "fd4309dbf9e2e19d48b78b76ffe186237ff517c577bfdd532f8277bba6476c02",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/api_refinement/batch-16.json",
+      "target": "github.f.f/reports/autonomous_execution/api_refinement/batch-16.json",
+      "sha256": "dec36e5c3919dd73b5886188f5f7235d28d4e5fe9cd1ff48ec104fb4d5acea72",
+      "before_sha256": null,
+      "immediate_before_sha256": "dec36e5c3919dd73b5886188f5f7235d28d4e5fe9cd1ff48ec104fb4d5acea72",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/api_refinement/batch-17.json",
+      "target": "github.f.f/reports/autonomous_execution/api_refinement/batch-17.json",
+      "sha256": "8227307601217fa52f46d4b92b0ffa9b0664b22ee54136571c4d59fdbe294487",
+      "before_sha256": null,
+      "immediate_before_sha256": "8227307601217fa52f46d4b92b0ffa9b0664b22ee54136571c4d59fdbe294487",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/api_refinement/batch-18.json",
+      "target": "github.f.f/reports/autonomous_execution/api_refinement/batch-18.json",
+      "sha256": "228fa929c24d12f3b003446009679a63f84d47cc946599dda26f78230ec473f6",
+      "before_sha256": null,
+      "immediate_before_sha256": "228fa929c24d12f3b003446009679a63f84d47cc946599dda26f78230ec473f6",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/api_refinement/batch-19.json",
+      "target": "github.f.f/reports/autonomous_execution/api_refinement/batch-19.json",
+      "sha256": "6c8a0ddb9796cf55a9eb3e7ac9d071aff30fc64e2f5425e9341f5330ffc49f83",
+      "before_sha256": null,
+      "immediate_before_sha256": "6c8a0ddb9796cf55a9eb3e7ac9d071aff30fc64e2f5425e9341f5330ffc49f83",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/api_refinement/batch-20.json",
+      "target": "github.f.f/reports/autonomous_execution/api_refinement/batch-20.json",
+      "sha256": "9b658691c8fa3cc095274d8a3b43b100d1a448e66a65e0aaa42107d5d6baec6d",
+      "before_sha256": null,
+      "immediate_before_sha256": "9b658691c8fa3cc095274d8a3b43b100d1a448e66a65e0aaa42107d5d6baec6d",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/api_refinement/batch-21.json",
+      "target": "github.f.f/reports/autonomous_execution/api_refinement/batch-21.json",
+      "sha256": "3554142b4d1dbd4fc01b115914a67b7f677ac7b4c1c1c46dfd594ef3059c4b50",
+      "before_sha256": null,
+      "immediate_before_sha256": "3554142b4d1dbd4fc01b115914a67b7f677ac7b4c1c1c46dfd594ef3059c4b50",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/api_refinement/batch-22.json",
+      "target": "github.f.f/reports/autonomous_execution/api_refinement/batch-22.json",
+      "sha256": "2c9e817f912825dba9971f31efbb734ee4cdb7aa9740f88b5c44762e8b4832a3",
+      "before_sha256": null,
+      "immediate_before_sha256": "2c9e817f912825dba9971f31efbb734ee4cdb7aa9740f88b5c44762e8b4832a3",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/api_refinement/batch-23.json",
+      "target": "github.f.f/reports/autonomous_execution/api_refinement/batch-23.json",
+      "sha256": "07c1b600ee67fc85f639136b23ff7e8760d5c07d48cf8fb2792e702918cf9fd0",
+      "before_sha256": null,
+      "immediate_before_sha256": "07c1b600ee67fc85f639136b23ff7e8760d5c07d48cf8fb2792e702918cf9fd0",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/api_refinement/batch-24.json",
+      "target": "github.f.f/reports/autonomous_execution/api_refinement/batch-24.json",
+      "sha256": "cd230b3f5cdc0fb4dec7b737e2bb2e2e73dca032ef323ae82b1229de29da38bf",
+      "before_sha256": null,
+      "immediate_before_sha256": "cd230b3f5cdc0fb4dec7b737e2bb2e2e73dca032ef323ae82b1229de29da38bf",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/api_refinement/batch-25.json",
+      "target": "github.f.f/reports/autonomous_execution/api_refinement/batch-25.json",
+      "sha256": "92e8ac1850e9f4528391158936c5d9a2a5be8f826e0e03d6f580fb305624bd63",
+      "before_sha256": null,
+      "immediate_before_sha256": "92e8ac1850e9f4528391158936c5d9a2a5be8f826e0e03d6f580fb305624bd63",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/api_refinement/batch-26.json",
+      "target": "github.f.f/reports/autonomous_execution/api_refinement/batch-26.json",
+      "sha256": "12a624e3c6682589219cd073e64c3da3f8aebd3fcd28d412961ab0c59fbb0cf4",
+      "before_sha256": null,
+      "immediate_before_sha256": "12a624e3c6682589219cd073e64c3da3f8aebd3fcd28d412961ab0c59fbb0cf4",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/api_refinement/batch-27.json",
+      "target": "github.f.f/reports/autonomous_execution/api_refinement/batch-27.json",
+      "sha256": "6b1bfa827100cd2d6b916c61d550dbb56e0d1172b64101fb4ce846af79a67aa5",
+      "before_sha256": null,
+      "immediate_before_sha256": "6b1bfa827100cd2d6b916c61d550dbb56e0d1172b64101fb4ce846af79a67aa5",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/api_refinement/batch-28.json",
+      "target": "github.f.f/reports/autonomous_execution/api_refinement/batch-28.json",
+      "sha256": "880248dab0645ed910f04090d9a1ce9319182e5b0f8399f084fa93af86d4f913",
+      "before_sha256": null,
+      "immediate_before_sha256": "880248dab0645ed910f04090d9a1ce9319182e5b0f8399f084fa93af86d4f913",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/api_refinement/batch-29.json",
+      "target": "github.f.f/reports/autonomous_execution/api_refinement/batch-29.json",
+      "sha256": "955849e515aee93cbdccafc3f1900faedd5dce1c1a3830b06abc0e5dd24e5c12",
+      "before_sha256": null,
+      "immediate_before_sha256": "955849e515aee93cbdccafc3f1900faedd5dce1c1a3830b06abc0e5dd24e5c12",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/api_refinement/response-00.json",
+      "target": "github.f.f/reports/autonomous_execution/api_refinement/response-00.json",
+      "sha256": "54111e05272aa63ba6649fb495e986adf112acab6fc9d0888d4bb6d02e779c4b",
+      "before_sha256": null,
+      "immediate_before_sha256": "54111e05272aa63ba6649fb495e986adf112acab6fc9d0888d4bb6d02e779c4b",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/api_refinement/response-01.json",
+      "target": "github.f.f/reports/autonomous_execution/api_refinement/response-01.json",
+      "sha256": "449af0ebf0515b57ba6cdc943caa96080e55a1359184f3678918c607bbf0e401",
+      "before_sha256": null,
+      "immediate_before_sha256": "449af0ebf0515b57ba6cdc943caa96080e55a1359184f3678918c607bbf0e401",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/api_refinement/response-02.json",
+      "target": "github.f.f/reports/autonomous_execution/api_refinement/response-02.json",
+      "sha256": "3229dcb1dd826c7c1835fc1baa3602f0218dd51a5a6709d0919cc61430cb4438",
+      "before_sha256": null,
+      "immediate_before_sha256": "3229dcb1dd826c7c1835fc1baa3602f0218dd51a5a6709d0919cc61430cb4438",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/api_refinement/response-03.json",
+      "target": "github.f.f/reports/autonomous_execution/api_refinement/response-03.json",
+      "sha256": "87c5a9ee37c83d303261a717e4e3739c504b4e13fea979e514c9f8663d05bd99",
+      "before_sha256": null,
+      "immediate_before_sha256": "87c5a9ee37c83d303261a717e4e3739c504b4e13fea979e514c9f8663d05bd99",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/api_refinement/response-04.json",
+      "target": "github.f.f/reports/autonomous_execution/api_refinement/response-04.json",
+      "sha256": "2fbff92be728c7ead156a06d25938f2750521e8439b072c9dc82c6954eff3af4",
+      "before_sha256": null,
+      "immediate_before_sha256": "2fbff92be728c7ead156a06d25938f2750521e8439b072c9dc82c6954eff3af4",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/api_refinement/response-05.json",
+      "target": "github.f.f/reports/autonomous_execution/api_refinement/response-05.json",
+      "sha256": "6b109b50e10cef4014781a1b50da92440de4cc3c91b03044d7e604e59f0fba72",
+      "before_sha256": null,
+      "immediate_before_sha256": "6b109b50e10cef4014781a1b50da92440de4cc3c91b03044d7e604e59f0fba72",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/api_refinement/response-06.json",
+      "target": "github.f.f/reports/autonomous_execution/api_refinement/response-06.json",
+      "sha256": "27798d79d9de2d9fb66846b2a44b4f8159f7e222e786eaa4460cfbe05de1303a",
+      "before_sha256": null,
+      "immediate_before_sha256": "27798d79d9de2d9fb66846b2a44b4f8159f7e222e786eaa4460cfbe05de1303a",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/api_refinement/response-07.json",
+      "target": "github.f.f/reports/autonomous_execution/api_refinement/response-07.json",
+      "sha256": "a52dfae1d2d81a21288dd8c6d91e360a4cbd162da644b02d11e294debac60179",
+      "before_sha256": null,
+      "immediate_before_sha256": "a52dfae1d2d81a21288dd8c6d91e360a4cbd162da644b02d11e294debac60179",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/api_refinement/response-08.json",
+      "target": "github.f.f/reports/autonomous_execution/api_refinement/response-08.json",
+      "sha256": "1bdaffd79b02d3e5319d55c944edd7dab4e66389768bcb5dc606f1cd4fb924c4",
+      "before_sha256": null,
+      "immediate_before_sha256": "1bdaffd79b02d3e5319d55c944edd7dab4e66389768bcb5dc606f1cd4fb924c4",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/api_refinement/response-09.json",
+      "target": "github.f.f/reports/autonomous_execution/api_refinement/response-09.json",
+      "sha256": "cc0851c7e627dece218e8cbb881ec857dfeaa099c9dbb0300c9dcdb6095d48a3",
+      "before_sha256": null,
+      "immediate_before_sha256": "cc0851c7e627dece218e8cbb881ec857dfeaa099c9dbb0300c9dcdb6095d48a3",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/api_refinement/response-10.json",
+      "target": "github.f.f/reports/autonomous_execution/api_refinement/response-10.json",
+      "sha256": "0cfc0e82dd4aa68755191dedbc3190616ab820960d15c0d231c1b16575ef657b",
+      "before_sha256": null,
+      "immediate_before_sha256": "0cfc0e82dd4aa68755191dedbc3190616ab820960d15c0d231c1b16575ef657b",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/api_refinement/response-11.json",
+      "target": "github.f.f/reports/autonomous_execution/api_refinement/response-11.json",
+      "sha256": "599a686a8b18fa501d00f022b6d8814e445542f5246d23f030e41612bfd8a2d3",
+      "before_sha256": null,
+      "immediate_before_sha256": "599a686a8b18fa501d00f022b6d8814e445542f5246d23f030e41612bfd8a2d3",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/api_refinement/response-12.json",
+      "target": "github.f.f/reports/autonomous_execution/api_refinement/response-12.json",
+      "sha256": "eea3ea76939221fc48c0c33b3061addbad019db21ee8cce7df6f9b17b8644ce1",
+      "before_sha256": null,
+      "immediate_before_sha256": "eea3ea76939221fc48c0c33b3061addbad019db21ee8cce7df6f9b17b8644ce1",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/api_refinement/response-13.json",
+      "target": "github.f.f/reports/autonomous_execution/api_refinement/response-13.json",
+      "sha256": "d6067ec47002f77463e67387855f9f4777c198b7f58c7c29b32be78f92f411d2",
+      "before_sha256": null,
+      "immediate_before_sha256": "d6067ec47002f77463e67387855f9f4777c198b7f58c7c29b32be78f92f411d2",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/api_refinement/response-14.json",
+      "target": "github.f.f/reports/autonomous_execution/api_refinement/response-14.json",
+      "sha256": "e79d0dee10afa9517d6613b445104716fa8aac54d0361b3285faaf3380ad0c91",
+      "before_sha256": null,
+      "immediate_before_sha256": "e79d0dee10afa9517d6613b445104716fa8aac54d0361b3285faaf3380ad0c91",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/api_refinement/response-15.json",
+      "target": "github.f.f/reports/autonomous_execution/api_refinement/response-15.json",
+      "sha256": "aebdb46419b018d13dfcc76ab3440675362cee6eca4a59a7f767ab88579eafb1",
+      "before_sha256": null,
+      "immediate_before_sha256": "aebdb46419b018d13dfcc76ab3440675362cee6eca4a59a7f767ab88579eafb1",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/api_refinement/response-16.json",
+      "target": "github.f.f/reports/autonomous_execution/api_refinement/response-16.json",
+      "sha256": "ba3d49a14bb41c7cdedfb8ea781aa48de8f8cee1a400914f0b9e7174a6e2bdfb",
+      "before_sha256": null,
+      "immediate_before_sha256": "ba3d49a14bb41c7cdedfb8ea781aa48de8f8cee1a400914f0b9e7174a6e2bdfb",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/api_refinement/response-17.json",
+      "target": "github.f.f/reports/autonomous_execution/api_refinement/response-17.json",
+      "sha256": "dd0535baefb3dee57fd8436795accaa927c6be90cce2da9e3f0e55ceb194a2c5",
+      "before_sha256": null,
+      "immediate_before_sha256": "dd0535baefb3dee57fd8436795accaa927c6be90cce2da9e3f0e55ceb194a2c5",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/api_refinement/response-18.json",
+      "target": "github.f.f/reports/autonomous_execution/api_refinement/response-18.json",
+      "sha256": "6753e8011755a4b32b569a4396460ca28e84938fdbc17e8c4078968752abae95",
+      "before_sha256": null,
+      "immediate_before_sha256": "6753e8011755a4b32b569a4396460ca28e84938fdbc17e8c4078968752abae95",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/api_refinement/response-19.json",
+      "target": "github.f.f/reports/autonomous_execution/api_refinement/response-19.json",
+      "sha256": "452bb1e673a5b65e51f1c0d765920d6dc74a77b2ee65e253c1c30bf703f1816e",
+      "before_sha256": null,
+      "immediate_before_sha256": "452bb1e673a5b65e51f1c0d765920d6dc74a77b2ee65e253c1c30bf703f1816e",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/api_refinement/response-20.json",
+      "target": "github.f.f/reports/autonomous_execution/api_refinement/response-20.json",
+      "sha256": "01d78fbf9ab6ca1e5b63c820f83835c8b5c5e94b2a8fc2519b780c2aece886e1",
+      "before_sha256": null,
+      "immediate_before_sha256": "01d78fbf9ab6ca1e5b63c820f83835c8b5c5e94b2a8fc2519b780c2aece886e1",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/api_refinement/response-21.json",
+      "target": "github.f.f/reports/autonomous_execution/api_refinement/response-21.json",
+      "sha256": "180eef8f7e417eb1c36c31e5b3291091bf592e414477dab611f438f22bc32c99",
+      "before_sha256": null,
+      "immediate_before_sha256": "180eef8f7e417eb1c36c31e5b3291091bf592e414477dab611f438f22bc32c99",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/api_refinement/response-22.json",
+      "target": "github.f.f/reports/autonomous_execution/api_refinement/response-22.json",
+      "sha256": "97e9f9e9c30e743d9857767a5c49a61078a5cbe6d953aab47ea5fa6786017bd2",
+      "before_sha256": null,
+      "immediate_before_sha256": "97e9f9e9c30e743d9857767a5c49a61078a5cbe6d953aab47ea5fa6786017bd2",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/api_refinement/response-23.json",
+      "target": "github.f.f/reports/autonomous_execution/api_refinement/response-23.json",
+      "sha256": "f03ec0ff748cef82d57dfb51787caaa68ea16992f555854e7d9420b6644de09c",
+      "before_sha256": null,
+      "immediate_before_sha256": "f03ec0ff748cef82d57dfb51787caaa68ea16992f555854e7d9420b6644de09c",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/api_refinement/response-24.json",
+      "target": "github.f.f/reports/autonomous_execution/api_refinement/response-24.json",
+      "sha256": "df9bbeb3368888be3e1f4589905becb2a9f5dec9e9bd47b1fc17003d660484ec",
+      "before_sha256": null,
+      "immediate_before_sha256": "df9bbeb3368888be3e1f4589905becb2a9f5dec9e9bd47b1fc17003d660484ec",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/api_refinement/response-25.json",
+      "target": "github.f.f/reports/autonomous_execution/api_refinement/response-25.json",
+      "sha256": "df0bc1bdaf24596f05dd82a88eb4e58bb7eaa2cb34adf51182275bbaccc56a8d",
+      "before_sha256": null,
+      "immediate_before_sha256": "df0bc1bdaf24596f05dd82a88eb4e58bb7eaa2cb34adf51182275bbaccc56a8d",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/api_refinement/response-26.json",
+      "target": "github.f.f/reports/autonomous_execution/api_refinement/response-26.json",
+      "sha256": "c7114bc058622f7f4ba8bb32f384af4a492401318b746252480ff56c658cefd1",
+      "before_sha256": null,
+      "immediate_before_sha256": "c7114bc058622f7f4ba8bb32f384af4a492401318b746252480ff56c658cefd1",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/api_refinement/response-27.json",
+      "target": "github.f.f/reports/autonomous_execution/api_refinement/response-27.json",
+      "sha256": "93d3e0c814ebabb90f6d3fd190f50bf0c6a34b2cc11cd438721f8f6eba1481b7",
+      "before_sha256": null,
+      "immediate_before_sha256": "93d3e0c814ebabb90f6d3fd190f50bf0c6a34b2cc11cd438721f8f6eba1481b7",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/api_refinement/response-28.json",
+      "target": "github.f.f/reports/autonomous_execution/api_refinement/response-28.json",
+      "sha256": "6aa5fe825a67dc872964281feb93916a30a79352faffd73a0705458d11f651fa",
+      "before_sha256": null,
+      "immediate_before_sha256": "6aa5fe825a67dc872964281feb93916a30a79352faffd73a0705458d11f651fa",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/api_refinement/response-29.json",
+      "target": "github.f.f/reports/autonomous_execution/api_refinement/response-29.json",
+      "sha256": "2f502ffbcf20c9cfcd59f3e7cb1fffdcf3086028690785c209662a4ea9a5e3d1",
+      "before_sha256": null,
+      "immediate_before_sha256": "2f502ffbcf20c9cfcd59f3e7cb1fffdcf3086028690785c209662a4ea9a5e3d1",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/api_refinement/summary.json",
+      "target": "github.f.f/reports/autonomous_execution/api_refinement/summary.json",
+      "sha256": "6ea855970cb9dd4071c86fc03ba3221c5b73b87b17597f555517536d1249e2d5",
+      "before_sha256": null,
+      "immediate_before_sha256": "6ea855970cb9dd4071c86fc03ba3221c5b73b87b17597f555517536d1249e2d5",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/autonomous_execution/candidate/quality.json",
+      "target": "github.f.f/reports/autonomous_execution/candidate/quality.json",
+      "sha256": "23f90ee9ef3f321ed155e8e5031b78ac13ca6d260187e72c25878c3a75d2787e",
+      "before_sha256": null,
+      "immediate_before_sha256": "23f90ee9ef3f321ed155e8e5031b78ac13ca6d260187e72c25878c3a75d2787e",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/00_DISCOVERY.md",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/00_DISCOVERY.md",
+      "sha256": "0e845217b343a610b751f68c9e76c48b4c6f063ac6a6f4093e7c2ac8dc220880",
+      "before_sha256": null,
+      "immediate_before_sha256": "0e845217b343a610b751f68c9e76c48b4c6f063ac6a6f4093e7c2ac8dc220880",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/01_CAUSAL_MAPPING.md",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/01_CAUSAL_MAPPING.md",
+      "sha256": "7d6e790386d81478edf2417544b021f1bee3a90f680e4b8a7e5d97a35f1dd822",
+      "before_sha256": null,
+      "immediate_before_sha256": "7d6e790386d81478edf2417544b021f1bee3a90f680e4b8a7e5d97a35f1dd822",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/02_ASSET_REPLACEMENT.json",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/02_ASSET_REPLACEMENT.json",
+      "sha256": "ee6e75df750d6f63c71935aab9242c63209aa398173ae8b72ee3b6504f87e292",
+      "before_sha256": null,
+      "immediate_before_sha256": "ee6e75df750d6f63c71935aab9242c63209aa398173ae8b72ee3b6504f87e292",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/03_SIMULATION_RUN.events.json",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/03_SIMULATION_RUN.events.json",
+      "sha256": "a65f63f68db478c7adf6d799b7b07b0620f434bd19615fb235a2a65eef3c4f73",
+      "before_sha256": null,
+      "immediate_before_sha256": "a65f63f68db478c7adf6d799b7b07b0620f434bd19615fb235a2a65eef3c4f73",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/03_SIMULATION_RUN.json",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/03_SIMULATION_RUN.json",
+      "sha256": "5abb5c649094fe9e22bc5c01ea8f7eede479709b0dec0a958a9e1ec3459aaf43",
+      "before_sha256": null,
+      "immediate_before_sha256": "5abb5c649094fe9e22bc5c01ea8f7eede479709b0dec0a958a9e1ec3459aaf43",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/04_EVENTS.json",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/04_EVENTS.json",
+      "sha256": "a65f63f68db478c7adf6d799b7b07b0620f434bd19615fb235a2a65eef3c4f73",
+      "before_sha256": null,
+      "immediate_before_sha256": "a65f63f68db478c7adf6d799b7b07b0620f434bd19615fb235a2a65eef3c4f73",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/05_VISUAL_QA/mirror-browser.json",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/05_VISUAL_QA/mirror-browser.json",
+      "sha256": "de90a259451d456ae00aeadadf4b9e58830b561952d15bbff619188805ca6493",
+      "before_sha256": null,
+      "immediate_before_sha256": "de90a259451d456ae00aeadadf4b9e58830b561952d15bbff619188805ca6493",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/05_VISUAL_QA/mirror-camera-mixed-guard.png",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/05_VISUAL_QA/mirror-camera-mixed-guard.png",
+      "sha256": "f501eec4369a8616a783f3f464904ae2f61179b0fc6562ab4665c76b40fe4959",
+      "before_sha256": null,
+      "immediate_before_sha256": "f501eec4369a8616a783f3f464904ae2f61179b0fc6562ab4665c76b40fe4959",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/05_VISUAL_QA/mirror-camera-model-pose.png",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/05_VISUAL_QA/mirror-camera-model-pose.png",
+      "sha256": "29f4f7cf90fe6aa3c4739eeb1b82590a0ac2fcd8185303e996d49c6aa3520792",
+      "before_sha256": null,
+      "immediate_before_sha256": "29f4f7cf90fe6aa3c4739eeb1b82590a0ac2fcd8185303e996d49c6aa3520792",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/05_VISUAL_QA/mirror-mobile.png",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/05_VISUAL_QA/mirror-mobile.png",
+      "sha256": "44d0fc68d06b43aa49c71c968bf61513e4616b88f3b01e4200839d1c80cd65d3",
+      "before_sha256": null,
+      "immediate_before_sha256": "44d0fc68d06b43aa49c71c968bf61513e4616b88f3b01e4200839d1c80cd65d3",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/05_VISUAL_QA/production-browser.json",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/05_VISUAL_QA/production-browser.json",
+      "sha256": "8cd52505aecfc25c43348c3157036a12a5ab7c3456f204a1de9f32c7d4b75d95",
+      "before_sha256": null,
+      "immediate_before_sha256": "8cd52505aecfc25c43348c3157036a12a5ab7c3456f204a1de9f32c7d4b75d95",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/05_VISUAL_QA/production-camera-mixed-guard.png",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/05_VISUAL_QA/production-camera-mixed-guard.png",
+      "sha256": "3308c66321714ef221dfe84482ef90bf32a520c90d6b5871bdbcce761c9b1b59",
+      "before_sha256": null,
+      "immediate_before_sha256": "3308c66321714ef221dfe84482ef90bf32a520c90d6b5871bdbcce761c9b1b59",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/05_VISUAL_QA/production-camera-model-pose.png",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/05_VISUAL_QA/production-camera-model-pose.png",
+      "sha256": "29f4f7cf90fe6aa3c4739eeb1b82590a0ac2fcd8185303e996d49c6aa3520792",
+      "before_sha256": null,
+      "immediate_before_sha256": "29f4f7cf90fe6aa3c4739eeb1b82590a0ac2fcd8185303e996d49c6aa3520792",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/05_VISUAL_QA/production-mobile.png",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/05_VISUAL_QA/production-mobile.png",
+      "sha256": "44d0fc68d06b43aa49c71c968bf61513e4616b88f3b01e4200839d1c80cd65d3",
+      "before_sha256": null,
+      "immediate_before_sha256": "44d0fc68d06b43aa49c71c968bf61513e4616b88f3b01e4200839d1c80cd65d3",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/05_VISUAL_QA/root-guard-qa.png",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/05_VISUAL_QA/root-guard-qa.png",
+      "sha256": "8228e53d3f6a17d1abe9d3cc954608a17c8a2a369050fbe9752006212b2e87be",
+      "before_sha256": null,
+      "immediate_before_sha256": "8228e53d3f6a17d1abe9d3cc954608a17c8a2a369050fbe9752006212b2e87be",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/05_VISUAL_QA/source-browser.json",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/05_VISUAL_QA/source-browser.json",
+      "sha256": "6fff7869b8a6e15fdf8a97ef6f80a4455a7142d4b03abd3b055dcc488482bcf4",
+      "before_sha256": null,
+      "immediate_before_sha256": "6fff7869b8a6e15fdf8a97ef6f80a4455a7142d4b03abd3b055dcc488482bcf4",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/05_VISUAL_QA/source-camera-mixed-guard.png",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/05_VISUAL_QA/source-camera-mixed-guard.png",
+      "sha256": "c02e34e41d1da7b5b439f4bbeb5d940a3adc7a8f7863a82c17f6df14ce2c573a",
+      "before_sha256": null,
+      "immediate_before_sha256": "c02e34e41d1da7b5b439f4bbeb5d940a3adc7a8f7863a82c17f6df14ce2c573a",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/05_VISUAL_QA/source-camera-model-pose.png",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/05_VISUAL_QA/source-camera-model-pose.png",
+      "sha256": "76516126d0e42169525006e41e2294dbbdae15e254909631b817f84fd4b169af",
+      "before_sha256": null,
+      "immediate_before_sha256": "76516126d0e42169525006e41e2294dbbdae15e254909631b817f84fd4b169af",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/05_VISUAL_QA/source-mobile.png",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/05_VISUAL_QA/source-mobile.png",
+      "sha256": "c442587e9ece0d05501f7b3f0a8a25bc34305a2edc8f7f2b8ce00a75547558c2",
+      "before_sha256": null,
+      "immediate_before_sha256": "c442587e9ece0d05501f7b3f0a8a25bc34305a2edc8f7f2b8ce00a75547558c2",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/07_BASELINE_VS_FINAL_KO.md",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/07_BASELINE_VS_FINAL_KO.md",
+      "sha256": "fb36a40bdbb0dadc00a80c7c597b27f8eb5a2cfd4fa68870e387d5b9cc09d9a5",
+      "before_sha256": null,
+      "immediate_before_sha256": "fb36a40bdbb0dadc00a80c7c597b27f8eb5a2cfd4fa68870e387d5b9cc09d9a5",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/ablation-new-old.log",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/ablation-new-old.log",
+      "sha256": "bda4ed58e147dbd85a4883b1434dc800539d033cef71f690dac940d2dfc45bae",
+      "before_sha256": null,
+      "immediate_before_sha256": "bda4ed58e147dbd85a4883b1434dc800539d033cef71f690dac940d2dfc45bae",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/ablation-old-new.log",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/ablation-old-new.log",
+      "sha256": "a30420d941c66867bf27c282bc12a76c5309394888c0498d7b5861ac63d8e74f",
+      "before_sha256": null,
+      "immediate_before_sha256": "a30420d941c66867bf27c282bc12a76c5309394888c0498d7b5861ac63d8e74f",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/ablation_new_motion_old_sensing.events.json",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/ablation_new_motion_old_sensing.events.json",
+      "sha256": "14c538831109d7f739a6aa7bf72c8b151d6756395001fb219660f8382b37fd39",
+      "before_sha256": null,
+      "immediate_before_sha256": "14c538831109d7f739a6aa7bf72c8b151d6756395001fb219660f8382b37fd39",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/ablation_new_motion_old_sensing.json",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/ablation_new_motion_old_sensing.json",
+      "sha256": "a8e5e63e614df52d0465ccfd8d26098ce78cec7c5ad6cceb4608edf63116f158",
+      "before_sha256": null,
+      "immediate_before_sha256": "a8e5e63e614df52d0465ccfd8d26098ce78cec7c5ad6cceb4608edf63116f158",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/ablation_old_motion_new_sensing.events.json",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/ablation_old_motion_new_sensing.events.json",
+      "sha256": "352950b888d9e6c6ac82a22ede51e012d55a6368ffff8e591b1151998b03d52a",
+      "before_sha256": null,
+      "immediate_before_sha256": "352950b888d9e6c6ac82a22ede51e012d55a6368ffff8e591b1151998b03d52a",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/ablation_old_motion_new_sensing.json",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/ablation_old_motion_new_sensing.json",
+      "sha256": "d73d46183c7f797325ebf345dfac750fb381aa49e99591b2217b7c81b20fa5d4",
+      "before_sha256": null,
+      "immediate_before_sha256": "d73d46183c7f797325ebf345dfac750fb381aa49e99591b2217b7c81b20fa5d4",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/all-sensing-tests.log",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/all-sensing-tests.log",
+      "sha256": "af857d926e80ffb7cd2ac08eba3cdb1541f8956deb34edd7748a1488c66f26c0",
+      "before_sha256": null,
+      "immediate_before_sha256": "af857d926e80ffb7cd2ac08eba3cdb1541f8956deb34edd7748a1488c66f26c0",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/baseline.events.json",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/baseline.events.json",
+      "sha256": "4473ab118fe6040af8514a3d3381f74aaf274ffa3da0dff46a70aac827f2e7a6",
+      "before_sha256": null,
+      "immediate_before_sha256": "4473ab118fe6040af8514a3d3381f74aaf274ffa3da0dff46a70aac827f2e7a6",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/baseline.json",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/baseline.json",
+      "sha256": "a923aa973fc86c1cc174333d744963f2c08355439c1ecbcae7e6ff3701c5de43",
+      "before_sha256": null,
+      "immediate_before_sha256": "a923aa973fc86c1cc174333d744963f2c08355439c1ecbcae7e6ff3701c5de43",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/before/assets/sensing/manifest.json",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/before/assets/sensing/manifest.json",
+      "sha256": "b04c40524c84bca0f436cf1ecb8e17f88e8b7214fca14eca8a48eafe913c0e91",
+      "before_sha256": null,
+      "immediate_before_sha256": "b04c40524c84bca0f436cf1ecb8e17f88e8b7214fca14eca8a48eafe913c0e91",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/before/assets/sensing/motion.json.gz",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/before/assets/sensing/motion.json.gz",
+      "sha256": "91e20395f56d247c83782d8760f1e77db5cb5cedbb9800804eed242d46c680e9",
+      "before_sha256": null,
+      "immediate_before_sha256": "91e20395f56d247c83782d8760f1e77db5cb5cedbb9800804eed242d46c680e9",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/before/github.f.f/package.json",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/before/github.f.f/package.json",
+      "sha256": "18ea9b78451c3c097d3f181d81ae2808ec044d5ca96297845d1d9662cd55b789",
+      "before_sha256": null,
+      "immediate_before_sha256": "18ea9b78451c3c097d3f181d81ae2808ec044d5ca96297845d1d9662cd55b789",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/blender.log",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/blender.log",
+      "sha256": "b95bbe55b67aeefb98f1784c0ece1e93a9dd3a15091a9d96887b3feac6e8eb37",
+      "before_sha256": null,
+      "immediate_before_sha256": "b95bbe55b67aeefb98f1784c0ece1e93a9dd3a15091a9d96887b3feac6e8eb37",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/blender_export.json",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/blender_export.json",
+      "sha256": "f42045a42786b80cea6a9103df532e9f333fee4c2ca2e522aaf72986c8fa0a81",
+      "before_sha256": null,
+      "immediate_before_sha256": "f42045a42786b80cea6a9103df532e9f333fee4c2ca2e522aaf72986c8fa0a81",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/collision_proxy_qa.json",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/collision_proxy_qa.json",
+      "sha256": "bd1284d417cf8a43ecb991d150900a79069ad3c8cb305b0fd3d324a82994e7d6",
+      "before_sha256": null,
+      "immediate_before_sha256": "bd1284d417cf8a43ecb991d150900a79069ad3c8cb305b0fd3d324a82994e7d6",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/discovery.json",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/discovery.json",
+      "sha256": "0f8fdac8422f5d519f14caa994889ff852e34ce2b16ac49dd669393d61d848d8",
+      "before_sha256": null,
+      "immediate_before_sha256": "0f8fdac8422f5d519f14caa994889ff852e34ce2b16ac49dd669393d61d848d8",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/final-verification.log",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/final-verification.log",
+      "sha256": "71aecef480d0225727e43d630e07ce273bbd43b48f5ae81ce81ec9a7aa6f8e17",
+      "before_sha256": null,
+      "immediate_before_sha256": "71aecef480d0225727e43d630e07ce273bbd43b48f5ae81ce81ec9a7aa6f8e17",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/full-replay.log",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/full-replay.log",
+      "sha256": "77bae928158d4f492c14bb75c4a8f6874064d20592336fef57e2726cab190be0",
+      "before_sha256": null,
+      "immediate_before_sha256": "77bae928158d4f492c14bb75c4a8f6874064d20592336fef57e2726cab190be0",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/generation_cache/14c63d8254d1e8a74e67d8c5f03f319f9cb4db4a387e5d1045fa45a0586f3257.json",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/generation_cache/14c63d8254d1e8a74e67d8c5f03f319f9cb4db4a387e5d1045fa45a0586f3257.json",
+      "sha256": "6f835cbc99bc98647f3395a5df48afa33779d8d94c309c9814f46cd316693ec3",
+      "before_sha256": null,
+      "immediate_before_sha256": "6f835cbc99bc98647f3395a5df48afa33779d8d94c309c9814f46cd316693ec3",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/generation_cache/14c63d8254d1e8a74e67d8c5f03f319f9cb4db4a387e5d1045fa45a0586f3257.receipt.json",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/generation_cache/14c63d8254d1e8a74e67d8c5f03f319f9cb4db4a387e5d1045fa45a0586f3257.receipt.json",
+      "sha256": "379d040f012bd6678f4d4dc5d2f25ac6fc2029276000a64eb4868285043e2571",
+      "before_sha256": null,
+      "immediate_before_sha256": "379d040f012bd6678f4d4dc5d2f25ac6fc2029276000a64eb4868285043e2571",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/generation_cache/229d803dd94af1ced441022a30ee17b4f99f5abec539156d6fa8e0d5f9fe7001.json",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/generation_cache/229d803dd94af1ced441022a30ee17b4f99f5abec539156d6fa8e0d5f9fe7001.json",
+      "sha256": "26a126db93eca75c08547ca46127b270391d23c7ea2441756db158e6b7e98b8c",
+      "before_sha256": null,
+      "immediate_before_sha256": "26a126db93eca75c08547ca46127b270391d23c7ea2441756db158e6b7e98b8c",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/generation_cache/229d803dd94af1ced441022a30ee17b4f99f5abec539156d6fa8e0d5f9fe7001.receipt.json",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/generation_cache/229d803dd94af1ced441022a30ee17b4f99f5abec539156d6fa8e0d5f9fe7001.receipt.json",
+      "sha256": "3ed0db53827c4740b248c974151eeac99d76df81252cb2a7eae0dc95aed16730",
+      "before_sha256": null,
+      "immediate_before_sha256": "3ed0db53827c4740b248c974151eeac99d76df81252cb2a7eae0dc95aed16730",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/generation_cache/2c2c35ffa2dc2915f973e31d716bb87a5e8a8357b8a0f98b2edab276bf6974d4.json",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/generation_cache/2c2c35ffa2dc2915f973e31d716bb87a5e8a8357b8a0f98b2edab276bf6974d4.json",
+      "sha256": "15870ec494c84f59ac743373148f2355d735046692bba05633c05c0083cc75fd",
+      "before_sha256": null,
+      "immediate_before_sha256": "15870ec494c84f59ac743373148f2355d735046692bba05633c05c0083cc75fd",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/generation_cache/2c2c35ffa2dc2915f973e31d716bb87a5e8a8357b8a0f98b2edab276bf6974d4.receipt.json",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/generation_cache/2c2c35ffa2dc2915f973e31d716bb87a5e8a8357b8a0f98b2edab276bf6974d4.receipt.json",
+      "sha256": "1218bda6c50190a88656ffd6b1176cf92540150c8489b427920e90949efca5cf",
+      "before_sha256": null,
+      "immediate_before_sha256": "1218bda6c50190a88656ffd6b1176cf92540150c8489b427920e90949efca5cf",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/generation_cache/784c8603b1a7c3e041c4ddae85c57e300e50e138905fc65ea5f4058a4c86fc6c.json",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/generation_cache/784c8603b1a7c3e041c4ddae85c57e300e50e138905fc65ea5f4058a4c86fc6c.json",
+      "sha256": "6eede7778904a7243f2c4d82e11eb62c8cf68d54a93c81530127b5b61ace4177",
+      "before_sha256": null,
+      "immediate_before_sha256": "6eede7778904a7243f2c4d82e11eb62c8cf68d54a93c81530127b5b61ace4177",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/generation_cache/784c8603b1a7c3e041c4ddae85c57e300e50e138905fc65ea5f4058a4c86fc6c.receipt.json",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/generation_cache/784c8603b1a7c3e041c4ddae85c57e300e50e138905fc65ea5f4058a4c86fc6c.receipt.json",
+      "sha256": "72205620533ef0a4dee4b90eb52661b9c5fe2c03ab3ad776c22879ca3023c589",
+      "before_sha256": null,
+      "immediate_before_sha256": "72205620533ef0a4dee4b90eb52661b9c5fe2c03ab3ad776c22879ca3023c589",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/generation_cache/d58b27967312d22f343962289d934c7a93770847d71dd01e4c18cb008539110c.json",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/generation_cache/d58b27967312d22f343962289d934c7a93770847d71dd01e4c18cb008539110c.json",
+      "sha256": "3a8d19cd29f324e0f355cebc3386c0635bfa15a0a27f5ba3dc383c1250146873",
+      "before_sha256": null,
+      "immediate_before_sha256": "3a8d19cd29f324e0f355cebc3386c0635bfa15a0a27f5ba3dc383c1250146873",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/generation_cache/d58b27967312d22f343962289d934c7a93770847d71dd01e4c18cb008539110c.receipt.json",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/generation_cache/d58b27967312d22f343962289d934c7a93770847d71dd01e4c18cb008539110c.receipt.json",
+      "sha256": "76467ebc367215a7fb85b6605877e633164c46901539685ec98367e24f9c3c2b",
+      "before_sha256": null,
+      "immediate_before_sha256": "76467ebc367215a7fb85b6605877e633164c46901539685ec98367e24f9c3c2b",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/generation_cache/dad91329715a3c45b27cac368cbdf81a4bd5e5272747e25ced2efb8f14813f85.json",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/generation_cache/dad91329715a3c45b27cac368cbdf81a4bd5e5272747e25ced2efb8f14813f85.json",
+      "sha256": "3fde24ad6b7f9f34ae4ad815309b390fa736f72cb26781b99048304b28cbe62f",
+      "before_sha256": null,
+      "immediate_before_sha256": "3fde24ad6b7f9f34ae4ad815309b390fa736f72cb26781b99048304b28cbe62f",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/generation_cache/dad91329715a3c45b27cac368cbdf81a4bd5e5272747e25ced2efb8f14813f85.receipt.json",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/generation_cache/dad91329715a3c45b27cac368cbdf81a4bd5e5272747e25ced2efb8f14813f85.receipt.json",
+      "sha256": "28651b49cd81a8ce6a8ec236c034d65eb6f3b6fa76ff8f24727be5832b6cf7a2",
+      "before_sha256": null,
+      "immediate_before_sha256": "28651b49cd81a8ce6a8ec236c034d65eb6f3b6fa76ff8f24727be5832b6cf7a2",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/generation_cache/f0d9a30a88d3ed0ccf79791dac1f10028b63d8151e212af2e0bd7a7d35498c11.json",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/generation_cache/f0d9a30a88d3ed0ccf79791dac1f10028b63d8151e212af2e0bd7a7d35498c11.json",
+      "sha256": "48ca1f3c9e8cf67ef65535fd411ab87e31d16bf07413b05d20f2aac1c9797de7",
+      "before_sha256": null,
+      "immediate_before_sha256": "48ca1f3c9e8cf67ef65535fd411ab87e31d16bf07413b05d20f2aac1c9797de7",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/generation_cache/f0d9a30a88d3ed0ccf79791dac1f10028b63d8151e212af2e0bd7a7d35498c11.receipt.json",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/generation_cache/f0d9a30a88d3ed0ccf79791dac1f10028b63d8151e212af2e0bd7a7d35498c11.receipt.json",
+      "sha256": "29ca6206de95806d95ed6237a22fdb154ae0204279b13c897dd6a192fd2cab6b",
+      "before_sha256": null,
+      "immediate_before_sha256": "29ca6206de95806d95ed6237a22fdb154ae0204279b13c897dd6a192fd2cab6b",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/generation_manifest.json",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/generation_manifest.json",
+      "sha256": "395a1d8417e041e9bc385673be0a2d5fe331e3c0697bdd7ddafe261fbe86f07e",
+      "before_sha256": null,
+      "immediate_before_sha256": "395a1d8417e041e9bc385673be0a2d5fe331e3c0697bdd7ddafe261fbe86f07e",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/git-status-final.txt",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/git-status-final.txt",
+      "sha256": "037fab2fac1aa5be699d5956b6dcd567656a97e84be8c16d4e5d17237d149fd9",
+      "before_sha256": null,
+      "immediate_before_sha256": "037fab2fac1aa5be699d5956b6dcd567656a97e84be8c16d4e5d17237d149fd9",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/isolated-build.log",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/isolated-build.log",
+      "sha256": "e75af5cf500e811bf1432aae0906538a7683c09abdd299bd60bd50c56e232df4",
+      "before_sha256": null,
+      "immediate_before_sha256": "e75af5cf500e811bf1432aae0906538a7683c09abdd299bd60bd50c56e232df4",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/isolated-install.log",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/isolated-install.log",
+      "sha256": "7e4a8ee23769c7efdd3827e01131aa3ae70ed96c9baf85ca607bad1c63c4c725",
+      "before_sha256": null,
+      "immediate_before_sha256": "7e4a8ee23769c7efdd3827e01131aa3ae70ed96c9baf85ca607bad1c63c4c725",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/isolated-smoke.log",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/isolated-smoke.log",
+      "sha256": "4356475033c34aaa961c6703af85bb97ec656c5f5859d3a1e1729a99a550f116",
+      "before_sha256": null,
+      "immediate_before_sha256": "4356475033c34aaa961c6703af85bb97ec656c5f5859d3a1e1729a99a550f116",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/isolated-tests.log",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/isolated-tests.log",
+      "sha256": "a5b0132b20f497faf30883e50ed5240f892278deacdb1b4e4ac26de79181efdc",
+      "before_sha256": null,
+      "immediate_before_sha256": "a5b0132b20f497faf30883e50ed5240f892278deacdb1b4e4ac26de79181efdc",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/isolated_replay.json",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/isolated_replay.json",
+      "sha256": "8a3ad0f3b35b2162ce6e3535ac74b60ddc5b08f3849dd9b1d1f99b8059e35721",
+      "before_sha256": null,
+      "immediate_before_sha256": "8a3ad0f3b35b2162ce6e3535ac74b60ddc5b08f3849dd9b1d1f99b8059e35721",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/mirror-browser.log",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/mirror-browser.log",
+      "sha256": "70814a3f6b0798de041d713fd246b2360a421fe38236af6cdceadfbdf47a1630",
+      "before_sha256": null,
+      "immediate_before_sha256": "70814a3f6b0798de041d713fd246b2360a421fe38236af6cdceadfbdf47a1630",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/mirror-build.log",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/mirror-build.log",
+      "sha256": "1ba6c56b4c3a2818c2a7fe56d0b8d0240476f4c3dff44d2b79d96e77a797092a",
+      "before_sha256": null,
+      "immediate_before_sha256": "1ba6c56b4c3a2818c2a7fe56d0b8d0240476f4c3dff44d2b79d96e77a797092a",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/mirror-replay.log",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/mirror-replay.log",
+      "sha256": "6cb7af5082579c2aa5093ebc4b5ec396ac513b64a488b548ec5e772272910824",
+      "before_sha256": null,
+      "immediate_before_sha256": "6cb7af5082579c2aa5093ebc4b5ec396ac513b64a488b548ec5e772272910824",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/mirror-tests.log",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/mirror-tests.log",
+      "sha256": "d817730616a2513f2b951ecceb28e02969e2849815b7d892f54ebe54a14be37d",
+      "before_sha256": null,
+      "immediate_before_sha256": "d817730616a2513f2b951ecceb28e02969e2849815b7d892f54ebe54a14be37d",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/mirror_independent_replay.json",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/mirror_independent_replay.json",
+      "sha256": "f6632c71456e81f5896a42a240e0c28529c17a82b8a913c3e257603c32b1847a",
+      "before_sha256": null,
+      "immediate_before_sha256": "f6632c71456e81f5896a42a240e0c28529c17a82b8a913c3e257603c32b1847a",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/mma-tests.log",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/mma-tests.log",
+      "sha256": "643356bba7e07e5c36db61b1a93a964d27c1788b7b051f9ac40fbbd6c92035fc",
+      "before_sha256": null,
+      "immediate_before_sha256": "643356bba7e07e5c36db61b1a93a964d27c1788b7b051f9ac40fbbd6c92035fc",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/motion_quality.json",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/motion_quality.json",
+      "sha256": "b23f6aa5db880aeb17a533ec0fa778f10f93167d8509625c793f32b6a0bad272",
+      "before_sha256": null,
+      "immediate_before_sha256": "b23f6aa5db880aeb17a533ec0fa778f10f93167d8509625c793f32b6a0bad272",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/package-audit.json",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/package-audit.json",
+      "sha256": "b09beb43b35068ebb163c7d19b260375d5b0f123cb2c505e5c7ed5afb272612b",
+      "before_sha256": null,
+      "immediate_before_sha256": "b09beb43b35068ebb163c7d19b260375d5b0f123cb2c505e5c7ed5afb272612b",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/package-audit.log",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/package-audit.log",
+      "sha256": "8e7be9c07aecb5f20de84e79c042cff46e12bf203962e56edeba18aaaff11609",
+      "before_sha256": null,
+      "immediate_before_sha256": "8e7be9c07aecb5f20de84e79c042cff46e12bf203962e56edeba18aaaff11609",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/production-browser.log",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/production-browser.log",
+      "sha256": "559bb7c07eaa5f0e6143301f0bcb8ab7f9c23945097a48d735407788bf92343b",
+      "before_sha256": null,
+      "immediate_before_sha256": "559bb7c07eaa5f0e6143301f0bcb8ab7f9c23945097a48d735407788bf92343b",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/regression.log",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/regression.log",
+      "sha256": "0f18bd7b24560fe5c3a84e1fe9f5eb5b2da42d7eb46f8c89d9c40ac805890cc7",
+      "before_sha256": null,
+      "immediate_before_sha256": "0f18bd7b24560fe5c3a84e1fe9f5eb5b2da42d7eb46f8c89d9c40ac805890cc7",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/REPORT_KO.md",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/REPORT_KO.md",
+      "sha256": "abf7808686c001d96bd2b676b34814e3959edb3936e9c2cfe99bf57e2fd4c27f",
+      "before_sha256": null,
+      "immediate_before_sha256": "abf7808686c001d96bd2b676b34814e3959edb3936e9c2cfe99bf57e2fd4c27f",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/rig-parity.log",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/rig-parity.log",
+      "sha256": "8f363dc0c65bf070289badfc782875ec2f6998f107eb2a8a18d5a65fe848b22c",
+      "before_sha256": null,
+      "immediate_before_sha256": "8f363dc0c65bf070289badfc782875ec2f6998f107eb2a8a18d5a65fe848b22c",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/rig_numeric_parity.json",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/rig_numeric_parity.json",
+      "sha256": "8b5dc79d03bd254003cb3c21cbb0a657ef3465f58871981d30859c58609c961d",
+      "before_sha256": null,
+      "immediate_before_sha256": "8b5dc79d03bd254003cb3c21cbb0a657ef3465f58871981d30859c58609c961d",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/scene-evaluation.log",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/scene-evaluation.log",
+      "sha256": "5635cb37cbc43dd46388e3e16c286e67b3f03f8ef3905ecdc4ce0aa6192aeaf6",
+      "before_sha256": null,
+      "immediate_before_sha256": "5635cb37cbc43dd46388e3e16c286e67b3f03f8ef3905ecdc4ce0aa6192aeaf6",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/scene_evaluation.json",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/scene_evaluation.json",
+      "sha256": "14049395e97be028391d525cdf56ba24cf6e0174bae74888fea7e1cac101881d",
+      "before_sha256": null,
+      "immediate_before_sha256": "14049395e97be028391d525cdf56ba24cf6e0174bae74888fea7e1cac101881d",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/smoke.events.json",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/smoke.events.json",
+      "sha256": "6682b8793550829ca904eb47af1ec4978470afb9198e57b6923993f4f5de9d9b",
+      "before_sha256": null,
+      "immediate_before_sha256": "6682b8793550829ca904eb47af1ec4978470afb9198e57b6923993f4f5de9d9b",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/smoke.json",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/smoke.json",
+      "sha256": "ad392658302333157fac144b842bb69a9c91c02ce14e5dbf0e14e6483b8f1bd1",
+      "before_sha256": null,
+      "immediate_before_sha256": "ad392658302333157fac144b842bb69a9c91c02ce14e5dbf0e14e6483b8f1bd1",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/smoke.log",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/smoke.log",
+      "sha256": "d6156083e1148e1e6e5e5d221e109c32c2fb6faa920bb2fcd3d91ac4d2755884",
+      "before_sha256": null,
+      "immediate_before_sha256": "d6156083e1148e1e6e5e5d221e109c32c2fb6faa920bb2fcd3d91ac4d2755884",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/source-browser.log",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/source-browser.log",
+      "sha256": "3523e5a8ffd7ef67b2ed0aa56df65ab4b766ea6e18a00904888e823415f9688a",
+      "before_sha256": null,
+      "immediate_before_sha256": "3523e5a8ffd7ef67b2ed0aa56df65ab4b766ea6e18a00904888e823415f9688a",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/source-build.log",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/source-build.log",
+      "sha256": "0a286be6452b01a595dc1bc77a59d5f86a2cbbb8d27bfeb633bd5879765f2aff",
+      "before_sha256": null,
+      "immediate_before_sha256": "0a286be6452b01a595dc1bc77a59d5f86a2cbbb8d27bfeb633bd5879765f2aff",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/source-tests.log",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/source-tests.log",
+      "sha256": "304fa4178b31e4841e9c3f59b18ca84fbf9a332e033996e8af82aa820ed549f4",
+      "before_sha256": null,
+      "immediate_before_sha256": "304fa4178b31e4841e9c3f59b18ca84fbf9a332e033996e8af82aa820ed549f4",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "reports/mma_3d_sensing_upgrade/verification.json",
+      "target": "github.f.f/reports/mma_3d_sensing_upgrade/verification.json",
+      "sha256": "0a1bba09e5832830d3caee565a3de817f4449c1f051be3d5cfbdd1150e61c8a8",
+      "before_sha256": null,
+      "immediate_before_sha256": "0a1bba09e5832830d3caee565a3de817f4449c1f051be3d5cfbdd1150e61c8a8",
+      "change": "NEW",
+      "reason": "Required source, replay asset, reproducibility tooling or non-sensitive evidence",
+      "test_status": "See mirror-check/build/test/replay logs; not assumed by copy"
+    },
+    {
+      "source": "tools/sync_mma_sensing.py (generated metadata)",
+      "target": "github.f.f/package.json",
+      "sha256": "f0096750d88ba8656314906f7cd3521790bb8209ca395a7d6d2bbc4922d22c48",
+      "before_sha256": "18ea9b78451c3c097d3f181d81ae2808ec044d5ca96297845d1d9662cd55b789",
+      "change": "MODIFIED",
+      "reason": "Reproduction commands and current input documentation; existing dependencies/hosting preserved",
+      "test_status": "mirror build/test/replay"
+    },
+    {
+      "source": "tools/sync_mma_sensing.py (generated metadata)",
+      "target": "github.f.f/README.md",
+      "sha256": "e10b57a28117689cd1e5f4db1684cfec7be94cf0a98d0655fd9a9a20147837ec",
+      "before_sha256": "e1af5c0df97fc6eeee31e3af7ea89248bb25d1f86e85406f1ed7940361890bfb",
+      "change": "MODIFIED",
+      "reason": "Reproduction commands and current input documentation; existing dependencies/hosting preserved",
+      "test_status": "mirror build/test/replay"
+    },
+    {
+      "source": "tools/sync_mma_sensing.py (generated metadata)",
+      "target": "github.f.f/RUN_WINDOWS.bat",
+      "sha256": "655563a11f7224481615d07eee0342f68c087b30fc1edfbb324bec8746df0eb9",
+      "before_sha256": "78309e4ce9af97df528cbe335448aaea971b7014b754938901ca2a3e74f8d3e9",
+      "change": "MODIFIED",
+      "reason": "Reproduction commands and current input documentation; existing dependencies/hosting preserved",
+      "test_status": "mirror build/test/replay"
+    },
+    {
+      "source": "github.f.f/.gitignore (existing local deployment policy)",
+      "target": "github.f.f/.gitignore",
+      "sha256": "3a6959b3aca879c460ff23c6c5c3dc1131a2f24fd687e95a46ac1a8138a6a929",
+      "before_sha256": null,
+      "change": "MODIFIED",
+      "reason": "Allow only non-sensitive MMA report logs; original byte hash was not captured before this append",
+      "test_status": "secret scan and package hash audit"
+    }
+  ],
+  "hosting_config_preserved": true,
+  "excluded": [
+    ".env",
+    "raw videos",
+    "weights",
+    "node_modules",
+    "temporary .blend",
+    "architecture-extracted.txt"
+  ],
+  "unresolved_paths": []
+}

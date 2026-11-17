@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "source_asset_sha256": "aabd5085b7c76ef9fafe36dea0aeea02c661ca294be33d772cfc295d9271ca04",
+  "glb_sha256": "4acd09df4324aef5f2cbebf8f77ec15257f9729ac52d860d29b89b35c3fa060a",
+  "path": "assets/sensing/mma_joint_rig.glb",
+  "blender_version": "5.2.4 LTS",
+  "rig_type": "independent joint translation armatures (not anatomical rotation/skinning reconstruction)",
+  "actors": [
+    "A",
+    "B"
+  ],
+  "joint_count": 23,
+  "native_motion_fps": 25,
+  "visual_bake_fps": 12.5,
+  "visual_bake_decimation": true,
+  "blend_local_only": ".cache/mma_joint_rig.blend",
+  "metric_valid": false
+}

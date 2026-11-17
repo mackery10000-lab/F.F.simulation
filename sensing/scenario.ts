@@ -29,6 +29,8 @@ export function makePose(position:Vec3,facing:Vec3,stance:ActorState['stance'],a
   const pose:Pose={pelvis:[...position],chest:at(0,0,.36),head:at(.04,0,.77),
     left_shoulder:at(0,.22,.48),right_shoulder:at(0,-.22,.48),left_elbow:at(.1,.3,.2),right_elbow:at(.1,-.3,.2),
     left_wrist:at(.18,.18,.56),right_wrist:at(.18,-.18,.56),left_ankle:at(stance==='ORTHODOX'?.2:-.2,.19,-.93),right_ankle:at(stance==='ORTHODOX'?-.2:.2,-.19,-.93)};
+  pose.nose=at(.14,0,.77);pose.left_ear=at(.025,.08,.77);pose.right_ear=at(.025,-.08,.77);
+  for(const side of ['left','right'] as const){pose[`${side}_heel`]=add(pose[`${side}_ankle`],add(scale(facing,-.075),[0,0,-.07]));pose[`${side}_toe`]=add(pose[`${side}_ankle`],add(scale(facing,.17),[0,0,-.07]))}
   if(action){
     const pulse=Math.sin(Math.PI*clamp(phase))**2,left=action.hand==='L',key=left?'left_wrist':'right_wrist';
     if(['Jab','Cross','Hook','Uppercut'].includes(action.action)){
@@ -36,8 +38,8 @@ export function makePose(position:Vec3,facing:Vec3,stance:ActorState['stance'],a
       pose[key]=at(.18+(hook?.43:upper?.41:.76)*pulse,(left?.18:-.18)+(hook?(left?1:-1)*.66*pulse:0),.56+(upper?.65*pulse:0));
       pose[left?'left_elbow':'right_elbow']=at(.1+.24*pulse,left?.3:-.3,.2+.16*pulse);
     }else if(action.action==='Feint')pose[key]=at(.18+.13*pulse,left?.18:-.18,.56);
-    else if(action.action==='Kick'){pose.left_ankle=at(.8*pulse,.19,-.93+.8*pulse);pose.left_wrist=at(.18,.18+.04*pulse,.56)}
-    else{for(const j of Object.keys(pose) as (keyof Pose)[])pose[j][2]-=.45*pulse;}
+    else if(action.action==='Kick'){pose.left_ankle=at(.8*pulse,.19,-.93+.8*pulse);pose.left_heel=add(pose.left_ankle,add(scale(facing,-.075),[0,0,-.07]));pose.left_toe=add(pose.left_ankle,add(scale(facing,.17),[0,0,-.07]));pose.left_wrist=at(.18,.18+.04*pulse,.56)}
+    else{for(const j of Object.keys(pose) as (keyof Pose)[])pose[j]![2]-=.45*pulse;}
   }
   return pose;
 }

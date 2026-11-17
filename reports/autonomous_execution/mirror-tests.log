@@ -1,0 +1,33 @@
+
+> fight-frequency-sensing@1.0.0 test
+> node --experimental-strip-types --test tests/*.test.ts sensing/tests/*.test.ts
+
+✔ motion-v2 rejects reversed axes, bad units, missing provenance, timestamps and quaternion (21.7784ms)
+✔ legacy 16 joints retain missing heel/toe rather than fabricating observations (156.5526ms)
+✔ unobserved video joints cannot become camera evidence or guard features (149.1724ms)
+✔ stance and lead semantics are invariant under 90/180 degree world rotation and anatomical mirror (3.0628ms)
+✔ measured high, sustained long, mixed, shell and cross guards have real temporal evidence (3111.6381ms)
+✔ actual stance switch is confirmed after dwell; cross step, torso twist and jab do not switch (2372.1471ms)
+✔ own root motion with foot support drives in/out; opponent motion and kick do not become my step (3106.4443ms)
+✔ camera label poisoning cannot alter measurements, hash reaches every sensor, RF carries no action labels (301.4853ms)
+✔ future/late packets cannot change past; stale camera evidence becomes unknown; rewind deterministic (292.1442ms)
+✔ no camera produces abstention; sensing import closure contains no generation or network dependencies (94.1266ms)
+✔ changing only identity cannot change RF ranges, NLOS, IMU or camera visibility quality (677.326ms)
+✔ tag filter predicts only short gaps, increases uncertainty and expires each tag independently (0.8188ms)
+✔ distance and tag positions share status, missing tags do not freeze the graph and future packets stay hidden (1.2153ms)
+✔ filter reduces seeded noisy constant-velocity error and rejects an isolated outlier (0.5802ms)
+✔ 25 FPS observations retain native uncertainty while 30/100 Hz timestamps remain correctly spaced (99.3966ms)
+✔ missing elbow landmarks remove hand classification evidence (270.4458ms)
+✔ brief missing wrists hold stable guard but prolonged gaps expire it (314.0177ms)
+✔ scaled punches preserve action types; insufficient lead-side evidence stays Uncertain (3056.6652ms)
+✔ packaged full-precision input, A/B joints and time drive actual sensing (306.2274ms)
+✔ changed runtime input fails integrity validation (5.1803ms)
+✔ Git LF/CRLF checkout is accepted, actual text changes are rejected (208.7013ms)
+ℹ tests 21
+ℹ suites 0
+ℹ pass 21
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 9815.2475

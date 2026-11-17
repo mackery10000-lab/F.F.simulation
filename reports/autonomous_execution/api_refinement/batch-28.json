@@ -1,0 +1,922 @@
+{
+  "binding": {
+    "source_sha256": "71e169c159bcac11267815c135d4dceafe58ef5c2fbbf7030399acff06f20e86",
+    "frames": [
+      4200,
+      4225,
+      4250,
+      4275,
+      4300,
+      4325
+    ],
+    "images": [
+      {
+        "frame": 4200,
+        "sha256": "a04e013de0fb6bd3e96895df6c4b0dba41b1addc80bc0b6d0c1ad7ab3a71ef9e",
+        "bytes": 45543
+      },
+      {
+        "frame": 4225,
+        "sha256": "4b8a7503179f19f4435fb310be02ff73708ccb3901b258851aad6e6d5f780c13",
+        "bytes": 45478
+      },
+      {
+        "frame": 4250,
+        "sha256": "21cbfc595cd8bdda912deba7bb559174dc5eec5016bce4cf33acc1336bf7aaff",
+        "bytes": 45876
+      },
+      {
+        "frame": 4275,
+        "sha256": "912f9b2d59ae4f4bd772f9d38801302bb99fb8c24594b00fedf57c34e38d21e4",
+        "bytes": 48389
+      },
+      {
+        "frame": 4300,
+        "sha256": "c2f8b20eaeb13c2dc18b2337e2b7b6484af1fb5f784dfe4c2ba1e538cfd1c531",
+        "bytes": 48231
+      },
+      {
+        "frame": 4325,
+        "sha256": "cd03ccc1dbc8233c101d182fa44d69ed9c9bc40b89b36740d3f2df5e5294599c",
+        "bytes": 47285
+      }
+    ],
+    "request_sha256": "c20598b704670cd296a8ab55588d20987b428c0b6248d6beeaa73fb7ba103b49"
+  },
+  "status": "VALIDATED_VISUAL_ESTIMATES",
+  "started_at": "2026-11-17T05:39:46.031385+00:00",
+  "request_id": "chatcmpl-El6CxIUnVwExM17JP3aPF4p4j1uox",
+  "usage": {
+    "prompt_tokens": 2776,
+    "completion_tokens": 3763,
+    "total_tokens": 6539
+  },
+  "audit": {
+    "attempts": 1,
+    "elapsed_seconds": 32.079766499999096
+  },
+  "response_sha256": "6aa5fe825a67dc872964281feb93916a30a79352faffd73a0705458d11f651fa",
+  "result": {
+    "frames": [
+      {
+        "frame": 4200,
+        "people": [
+          {
+            "slot": "A",
+            "identity_confidence": 0.78,
+            "points": [
+              {
+                "joint": "head",
+                "x": 0.522,
+                "y": 0.273,
+                "confidence": 0.88,
+                "visible": true
+              },
+              {
+                "joint": "left_shoulder",
+                "x": 0.512,
+                "y": 0.325,
+                "confidence": 0.72,
+                "visible": true
+              },
+              {
+                "joint": "left_elbow",
+                "x": 0.555,
+                "y": 0.344,
+                "confidence": 0.7,
+                "visible": true
+              },
+              {
+                "joint": "left_wrist",
+                "x": 0.526,
+                "y": 0.303,
+                "confidence": 0.75,
+                "visible": true
+              },
+              {
+                "joint": "right_shoulder",
+                "x": 0.557,
+                "y": 0.329,
+                "confidence": 0.65,
+                "visible": true
+              },
+              {
+                "joint": "right_elbow",
+                "x": 0.576,
+                "y": 0.36,
+                "confidence": 0.62,
+                "visible": true
+              },
+              {
+                "joint": "right_wrist",
+                "x": 0.539,
+                "y": 0.307,
+                "confidence": 0.68,
+                "visible": true
+              },
+              {
+                "joint": "left_ankle",
+                "x": 0.509,
+                "y": 0.708,
+                "confidence": 0.76,
+                "visible": true
+              },
+              {
+                "joint": "right_ankle",
+                "x": 0.551,
+                "y": 0.685,
+                "confidence": 0.7,
+                "visible": true
+              }
+            ]
+          },
+          {
+            "slot": "B",
+            "identity_confidence": 0.82,
+            "points": [
+              {
+                "joint": "head",
+                "x": 0.391,
+                "y": 0.278,
+                "confidence": 0.9,
+                "visible": true
+              },
+              {
+                "joint": "left_shoulder",
+                "x": 0.402,
+                "y": 0.328,
+                "confidence": 0.75,
+                "visible": true
+              },
+              {
+                "joint": "left_elbow",
+                "x": 0.451,
+                "y": 0.301,
+                "confidence": 0.7,
+                "visible": true
+              },
+              {
+                "joint": "left_wrist",
+                "x": 0.423,
+                "y": 0.238,
+                "confidence": 0.72,
+                "visible": true
+              },
+              {
+                "joint": "right_shoulder",
+                "x": 0.367,
+                "y": 0.336,
+                "confidence": 0.7,
+                "visible": true
+              },
+              {
+                "joint": "right_elbow",
+                "x": 0.35,
+                "y": 0.299,
+                "confidence": 0.68,
+                "visible": true
+              },
+              {
+                "joint": "right_wrist",
+                "x": 0.382,
+                "y": 0.244,
+                "confidence": 0.72,
+                "visible": true
+              },
+              {
+                "joint": "left_ankle",
+                "x": 0.387,
+                "y": 0.755,
+                "confidence": 0.78,
+                "visible": true
+              },
+              {
+                "joint": "right_ankle",
+                "x": 0.346,
+                "y": 0.774,
+                "confidence": 0.78,
+                "visible": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 4225,
+        "people": [
+          {
+            "slot": "A",
+            "identity_confidence": 0.69,
+            "points": [
+              {
+                "joint": "head",
+                "x": 0.538,
+                "y": 0.251,
+                "confidence": 0.9,
+                "visible": true
+              },
+              {
+                "joint": "left_shoulder",
+                "x": 0.555,
+                "y": 0.306,
+                "confidence": 0.78,
+                "visible": true
+              },
+              {
+                "joint": "left_elbow",
+                "x": 0.581,
+                "y": 0.356,
+                "confidence": 0.72,
+                "visible": true
+              },
+              {
+                "joint": "left_wrist",
+                "x": 0.563,
+                "y": 0.375,
+                "confidence": 0.75,
+                "visible": true
+              },
+              {
+                "joint": "right_shoulder",
+                "x": 0.52,
+                "y": 0.309,
+                "confidence": 0.72,
+                "visible": true
+              },
+              {
+                "joint": "right_elbow",
+                "x": 0.496,
+                "y": 0.345,
+                "confidence": 0.67,
+                "visible": true
+              },
+              {
+                "joint": "right_wrist",
+                "x": 0.487,
+                "y": 0.354,
+                "confidence": 0.7,
+                "visible": true
+              },
+              {
+                "joint": "left_ankle",
+                "x": 0.538,
+                "y": 0.731,
+                "confidence": 0.78,
+                "visible": true
+              },
+              {
+                "joint": "right_ankle",
+                "x": 0.503,
+                "y": 0.713,
+                "confidence": 0.75,
+                "visible": true
+              }
+            ]
+          },
+          {
+            "slot": "B",
+            "identity_confidence": 0.77,
+            "points": [
+              {
+                "joint": "head",
+                "x": 0.374,
+                "y": 0.263,
+                "confidence": 0.89,
+                "visible": true
+              },
+              {
+                "joint": "left_shoulder",
+                "x": 0.395,
+                "y": 0.321,
+                "confidence": 0.75,
+                "visible": true
+              },
+              {
+                "joint": "left_elbow",
+                "x": 0.41,
+                "y": 0.37,
+                "confidence": 0.68,
+                "visible": true
+              },
+              {
+                "joint": "left_wrist",
+                "x": 0.392,
+                "y": 0.349,
+                "confidence": 0.7,
+                "visible": true
+              },
+              {
+                "joint": "right_shoulder",
+                "x": 0.354,
+                "y": 0.323,
+                "confidence": 0.75,
+                "visible": true
+              },
+              {
+                "joint": "right_elbow",
+                "x": 0.342,
+                "y": 0.374,
+                "confidence": 0.65,
+                "visible": true
+              },
+              {
+                "joint": "right_wrist",
+                "x": 0.365,
+                "y": 0.355,
+                "confidence": 0.68,
+                "visible": true
+              },
+              {
+                "joint": "left_ankle",
+                "x": 0.376,
+                "y": 0.747,
+                "confidence": 0.75,
+                "visible": true
+              },
+              {
+                "joint": "right_ankle",
+                "x": 0.312,
+                "y": 0.774,
+                "confidence": 0.76,
+                "visible": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 4250,
+        "people": [
+          {
+            "slot": "A",
+            "identity_confidence": 0.82,
+            "points": [
+              {
+                "joint": "head",
+                "x": 0.513,
+                "y": 0.206,
+                "confidence": 0.91,
+                "visible": true
+              },
+              {
+                "joint": "left_shoulder",
+                "x": 0.531,
+                "y": 0.268,
+                "confidence": 0.8,
+                "visible": true
+              },
+              {
+                "joint": "left_elbow",
+                "x": 0.557,
+                "y": 0.322,
+                "confidence": 0.73,
+                "visible": true
+              },
+              {
+                "joint": "left_wrist",
+                "x": 0.527,
+                "y": 0.345,
+                "confidence": 0.75,
+                "visible": true
+              },
+              {
+                "joint": "right_shoulder",
+                "x": 0.495,
+                "y": 0.27,
+                "confidence": 0.78,
+                "visible": true
+              },
+              {
+                "joint": "right_elbow",
+                "x": 0.475,
+                "y": 0.313,
+                "confidence": 0.68,
+                "visible": true
+              },
+              {
+                "joint": "right_wrist",
+                "x": 0.467,
+                "y": 0.333,
+                "confidence": 0.72,
+                "visible": true
+              },
+              {
+                "joint": "left_ankle",
+                "x": 0.539,
+                "y": 0.709,
+                "confidence": 0.75,
+                "visible": true
+              },
+              {
+                "joint": "right_ankle",
+                "x": 0.495,
+                "y": 0.707,
+                "confidence": 0.75,
+                "visible": true
+              }
+            ]
+          },
+          {
+            "slot": "B",
+            "identity_confidence": 0.86,
+            "points": [
+              {
+                "joint": "head",
+                "x": 0.344,
+                "y": 0.284,
+                "confidence": 0.9,
+                "visible": true
+              },
+              {
+                "joint": "left_shoulder",
+                "x": 0.365,
+                "y": 0.353,
+                "confidence": 0.82,
+                "visible": true
+              },
+              {
+                "joint": "left_elbow",
+                "x": 0.383,
+                "y": 0.42,
+                "confidence": 0.75,
+                "visible": true
+              },
+              {
+                "joint": "left_wrist",
+                "x": 0.36,
+                "y": 0.444,
+                "confidence": 0.78,
+                "visible": true
+              },
+              {
+                "joint": "right_shoulder",
+                "x": 0.314,
+                "y": 0.358,
+                "confidence": 0.8,
+                "visible": true
+              },
+              {
+                "joint": "right_elbow",
+                "x": 0.285,
+                "y": 0.418,
+                "confidence": 0.7,
+                "visible": true
+              },
+              {
+                "joint": "right_wrist",
+                "x": 0.324,
+                "y": 0.444,
+                "confidence": 0.76,
+                "visible": true
+              },
+              {
+                "joint": "left_ankle",
+                "x": 0.363,
+                "y": 0.835,
+                "confidence": 0.82,
+                "visible": true
+              },
+              {
+                "joint": "right_ankle",
+                "x": 0.344,
+                "y": 0.853,
+                "confidence": 0.8,
+                "visible": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 4275,
+        "people": [
+          {
+            "slot": "A",
+            "identity_confidence": 0.75,
+            "points": [
+              {
+                "joint": "head",
+                "x": 0.518,
+                "y": 0.398,
+                "confidence": 0.9,
+                "visible": true
+              },
+              {
+                "joint": "left_shoulder",
+                "x": 0.55,
+                "y": 0.46,
+                "confidence": 0.8,
+                "visible": true
+              },
+              {
+                "joint": "left_elbow",
+                "x": 0.59,
+                "y": 0.501,
+                "confidence": 0.72,
+                "visible": true
+              },
+              {
+                "joint": "left_wrist",
+                "x": 0.563,
+                "y": 0.512,
+                "confidence": 0.73,
+                "visible": true
+              },
+              {
+                "joint": "right_shoulder",
+                "x": 0.482,
+                "y": 0.462,
+                "confidence": 0.76,
+                "visible": true
+              },
+              {
+                "joint": "right_elbow",
+                "x": 0.443,
+                "y": 0.493,
+                "confidence": 0.65,
+                "visible": true
+              },
+              {
+                "joint": "right_wrist",
+                "x": 0.417,
+                "y": 0.511,
+                "confidence": 0.68,
+                "visible": true
+              },
+              {
+                "joint": "left_ankle",
+                "x": 0.509,
+                "y": 0.991,
+                "confidence": 0.55,
+                "visible": true
+              },
+              {
+                "joint": "right_ankle",
+                "x": 0.461,
+                "y": 0.993,
+                "confidence": 0.5,
+                "visible": true
+              }
+            ]
+          },
+          {
+            "slot": "B",
+            "identity_confidence": 0.68,
+            "points": [
+              {
+                "joint": "head",
+                "x": 0.445,
+                "y": 0.395,
+                "confidence": 0.88,
+                "visible": true
+              },
+              {
+                "joint": "left_shoulder",
+                "x": 0.462,
+                "y": 0.454,
+                "confidence": 0.75,
+                "visible": true
+              },
+              {
+                "joint": "left_elbow",
+                "x": 0.475,
+                "y": 0.513,
+                "confidence": 0.68,
+                "visible": true
+              },
+              {
+                "joint": "left_wrist",
+                "x": 0.458,
+                "y": 0.53,
+                "confidence": 0.65,
+                "visible": true
+              },
+              {
+                "joint": "right_shoulder",
+                "x": 0.421,
+                "y": 0.46,
+                "confidence": 0.74,
+                "visible": true
+              },
+              {
+                "joint": "right_elbow",
+                "x": 0.406,
+                "y": 0.509,
+                "confidence": 0.62,
+                "visible": true
+              },
+              {
+                "joint": "right_wrist",
+                "x": 0.402,
+                "y": 0.523,
+                "confidence": 0.62,
+                "visible": true
+              },
+              {
+                "joint": "left_ankle",
+                "x": 0.411,
+                "y": 0.829,
+                "confidence": 0.78,
+                "visible": true
+              },
+              {
+                "joint": "right_ankle",
+                "x": 0.4,
+                "y": 0.836,
+                "confidence": 0.76,
+                "visible": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 4300,
+        "people": [
+          {
+            "slot": "A",
+            "identity_confidence": 0.84,
+            "points": [
+              {
+                "joint": "head",
+                "x": 0.441,
+                "y": 0.429,
+                "confidence": 0.9,
+                "visible": true
+              },
+              {
+                "joint": "left_shoulder",
+                "x": 0.469,
+                "y": 0.484,
+                "confidence": 0.8,
+                "visible": true
+              },
+              {
+                "joint": "left_elbow",
+                "x": 0.481,
+                "y": 0.549,
+                "confidence": 0.72,
+                "visible": true
+              },
+              {
+                "joint": "left_wrist",
+                "x": 0.456,
+                "y": 0.565,
+                "confidence": 0.75,
+                "visible": true
+              },
+              {
+                "joint": "right_shoulder",
+                "x": 0.414,
+                "y": 0.489,
+                "confidence": 0.78,
+                "visible": true
+              },
+              {
+                "joint": "right_elbow",
+                "x": 0.393,
+                "y": 0.54,
+                "confidence": 0.68,
+                "visible": true
+              },
+              {
+                "joint": "right_wrist",
+                "x": 0.404,
+                "y": 0.559,
+                "confidence": 0.72,
+                "visible": true
+              },
+              {
+                "joint": "left_ankle",
+                "x": 0.461,
+                "y": 0.848,
+                "confidence": 0.7,
+                "visible": true
+              },
+              {
+                "joint": "right_ankle",
+                "x": 0.423,
+                "y": 0.858,
+                "confidence": 0.68,
+                "visible": true
+              }
+            ]
+          },
+          {
+            "slot": "B",
+            "identity_confidence": 0.87,
+            "points": [
+              {
+                "joint": "head",
+                "x": 0.535,
+                "y": 0.432,
+                "confidence": 0.9,
+                "visible": true
+              },
+              {
+                "joint": "left_shoulder",
+                "x": 0.57,
+                "y": 0.501,
+                "confidence": 0.76,
+                "visible": true
+              },
+              {
+                "joint": "left_elbow",
+                "x": 0.588,
+                "y": 0.559,
+                "confidence": 0.68,
+                "visible": true
+              },
+              {
+                "joint": "left_wrist",
+                "x": 0.56,
+                "y": 0.575,
+                "confidence": 0.7,
+                "visible": true
+              },
+              {
+                "joint": "right_shoulder",
+                "x": 0.51,
+                "y": 0.503,
+                "confidence": 0.78,
+                "visible": true
+              },
+              {
+                "joint": "right_elbow",
+                "x": 0.491,
+                "y": 0.551,
+                "confidence": 0.66,
+                "visible": true
+              },
+              {
+                "joint": "right_wrist",
+                "x": 0.497,
+                "y": 0.57,
+                "confidence": 0.68,
+                "visible": true
+              },
+              {
+                "joint": "left_ankle",
+                "x": 0.536,
+                "y": 0.993,
+                "confidence": 0.55,
+                "visible": true
+              },
+              {
+                "joint": "right_ankle",
+                "x": 0.493,
+                "y": 0.991,
+                "confidence": 0.55,
+                "visible": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 4325,
+        "people": [
+          {
+            "slot": "A",
+            "identity_confidence": 0.79,
+            "points": [
+              {
+                "joint": "head",
+                "x": 0.467,
+                "y": 0.404,
+                "confidence": 0.88,
+                "visible": true
+              },
+              {
+                "joint": "left_shoulder",
+                "x": 0.497,
+                "y": 0.46,
+                "confidence": 0.76,
+                "visible": true
+              },
+              {
+                "joint": "left_elbow",
+                "x": 0.518,
+                "y": 0.518,
+                "confidence": 0.68,
+                "visible": true
+              },
+              {
+                "joint": "left_wrist",
+                "x": 0.523,
+                "y": 0.537,
+                "confidence": 0.65,
+                "visible": true
+              },
+              {
+                "joint": "right_shoulder",
+                "x": 0.438,
+                "y": 0.462,
+                "confidence": 0.75,
+                "visible": true
+              },
+              {
+                "joint": "right_elbow",
+                "x": 0.423,
+                "y": 0.511,
+                "confidence": 0.65,
+                "visible": true
+              },
+              {
+                "joint": "right_wrist",
+                "x": 0.424,
+                "y": 0.53,
+                "confidence": 0.65,
+                "visible": true
+              },
+              {
+                "joint": "left_ankle",
+                "x": 0.441,
+                "y": 0.991,
+                "confidence": 0.5,
+                "visible": true
+              },
+              {
+                "joint": "right_ankle",
+                "x": 0.405,
+                "y": 0.99,
+                "confidence": 0.5,
+                "visible": true
+              }
+            ]
+          },
+          {
+            "slot": "B",
+            "identity_confidence": 0.78,
+            "points": [
+              {
+                "joint": "head",
+                "x": 0.505,
+                "y": 0.411,
+                "confidence": 0.87,
+                "visible": true
+              },
+              {
+                "joint": "left_shoulder",
+                "x": 0.531,
+                "y": 0.471,
+                "confidence": 0.74,
+                "visible": true
+              },
+              {
+                "joint": "left_elbow",
+                "x": 0.553,
+                "y": 0.527,
+                "confidence": 0.65,
+                "visible": true
+              },
+              {
+                "joint": "left_wrist",
+                "x": 0.555,
+                "y": 0.545,
+                "confidence": 0.66,
+                "visible": true
+              },
+              {
+                "joint": "right_shoulder",
+                "x": 0.483,
+                "y": 0.474,
+                "confidence": 0.73,
+                "visible": true
+              },
+              {
+                "joint": "right_elbow",
+                "x": 0.47,
+                "y": 0.521,
+                "confidence": 0.62,
+                "visible": true
+              },
+              {
+                "joint": "right_wrist",
+                "x": 0.478,
+                "y": 0.539,
+                "confidence": 0.65,
+                "visible": true
+              },
+              {
+                "joint": "left_ankle",
+                "x": 0.516,
+                "y": 0.987,
+                "confidence": 0.5,
+                "visible": true
+              },
+              {
+                "joint": "right_ankle",
+                "x": 0.477,
+                "y": 0.987,
+                "confidence": 0.5,
+                "visible": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "finished_at": "2026-11-17T05:40:18.113353+00:00"
+}

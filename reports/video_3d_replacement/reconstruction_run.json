@@ -1,0 +1,359 @@
+{
+  "status": "CANDIDATE_VALIDATED_NOT_PUBLISHED",
+  "asset_sha256": "aabd5085b7c76ef9fafe36dea0aeea02c661ca294be33d772cfc295d9271ca04",
+  "source_video_sha256": "71e169c159bcac11267815c135d4dceafe58ef5c2fbbf7030399acff06f20e86",
+  "source_kind": "video_derived",
+  "run_id": "video_refresh_20261117",
+  "reconstruction_root": "output/unified/video_refresh_20261117",
+  "frames": 4500,
+  "fps": 25.0,
+  "duration_s": 179.96,
+  "joints": 23,
+  "native_frame_coverage": [
+    0,
+    4499
+  ],
+  "fresh_pose_inference": true,
+  "model": "heavy",
+  "width": 1280,
+  "height": 720,
+  "external_generation_api_calls": 0,
+  "extra_landmark_fallback_samples": 34330,
+  "extra_offsets_bounded": 148,
+  "observation_coverage": {
+    "pelvis": 0.5878888888888889,
+    "chest": 0.5878888888888889,
+    "neck": 0.5878888888888889,
+    "head": 0.5864444444444444,
+    "left_shoulder": 0.5878888888888889,
+    "left_elbow": 0.305,
+    "left_wrist": 0.27311111111111114,
+    "right_shoulder": 0.5878888888888889,
+    "right_elbow": 0.22977777777777778,
+    "right_wrist": 0.219,
+    "left_hip": 0.5878888888888889,
+    "left_knee": 0.35488888888888886,
+    "left_ankle": 0.385,
+    "right_hip": 0.5878888888888889,
+    "right_knee": 0.36477777777777776,
+    "right_ankle": 0.38366666666666666,
+    "left_heel": 0.3814444444444444,
+    "left_toe": 0.35744444444444445,
+    "right_heel": 0.3467777777777778,
+    "right_toe": 0.34,
+    "nose": 0.5867777777777777,
+    "left_ear": 0.5866666666666667,
+    "right_ear": 0.5864444444444444
+  },
+  "tracking_quality": {
+    "A": {
+      "observed_frame_ratio": 0.706,
+      "longest_unobserved_seconds": 0.52,
+      "crop_detections_assigned": 401,
+      "reacquisitions": 359,
+      "predicted_frames": 6,
+      "unknown_frames": 0,
+      "ever_observed": true
+    },
+    "B": {
+      "observed_frame_ratio": 0.4698,
+      "longest_unobserved_seconds": 2.68,
+      "crop_detections_assigned": 405,
+      "reacquisitions": 475,
+      "predicted_frames": 225,
+      "unknown_frames": 0,
+      "ever_observed": true
+    }
+  },
+  "geometry_quality": {
+    "before": {
+      "reprojection_rms_px": 18.19571035143345,
+      "bone_length_temporal_rms_m": 0.07701383262486389,
+      "support_foot_speed_mean_m_s": null,
+      "support_foot_pair_samples": 0,
+      "ground_penetration_samples": 0,
+      "velocity_p99_m_s": 46.94016376306797,
+      "acceleration_p99_m_s2": 1818.4506158531733,
+      "head_overlap_proxy_samples": 36,
+      "confirmed_false_event_rate": null,
+      "ground_truth_3d_accuracy": null,
+      "note": "Reprojection is an in-sample model-fit diagnostic, not camera calibration or 3D accuracy. Meters, COM, contacts and overlap are display-space proxies. Foot speed only covers the reported support sample count.",
+      "guard_reprojection_rms_px": 27.89281775199979,
+      "head_evasion_reprojection_rms_px": 18.52891485874517,
+      "pelvis_torso_reprojection_rms_px": 8.12730474554805,
+      "attack_endpoints_reprojection_rms_px": 27.461966207085098
+    },
+    "after": {
+      "reprojection_rms_px": 3.4855050164743093,
+      "bone_length_temporal_rms_m": 0.029920304831634267,
+      "support_foot_speed_mean_m_s": 0.0,
+      "support_foot_pair_samples": 1,
+      "ground_penetration_samples": 0,
+      "velocity_p99_m_s": 18.306616922340446,
+      "acceleration_p99_m_s2": 624.4508256215696,
+      "head_overlap_proxy_samples": 69,
+      "confirmed_false_event_rate": null,
+      "ground_truth_3d_accuracy": null,
+      "note": "Reprojection is an in-sample model-fit diagnostic, not camera calibration or 3D accuracy. Meters, COM, contacts and overlap are display-space proxies. Foot speed only covers the reported support sample count.",
+      "guard_reprojection_rms_px": 1.2325736129704121,
+      "head_evasion_reprojection_rms_px": 6.159941120447597,
+      "pelvis_torso_reprojection_rms_px": 2.6994356992615014,
+      "attack_endpoints_reprojection_rms_px": 2.2427383343097738
+    },
+    "regressions": [
+      {
+        "requested_seconds": 47.91,
+        "source_seconds": 47.92,
+        "index": 1198,
+        "minimum_joint_confidence": 0.043,
+        "per_actor": [
+          {
+            "fighter": "A",
+            "before_rms_px": 4.301461549018857,
+            "after_rms_px": 0.11519310282417329,
+            "joint_confidence": [
+              1.0,
+              0.996,
+              0.996,
+              0.986,
+              0.999,
+              0.107,
+              0.085,
+              0.996,
+              0.884,
+              0.276,
+              1.0,
+              0.043,
+              0.057,
+              1.0,
+              0.589,
+              0.257
+            ]
+          },
+          {
+            "fighter": "B",
+            "before_rms_px": null,
+            "after_rms_px": null,
+            "joint_confidence": [
+              0.4,
+              0.4,
+              0.4,
+              0.4,
+              0.4,
+              0.4,
+              0.4,
+              0.4,
+              0.4,
+              0.314,
+              0.4,
+              0.4,
+              0.4,
+              0.4,
+              0.4,
+              0.4
+            ]
+          }
+        ]
+      },
+      {
+        "requested_seconds": 81.41,
+        "source_seconds": 81.4,
+        "index": 2035,
+        "minimum_joint_confidence": 0.01,
+        "per_actor": [
+          {
+            "fighter": "A",
+            "before_rms_px": 6.789648441130052,
+            "after_rms_px": 0.053522252784061045,
+            "joint_confidence": [
+              1.0,
+              0.999,
+              0.999,
+              0.993,
+              1.0,
+              0.579,
+              0.4,
+              0.999,
+              0.01,
+              0.018,
+              1.0,
+              0.737,
+              0.896,
+              1.0,
+              0.827,
+              0.934
+            ]
+          },
+          {
+            "fighter": "B",
+            "before_rms_px": null,
+            "after_rms_px": null,
+            "joint_confidence": [
+              0.4,
+              0.4,
+              0.4,
+              0.4,
+              0.4,
+              0.342,
+              0.237,
+              0.4,
+              0.4,
+              0.4,
+              0.4,
+              0.962,
+              0.4,
+              0.4,
+              0.4,
+              0.4
+            ]
+          }
+        ]
+      },
+      {
+        "requested_seconds": 240.14,
+        "status": "outside_input"
+      }
+    ],
+    "projection_comparison_policy": "Baseline: best-fit shared per-frame affine camera. After: shared assumed weak-perspective camera. Both fit the same input observations; neither establishes metric 3D accuracy.",
+    "defense_review_samples": [
+      {
+        "id": "motion_28_0",
+        "fighter": "A",
+        "index": 28,
+        "seconds": 1.12,
+        "kinds": [
+          "distance_adjustment_candidate"
+        ],
+        "confidence": 1.0,
+        "status": "independent_observed_motion_candidate",
+        "intent": "unknown"
+      },
+      {
+        "id": "motion_258_1",
+        "fighter": "B",
+        "index": 258,
+        "seconds": 10.32,
+        "kinds": [
+          "duck_candidate"
+        ],
+        "confidence": 1.0,
+        "status": "independent_observed_motion_candidate",
+        "intent": "unknown"
+      },
+      {
+        "id": "motion_384_0",
+        "fighter": "A",
+        "index": 384,
+        "seconds": 15.36,
+        "kinds": [
+          "lateral_head_movement_candidate",
+          "duck_candidate"
+        ],
+        "confidence": 1.0,
+        "status": "independent_observed_motion_candidate",
+        "intent": "unknown"
+      },
+      {
+        "id": "motion_534_0",
+        "fighter": "A",
+        "index": 534,
+        "seconds": 21.36,
+        "kinds": [
+          "lateral_head_movement_candidate",
+          "distance_adjustment_candidate"
+        ],
+        "confidence": 1.0,
+        "status": "independent_observed_motion_candidate",
+        "intent": "unknown"
+      },
+      {
+        "id": "motion_672_0",
+        "fighter": "A",
+        "index": 672,
+        "seconds": 26.88,
+        "kinds": [
+          "distance_adjustment_candidate"
+        ],
+        "confidence": 1.0,
+        "status": "independent_observed_motion_candidate",
+        "intent": "unknown"
+      },
+      {
+        "id": "motion_820_0",
+        "fighter": "A",
+        "index": 820,
+        "seconds": 32.8,
+        "kinds": [
+          "lateral_head_movement_candidate"
+        ],
+        "confidence": 1.0,
+        "status": "independent_observed_motion_candidate",
+        "intent": "unknown"
+      },
+      {
+        "id": "motion_956_0",
+        "fighter": "A",
+        "index": 956,
+        "seconds": 38.24,
+        "kinds": [
+          "distance_adjustment_candidate"
+        ],
+        "confidence": 1.0,
+        "status": "independent_observed_motion_candidate",
+        "intent": "unknown"
+      },
+      {
+        "id": "motion_1202_0",
+        "fighter": "A",
+        "index": 1202,
+        "seconds": 48.08,
+        "kinds": [
+          "distance_adjustment_candidate"
+        ],
+        "confidence": 1.0,
+        "status": "independent_observed_motion_candidate",
+        "intent": "unknown"
+      }
+    ],
+    "interaction_ablation": {
+      "max_joint_shift_m": 0.0,
+      "generated_reactions": 0,
+      "confirmed_hits": 0,
+      "summary": {
+        "independent_motion_nodes": 553,
+        "possible_relationships": 21,
+        "confirmed_hits": 0,
+        "generated_reactions": 0,
+        "coordinate_corrections": 0,
+        "feint_intent": "unresolved_without_labels_or_repeated_pattern_evidence",
+        "causal_accuracy": null,
+        "contact_accuracy": null
+      },
+      "policy": "Analysis is read-only; coordinates are identical with the interaction layer disabled."
+    },
+    "accuracy_improvement_proven": false,
+    "acceptance": {
+      "observational_projection_pass": false,
+      "no_foot_penetration": true,
+      "metric_3d_validation": "unavailable_without_camera_and_3d_ground_truth",
+      "overall_3d_improvement_proven": false,
+      "proxy_regressions": [
+        "head_overlap_proxy_samples"
+      ]
+    },
+    "comparison_mode": "UNFILTERED_INITIAL_INPUT_NOT_V5"
+  },
+  "difference_from_previous_video_reference": {
+    "old_sha256": "91e20395f56d247c83782d8760f1e77db5cb5cedbb9800804eed242d46c680e9",
+    "changed_joint_samples": 144000,
+    "changed_frames": 4500,
+    "maximum_coordinate_delta_display_m": 4.497043257386719,
+    "comparison_scope": "Different newly inferred 2D inputs; no independent accuracy claim"
+  },
+  "metric_valid": false,
+  "limitations": [
+    "Monocular estimated depth and scale",
+    "Clothing/temporal IDs not independently verified",
+    "Missing image landmarks stay non-observations even when a numeric visual hypothesis exists"
+  ]
+}
